@@ -1,0 +1,328 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "mega_magic_route1"
+	group: "12B8784D9CF4299B"
+	icon: {
+		components: {
+			"irons_spellbooks:spell_container": {
+				data: [ ]
+				maxSpells: 6
+				mustEquip: 1b
+				spellWheel: 1b
+			}
+		}
+		id: "irons_spellbooks:iron_spell_book"
+	}
+	id: "31352CE737D468F7"
+	images: [
+		{
+			alpha: 215
+			color: 2376274
+			height: 1.2d
+			id: "442F07029F08C8CE"
+			image: "#FFFFFF"
+			order: -10
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_on_image: 1b
+			text_shadow: 1b
+			width: 12.0d
+			x: 4.1d
+			y: -2.0d
+		}
+		{
+			height: 5.4d
+			id: "7D13B3CBFD503807"
+			image: "mega:textures/quest_logos/mega_magic_route1.png"
+			order: 10
+			rotation: 0.0d
+			width: 14.017d
+			x: 4.125d
+			y: -5.9d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["37144A133C1A7348"]
+			icon: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 6
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+				id: "irons_spellbooks:iron_spell_book"
+			}
+			id: "109626E8E982C119"
+			rewards: [{
+				id: "44B54A9C2CE98859"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2E6E49899BA13A21"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["109626E8E982C119"]
+			icon: {
+				id: "ars_nouveau:apprentice_spell_book"
+			}
+			id: "661833E72B5FDB21"
+			rewards: [{
+				id: "1897E12495C8ADE8"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "608C38E715A513A9"
+				item: { count: 1, id: "ars_nouveau:apprentice_spell_book" }
+				type: "item"
+			}]
+			x: 2.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["661833E72B5FDB21"]
+			icon: {
+				id: "ars_nouveau:starbuncle_charm"
+			}
+			id: "18AFAEE26DD17DD9"
+			rewards: [{
+				id: "3C568B5291CB32C2"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "71BFF497485E98DF"
+					item: { count: 1, id: "ars_nouveau:starbuncle_charm" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "56C8646005F73CA2"
+					item: { count: 1, id: "ars_nouveau:dominion_wand" }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["18AFAEE26DD17DD9"]
+			icon: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 6
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+				id: "irons_spellbooks:iron_spell_book"
+			}
+			id: "6B036A701FAFD1CE"
+			rewards: [{
+				id: "45B86C2B41AE3652"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5DC9DE17FF55F935"
+				type: "checkmark"
+			}]
+			x: 8.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B036A701FAFD1CE"]
+			icon: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 6
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+				id: "irons_spellbooks:iron_spell_book"
+			}
+			id: "10CAD8C9AEBFB879"
+			rewards: [{
+				id: "366CD7779CFB208B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "4600B2E4F2CA0837"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 6, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:iron_spell_book" }
+				type: "item"
+			}]
+			x: 8.25d
+			y: 2.75d
+		}
+		{
+			dependencies: ["10CAD8C9AEBFB879"]
+			icon: {
+				id: "irons_spellbooks:inscription_table"
+			}
+			id: "2D29620BA6E608DD"
+			rewards: [{
+				id: "3642B681EC4F3E4E"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "381326DBCF3B8531"
+				item: { count: 1, id: "irons_spellbooks:inscription_table" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.75d
+		}
+		{
+			dependencies: ["2D29620BA6E608DD"]
+			icon: {
+				id: "irons_spellbooks:scroll_forge"
+			}
+			id: "6912EE607601BE73"
+			rewards: [{
+				id: "1ADA828D0F24B456"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "713AE82E8911805F"
+					item: { count: 1, id: "irons_spellbooks:scroll_forge" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "029EED1443CB0905"
+					item: { count: 1, id: "irons_spellbooks:common_ink" }
+					type: "item"
+				}
+			]
+			x: 2.75d
+			y: 2.75d
+		}
+		{
+			dependencies: ["6912EE607601BE73"]
+			icon: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 6
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+				id: "irons_spellbooks:iron_spell_book"
+			}
+			id: "50D20A9113066CF8"
+			rewards: [{
+				id: "7FF3182834EC70FE"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "0EF9D2C30F834CC7"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.75d
+		}
+		{
+			dependencies: ["50D20A9113066CF8"]
+			icon: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 6
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+				id: "irons_spellbooks:iron_spell_book"
+			}
+			id: "6CB6006513656A8C"
+			rewards: [{
+				id: "118C973EB980A68D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5C6D4C49834BD038"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6CB6006513656A8C"]
+			icon: {
+				id: "irons_spellbooks:arcane_anvil"
+			}
+			id: "5B774ABF797929AD"
+			rewards: [{
+				id: "1EB145EB3296EC1D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "447828C51134DBFB"
+				item: { count: 1, id: "irons_spellbooks:arcane_anvil" }
+				type: "item"
+			}]
+			x: 2.75d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5B774ABF797929AD"]
+			icon: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 6
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+				id: "irons_spellbooks:iron_spell_book"
+			}
+			id: "7C3E5A8CDAE44F7D"
+			rewards: [{
+				id: "50C97DB8EED77B88"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "5E314BCC3638DCA0"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 5.5d
+		}
+	]
+}

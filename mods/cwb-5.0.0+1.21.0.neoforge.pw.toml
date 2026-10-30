@@ -1,0 +1,8 @@
+name = "cwb-5.0.0+1.21.0.neoforge"
+filename = "cwb-5.0.0+1.21.0.neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ETlrkaYF/versions/fmf8ZA2N/cwb-5.0.0%2B1.21.0.neoforge.jar"
+hash-format = "sha1"
+hash = "79ac03f9a6928cfb3e4b20b43d4ae1203e73dd2a"

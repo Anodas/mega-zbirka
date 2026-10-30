@@ -1,0 +1,250 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "587bcbe3bf9d4bbc"
+	group: "378CFB2DB8C23918"
+	icon: {
+		id: "createaddition:alternator"
+	}
+	id: "587BCBE3BF9D4BBC"
+	images: [{
+		height: 5.4d
+		id: "32024B8B6B26C235"
+		image: "mega:textures/quest_logos/587bcbe3bf9d4bbc.png"
+		order: 10
+		rotation: 0.0d
+		width: 13.902d
+		x: 5.0d
+		y: -3.8d
+	}]
+	order_index: 19
+	quest_links: [{
+		id: "69D90677E582778B"
+		linked_quest: "14F34730E51294D8"
+		x: -2.5d
+		y: 0.0d
+	}]
+	quests: [
+		{
+			dependencies: ["4C4D218D94F1A863"]
+			hide_details_until_startable: false
+			icon: {
+				id: "createaddition:alternator"
+			}
+			id: "00704510A54E7DF0"
+			optional: true
+			rewards: [{
+				id: "72800097B7A3D00C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "45D727F2249F6558"
+				item: { count: 1, id: "createaddition:alternator" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4C4D218D94F1A863"]
+			hide_details_until_startable: false
+			icon: {
+				id: "createaddition:electric_motor"
+			}
+			id: "33EEB3D725C53BE6"
+			optional: true
+			rewards: [{
+				id: "2EA79AAA9260F225"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "036C39BE1E4D18B9"
+				item: { count: 1, id: "createaddition:electric_motor" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1C1558A30887211D"]
+			hide_details_until_startable: false
+			icon: {
+				id: "createaddition:connector"
+			}
+			id: "78F10EC46B8120E3"
+			optional: true
+			rewards: [{
+				id: "59B554EC3C53405F"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "4D5862007D602571"
+				item: { count: 1, id: "createaddition:connector" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C1558A30887211D"]
+			hide_details_until_startable: false
+			icon: {
+				id: "createaddition:copper_spool"
+			}
+			id: "4C4D218D94F1A863"
+			optional: true
+			rewards: [{
+				id: "06B8FCB5EE98E395"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "3FEDABF9DFE68B7E"
+				item: { count: 1, id: "createaddition:copper_spool" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["14F34730E51294D8"]
+			hide_details_until_startable: false
+			icon: {
+				id: "createaddition:rolling_mill"
+			}
+			id: "1C1558A30887211D"
+			optional: true
+			rewards: [{
+				id: "591A074897792B78"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "48C3E19A211B7769"
+				item: { count: 1, id: "createaddition:rolling_mill" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["30DDFD67D82C6428"]
+			hide_details_until_startable: false
+			icon: {
+				id: "createaddition:tesla_coil"
+			}
+			id: "14E877A80201B230"
+			optional: true
+			rewards: [{
+				id: "64BDFAD5804F8970"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "700F2C9B6EC5BB2C"
+				item: { count: 1, id: "createaddition:tesla_coil" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["30DDFD67D82C6428"]
+			hide_details_until_startable: false
+			icon: {
+				id: "createaddition:modular_accumulator"
+			}
+			id: "2069DD7BA2721DD5"
+			optional: true
+			rewards: [{
+				id: "63E5ECFD659D9A5A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34C9789C5E8CE18D"
+				item: { count: 1, id: "createaddition:modular_accumulator" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2069DD7BA2721DD5"]
+			hide_details_until_startable: false
+			icon: {
+				id: "createaddition:portable_energy_interface"
+			}
+			id: "1235FE69FD6C910C"
+			optional: true
+			rewards: [{
+				id: "5B524AD124CBB957"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "5FA0B31459901083"
+				item: { count: 1, id: "createaddition:portable_energy_interface" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["78F10EC46B8120E3"]
+			hide_details_until_startable: false
+			icon: {
+				id: "createaddition:capacitor"
+			}
+			id: "30DDFD67D82C6428"
+			optional: true
+			rewards: [{
+				id: "27B8C86F29EDAC62"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "5032D07ABD12A22E"
+				item: { count: 1, id: "createaddition:capacitor" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1C1558A30887211D"]
+			hide_details_until_startable: false
+			icon: {
+				id: "createaddition:straw"
+			}
+			id: "6558DFB334EE49B2"
+			optional: true
+			rewards: [{
+				id: "7BA944B2063F85B4"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "1D27FC303D403E66"
+				item: { count: 1, id: "createaddition:straw" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+	]
+}

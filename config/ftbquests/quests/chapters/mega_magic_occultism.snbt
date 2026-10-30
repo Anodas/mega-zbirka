@@ -1,0 +1,2289 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "mega_magic_occultism"
+	group: "12B8784D9CF4299B"
+	icon: {
+		id: "occultism:dictionary_of_spirits"
+	}
+	id: "504F614623DA2C20"
+	images: [
+		{
+			alpha: 135
+			color: 1187884
+			height: 9.4d
+			id: "557F6F4FB71F1F14"
+			image: "#FFFFFF"
+			order: -20
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_shadow: 1b
+			width: 10.7d
+			x: 3.75d
+			y: 2.5d
+		}
+		{
+			alpha: 215
+			color: 2376274
+			height: 1.15d
+			id: "1014E652B6B90006"
+			image: "#FFFFFF"
+			order: -10
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_on_image: 1b
+			text_shadow: 1b
+			width: 10.7d
+			x: 3.75d
+			y: -1.7d
+		}
+		{
+			alpha: 135
+			color: 1187884
+			height: 9.4d
+			id: "242964A0662A29A3"
+			image: "#FFFFFF"
+			order: -20
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_shadow: 1b
+			width: 10.7d
+			x: 15.75d
+			y: 2.5d
+		}
+		{
+			alpha: 215
+			color: 2376274
+			height: 1.15d
+			id: "6061707159FE11C8"
+			image: "#FFFFFF"
+			order: -10
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_on_image: 1b
+			text_shadow: 1b
+			width: 10.7d
+			x: 15.75d
+			y: -1.7d
+		}
+		{
+			alpha: 135
+			color: 1187884
+			height: 9.4d
+			id: "22D2C71582A95EBC"
+			image: "#FFFFFF"
+			order: -20
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_shadow: 1b
+			width: 10.7d
+			x: 27.75d
+			y: 2.5d
+		}
+		{
+			alpha: 215
+			color: 2376274
+			height: 1.15d
+			id: "68DCC0192D3C4B7D"
+			image: "#FFFFFF"
+			order: -10
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_on_image: 1b
+			text_shadow: 1b
+			width: 10.7d
+			x: 27.75d
+			y: -1.7d
+		}
+		{
+			alpha: 135
+			color: 1187884
+			height: 9.4d
+			id: "1AEA1DA84CEF7E0B"
+			image: "#FFFFFF"
+			order: -20
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_shadow: 1b
+			width: 10.7d
+			x: 3.75d
+			y: 13.0d
+		}
+		{
+			alpha: 215
+			color: 2376274
+			height: 1.15d
+			id: "41A5CBFE00360900"
+			image: "#FFFFFF"
+			order: -10
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_on_image: 1b
+			text_shadow: 1b
+			width: 10.7d
+			x: 3.75d
+			y: 8.8d
+		}
+		{
+			alpha: 135
+			color: 1187884
+			height: 9.4d
+			id: "16A40DD3FFCCC983"
+			image: "#FFFFFF"
+			order: -20
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_shadow: 1b
+			width: 10.7d
+			x: 15.75d
+			y: 13.0d
+		}
+		{
+			alpha: 215
+			color: 2376274
+			height: 1.15d
+			id: "001578CC86D00608"
+			image: "#FFFFFF"
+			order: -10
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_on_image: 1b
+			text_shadow: 1b
+			width: 10.7d
+			x: 15.75d
+			y: 8.8d
+		}
+		{
+			alpha: 135
+			color: 1187884
+			height: 9.4d
+			id: "0CCA0AC591051B97"
+			image: "#FFFFFF"
+			order: -20
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_shadow: 1b
+			width: 10.7d
+			x: 27.75d
+			y: 13.0d
+		}
+		{
+			alpha: 215
+			color: 2376274
+			height: 1.15d
+			id: "2E66E490E0DE044C"
+			image: "#FFFFFF"
+			order: -10
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_on_image: 1b
+			text_shadow: 1b
+			width: 10.7d
+			x: 27.75d
+			y: 8.8d
+		}
+		{
+			height: 5.4d
+			id: "52C5A177D0F88CC1"
+			image: "mega:textures/quest_logos/mega_magic_occultism.png"
+			order: 10
+			rotation: 0.0d
+			width: 13.328d
+			x: 15.75d
+			y: -5.575d
+		}
+	]
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["10006F65127773DA"]
+			hide_dependency_lines: true
+			icon: {
+				id: "occultism:datura_seeds"
+			}
+			id: "6EA059E63A7F8DFC"
+			optional: true
+			rewards: [{
+				id: "0A6DAE88C521876B"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "297B8045986F5B81"
+				item: { count: 1, id: "occultism:datura_seeds" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6EA059E63A7F8DFC"
+				"10006F65127773DA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "occultism:dictionary_of_spirits"
+			}
+			id: "0A77D28CDAC79D0F"
+			optional: true
+			rewards: [{
+				id: "42CE952366F1CC91"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "4945F0DD9D6A7542"
+				item: { count: 1, id: "occultism:dictionary_of_spirits" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6EA059E63A7F8DFC"
+				"10006F65127773DA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "occultism:datura"
+			}
+			id: "4EFFFC9C2E0EAA6B"
+			optional: true
+			rewards: [{
+				id: "3F292E2A174A1DCC"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "40266B9AC835FF4C"
+				item: { count: 1, id: "occultism:datura" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4EFFFC9C2E0EAA6B"
+				"0A77D28CDAC79D0F"
+				"10006F65127773DA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:flint_and_steel"
+			}
+			id: "120104DBC97BA02F"
+			optional: true
+			rewards: [{
+				id: "1602E7E29EDE1A81"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "7A78F9B75498E9E7"
+				item: { count: 1, id: "minecraft:flint_and_steel" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"120104DBC97BA02F"
+				"10006F65127773DA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "occultism:otherstone"
+			}
+			id: "0AE183C8258BAA04"
+			optional: true
+			rewards: [{
+				id: "3993B08E275EEA41"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "313E832759948DBE"
+					item: { count: 1, id: "occultism:otherstone" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "00B159FE778212CA"
+					item: { count: 1, id: "occultism:otherworld_sapling_natural" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "4DE5B7BC680BE3F5"
+					item: { count: 1, id: "occultism:spirit_attuned_gem" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"77DB026C7A5E8888"
+				"10006F65127773DA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "occultism:large_candle"
+			}
+			id: "6FCB97E655CA0D86"
+			optional: true
+			rewards: [{
+				id: "45503388F0FF18ED"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					count: 4L
+					id: "6B8E0F1DE680EEAB"
+					item: { count: 1, id: "occultism:large_candle" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 2L
+					id: "713AB636FA83FA51"
+					item: { count: 1, id: "occultism:spirit_attuned_crystal" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"5C3B425F6F617843"
+				"10006F65127773DA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "occultism:chalk_white_impure"
+			}
+			id: "0E373666E122DA30"
+			optional: true
+			rewards: [{
+				id: "2D6CF1C35E704DD7"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "67B9956475F57DAA"
+					item: { count: 1, id: "occultism:chalk_white_impure" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "21E75A6FCF4B65F5"
+					item: { count: 1, id: "occultism:chalk_white" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "389FC7D068F9D731"
+					item: { count: 1, id: "occultism:brush" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"5C3B425F6F617843"
+				"10006F65127773DA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "occultism:sacrificial_bowl"
+			}
+			id: "15CE4283D3EF7DF7"
+			optional: true
+			rewards: [{
+				id: "0259F602B21E5065"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					count: 4L
+					id: "7F29869DA1AC5AFF"
+					item: { count: 1, id: "occultism:sacrificial_bowl" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "7DB5594FF1B8EE78"
+					item: { count: 1, id: "occultism:golden_sacrificial_bowl" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"5C3B425F6F617843"
+				"10006F65127773DA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "occultism:purified_ink"
+			}
+			id: "4C8B4ADFAF8E9660"
+			optional: true
+			rewards: [{
+				id: "10B75B8FFB8997B8"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "7CAF2C9AF3159E00"
+					item: { count: 1, id: "occultism:purified_ink" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "2D879FDA5BDFEE3C"
+					item: { count: 1, id: "occultism:book_of_binding_foliot" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"6FCB97E655CA0D86"
+				"4C8B4ADFAF8E9660"
+				"15CE4283D3EF7DF7"
+				"0E373666E122DA30"
+				"10006F65127773DA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"occultism:spirit_name": "Brynarkkyn"
+				}
+				id: "occultism:book_of_binding_bound_foliot"
+			}
+			id: "78849A30B0DAB014"
+			optional: true
+			rewards: [{
+				id: "479A633424EBDF56"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "5FBD76E713DD1A23"
+					item: { components: { "occultism:spirit_name": "Krclokylle" }, count: 1, id: "occultism:book_of_binding_bound_foliot" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "7128FD7374931F57"
+					item: { count: 1, id: "minecraft:iron_ingot" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "7F7FAAE1CFB732E8"
+					item: { count: 1, id: "occultism:silver_ingot" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "600C5E6A71C938A7"
+					item: { count: 1, id: "minecraft:gold_ingot" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1F3A6EA6CD7C60ED"
+					item: { count: 1, id: "minecraft:copper_ingot" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"6BE24E57C6D6C4E1"
+				"10006F65127773DA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "occultism:chalk_yellow_impure"
+			}
+			id: "1F021B42CBE8B605"
+			optional: true
+			rewards: [{
+				id: "77AC08662C512FA3"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "5F13CC94108D9652"
+					item: { count: 1, id: "occultism:chalk_yellow_impure" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "3387D841B2B334CB"
+					item: { count: 1, id: "occultism:chalk_purple_impure" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "5D9701781C6E624A"
+					item: { count: 1, id: "occultism:chalk_light_gray_impure" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"75C9D1081A6D6E93"
+				"10006F65127773DA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "occultism:afrit_essence"
+			}
+			id: "48451009E7481570"
+			optional: true
+			rewards: [{
+				id: "1268AD2C23928F6A"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "68E0CF869ED868FE"
+					item: { count: 1, id: "occultism:afrit_essence" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "47563859D888E4E4"
+					item: { count: 1, id: "occultism:chalk_red_impure" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"34050EBD227DD551"
+				"10006F65127773DA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "occultism:soul_gem"
+			}
+			id: "2FB92A24ABE5ABB2"
+			optional: true
+			rewards: [{
+				id: "6DB44C742C303F89"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "7392DE5280C0A441"
+				item: { count: 1, id: "occultism:soul_gem" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4FF75302F493FF4D"
+				"10006F65127773DA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "occultism:otherworld_goggles"
+			}
+			id: "3FB069E40DBDC76D"
+			optional: true
+			rewards: [{
+				id: "0BB357A4CA2BED0C"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "27759810DC8BE72B"
+				item: { count: 1, id: "occultism:otherworld_goggles" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"74A272D96F742708"
+				"10006F65127773DA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "occultism:iesnium_ore"
+			}
+			id: "1FE198B806ACAE27"
+			optional: true
+			rewards: [{
+				id: "5407D153D9918360"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "117F0B72BBF2C84E"
+				item: { count: 1, id: "occultism:iesnium_ore" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1FE198B806ACAE27"
+				"10006F65127773DA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "occultism:iesnium_pickaxe"
+			}
+			id: "3B539F0BBE8DE914"
+			optional: true
+			rewards: [{
+				id: "5556F9ADA79B3337"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "56C0BC529527F3D3"
+				item: { count: 1, id: "occultism:iesnium_pickaxe" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3B539F0BBE8DE914"
+				"10006F65127773DA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "occultism:dimensional_mineshaft"
+			}
+			id: "59975E3A666E7001"
+			optional: true
+			rewards: [{
+				id: "10B44198148EAB6C"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "0BF43CF934690229"
+					item: { count: 1, id: "occultism:dimensional_mineshaft" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "6C95A5B73F3EF480"
+					item: { count: 1, id: "occultism:miner_foliot_unspecialized" }
+					type: "item"
+				}
+			]
+			x: 19.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"1F021B42CBE8B605"
+				"10006F65127773DA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "occultism:dimensional_matrix"
+			}
+			id: "181F431B3FAA715E"
+			optional: true
+			rewards: [{
+				id: "4F07739792866867"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "4069AC9E8D979EC0"
+					item: { count: 1, id: "occultism:dimensional_matrix" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "4B30769931E536B6"
+					item: { count: 1, id: "occultism:storage_controller_base" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "30D2615F11196096"
+					item: { count: 1, id: "occultism:storage_controller" }
+					type: "item"
+				}
+			]
+			x: 17.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"181F431B3FAA715E"
+				"10006F65127773DA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "occultism:storage_stabilizer_tier0"
+			}
+			id: "5D64D9F8DF84A71E"
+			optional: true
+			rewards: [{
+				id: "50C814BF88F52503"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "165D81A845231427"
+				item: { count: 1, id: "occultism:storage_stabilizer_tier0" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"0AE183C8258BAA04"
+				"10006F65127773DA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "occultism:divination_rod"
+			}
+			id: "1B8B70274BD2DC89"
+			optional: true
+			rewards: [{
+				id: "0C2EB8BBA1EBFB17"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "0584992F77880BE5"
+				item: { count: 1, id: "occultism:divination_rod" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"181F431B3FAA715E"
+				"10006F65127773DA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "occultism:stable_wormhole"
+			}
+			id: "43AF0B4986EDFAC3"
+			optional: true
+			rewards: [{
+				id: "1081348EACB0DB6C"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "1A6171D55E7BBF5F"
+					item: { count: 1, id: "occultism:stable_wormhole" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "40C34F2E730347F5"
+					item: { count: 1, id: "occultism:storage_remote" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"5C3B425F6F617843"
+				"10006F65127773DA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "occultism:dictionary_of_spirits"
+			}
+			id: "5FA2F024307D10A2"
+			optional: true
+			rewards: [{
+				id: "1326C070F27098C1"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "0044CE20DB4AFB47"
+				type: "checkmark"
+			}]
+			x: 14.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"1F021B42CBE8B605"
+				"10006F65127773DA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:experience_bottle"
+			}
+			id: "4FF75302F493FF4D"
+			optional: true
+			rewards: [{
+				id: "3D3E09F2F5FB7403"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				count: 2L
+				id: "2E87C9B1DA0D618D"
+				item: { count: 1, id: "minecraft:experience_bottle" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"5C3B425F6F617843"
+				"10006F65127773DA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "occultism:butcher_knife"
+			}
+			id: "77DB026C7A5E8888"
+			optional: true
+			rewards: [{
+				id: "7421371E5F3D3578"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "62F6E8ED2D16F096"
+				item: { count: 1, id: "occultism:butcher_knife" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"4FF75302F493FF4D"
+				"10006F65127773DA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "occultism:research_fragment_dust"
+			}
+			id: "46FEA032D76CE798"
+			optional: true
+			rewards: [{
+				id: "50CF4788F8941331"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "368C6F14E495D0CA"
+					item: { count: 1, id: "occultism:research_fragment_dust" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "2DBB35B2BC4A0FE4"
+					item: { count: 1, id: "occultism:chalk_lime_impure" }
+					type: "item"
+				}
+			]
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"46FEA032D76CE798"
+				"10006F65127773DA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:honey_block"
+			}
+			id: "6BDAA3A91257F8EC"
+			optional: true
+			rewards: [{
+				id: "3622CC9F7B38E093"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "1B927ECDEAC678F8"
+					item: { count: 1, id: "minecraft:honey_block" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "693249B977085C2D"
+					item: { count: 1, id: "minecraft:honeycomb_block" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "6AA9038099A7FCEC"
+					item: { count: 1, id: "minecraft:honeycomb" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "08666D888DB0752C"
+					item: { count: 1, id: "minecraft:honey_bottle" }
+					type: "item"
+				}
+			]
+			x: 26.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6BDAA3A91257F8EC"
+				"10006F65127773DA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "occultism:cursed_honey"
+			}
+			id: "05C991061F951338"
+			optional: true
+			rewards: [{
+				id: "0ACDA40CC613315A"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "40ABAC5DCCC8B9B7"
+					item: { count: 1, id: "occultism:cursed_honey" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "23091E0153B5648F"
+					item: { count: 1, id: "occultism:chalk_orange_impure" }
+					type: "item"
+				}
+			]
+			x: 29.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2140F67F2C0F55C9"
+				"05C991061F951338"
+				"1FE198B806ACAE27"
+				"10006F65127773DA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "occultism:iesnium_ingot"
+			}
+			id: "75C9D1081A6D6E93"
+			optional: true
+			rewards: [{
+				id: "490EFA8FCEF8AD63"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "45493DF535693F12"
+					item: { count: 1, id: "occultism:iesnium_ingot" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "2D1CBCE31692DA19"
+					item: { count: 1, id: "minecraft:gunpowder" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1CF7DB33D4C098B4"
+					item: { count: 1, id: "minecraft:netherrack" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0E1F4B126F2F6147"
+					item: { count: 1, id: "minecraft:flint_and_steel" }
+					type: "item"
+				}
+			]
+			x: 31.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"46FEA032D76CE798"
+				"10006F65127773DA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:phantom_membrane"
+			}
+			id: "34050EBD227DD551"
+			optional: true
+			rewards: [{
+				id: "2C6AFE3D7BDA2477"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "1160001AAF079507"
+					item: { count: 1, id: "minecraft:phantom_membrane" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1684F5ACCBC0C4A4"
+					item: { count: 1, id: "minecraft:gunpowder" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "7CABAFEEAA43C785"
+					item: { count: 1, id: "minecraft:gray_dye" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "79059A0D6BF1CD22"
+					item: { count: 1, id: "minecraft:clay_ball" }
+					type: "item"
+				}
+			]
+			x: 31.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"34050EBD227DD551"
+				"10006F65127773DA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "occultism:gray_paste"
+			}
+			id: "2140F67F2C0F55C9"
+			optional: true
+			rewards: [{
+				id: "48F982E95E000017"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "2F698DCE3FD2C6CC"
+					item: { count: 1, id: "occultism:gray_paste" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "798DC4D9E8F220CD"
+					item: { count: 1, id: "occultism:chalk_gray_impure" }
+					type: "item"
+				}
+			]
+			x: 29.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"4FF75302F493FF4D"
+				"10006F65127773DA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "occultism:nature_paste"
+			}
+			id: "32C6AF4C96DC90EE"
+			optional: true
+			rewards: [{
+				id: "156F46702954B379"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "3A3BC85A7F98E47A"
+					item: { count: 1, id: "occultism:nature_paste" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "7D274600DC71EAC0"
+					item: { count: 1, id: "occultism:chalk_green_impure" }
+					type: "item"
+				}
+			]
+			x: 26.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"3FB069E40DBDC76D"
+				"34050EBD227DD551"
+				"10006F65127773DA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "occultism:infused_pickaxe"
+			}
+			id: "74A272D96F742708"
+			optional: true
+			rewards: [{
+				id: "05589A093BF65CEB"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "7A40E1AB26F43558"
+				item: { count: 1, id: "occultism:infused_pickaxe" }
+				type: "item"
+			}]
+			x: 24.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"34050EBD227DD551"
+				"10006F65127773DA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "occultism:ritual_satchel_t1"
+			}
+			id: "25F7C426362F6F65"
+			optional: true
+			rewards: [{
+				id: "7993D82FBC3018E0"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "27E22BE19DE41827"
+				item: { count: 1, id: "occultism:ritual_satchel_t1" }
+				type: "item"
+			}]
+			x: 24.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"34050EBD227DD551"
+				"10006F65127773DA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "occultism:dictionary_of_spirits"
+			}
+			id: "4012752069D7B702"
+			optional: true
+			rewards: [{
+				id: "69B656EB731BE803"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "548114AE6E568762"
+				type: "checkmark"
+			}]
+			x: 26.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"48451009E7481570"
+				"10006F65127773DA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:wither_rose"
+			}
+			id: "0C0A83D4E8AB06AB"
+			optional: true
+			rewards: [{
+				id: "1DFA1BA0BF46BA2E"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					count: 3L
+					id: "15AFF8EEC9EDFD1F"
+					item: { count: 1, id: "minecraft:wither_rose" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0209627530C459B8"
+					item: { count: 1, id: "occultism:crushed_blackstone" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1BE313B2A531EEAE"
+					item: { count: 1, id: "minecraft:wither_skeleton_skull" }
+					type: "item"
+				}
+			]
+			x: 29.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"0C0A83D4E8AB06AB"
+				"10006F65127773DA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "occultism:witherite_dust"
+			}
+			id: "495CF9471869CECE"
+			optional: true
+			rewards: [{
+				id: "787767CC8FB0DB00"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "48013B0B4371BBC6"
+					item: { count: 1, id: "occultism:witherite_dust" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1121681B00524743"
+					item: { count: 1, id: "occultism:chalk_black_impure" }
+					type: "item"
+				}
+			]
+			x: 31.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"0C0A83D4E8AB06AB"
+				"10006F65127773DA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "occultism:ritual_satchel_t2"
+			}
+			id: "689BA270452677FE"
+			optional: true
+			rewards: [{
+				id: "1FB5FD149A0E0536"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "74DA85B091116C37"
+				item: { count: 1, id: "occultism:ritual_satchel_t2" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"0C0A83D4E8AB06AB"
+				"10006F65127773DA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "occultism:dictionary_of_spirits"
+			}
+			id: "2719B941FFCE0D84"
+			optional: true
+			rewards: [{
+				id: "174F96260A2925CE"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "4D3317A1DE6F4F04"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"05C991061F951338"
+				"2140F67F2C0F55C9"
+				"10006F65127773DA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:gilded_blackstone"
+			}
+			id: "5DC798C1F31F1537"
+			optional: true
+			rewards: [{
+				id: "6B3608D494701917"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "56E403C7C7FA8B19"
+					item: { count: 1, id: "minecraft:gilded_blackstone" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "29977115700C0546"
+					item: { count: 1, id: "minecraft:quartz" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "60F8AF8B1E529B5A"
+					item: { count: 1, id: "minecraft:warped_fungus" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "6314C9DF6D1F9F42"
+					item: { count: 1, id: "minecraft:crimson_fungus" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"5DC798C1F31F1537"
+				"10006F65127773DA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "occultism:demonic_meat"
+			}
+			id: "74EC781A5D063560"
+			optional: true
+			rewards: [{
+				id: "15225F25C55E4472"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					count: 3L
+					id: "3FB72EF481F938C3"
+					item: { count: 1, id: "occultism:demonic_meat" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "2CD87B5D60AC0674"
+					item: { count: 1, id: "occultism:chalk_pink_impure" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"32C6AF4C96DC90EE"
+				"74EC781A5D063560"
+				"25B4EFAAA70AC655"
+				"10006F65127773DA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "occultism:dictionary_of_spirits"
+			}
+			id: "0BE9CC9B92B3DAA1"
+			optional: true
+			rewards: [{
+				id: "78556715E45EEC1A"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "76DBDC39382B110E"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"495CF9471869CECE"
+				"10006F65127773DA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:prismarine_crystals"
+			}
+			id: "6E1D32E584F3D743"
+			optional: true
+			rewards: [{
+				id: "09B72E1DE3BE38F9"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "382737E0F3C19F86"
+					item: { count: 1, id: "minecraft:prismarine_crystals" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "22DBD07800305588"
+					item: { count: 1, id: "minecraft:prismarine_shard" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "7FE78933C435D424"
+					item: { count: 1, id: "minecraft:ghast_tear" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "205D957248E1CEA3"
+					item: { count: 1, id: "minecraft:conduit" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1DF7BBF10D0DF06F"
+					item: { count: 1, id: "minecraft:trident" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"6E1D32E584F3D743"
+				"10006F65127773DA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "occultism:marid_essence"
+			}
+			id: "3EA7F79CAC0226FA"
+			optional: true
+			rewards: [{
+				id: "0D8A4426896E34FC"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "165051C39AD8656C"
+					item: { count: 1, id: "occultism:marid_essence" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "5F295E0AF6159556"
+					item: { count: 1, id: "occultism:chalk_blue_impure" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"3EA7F79CAC0226FA"
+				"10006F65127773DA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:diamond_block"
+			}
+			id: "40063D4345B77C97"
+			optional: true
+			rewards: [{
+				id: "21AA2FA095445A44"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "7596EE15AD3CB36D"
+					item: { count: 1, id: "minecraft:diamond_block" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "4C6F171D7BDB90BF"
+					item: { count: 1, id: "minecraft:emerald_block" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "5041D14666154752"
+					item: { count: 1, id: "occultism:iesnium_block" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "15CE079FB6A5FC25"
+					item: { count: 1, id: "minecraft:ghast_tear" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"3EA7F79CAC0226FA"
+				"10006F65127773DA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:armadillo_scute"
+			}
+			id: "4ACC1CFE302C8865"
+			optional: true
+			rewards: [{
+				id: "772C55DF5FC02601"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					count: 4L
+					id: "04C117750419F1EE"
+					item: { count: 1, id: "minecraft:armadillo_scute" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "254AB1B6F5139C24"
+					item: { count: 1, id: "minecraft:rabbit_foot" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 2L
+					id: "6460B0BE00321F1B"
+					item: { count: 1, id: "minecraft:pointed_dripstone" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 15.5d
+		}
+		{
+			dependencies: [
+				"3EA7F79CAC0226FA"
+				"10006F65127773DA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:dragon_breath"
+			}
+			id: "23DF39856319EB12"
+			optional: true
+			rewards: [{
+				id: "4B5BE726CCDE3AB0"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					count: 3L
+					id: "054ADF74570C4AAA"
+					item: { count: 1, id: "minecraft:dragon_breath" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 2L
+					id: "32AF170131C022F2"
+					item: { count: 1, id: "occultism:amethyst_dust" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "77700EF962CF7D3C"
+					item: { count: 1, id: "occultism:crushed_end_stone" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "6AE0C2D4F28FFE55"
+					item: { count: 1, id: "minecraft:end_crystal" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 15.5d
+		}
+		{
+			dependencies: [
+				"40063D4345B77C97"
+				"2B94FD95BE958390"
+				"10006F65127773DA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "occultism:crushed_ice"
+			}
+			id: "25B4EFAAA70AC655"
+			optional: true
+			rewards: [{
+				id: "309C13E2FAD46C4D"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "535F9C5BC9017084"
+					item: { count: 1, id: "occultism:crushed_ice" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "6F07BBACABA5EDC3"
+					item: { count: 1, id: "occultism:crushed_packed_ice" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "4CDFAD8B35040BB5"
+					item: { count: 1, id: "occultism:crushed_blue_ice" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "6793314576625EFD"
+					item: { count: 1, id: "occultism:chalk_light_blue_impure" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 15.5d
+		}
+		{
+			dependencies: [
+				"23DF39856319EB12"
+				"40063D4345B77C97"
+				"10006F65127773DA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "occultism:dragonyst_dust"
+			}
+			id: "2DE6CE4CF64496AF"
+			optional: true
+			rewards: [{
+				id: "5F8AFE619A688038"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "4FCE17D78C61E6C3"
+					item: { count: 1, id: "occultism:dragonyst_dust" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "3FE1361000EA6EC9"
+					item: { count: 1, id: "occultism:chalk_magenta_impure" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 15.5d
+		}
+		{
+			dependencies: [
+				"40063D4345B77C97"
+				"10006F65127773DA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "occultism:echo_dust"
+			}
+			id: "40F066CC721CCEBD"
+			optional: true
+			rewards: [{
+				id: "6A3D6704102A399D"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "1F262C022B44B1CB"
+					item: { count: 1, id: "occultism:echo_dust" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "000FA6B5F56D019E"
+					item: { count: 1, id: "occultism:chalk_cyan_impure" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"4ACC1CFE302C8865"
+				"10006F65127773DA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "occultism:cruelty_essence"
+			}
+			id: "427A09460D6A0EF4"
+			optional: true
+			rewards: [{
+				id: "06A9E1F2BDB154BD"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "3615EC8284715645"
+					item: { count: 1, id: "occultism:cruelty_essence" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "7CADB03DCE32A60A"
+					item: { count: 1, id: "occultism:chalk_brown_impure" }
+					type: "item"
+				}
+			]
+			x: 14.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"2DE6CE4CF64496AF"
+				"427A09460D6A0EF4"
+				"40F066CC721CCEBD"
+				"10006F65127773DA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "occultism:chalk_white_impure"
+			}
+			id: "62DDB29E4EFC5834"
+			optional: true
+			rewards: [{
+				id: "0654CDC628BB657D"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "768ECC52E18D0E9D"
+					item: { count: 1, id: "occultism:chalk_white_impure" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "600E66383C041ED1"
+					item: { count: 1, id: "occultism:chalk_light_gray_impure" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "09C338B2F79B49FD"
+					item: { count: 1, id: "occultism:chalk_gray_impure" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "53E115150B1AB36B"
+					item: { count: 1, id: "occultism:chalk_black_impure" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1246E61D8382F138"
+					item: { count: 1, id: "occultism:chalk_brown_impure" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "56088CC6F7D72F4E"
+					item: { count: 1, id: "occultism:chalk_red_impure" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "222D9AD779600277"
+					item: { count: 1, id: "occultism:chalk_orange_impure" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "4B482C0B4C7F7ED9"
+					item: { count: 1, id: "occultism:chalk_yellow_impure" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "401AD9E3E9DF6998"
+					item: { count: 1, id: "occultism:chalk_lime_impure" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "20F0551BEAF1AE32"
+					item: { count: 1, id: "occultism:chalk_green_impure" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0F1E2E5A61180B4B"
+					item: { count: 1, id: "occultism:chalk_green_impure" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "228B007FB988536C"
+					item: { count: 1, id: "occultism:chalk_cyan_impure" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "6C23FEF8205840D6"
+					item: { count: 1, id: "occultism:chalk_light_blue_impure" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "2A465DFBB4716966"
+					item: { count: 1, id: "occultism:chalk_blue_impure" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "4E6222D4DA2A508D"
+					item: { count: 1, id: "occultism:chalk_purple_impure" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "244FB55B81986A84"
+					item: { count: 1, id: "occultism:chalk_magenta_impure" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "27ABC3DF77927515"
+					item: { count: 1, id: "occultism:chalk_pink_impure" }
+					type: "item"
+				}
+			]
+			x: 17.0d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"62DDB29E4EFC5834"
+				"10006F65127773DA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "occultism:chalk_rainbow"
+			}
+			id: "5D9737CE237D127F"
+			optional: true
+			rewards: [{
+				id: "0BCACAF25B55110A"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "2857A5BF1623E7C0"
+				item: { count: 1, id: "occultism:chalk_rainbow" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"62DDB29E4EFC5834"
+				"10006F65127773DA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "occultism:chalk_void"
+			}
+			id: "3AE1DF0DBEC0474C"
+			optional: true
+			rewards: [{
+				id: "2BB5EE8996D3191C"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "0A5A6F1F76EBE2F5"
+				item: { count: 1, id: "occultism:chalk_void" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"23DF39856319EB12"
+				"10006F65127773DA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "occultism:iesnium_anvil"
+			}
+			id: "57FD1C7A5D6AD60D"
+			optional: true
+			rewards: [{
+				id: "092E647055F08BE3"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "02068EF85352CD90"
+				item: { count: 1, id: "occultism:iesnium_anvil" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"0C0A83D4E8AB06AB"
+				"10006F65127773DA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "occultism:iesnium_sacrificial_bowl"
+			}
+			id: "08A2E5B422A588F4"
+			optional: true
+			rewards: [{
+				id: "463403BF480FE2EA"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "4B279F391077C0A7"
+				item: { count: 1, id: "occultism:iesnium_sacrificial_bowl" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"62DDB29E4EFC5834"
+				"2FB92A24ABE5ABB2"
+				"10006F65127773DA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "occultism:trinity_gem"
+			}
+			id: "7B3568CDD81A972D"
+			optional: true
+			rewards: [{
+				id: "3930711F70E465A3"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "5B0DD80E20CD66C7"
+				item: { count: 1, id: "occultism:trinity_gem" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 13.0d
+		}
+		{
+			dependencies: [
+				"62DDB29E4EFC5834"
+				"08A2E5B422A588F4"
+				"10006F65127773DA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "occultism:celestial_chalice"
+			}
+			id: "79EDCACD92D296EE"
+			optional: true
+			rewards: [{
+				id: "42E128E7C6CF74BE"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "33C37A1E836E9A1A"
+				item: { count: 1, id: "occultism:celestial_chalice" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 15.5d
+		}
+		{
+			dependencies: [
+				"7B3568CDD81A972D"
+				"5D9737CE237D127F"
+				"79EDCACD92D296EE"
+				"5D64D9F8DF84A71E"
+				"10006F65127773DA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "occultism:dictionary_of_spirits"
+			}
+			id: "48871EC68C8AE6BA"
+			optional: true
+			rewards: [{
+				id: "38A119A44FFF2FB2"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "2E61DC12D69652DE"
+				type: "checkmark"
+			}]
+			x: 14.5d
+			y: 15.5d
+		}
+		{
+			dependencies: [
+				"0AE183C8258BAA04"
+				"10006F65127773DA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "occultism:dictionary_of_spirits"
+			}
+			id: "5C3B425F6F617843"
+			optional: true
+			rewards: [{
+				id: "34117A740E4F01F4"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "521488ECF9EB350C"
+				type: "checkmark"
+			}]
+			x: 17.0d
+			y: 15.5d
+		}
+		{
+			dependencies: [
+				"46FEA032D76CE798"
+				"10006F65127773DA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "occultism:iron_dust"
+			}
+			id: "2B94FD95BE958390"
+			optional: true
+			rewards: [{
+				id: "329230B5AFC08285"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "1A6985329A0C4C03"
+					item: { count: 1, id: "occultism:iron_dust" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "50B99903B3C0DCF4"
+					item: { count: 1, id: "occultism:silver_dust" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "7A6B05B872578CD0"
+					item: { count: 1, id: "occultism:gold_dust" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "2870224C3A84B20C"
+					item: { count: 1, id: "occultism:copper_dust" }
+					type: "item"
+				}
+			]
+			x: 19.5d
+			y: 15.5d
+		}
+		{
+			dependencies: [
+				"78849A30B0DAB014"
+				"10006F65127773DA"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "occultism:dictionary_of_spirits"
+			}
+			id: "6BE24E57C6D6C4E1"
+			optional: true
+			rewards: [{
+				id: "09D3B10B841E3581"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "488CF239E2F2C84C"
+				type: "checkmark"
+			}]
+			x: 24.0d
+			y: 10.5d
+		}
+	]
+}

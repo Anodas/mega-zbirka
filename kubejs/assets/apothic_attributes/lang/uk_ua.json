@@ -1,0 +1,5 @@
+{
+  "comment_id": "Джерела шкоди",
+  "apothic_attributes:mining_speed": "швидкости добування",
+  "apothic_attributes:mining_speed.desc": "Швидкість добування блоків порівняно зі звичайною."
+}

@@ -1,0 +1,832 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "mega_bosses"
+	group: "15283A8731F6C89A"
+	icon: {
+		id: "kubejs:boss_unlock_scroll_naga"
+	}
+	id: "6EC10F7B8DD59006"
+	images: [{
+		height: 3.9d
+		id: "204F4C8A978230C4"
+		image: "mega:textures/quest_logos/mega_bosses.png"
+		order: 10
+		rotation: 0.0d
+		width: 10.668d
+		x: 7.75d
+		y: -3.3d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			hide_dependency_lines: false
+			icon: {
+				id: "kubejs:boss_unlock_scroll_naga"
+			}
+			id: "2F50CC1F889B4249"
+			rewards: [
+				{
+					id: "5624777E215720B5"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7DA8D0FDF0934815"
+					item: {
+						count: 1
+						id: "kubejs:boss_unlock_scroll_naga"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:naga"
+				id: "447144B853FB261C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F50CC1F889B4249"]
+			hide_dependency_lines: false
+			icon: {
+				id: "twilightforest:lich_spawn_egg"
+			}
+			id: "0FFFE3A9A4BBFB02"
+			optional: true
+			rewards: [{
+				id: "55540BBD35543D2D"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				entity: "twilightforest:lich"
+				id: "7E9F947BDD1A02D0"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F50CC1F889B4249"]
+			hide_dependency_lines: false
+			icon: {
+				id: "twilightforest:minoshroom_spawn_egg"
+			}
+			id: "66BBE5A6188162F6"
+			optional: true
+			rewards: [{
+				id: "2A61F34F9344F10F"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				entity: "twilightforest:minoshroom"
+				id: "3FE87C1B04B30865"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F50CC1F889B4249"]
+			hide_dependency_lines: false
+			icon: {
+				id: "minecraft:elder_guardian_spawn_egg"
+			}
+			id: "6733C26A146074D8"
+			optional: true
+			rewards: [{
+				id: "123E323BBE1FF536"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				entity: "minecraft:elder_guardian"
+				id: "4B5E8EAFFD97851C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F50CC1F889B4249"]
+			hide_dependency_lines: false
+			icon: {
+				id: "mowziesmobs:wrought_helmet"
+			}
+			id: "695E188B2F5AB378"
+			optional: true
+			rewards: [{
+				id: "1CF12D7BE3574FF6"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				entity: "mowziesmobs:ferrous_wroughtnaut"
+				id: "36646E4B71FFAF62"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F50CC1F889B4249"]
+			hide_dependency_lines: false
+			icon: {
+				id: "thaumcraft:knowledge_fragment"
+			}
+			id: "73676D6245E3EA2E"
+			optional: true
+			rewards: [{
+				id: "29150463735DF0A7"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				entity: "thaumcraft:cultist_leader"
+				id: "42630D0D3AAD9E35"
+				type: "kill"
+				value: 1L
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F50CC1F889B4249"]
+			hide_dependency_lines: false
+			icon: {
+				id: "kubejs:boss_unlock_scroll_hydra"
+			}
+			id: "34EBFF4BC6D245EE"
+			rewards: [
+				{
+					id: "21E98436E890FFE9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "681FFC2D2348B55B"
+					item: {
+						count: 1
+						id: "kubejs:boss_unlock_scroll_hydra"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "twilightforest:hydra"
+				id: "1DE83E00D555F597"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["34EBFF4BC6D245EE"]
+			hide_dependency_lines: false
+			icon: {
+				id: "twilightforest:knight_phantom_spawn_egg"
+			}
+			id: "61A4438837141C05"
+			optional: true
+			rewards: [{
+				id: "602995B0D35F2E0D"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				entity: "twilightforest:knight_phantom"
+				id: "08021216593001C6"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: 2.4d
+		}
+		{
+			dependencies: ["34EBFF4BC6D245EE"]
+			hide_dependency_lines: false
+			icon: {
+				id: "twilightforest:ur_ghast_spawn_egg"
+			}
+			id: "1447872535432413"
+			optional: true
+			rewards: [{
+				id: "1D03CA798394EAFC"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				entity: "twilightforest:ur_ghast"
+				id: "40D6BC7B3ED8A166"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: 2.4d
+		}
+		{
+			dependencies: ["34EBFF4BC6D245EE"]
+			hide_dependency_lines: false
+			icon: {
+				id: "twilightforest:alpha_yeti_spawn_egg"
+			}
+			id: "106A4DED89EB0E03"
+			optional: true
+			rewards: [{
+				id: "3771961FE26CAB29"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				entity: "twilightforest:alpha_yeti"
+				id: "57CA62FF0FBE2CC5"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.0d
+			y: 2.4d
+		}
+		{
+			dependencies: ["34EBFF4BC6D245EE"]
+			hide_dependency_lines: false
+			icon: {
+				id: "twilightforest:snow_queen_spawn_egg"
+			}
+			id: "58298A3057580F02"
+			optional: true
+			rewards: [{
+				id: "5FE90300E0C840E2"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				entity: "twilightforest:snow_queen"
+				id: "5E982068C5DF3D90"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.5d
+			y: 2.4d
+		}
+		{
+			dependencies: ["34EBFF4BC6D245EE"]
+			hide_dependency_lines: false
+			icon: {
+				id: "mowziesmobs:ice_crystal"
+			}
+			id: "64DE09659CF30ED6"
+			optional: true
+			rewards: [{
+				id: "3A0B37D0B4B803E2"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				entity: "mowziesmobs:frostmaw"
+				id: "76EF1718FBDED434"
+				type: "kill"
+				value: 1L
+			}]
+			x: 13.0d
+			y: 2.4d
+		}
+		{
+			dependencies: ["34EBFF4BC6D245EE"]
+			hide_dependency_lines: false
+			icon: {
+				id: "mowziesmobs:sol_visage"
+			}
+			id: "5DE469A344AFDCFD"
+			optional: true
+			rewards: [{
+				id: "6579ED9AAD155102"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				entity: "mowziesmobs:umvuthi"
+				id: "2B15C3110813F2A9"
+				type: "kill"
+				value: 1L
+			}]
+			x: 15.5d
+			y: 2.4d
+		}
+		{
+			dependencies: ["34EBFF4BC6D245EE"]
+			hide_dependency_lines: false
+			icon: {
+				components: {
+					"irons_spellbooks:affinity_data": {
+						bonuses: {
+							"irons_spellbooks:raise_dead": 2
+						}
+					}
+					"irons_spellbooks:spell_container": {
+						data: [
+							{
+								id: "irons_spellbooks:blood_slash"
+								index: 0
+								level: 5
+								locked: 1b
+							}
+							{
+								id: "irons_spellbooks:blood_step"
+								index: 1
+								level: 5
+								locked: 1b
+							}
+							{
+								id: "irons_spellbooks:ray_of_siphoning"
+								index: 2
+								level: 5
+								locked: 1b
+							}
+							{
+								id: "irons_spellbooks:blaze_storm"
+								index: 3
+								level: 5
+								locked: 1b
+							}
+						]
+						maxSpells: 10
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+				id: "irons_spellbooks:necronomicon_spell_book"
+			}
+			id: "29EBF00E78FBA3DB"
+			optional: true
+			rewards: [{
+				id: "671245A05225F008"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				entity: "irons_spellbooks:dead_king"
+				id: "0B7A739830843FB8"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: 4.6d
+		}
+		{
+			dependencies: ["34EBFF4BC6D245EE"]
+			hide_dependency_lines: false
+			icon: {
+				id: "cataclysm:ancient_remnant_spawn_egg"
+			}
+			id: "3AF34C5F59B712A5"
+			optional: true
+			rewards: [{
+				id: "10253B425AF22B13"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				id: "6F587FDAA1550359"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: 4.6d
+		}
+		{
+			dependencies: ["34EBFF4BC6D245EE"]
+			hide_dependency_lines: false
+			icon: {
+				id: "cataclysm:the_harbinger_spawn_egg"
+			}
+			id: "09102D42343C449E"
+			optional: true
+			rewards: [{
+				id: "18673D19170FE272"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				id: "0CCDCE3AB1C3791A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.0d
+			y: 4.6d
+		}
+		{
+			dependencies: ["34EBFF4BC6D245EE"]
+			hide_dependency_lines: false
+			icon: {
+				id: "cataclysm:the_leviathan_spawn_egg"
+			}
+			id: "7B661C067288731E"
+			optional: true
+			rewards: [{
+				id: "6893A755A9E935F5"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				id: "3D54B716CD6552FC"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.5d
+			y: 4.6d
+		}
+		{
+			dependencies: ["34EBFF4BC6D245EE"]
+			hide_dependency_lines: false
+			icon: {
+				id: "cataclysm:maledictus_spawn_egg"
+			}
+			id: "6AD996D7344AEFDD"
+			optional: true
+			rewards: [{
+				id: "6DD9061BE1D483A1"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				id: "083F7A1C01747CC0"
+				type: "kill"
+				value: 1L
+			}]
+			x: 13.0d
+			y: 4.6d
+		}
+		{
+			dependencies: ["34EBFF4BC6D245EE"]
+			hide_dependency_lines: false
+			icon: {
+				id: "cataclysm:scylla_spawn_egg"
+			}
+			id: "7F16B15415D0F783"
+			optional: true
+			rewards: [{
+				id: "74C82B6905D7263D"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				entity: "cataclysm:scylla"
+				id: "3916E5A65334841D"
+				type: "kill"
+				value: 1L
+			}]
+			x: 15.5d
+			y: 4.6d
+		}
+		{
+			dependencies: ["34EBFF4BC6D245EE"]
+			hide_dependency_lines: false
+			icon: {
+				id: "kubejs:boss_unlock_scroll_wither"
+			}
+			id: "735569AFF390D750"
+			rewards: [
+				{
+					id: "20BE4DC64532392B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "28036B8BFCA03BDA"
+					item: {
+						count: 1
+						id: "kubejs:boss_unlock_scroll_wither"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:wither"
+				id: "7B88FF5C05057EC9"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["735569AFF390D750"]
+			hide_dependency_lines: false
+			icon: {
+				id: "cataclysm:netherite_monstrosity_spawn_egg"
+			}
+			id: "6D633D4D3906F3CD"
+			optional: true
+			rewards: [{
+				id: "7C28F86765583DF1"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				id: "331797B4F7F5F714"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: 5.9d
+		}
+		{
+			dependencies: ["735569AFF390D750"]
+			hide_dependency_lines: false
+			icon: {
+				id: "ars_nouveau:wilden_tribute"
+			}
+			id: "4B2B621EC80B10CD"
+			optional: true
+			rewards: [{
+				id: "797E2649BD3D495F"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				entity: "ars_nouveau:wilden_boss"
+				id: "4E6B98EBF67C4366"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: 5.9d
+		}
+		{
+			dependencies: ["735569AFF390D750"]
+			hide_dependency_lines: false
+			icon: {
+				id: "bosses_of_mass_destruction:soul_star"
+			}
+			id: "647E2C660F6BCF56"
+			optional: true
+			rewards: [{
+				id: "17006499CF5B55F3"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				entity: "bosses_of_mass_destruction:lich"
+				id: "348AA2FEB5C723D9"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.0d
+			y: 5.9d
+		}
+		{
+			dependencies: ["735569AFF390D750"]
+			hide_dependency_lines: false
+			icon: {
+				id: "bosses_of_mass_destruction:blazing_eye"
+			}
+			id: "04D76122900CF1AE"
+			optional: true
+			rewards: [{
+				id: "4C783301C702CE73"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				entity: "bosses_of_mass_destruction:gauntlet"
+				id: "1F272655DFB8805D"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.5d
+			y: 5.9d
+		}
+		{
+			dependencies: ["735569AFF390D750"]
+			hide_dependency_lines: false
+			icon: {
+				id: "bosses_of_mass_destruction:void_thorn"
+			}
+			id: "02521E70B5E875FE"
+			optional: true
+			rewards: [{
+				id: "5DFD436074098877"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				entity: "bosses_of_mass_destruction:void_blossom"
+				id: "453B3DCE4251B72B"
+				type: "kill"
+				value: 1L
+			}]
+			x: 13.0d
+			y: 5.9d
+		}
+		{
+			dependencies: ["735569AFF390D750"]
+			hide_dependency_lines: false
+			icon: {
+				id: "thaumcraft:eldritch_crystal_cluster"
+			}
+			id: "002E2E1047152FFA"
+			optional: true
+			rewards: [{
+				id: "2AC8B2834D119DDA"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				entity: "thaumcraft:eldritch_warden"
+				id: "157FC890B6A232E3"
+				type: "kill"
+				value: 1L
+			}]
+			x: 15.5d
+			y: 5.9d
+		}
+		{
+			dependencies: ["735569AFF390D750"]
+			hide_dependency_lines: false
+			icon: {
+				id: "thaumcraft:eldritch_crystal_cluster"
+			}
+			id: "2720205EEB22C822"
+			optional: true
+			rewards: [{
+				id: "44BF72CF1C36AE15"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				entity: "thaumcraft:eldritch_golem"
+				id: "2F8BE27E9F8910A6"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: 8.1d
+		}
+		{
+			dependencies: ["735569AFF390D750"]
+			hide_dependency_lines: false
+			icon: {
+				id: "minecraft:sculk_catalyst"
+			}
+			id: "62D7A966AB1217DD"
+			optional: true
+			rewards: [{
+				id: "1209786EAECB892E"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				entity: "minecraft:warden"
+				id: "05F00BEAD6FC9BB4"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: 8.1d
+		}
+		{
+			dependencies: ["735569AFF390D750"]
+			hide_dependency_lines: false
+			icon: {
+				id: "kubejs:boss_unlock_scroll_ignis"
+			}
+			id: "550FC95881C7BF55"
+			rewards: [
+				{
+					id: "6970EAF0EE7797E7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2E13DDCAAB52E945"
+					item: {
+						count: 1
+						id: "kubejs:boss_unlock_scroll_ignis"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				entity: "cataclysm:ignis"
+				id: "26E487CFAEC75CAC"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["550FC95881C7BF55"]
+			hide_dependency_lines: false
+			icon: {
+				id: "cataclysm:ender_guardian_spawn_egg"
+			}
+			id: "0E71CD0F0B82DF84"
+			optional: true
+			rewards: [{
+				id: "132ED54201BFCDA1"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				id: "222CE63214C7449C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["550FC95881C7BF55"]
+			hide_dependency_lines: false
+			icon: {
+				id: "minecraft:dragon_head"
+			}
+			id: "1D69C37211C08185"
+			optional: true
+			rewards: [{
+				id: "21AE6848DF07807B"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "0E1B1CC76B0D610A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["550FC95881C7BF55"]
+			hide_dependency_lines: false
+			icon: {
+				id: "bosses_of_mass_destruction:obsidian_heart"
+			}
+			id: "39B688B135389AD4"
+			optional: true
+			rewards: [{
+				id: "3261E6DC2EF35594"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				entity: "bosses_of_mass_destruction:obsidilith"
+				id: "189841D7295C9905"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["550FC95881C7BF55"]
+			hide_dependency_lines: false
+			icon: {
+				id: "irons_spellbooks:divine_soulshard"
+			}
+			id: "6E06EAB361A50266"
+			optional: true
+			rewards: [{
+				id: "3C6358C5FF6E2886"
+				type: "xp"
+				xp: 30
+			}]
+			tasks: [{
+				entity: "irons_spellbooks:fire_boss"
+				id: "5E5CF8B87FBC5B90"
+				type: "kill"
+				value: 1L
+			}]
+			x: 10.5d
+			y: 10.5d
+		}
+	]
+}

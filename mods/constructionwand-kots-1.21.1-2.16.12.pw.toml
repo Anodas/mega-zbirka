@@ -1,0 +1,8 @@
+name = "constructionwand-kots-1.21.1-2.16.12"
+filename = "constructionwand-kots-1.21.1-2.16.12.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/76H3XX6b/versions/cFpoCw3t/constructionwand-kots-1.21.1-2.16.12.jar"
+hash-format = "sha1"
+hash = "25a0c436f6dd081987c9c24deb63644899c3c0d9"

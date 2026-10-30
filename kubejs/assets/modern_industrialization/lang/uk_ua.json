@@ -1,0 +1,21 @@
+{
+  "advancements.modern_industrialization.distillation_tower.description": "Змайструйте дистиляційну вежу, щоб розкрити повний потенціал перегонки нафти",
+  "advancements.modern_industrialization.electric_blast_furnace.description": "Змайструйте електричну доменну піч, щоб почати виробництво алюмінію",
+  "advancements.modern_industrialization.electric_quarry.description": "Змайструйте електричний кар’єр",
+  "advancements.modern_industrialization.fusion_reactor.description": "Змайструйте термоядерний реактор, щоб пізнати силу термоядерного синтезу!",
+  "advancements.modern_industrialization.heat_exchanger.description": "Змайструйте теплообмінник, щоб уникнути втрати високого тиску (і легкої енергії від виробництва лави)",
+  "advancements.modern_industrialization.implosion_compressor.description": "Змайструйте імплозійний компресор",
+  "advancements.modern_industrialization.kanthal_coil.description": "Змайструйте канталову котушку, щоб розблокувати нові рецепти електричної доменної печі",
+  "advancements.modern_industrialization.large_diesel_generator.description": "Змайструйте великий дизельний генератор",
+  "advancements.modern_industrialization.large_steam_boiler.description": "Змайструйте великий паровий котел",
+  "advancements.modern_industrialization.large_steam_turbine.description": "Змайструйте велику парову турбіну",
+  "advancements.modern_industrialization.nuclear_reactor.description": "Змайструйте ядерний реактор, щоб пізнати силу ядерного поділу",
+  "advancements.modern_industrialization.oil_drilling_rig.description": "Змайструйте нафтодобувну уставу",
+  "advancements.modern_industrialization.plasma_turbine.description": "Змайструйте плазмову турбіну, щоб перетворювати гелієву плазму в енергію",
+  "advancements.modern_industrialization.pressurizer.description": "Змайструйте компенсатор тиску, щоб робити з водяної пари кращий енергоносій",
+  "advancements.modern_industrialization.quantum_sword.description": "Змайструйте квантовий меч, щоб стерти будь-кого з лиця Землі (або мандрівного крамаря і його лам)",
+  "advancements.modern_industrialization.steam_quarry.description": "Змайструйте паровий кар’єр і попрощайтеся з видобутком корисних копалин власноруч",
+  "advancements.modern_industrialization.superconductor_cable.description": "Змайструйте надпровідник та передавайте необмежену кількість енергії",
+  "advancements.modern_industrialization.vacuum_freezer.description": "Змайструйте вакуумну морозильну камеру",
+  "modern_industrialization.configuration.ftbQuestsIntegration.tooltip": "Умикає інтеграцію з FTB Quests, якщо він є."
+}

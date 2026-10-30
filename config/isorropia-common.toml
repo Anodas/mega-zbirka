@@ -1,0 +1,14 @@
+#The configuration for the creatures of the mod
+[creatures]
+	#Ticks the taint pig waits before eating another taint block (20 ticks = 1 second)
+	# Default: 3
+	# Range: 0 ~ 72000
+	taint_eat_cooldown = 3
+	#Weight of the ore an ore pig was infused with in its nugget roll
+	# Default: 1.0
+	# Range: 0.0 ~ 1000.0
+	ore_pig_main_weight = 1.0
+	#Weight of every other ore in an ore pig's nugget roll
+	# Default: 1.0
+	# Range: 0.0 ~ 1000.0
+	ore_pig_other_weight = 1.0

@@ -1,0 +1,8 @@
+name = "sophisticatedcore-1.21.1-1.5.19.2434"
+filename = "sophisticatedcore-1.21.1-1.5.19.2434.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/nmoqTijg/versions/p1iOw2RH/sophisticatedcore-1.21.1-1.5.19.2434.jar"
+hash-format = "sha1"
+hash = "f0d0fc6d3d8738a4c7a2ff79eaf59bac894d3fd1"

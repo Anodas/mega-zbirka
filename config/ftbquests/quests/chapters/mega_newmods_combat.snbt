@@ -1,0 +1,317 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "mega_newmods_combat"
+	group: "15283A8731F6C89A"
+	icon: {
+		id: "epicfight:iron_longsword"
+	}
+	id: "28327C7D2F8870F9"
+	images: [
+		{
+			alpha: 150
+			color: 1187884
+			height: 9.4d
+			id: "4F36772A88CFDDAA"
+			image: "#FFFFFF"
+			order: -20
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_shadow: 1b
+			width: 10.7d
+			x: 3.75d
+			y: 2.5d
+		}
+		{
+			alpha: 215
+			color: 2376274
+			height: 1.15d
+			id: "2B52522F2661D74B"
+			image: "#FFFFFF"
+			order: -10
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_on_image: 1b
+			text_shadow: 1b
+			width: 10.7d
+			x: 3.75d
+			y: -1.7d
+		}
+		{
+			height: 3.9d
+			id: "50899A0958D138BA"
+			image: "mega:textures/quest_logos/mega_newmods_combat.png"
+			order: 10
+			rotation: 0.0d
+			width: 11.815d
+			x: 3.75d
+			y: -4.825d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			hide_dependency_lines: false
+			icon: {
+				id: "epicfight:iron_longsword"
+			}
+			id: "0B4A076FAA6E5A24"
+			optional: true
+			rewards: [{
+				id: "356E008914EBFD49"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "57CD84FFC95EEA17"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0B4A076FAA6E5A24"]
+			hide_dependency_lines: false
+			icon: {
+				id: "epicfight:iron_dagger"
+			}
+			id: "5330D2C19EFFCBEA"
+			optional: true
+			rewards: [{
+				id: "16149A90EB7A4E9C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "5191516C706171F8"
+				item: { count: 1, id: "epicfight:iron_dagger" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0B4A076FAA6E5A24"]
+			hide_dependency_lines: false
+			icon: {
+				id: "epicfight:iron_longsword"
+			}
+			id: "6A697034C43A9785"
+			optional: true
+			rewards: [{
+				id: "26FC4A5375847F06"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "7F8A3169235BE66F"
+				item: { count: 1, id: "epicfight:iron_longsword" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0B4A076FAA6E5A24"]
+			hide_dependency_lines: false
+			icon: {
+				id: "epicfight:iron_greatsword"
+			}
+			id: "4F7FAB91E2192C34"
+			optional: true
+			rewards: [{
+				id: "3252CC333095F6A4"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "01531B64014280EC"
+				item: { count: 1, id: "epicfight:iron_greatsword" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0B4A076FAA6E5A24"]
+			hide_dependency_lines: false
+			icon: {
+				id: "epicfight:iron_spear"
+			}
+			id: "6D543A9FE8B63A53"
+			optional: true
+			rewards: [{
+				id: "22FA3FCAC6435EF4"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "2A96A8A424C41373"
+				item: { count: 1, id: "epicfight:iron_spear" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0B4A076FAA6E5A24"]
+			hide_dependency_lines: false
+			icon: {
+				id: "epicfight:iron_tachi"
+			}
+			id: "4CBAAEF47743F913"
+			optional: true
+			rewards: [{
+				id: "6DCA0BECFF841692"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "02931CEC980DED7D"
+				item: { count: 1, id: "epicfight:iron_tachi" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0B4A076FAA6E5A24"]
+			hide_dependency_lines: false
+			icon: {
+				id: "epicfight:skillbook"
+			}
+			id: "15E10391EF300336"
+			optional: true
+			rewards: [{
+				id: "2F0190ED5DF122AB"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "16D8300CF7C1C798"
+				item: { count: 1, id: "epicfight:skillbook" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["15E10391EF300336"]
+			hide_dependency_lines: false
+			icon: {
+				id: "epicskills:ability_stone"
+			}
+			id: "39A9F905109BB1AE"
+			optional: true
+			rewards: [{
+				id: "52C7DDBA20F426D9"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "61EE9393C0EEA804"
+				item: { count: 1, id: "epicskills:ability_stone" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0B4A076FAA6E5A24"]
+			hide_dependency_lines: false
+			icon: {
+				id: "wom:iron_greataxe"
+			}
+			id: "38A899D5BE6858C5"
+			optional: true
+			rewards: [{
+				id: "2AD117CF77F8FF48"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "1D77ADB846C0AAAA"
+				item: { count: 1, id: "wom:iron_greataxe" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0B4A076FAA6E5A24"]
+			hide_dependency_lines: false
+			icon: {
+				id: "wom:iron_staff"
+			}
+			id: "02EEFFEB19A6EBBC"
+			optional: true
+			rewards: [{
+				id: "4667F2957A785264"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "01AAEC67C5C1D98E"
+				item: { count: 1, id: "wom:iron_staff" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6A697034C43A9785"]
+			hide_dependency_lines: false
+			icon: {
+				id: "epicfight:iron_longsword"
+			}
+			id: "465F7E565EC345B6"
+			optional: true
+			rewards: [{
+				id: "50D31FE483640E0A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "559BB0CD994E18D8"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0B4A076FAA6E5A24"]
+			hide_dependency_lines: false
+			icon: {
+				id: "epicfight:iron_longsword"
+			}
+			id: "09626AE7D97FCA9C"
+			optional: true
+			rewards: [{
+				id: "1763E342FB966B00"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "041E1DF4296A151C"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 5.0d
+		}
+	]
+}

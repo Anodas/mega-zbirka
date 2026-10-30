@@ -1,0 +1,8 @@
+name = "epicfight-skilltree-neoforge-21.3.3-1.21.1"
+filename = "epicfight-skilltree-neoforge-21.3.3-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/PezbUFun/versions/JMg5fI2B/epicfight-skilltree-neoforge-21.3.3-1.21.1.jar"
+hash-format = "sha1"
+hash = "b188dec317d4ae1feb5d40e5edad1629e05b7673"

@@ -1,0 +1,560 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "mega_newmods_tinkers"
+	group: "378CFB2DB8C23918"
+	icon: {
+		id: "modernfoundry:tinker_station"
+	}
+	id: "54C81A814F8FDC8C"
+	images: [
+		{
+			alpha: 150
+			color: 1187884
+			height: 9.4d
+			id: "40CDA4806B183C54"
+			image: "#FFFFFF"
+			order: -20
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_shadow: 1b
+			width: 10.7d
+			x: 3.75d
+			y: 2.5d
+		}
+		{
+			alpha: 215
+			color: 2376274
+			height: 1.15d
+			id: "6B6239D85604552B"
+			image: "#FFFFFF"
+			order: -10
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_on_image: 1b
+			text_shadow: 1b
+			width: 10.7d
+			x: 3.75d
+			y: -1.7d
+		}
+		{
+			alpha: 150
+			color: 1187884
+			height: 9.4d
+			id: "22F3EB3CBA496E87"
+			image: "#FFFFFF"
+			order: -20
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_shadow: 1b
+			width: 10.7d
+			x: 15.75d
+			y: 2.5d
+		}
+		{
+			alpha: 215
+			color: 2376274
+			height: 1.15d
+			id: "6636411EEEC1E52D"
+			image: "#FFFFFF"
+			order: -10
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_on_image: 1b
+			text_shadow: 1b
+			width: 10.7d
+			x: 15.75d
+			y: -1.7d
+		}
+		{
+			height: 5.4d
+			id: "1F3FF8D5812DF21D"
+			image: "mega:textures/quest_logos/mega_newmods_tinkers.png"
+			order: 10
+			rotation: 0.0d
+			width: 12.638d
+			x: 9.75d
+			y: -5.575d
+		}
+	]
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["17ED3516C52C7E99"]
+			hide_dependency_lines: true
+			icon: {
+				id: "modernfoundry:grout"
+			}
+			id: "1A955AE6FC8C1304"
+			optional: true
+			rewards: [{
+				id: "3C32BC89F38ED908"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				count: 8L
+				id: "623DB0F6DD97F6F8"
+				item: { count: 1, id: "modernfoundry:grout" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A955AE6FC8C1304"]
+			hide_dependency_lines: false
+			icon: {
+				id: "modernfoundry:seared_brick"
+			}
+			id: "33E338110C832EF6"
+			optional: true
+			rewards: [{
+				id: "1ED3FE4175212F96"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				count: 16L
+				id: "1ED3D069FCAFB299"
+				item: { count: 1, id: "modernfoundry:seared_brick" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17ED3516C52C7E99"]
+			hide_dependency_lines: true
+			icon: {
+				id: "modernfoundry:crafting_station"
+			}
+			id: "743CA49E440BE219"
+			optional: true
+			rewards: [{
+				id: "31068F35C2B61D77"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "291A897C717FEBED"
+					item: { count: 1, id: "modernfoundry:crafting_station" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "2BC501DD32348513"
+					item: { count: 1, id: "modernfoundry:pattern" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["743CA49E440BE219"]
+			hide_dependency_lines: false
+			icon: {
+				id: "modernfoundry:tinker_station"
+			}
+			id: "4A8FC105C55B4B23"
+			optional: true
+			rewards: [{
+				id: "466E3A29B378F856"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34B711F4AA24FD0A"
+				item: { count: 1, id: "modernfoundry:tinker_station" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A8FC105C55B4B23"]
+			hide_dependency_lines: false
+			icon: {
+				id: "modernfoundry:pickaxe"
+			}
+			id: "0516D53BAA2618A9"
+			optional: true
+			rewards: [{
+				id: "1E28A26B13C86EC2"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "5DFC992CB627DA0B"
+				item: { count: 1, id: "modernfoundry:pickaxe" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0516D53BAA2618A9"]
+			hide_dependency_lines: false
+			icon: {
+				id: "modernfoundry:tinker_station"
+			}
+			id: "539C91AF5335F8F8"
+			optional: true
+			rewards: [{
+				id: "6899E78F10F1317E"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5966C832D61C81E7"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4A8FC105C55B4B23"]
+			hide_dependency_lines: false
+			icon: {
+				id: "modernfoundry:sword"
+			}
+			id: "0E2ED8274D342B1E"
+			optional: true
+			rewards: [{
+				id: "775524AA932A316E"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "511059F4D2EE916C"
+				item: { count: 1, id: "modernfoundry:sword" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4A8FC105C55B4B23"]
+			hide_dependency_lines: false
+			icon: {
+				id: "modernfoundry:repair_kit"
+			}
+			id: "4DF33D7BF4809201"
+			optional: true
+			rewards: [{
+				id: "4ED9487BCC9E71A6"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "1131ABA2912F7506"
+				item: { count: 1, id: "modernfoundry:repair_kit" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["33E338110C832EF6"]
+			hide_dependency_lines: false
+			icon: {
+				id: "modernfoundry:seared_melter"
+			}
+			id: "6BAB325336CFCBC5"
+			optional: true
+			rewards: [{
+				id: "545E6F9165EB3B56"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "15A5779F09883D83"
+					item: { count: 1, id: "modernfoundry:seared_melter" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0AD8F25F82363C19"
+					item: { count: 1, id: "modernfoundry:seared_heater" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6BAB325336CFCBC5"]
+			hide_dependency_lines: false
+			icon: {
+				id: "modernfoundry:seared_table"
+			}
+			id: "48817A02D0ECE438"
+			optional: true
+			rewards: [{
+				id: "29E85807D4DF22EF"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "432387414C8DFF5C"
+					item: { count: 1, id: "modernfoundry:seared_table" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "4DD9CCC478624B7E"
+					item: { count: 1, id: "modernfoundry:seared_basin" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1BC50AF1559C4844"
+					item: { count: 1, id: "modernfoundry:seared_faucet" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["48817A02D0ECE438"]
+			hide_dependency_lines: false
+			icon: {
+				id: "modernfoundry:ingot_cast"
+			}
+			id: "52A331E924047E70"
+			optional: true
+			rewards: [{
+				id: "519A1591A1FD1EC3"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "282F6F43DC299BB9"
+				item: { count: 1, id: "modernfoundry:ingot_cast" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["48817A02D0ECE438"]
+			hide_dependency_lines: false
+			icon: {
+				id: "modernfoundry:smeltery_controller"
+			}
+			id: "2F93319602E528BE"
+			optional: true
+			rewards: [{
+				id: "374AB944D13A77F0"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "76142B78CE04133D"
+					item: { count: 1, id: "modernfoundry:smeltery_controller" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "7EE295B5AE2914C9"
+					item: { count: 1, id: "modernfoundry:seared_drain" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "299E0358CA0AB4D3"
+					item: { count: 1, id: "modernfoundry:seared_fuel_tank" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2F93319602E528BE"]
+			hide_dependency_lines: true
+			icon: {
+				id: "modernfoundry:slimesteel_ingot"
+			}
+			id: "6E45973477DDED24"
+			optional: true
+			rewards: [{
+				id: "74B4FB4F09E831D0"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "29F945275E5E46B0"
+					item: { count: 1, id: "modernfoundry:slimesteel_ingot" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "5D9E0D032000B1A3"
+					item: { count: 1, id: "modernfoundry:rose_gold_ingot" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "47BA501AEA3ABE41"
+					item: { count: 1, id: "modernfoundry:amethyst_bronze_ingot" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F93319602E528BE"]
+			hide_dependency_lines: true
+			icon: {
+				id: "modernfoundry:cobalt_ingot"
+			}
+			id: "41563292C36316BE"
+			optional: true
+			rewards: [{
+				id: "4562C1A5F8427D43"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				count: 4L
+				id: "199F180AA1CC13EF"
+				item: { count: 1, id: "modernfoundry:cobalt_ingot" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"41563292C36316BE"
+				"6E45973477DDED24"
+			]
+			hide_dependency_lines: false
+			icon: {
+				id: "modernfoundry:manyullyn_ingot"
+			}
+			id: "5BAD40B676F720DA"
+			optional: true
+			rewards: [{
+				id: "6779BB665AF02AA1"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "60744488642C8A48"
+				item: { count: 1, id: "modernfoundry:manyullyn_ingot" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F93319602E528BE"]
+			hide_dependency_lines: true
+			icon: {
+				id: "modernfoundry:foundry_controller"
+			}
+			id: "09A4077D4B880FCB"
+			optional: true
+			rewards: [{
+				id: "1F2E8083EC1A9BA4"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "02CF764A60F11264"
+					item: { count: 1, id: "modernfoundry:foundry_controller" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "389059B88891FD14"
+					item: { count: 1, id: "modernfoundry:scorched_drain" }
+					type: "item"
+				}
+			]
+			x: 19.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F93319602E528BE"]
+			hide_dependency_lines: true
+			icon: {
+				id: "modernfoundry:tinkers_anvil"
+			}
+			id: "0E7F6BDE85F49706"
+			optional: true
+			rewards: [{
+				id: "67D7392E7628A13C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "6423B15DD47A0DDF"
+				item: { count: 1, id: "modernfoundry:tinkers_anvil" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0E7F6BDE85F49706"]
+			hide_dependency_lines: false
+			icon: {
+				id: "modernfoundry:sledge_hammer"
+			}
+			id: "6526397BC6CFD376"
+			optional: true
+			rewards: [{
+				id: "35D70887BC1CAEEB"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "13726CFC9B393BA9"
+				item: { count: 1, id: "modernfoundry:sledge_hammer" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 2.5d
+		}
+	]
+}

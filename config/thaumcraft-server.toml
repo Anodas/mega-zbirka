@@ -1,0 +1,95 @@
+[general]
+	#Allow the creative Thaumonomicon cheat sheet.
+	allow_cheat_sheet = false
+	#Only owners can remove Warded Glass, Arcane Doors and Arcane Pressure Plates. When disabled, anyone can break them and the Warded Arcana and Warding focus research are removed.
+	allow_warded_stone = true
+	#Enable mirror research and crafting recipes.
+	allow_mirrors = true
+	#Enable the additional hazards of negative nodes.
+	hard_mode_nodes = true
+	#Disable Warp events and Warp gained from research/crafting. Other Warp sources still apply.
+	wuss_mode = false
+	#Allow dense Flux Goo to create Tainted Land.
+	biome_taint_from_flux = true
+	#Place newly generated Flux Goo/Gas through a server-only zero-tick entity at its post-spawn world position. Disable to use direct setBlock placement.
+	use_zero_tick_flux_placement = true
+	#Each taint block random tick spreads Tainted Land with a one-in-5n chance; zero disables biome spread.
+	# Default: 1100
+	# Range: 0 ~ 429496729
+	biome_taint_spread = 1100
+	#Ticks between golem task searches; minimum 1 as in TC4.
+	# Default: 5
+	# Range: > 1
+	golem_delay = 5
+	#Milliseconds a golem ignores an item after no destination was found; TC4 minimum 1000.
+	# Default: 10000
+	# Range: > 1000
+	golem_ignore_delay = 10000
+	#Allow golems to request chest opening feedback while transferring items.
+	golem_chest_interact = true
+	#Block ids the Portable Hole focus may not pass through; tags and runtime API registrations are also honored.
+	portablehole_blacklist = ["minecraft:iron_door"]
+
+[monster_spawning]
+	#Allow Angry Zombies in TC4's legacy allowed-biome set, and Furious Zombies in Eerie biomes.
+	spawn_angry_zombies = true
+	#Allow Firebats in Nether biomes, and in the Overworld on October 31.
+	spawn_fire_bats = true
+	#Allow Wisps to spawn naturally in Nether biomes, Magical Forest and Eerie.
+	spawn_wisps = true
+	#Allow Taintacles to spawn naturally in Tainted Land.
+	spawn_taintacles = true
+	#Allow spore stalks to release Taint Spores and crusted taint to release Taint Spore Swarmers.
+	spawn_taint_spores = true
+	#Allow Pechs to spawn naturally in magical biomes.
+	spawn_pechs = true
+	#Allow Eldritch Guardians to spawn naturally in Eerie biomes.
+	spawn_eldercreatures = true
+	#Allow ordinary champion chances. When disabled, champions can still appear in the Outer Lands at a reduced chance.
+	champion_mobs = true
+
+[runic_shielding]
+	#Milliseconds between recharging each shield point; TC4 minimum 500.
+	# Default: 2000
+	# Range: > 500
+	runic_recharge_speed = 2000
+	#Ticks after complete shield depletion before recharge may resume.
+	# Default: 80
+	# Range: > 0
+	runic_recharge_delay = 80
+	#Aer and Terra centivis consumed for one point of shield recharge.
+	# Default: 50
+	# Range: > 0
+	runic_cost = 50
+
+[research]
+	#-1 easy, 0 normal, 1 hard, matching TC4.
+	# Default: 0
+	# Range: -1 ~ 1
+	research_difficulty = 0
+	#Aspect-pool amount where scan rewards soft-cap.
+	# Default: 100
+	# Range: > 1
+	aspect_total_cap = 100
+
+[node_ecology]
+	#Dimension ids where Pure and Dark nodes may not rewrite biomes. The Nether and End are always excluded, as in TC4. This replaces legacy dimensionBlacklist IMC levels 0/2.
+	dimension_blacklist = []
+	#Biome ids that Pure nodes may not convert; Dark nodes standing in them do not spread Eerie. This replaces legacy biomeBlacklist IMC levels 0/2.
+	biome_blacklist = []
+
+[world_regeneration]
+	#Change this key to run a new retro-generation pass. Chunks are recorded under the current key, so newly enabled options need a new key.
+	regen_key = "DEFAULT"
+	#Generate wild aura nodes in existing chunks once per key; also needs generate_aura_nodes.
+	aura_nodes = false
+	#Generate legacy structures in existing chunks once per key; also needs generate_structures.
+	structures = false
+	#Generate cinnabar ore in existing chunks once per key; also needs generate_cinnabar_ore.
+	cinnabar_ore = false
+	#Generate amber-bearing stone in existing chunks once per key; also needs generate_amber_ore.
+	amber_ore = false
+	#Generate infused stone in existing chunks once per key; also needs generate_infused_stone.
+	infused_stone = false
+	#Generate magical vegetation in existing chunks once per key; also needs generate_trees.
+	trees = false

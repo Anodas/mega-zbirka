@@ -1,0 +1,567 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "mega_mek_chemistry"
+	group: "378CFB2DB8C23918"
+	icon: {
+		id: "mekanism:pressurized_reaction_chamber"
+	}
+	id: "50A58295A671AA68"
+	images: [
+		{
+			alpha: 150
+			color: 1187884
+			height: 9.5d
+			id: "103C3D4F068929D8"
+			image: "#FFFFFF"
+			order: -20
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_shadow: 1b
+			width: 10.5d
+			x: 3.75d
+			y: 2.0d
+		}
+		{
+			alpha: 215
+			color: 2376274
+			height: 1.2d
+			id: "0251751BB13EBA0D"
+			image: "#FFFFFF"
+			order: -20
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_on_image: 1b
+			text_shadow: 1b
+			width: 10.5d
+			x: 3.75d
+			y: -1.7000000000000002d
+		}
+		{
+			alpha: 150
+			color: 1187884
+			height: 9.5d
+			id: "177A151E22552DD6"
+			image: "#FFFFFF"
+			order: -20
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_shadow: 1b
+			width: 10.5d
+			x: 15.75d
+			y: 2.0d
+		}
+		{
+			alpha: 215
+			color: 2376274
+			height: 1.2d
+			id: "46AA273223A55E15"
+			image: "#FFFFFF"
+			order: -20
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_on_image: 1b
+			text_shadow: 1b
+			width: 10.5d
+			x: 15.75d
+			y: -1.7000000000000002d
+		}
+		{
+			height: 5.4d
+			id: "107BA31D16E69585"
+			image: "mega:textures/quest_logos/mega_mek_chemistry.png"
+			order: 10
+			rotation: 0.0d
+			width: 11.489d
+			x: 9.75d
+			y: -6.05d
+		}
+	]
+	order_index: 29
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["03F7366AB7214286"]
+			hide_dependency_lines: true
+			hide_details_until_startable: false
+			icon: {
+				id: "mekanism:electrolytic_separator"
+			}
+			id: "2C0A05313A437537"
+			rewards: [{
+				id: "3F96FE995D54D2C0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				consume_items: false
+				id: "23C003BA9C2E5719"
+				item: { count: 1, id: "mekanism:electrolytic_separator" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2C0A05313A437537"]
+			hide_dependency_lines: false
+			hide_details_until_startable: false
+			icon: {
+				id: "mekanism:purification_chamber"
+			}
+			id: "2F1F40D69D53AE2B"
+			rewards: [{
+				id: "716F4A2571C89CF6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				consume_items: false
+				id: "4A7C61C7405D41A8"
+				item: { count: 1, id: "mekanism:purification_chamber" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F1F40D69D53AE2B"]
+			hide_dependency_lines: false
+			hide_details_until_startable: false
+			icon: {
+				id: "mekanism:chemical_injection_chamber"
+			}
+			id: "66EFE4CA345691FD"
+			rewards: [{
+				id: "58A0C590BC187519"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				consume_items: false
+				id: "09B86BBC0B96E50E"
+				item: { count: 1, id: "mekanism:chemical_injection_chamber" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2C0A05313A437537"]
+			hide_dependency_lines: false
+			hide_details_until_startable: false
+			icon: {
+				id: "mekanism:pressurized_reaction_chamber"
+			}
+			id: "49126C017B9E47C2"
+			rewards: [{
+				id: "4FE0AC448A061EE4"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				consume_items: false
+				id: "4AFEDF84B6059F11"
+				item: { count: 1, id: "mekanism:pressurized_reaction_chamber" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["49126C017B9E47C2"]
+			hide_dependency_lines: false
+			hide_details_until_startable: false
+			icon: {
+				id: "mekanism:hdpe_pellet"
+			}
+			id: "0864CCB7C6BCBA52"
+			rewards: [{
+				id: "08F0F77A10692EA2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				consume_items: false
+				count: 8L
+				id: "41FEC36D27FF5637"
+				item: { count: 1, id: "mekanism:hdpe_pellet" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"761FD27A19F32832"
+				"03F7366AB7214286"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mekanismgenerators:bio_generator"
+			}
+			id: "112F7991FF2E7DA3"
+			optional: true
+			rewards: [{
+				id: "420A15BBE5004893"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "768C384F38FD6654"
+				item: { count: 1, id: "mekanismgenerators:bio_generator" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"041AF5E76F2741D6"
+				"03F7366AB7214286"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mekanism:chemical_washer"
+			}
+			id: "5BD7DA8AEBD05705"
+			optional: true
+			rewards: [{
+				id: "3009CE4269B6C20B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "50E3CBA59046F21E"
+				item: { count: 1, id: "mekanism:chemical_washer" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"041AF5E76F2741D6"
+				"03F7366AB7214286"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mekanism:chemical_dissolution_chamber"
+			}
+			id: "08A41ABFB055439E"
+			optional: true
+			rewards: [{
+				id: "6D6C02DFFFF5244E"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "282329313DBD97E5"
+				item: { count: 1, id: "mekanism:chemical_dissolution_chamber" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"041AF5E76F2741D6"
+				"03F7366AB7214286"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mekanism:chemical_crystallizer"
+			}
+			id: "1DD765513FB2CC98"
+			optional: true
+			rewards: [{
+				id: "1A102D3859025ACC"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "4CAB9D9A4BB2F60D"
+				item: { count: 1, id: "mekanism:chemical_crystallizer" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"26B7D9868BAB4B66"
+				"03F7366AB7214286"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mekanism:chemical_oxidizer"
+			}
+			id: "1663F82775F0C8F2"
+			optional: true
+			rewards: [{
+				id: "0D9E09631222797F"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "1FEA67BAC0491E8A"
+				item: { count: 1, id: "mekanism:chemical_oxidizer" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"26B7D9868BAB4B66"
+				"03F7366AB7214286"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mekanism:chemical_infuser"
+			}
+			id: "6304A11115DA44EE"
+			optional: true
+			rewards: [{
+				id: "50EB128719125A50"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "5BEB3FAFC030D74D"
+				item: { count: 1, id: "mekanism:chemical_infuser" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"26B7D9868BAB4B66"
+				"03F7366AB7214286"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mekanism:rotary_condensentrator"
+			}
+			id: "60BC888A16DF2F48"
+			optional: true
+			rewards: [{
+				id: "507878656B1A68F5"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "4BFA7D04B55C74D0"
+				item: { count: 1, id: "mekanism:rotary_condensentrator" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"4719932051544C02"
+				"03F7366AB7214286"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mekanism:basic_chemical_tank"
+			}
+			id: "41BFA2A1721BBACC"
+			optional: true
+			rewards: [{
+				id: "1C2C4ADD9BBA95C7"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "0FD35B2868F8A7C9"
+				item: { count: 1, id: "mekanism:basic_chemical_tank" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"26B7D9868BAB4B66"
+				"03F7366AB7214286"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mekanism:electric_pump"
+			}
+			id: "7ECE1EEFC2848700"
+			optional: true
+			rewards: [{
+				id: "2A9FAB716D610F8D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "524476788088FA32"
+					item: { count: 1, id: "mekanism:electric_pump" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "7DF35EB158B73812"
+					item: { count: 1, id: "mekanism:electrolytic_separator" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "31E256AD165F9DE5"
+					item: { count: 1, id: "mekanism:purification_chamber" }
+					type: "item"
+				}
+			]
+			x: 14.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1677A4CA0E6D001B"
+				"03F7366AB7214286"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "mekanism:thermal_evaporation_block"
+			}
+			id: "457B106154D5E60F"
+			optional: true
+			rewards: [{
+				id: "6403C4FD891A3784"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					count: 33L
+					id: "6D66B89C66EC2654"
+					item: { count: 1, id: "mekanism:thermal_evaporation_block" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "51C144066B67277D"
+					item: { count: 1, id: "mekanism:thermal_evaporation_controller" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "63B930F2B9044702"
+					item: { count: 1, id: "mekanism:thermal_evaporation_valve" }
+					type: "item"
+				}
+			]
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["03F7366AB7214286"]
+			hide_dependency_lines: true
+			icon: {
+				id: "mekanism:basic_purifying_factory"
+			}
+			id: "3D42442FBFCAEDA5"
+			optional: true
+			rewards: [{
+				id: "4ED1F7BF452000A9"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "79C9A37D8D78F032"
+					item: { count: 1, id: "mekanism:basic_purifying_factory" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "59133B7DC27CF642"
+					item: { count: 1, id: "mekanism:advanced_purifying_factory" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "31335F7C035DCA5E"
+					item: { count: 1, id: "mekanism:elite_purifying_factory" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "36561EBB884D8F04"
+					item: { count: 1, id: "mekanism:ultimate_purifying_factory" }
+					type: "item"
+				}
+			]
+			x: 19.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["03F7366AB7214286"]
+			hide_dependency_lines: true
+			icon: {
+				id: "mekanism:basic_injecting_factory"
+			}
+			id: "402F62C2650AB859"
+			optional: true
+			rewards: [{
+				id: "7BB2B0477F829EAF"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "1F04F94A30D79CBF"
+					item: { count: 1, id: "mekanism:basic_injecting_factory" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "395A3A95933CE54D"
+					item: { count: 1, id: "mekanism:advanced_injecting_factory" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "4FD37A47AA611789"
+					item: { count: 1, id: "mekanism:elite_injecting_factory" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0A2ABF34E95AC612"
+					item: { count: 1, id: "mekanism:ultimate_injecting_factory" }
+					type: "item"
+				}
+			]
+			x: 19.5d
+			y: 2.5d
+		}
+	]
+}

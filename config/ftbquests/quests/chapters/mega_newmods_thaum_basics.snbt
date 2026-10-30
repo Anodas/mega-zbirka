@@ -1,0 +1,427 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "mega_newmods_thaum_basics"
+	group: "12B8784D9CF4299B"
+	icon: {
+		id: "thaumcraft:thaumonomicon"
+	}
+	id: "1061A9B870AA18A1"
+	images: [
+		{
+			alpha: 150
+			color: 1187884
+			height: 9.4d
+			id: "3404D99AB243D73D"
+			image: "#FFFFFF"
+			order: -20
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_shadow: 1b
+			width: 10.7d
+			x: 3.75d
+			y: 2.5d
+		}
+		{
+			alpha: 215
+			color: 2376274
+			height: 1.15d
+			id: "0BBC5D162F7A72BF"
+			image: "#FFFFFF"
+			order: -10
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_on_image: 1b
+			text_shadow: 1b
+			width: 10.7d
+			x: 3.75d
+			y: -1.7d
+		}
+		{
+			alpha: 150
+			color: 1187884
+			height: 9.4d
+			id: "4CE9974DAEEDDAF4"
+			image: "#FFFFFF"
+			order: -20
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_shadow: 1b
+			width: 10.7d
+			x: 15.75d
+			y: 2.5d
+		}
+		{
+			alpha: 215
+			color: 2376274
+			height: 1.15d
+			id: "40E5807F961AE8AF"
+			image: "#FFFFFF"
+			order: -10
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_on_image: 1b
+			text_shadow: 1b
+			width: 10.7d
+			x: 15.75d
+			y: -1.7d
+		}
+		{
+			height: 3.9d
+			id: "4B74D1FC7C454994"
+			image: "mega:textures/quest_logos/mega_newmods_thaum_basics.png"
+			order: 10
+			rotation: 0.0d
+			width: 13.765d
+			x: 7.875d
+			y: -4.825d
+		}
+	]
+	order_index: 22
+	quest_links: [ ]
+	quests: [
+		{
+			hide_dependency_lines: false
+			icon: {
+				id: "thaumcraft:wand"
+			}
+			id: "5A463EBB988B48A5"
+			optional: true
+			rewards: [{
+				id: "33B94946C3E1BA40"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "5486011F5B1CC25B"
+				item: { count: 1, id: "thaumcraft:wand" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A463EBB988B48A5"]
+			hide_dependency_lines: false
+			icon: {
+				id: "thaumcraft:thaumonomicon"
+			}
+			id: "200AA26922876F16"
+			optional: true
+			rewards: [{
+				id: "4C6C027889FCAFC7"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "3D7F5DE0AB9704FB"
+				item: { count: 1, id: "thaumcraft:thaumonomicon" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["200AA26922876F16"]
+			hide_dependency_lines: false
+			icon: {
+				id: "thaumcraft:thaumometer"
+			}
+			id: "54EE2FD6010DF0AF"
+			optional: true
+			rewards: [{
+				id: "6807883AB7CD53F4"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "73EFD69E60CD188B"
+				item: { count: 1, id: "thaumcraft:thaumometer" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["54EE2FD6010DF0AF"]
+			hide_dependency_lines: false
+			icon: {
+				id: "thaumcraft:research_table"
+			}
+			id: "54E9DB2855C7AB74"
+			optional: true
+			rewards: [{
+				id: "683D30E4632B4609"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "3C68CB1B6AC1C117"
+				item: { count: 1, id: "thaumcraft:research_table" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["200AA26922876F16"]
+			hide_dependency_lines: false
+			icon: {
+				id: "thaumcraft:arcane_worktable"
+			}
+			id: "2C99AB9744A43FF8"
+			optional: true
+			rewards: [{
+				id: "41F846D5C4A30E4C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "470F8B6E0A69FE43"
+				item: { count: 1, id: "thaumcraft:arcane_worktable" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["200AA26922876F16"]
+			hide_dependency_lines: false
+			icon: {
+				id: "thaumcraft:crucible"
+			}
+			id: "512BD52E63DF4E34"
+			optional: true
+			rewards: [{
+				id: "60DC85858BC73807"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "4E60E39CEC3D29E4"
+				item: { count: 1, id: "thaumcraft:crucible" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["512BD52E63DF4E34"]
+			hide_dependency_lines: false
+			icon: {
+				id: "thaumcraft:thaumium_ingot"
+			}
+			id: "083615950C29E450"
+			optional: true
+			rewards: [{
+				id: "438A33B99170BD2D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				count: 4L
+				id: "75BA17D7DAB60122"
+				item: { count: 1, id: "thaumcraft:thaumium_ingot" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["200AA26922876F16"]
+			hide_dependency_lines: false
+			icon: {
+				id: "thaumcraft:air_shard"
+			}
+			id: "164B1D22684A8325"
+			optional: true
+			rewards: [{
+				id: "4C22F8CEC4716FE2"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "47ECA51EB600C550"
+					item: { count: 1, id: "thaumcraft:air_shard" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "7675618DD5C47E78"
+					item: { count: 1, id: "thaumcraft:fire_shard" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "2F8CDB213F3718B3"
+					item: { count: 1, id: "thaumcraft:water_shard" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "5EF3114C8DDAD623"
+					item: { count: 1, id: "thaumcraft:earth_shard" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "767629BD4A1C426C"
+					item: { count: 1, id: "thaumcraft:order_shard" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1E48BE836B8A6B59"
+					item: { count: 1, id: "thaumcraft:entropy_shard" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["164B1D22684A8325"]
+			hide_dependency_lines: false
+			icon: {
+				id: "thaumcraft:salis_mundus"
+			}
+			id: "49155DCE0AA0EC1F"
+			optional: true
+			rewards: [{
+				id: "15BB62FC34F45BEA"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "7E08A5F8A51825B6"
+				item: { count: 1, id: "thaumcraft:salis_mundus" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["512BD52E63DF4E34"]
+			hide_dependency_lines: false
+			icon: {
+				id: "thaumcraft:nitor"
+			}
+			id: "679FAF3E30658D63"
+			optional: true
+			rewards: [{
+				id: "50C75D56EFCF30F9"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "284250646A8DD957"
+					item: { count: 1, id: "thaumcraft:nitor" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1919CA1EC9F10561"
+					item: { count: 1, id: "thaumcraft:alumentum" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["083615950C29E450"]
+			hide_dependency_lines: false
+			icon: {
+				id: "thaumcraft:goggles_of_revealing"
+			}
+			id: "6BA97C482BA619D9"
+			optional: true
+			rewards: [{
+				id: "56DBCF77C758AEEA"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "78800010C26602AF"
+				item: { count: 1, id: "thaumcraft:goggles_of_revealing" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["200AA26922876F16"]
+			hide_dependency_lines: false
+			icon: {
+				id: "thaumcraft:greatwood_log"
+			}
+			id: "08A034C83CC97162"
+			optional: true
+			rewards: [{
+				id: "42057FE20ABAB231"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "623912A803429190"
+					item: { count: 1, id: "thaumcraft:greatwood_log" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "15DC79C1D09B813B"
+					item: { count: 1, id: "thaumcraft:silverwood_log" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["512BD52E63DF4E34"]
+			hide_dependency_lines: true
+			icon: {
+				id: "thaumcraft:magic_tallow"
+			}
+			id: "6983962C00A1408D"
+			optional: true
+			rewards: [{
+				id: "60AE95CD30232BF7"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "4E2B9F8D8CE4C14F"
+				item: { count: 1, id: "thaumcraft:magic_tallow" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+	]
+}

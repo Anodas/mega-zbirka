@@ -1,0 +1,155 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "mega_magic_blood_living"
+	group: "12B8784D9CF4299B"
+	icon: {
+		id: "bloodmagic:livingplate"
+	}
+	id: "1521F54D313CF72F"
+	images: [
+		{
+			alpha: 135
+			color: 1187884
+			height: 9.4d
+			id: "39F61CD0336295FE"
+			image: "#FFFFFF"
+			order: -20
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_shadow: 1b
+			width: 10.7d
+			x: 3.75d
+			y: 2.5d
+		}
+		{
+			alpha: 215
+			color: 2376274
+			height: 1.15d
+			id: "01A081DE065570BC"
+			image: "#FFFFFF"
+			order: -10
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_on_image: 1b
+			text_shadow: 1b
+			width: 10.7d
+			x: 3.75d
+			y: -1.7d
+		}
+		{
+			height: 5.4d
+			id: "791E9A1005E7D6F9"
+			image: "mega:textures/quest_logos/mega_magic_blood_living.png"
+			order: 10
+			rotation: 0.0d
+			width: 13.443d
+			x: 2.5d
+			y: -5.575d
+		}
+	]
+	order_index: 21
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"67CE6C34F2386931"
+				"32D14A19DE2CEF8F"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "bloodmagic:simplekey"
+			}
+			id: "12AC5EBF7743FCC9"
+			optional: true
+			rewards: [{
+				id: "3F261FF007393499"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "35EA0FA0EC43D2C1"
+				item: { count: 1, id: "bloodmagic:simplekey" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7C3BC1758109E770"
+				"32D14A19DE2CEF8F"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "bloodmagic:rawdemonite"
+			}
+			id: "3DDBB8363EEB6A14"
+			optional: true
+			rewards: [{
+				id: "21DFF4E5BE680053"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "465EB14EF0B45DB0"
+				item: { count: 1, id: "bloodmagic:rawdemonite" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"170AD946038B32A1"
+				"32D14A19DE2CEF8F"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "bloodmagic:livinghelmet"
+			}
+			id: "4B376CE18A930374"
+			optional: true
+			rewards: [{
+				id: "221FC7680200294A"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "6C974525F6126382"
+					item: { count: 1, id: "bloodmagic:livinghelmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "62BF86CFBA5EBD85"
+					item: { count: 1, id: "bloodmagic:livingplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "553A51ED55E367F3"
+					item: { count: 1, id: "bloodmagic:livingleggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "79C7B11AC756053C"
+					item: { count: 1, id: "bloodmagic:livingboots" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 0.0d
+		}
+	]
+}

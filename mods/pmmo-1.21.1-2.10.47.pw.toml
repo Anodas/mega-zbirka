@@ -1,0 +1,8 @@
+name = "pmmo-1.21.1-2.10.47"
+filename = "pmmo-1.21.1-2.10.47.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/KFQYC1Uy/versions/9lu4zNd1/pmmo-1.21.1-2.10.47.jar"
+hash-format = "sha1"
+hash = "f3ce94787a9ab22dd95f67ec7bb7c4139040465f"

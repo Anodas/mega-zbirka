@@ -1,0 +1,462 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "mega_newmods_thaum_advanced"
+	group: "12B8784D9CF4299B"
+	icon: {
+		id: "thaumcraft:runic_matrix"
+	}
+	id: "262ECB665B117C1B"
+	images: [
+		{
+			alpha: 150
+			color: 1187884
+			height: 9.4d
+			id: "1CE9A1D1260D8F9A"
+			image: "#FFFFFF"
+			order: -20
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_shadow: 1b
+			width: 10.7d
+			x: 3.75d
+			y: 2.5d
+		}
+		{
+			alpha: 215
+			color: 2376274
+			height: 1.15d
+			id: "44D3E350EAF17C47"
+			image: "#FFFFFF"
+			order: -10
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_on_image: 1b
+			text_shadow: 1b
+			width: 10.7d
+			x: 3.75d
+			y: -1.7d
+		}
+		{
+			alpha: 150
+			color: 1187884
+			height: 9.4d
+			id: "1023C419FB5D963A"
+			image: "#FFFFFF"
+			order: -20
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_shadow: 1b
+			width: 10.7d
+			x: 15.75d
+			y: 2.5d
+		}
+		{
+			alpha: 215
+			color: 2376274
+			height: 1.15d
+			id: "59879723EF16A875"
+			image: "#FFFFFF"
+			order: -10
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_on_image: 1b
+			text_shadow: 1b
+			width: 10.7d
+			x: 15.75d
+			y: -1.7d
+		}
+		{
+			height: 5.4d
+			id: "04312E0C9BA9BDE5"
+			image: "mega:textures/quest_logos/mega_newmods_thaum_advanced.png"
+			order: 10
+			rotation: 0.0d
+			width: 12.409d
+			x: 7.875d
+			y: -5.575d
+		}
+	]
+	order_index: 23
+	quest_links: [ ]
+	quests: [
+		{
+			hide_dependency_lines: false
+			icon: {
+				id: "thaumcraft:warded_jar"
+			}
+			id: "2D4A45ECB9512A3C"
+			optional: true
+			rewards: [{
+				id: "52C4D8353E73350D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "45C9BB5D0D5F41CF"
+				item: { count: 1, id: "thaumcraft:warded_jar" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D4A45ECB9512A3C"]
+			hide_dependency_lines: false
+			icon: {
+				id: "thaumcraft:arcane_alembic"
+			}
+			id: "4F0037762D5EDF66"
+			optional: true
+			rewards: [{
+				id: "15C0210709552ADE"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "53BE64EC858DD4F8"
+				item: { count: 1, id: "thaumcraft:arcane_alembic" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4F0037762D5EDF66"]
+			hide_dependency_lines: false
+			icon: {
+				id: "thaumcraft:essentia_tube"
+			}
+			id: "79010D878B57BCCA"
+			optional: true
+			rewards: [{
+				id: "7B961C7B21201EE9"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				count: 8L
+				id: "750D73DA29F2C69E"
+				item: { count: 1, id: "thaumcraft:essentia_tube" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			hide_dependency_lines: false
+			icon: {
+				id: "thaumcraft:deconstruction_table"
+			}
+			id: "50FBE2034A0763C5"
+			optional: true
+			rewards: [{
+				id: "1842D92029D4A197"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "352929D1B94EF95E"
+				item: { count: 1, id: "thaumcraft:deconstruction_table" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			hide_dependency_lines: false
+			icon: {
+				id: "thaumcraft:gold_wand_cap"
+			}
+			id: "3028D888DA426B05"
+			optional: true
+			rewards: [{
+				id: "09E7AD82253A9CA9"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "667A43901003D128"
+					item: { count: 1, id: "thaumcraft:gold_wand_cap" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "44ABA1DE583ACA2D"
+					item: { count: 1, id: "thaumcraft:inert_thaumium_wand_cap" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3028D888DA426B05"]
+			hide_dependency_lines: false
+			icon: {
+				id: "thaumcraft:greatwood_wand_rod"
+			}
+			id: "1B051F0083A1B55D"
+			optional: true
+			rewards: [{
+				id: "392289FF0FCDF5B8"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "5E821ADC3C157473"
+					item: { count: 1, id: "thaumcraft:greatwood_wand_rod" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0484AEA08461979F"
+					item: { count: 1, id: "thaumcraft:silverwood_wand_rod" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"2D4A45ECB9512A3C"
+				"1B051F0083A1B55D"
+			]
+			hide_dependency_lines: false
+			icon: {
+				id: "thaumcraft:runic_matrix"
+			}
+			id: "1AF4FC36DB6CBF28"
+			optional: true
+			rewards: [{
+				id: "78A5AADC8935DF7C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "2CEEE123E92ECDA4"
+					item: { count: 1, id: "thaumcraft:runic_matrix" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 5L
+					id: "4000BB65E3496DA7"
+					item: { count: 1, id: "thaumcraft:arcane_pedestal" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1AF4FC36DB6CBF28"]
+			hide_dependency_lines: false
+			icon: {
+				id: "thaumcraft:elemental_shovel"
+			}
+			id: "7FEACF8CC5467C98"
+			optional: true
+			rewards: [{
+				id: "405A956F36063C67"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "5DDA567B9297CBAF"
+				item: { count: 1, id: "thaumcraft:elemental_shovel" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1B051F0083A1B55D"]
+			hide_dependency_lines: false
+			icon: {
+				id: "thaumcraft:focus_fire"
+			}
+			id: "7BAEE05BF550164B"
+			optional: true
+			rewards: [{
+				id: "3F592A4198C0675B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "3BBD7FB0A7B93806"
+					item: { count: 1, id: "thaumcraft:focus_fire" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0383D9E563F7DAFE"
+					item: { count: 1, id: "thaumcraft:focus_frost" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1AF4FC36DB6CBF28"]
+			hide_dependency_lines: false
+			icon: {
+				id: "thaumcraft:golem_placer"
+			}
+			id: "00F49FF777288899"
+			optional: true
+			rewards: [{
+				id: "70BAFE5B2EA04F44"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "36B2F7F812BE4D13"
+					item: { count: 1, id: "thaumcraft:golem_placer" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1262140059894B3C"
+					item: { count: 1, id: "thaumcraft:golem_core_gather" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			hide_dependency_lines: false
+			icon: {
+				id: "thaumcraft:thaumium_helmet"
+			}
+			id: "3BEEC7B0ED9B93CC"
+			optional: true
+			rewards: [{
+				id: "56FEB8871AFC7A86"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "2CD7E85347B70041"
+					item: { count: 1, id: "thaumcraft:thaumium_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "08412671A341E52D"
+					item: { count: 1, id: "thaumcraft:thaumium_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0612E1FB106C0B59"
+					item: { count: 1, id: "thaumcraft:thaumium_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "373E599AE91A0925"
+					item: { count: 1, id: "thaumcraft:thaumium_boots" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			hide_dependency_lines: false
+			icon: {
+				id: "thaumcraft:wisp_spawn_egg"
+			}
+			id: "74B42FB23E63D2E5"
+			optional: true
+			rewards: [{
+				id: "5DE54EB1F9D00D93"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				entity: "thaumcraft:wisp"
+				id: "66FF678E0AF19274"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1AF4FC36DB6CBF28"]
+			hide_dependency_lines: true
+			icon: {
+				id: "warptheory:purification_talisman"
+			}
+			id: "114D383BE35E09F5"
+			optional: true
+			rewards: [{
+				id: "28B87F27107EB978"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "205AEFBEB751648D"
+				item: { count: 1, id: "warptheory:purification_talisman" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1AF4FC36DB6CBF28"]
+			icon: {
+				id: "kubejs:flight_anchor"
+			}
+			id: "1D02163695A86261"
+			optional: true
+			rewards: [{
+				id: "235DB775C170AEEE"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				consume_items: false
+				id: "067ED83ADA75E5B5"
+				item: { count: 1, id: "kubejs:flight_anchor" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
+		}
+	]
+}

@@ -1,0 +1,556 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "156216b384661df7"
+	group: "378CFB2DB8C23918"
+	icon: {
+		id: "justdirethings:generatort1"
+	}
+	id: "156216B384661DF7"
+	images: [{
+		height: 5.4d
+		id: "1FE73782414BDE4D"
+		image: "mega:textures/quest_logos/156216b384661df7.png"
+		order: 10
+		rotation: 0.0d
+		width: 12.638d
+		x: 6.25d
+		y: -3.8d
+	}]
+	order_index: 17
+	quest_links: [{
+		id: "28563FDC8C6102B6"
+		linked_quest: "0BFCC79FACDADDB4"
+		x: -2.5d
+		y: 0.0d
+	}]
+	quests: [
+		{
+			dependencies: ["0BFCC79FACDADDB4"]
+			icon: {
+				id: "justdirethings:gooblock_tier1"
+			}
+			id: "5EBA53DFC525FE2C"
+			rewards: [{
+				id: "6234B1740CEB5B83"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "2F10676C2AB98277"
+				item: { count: 1, id: "justdirethings:gooblock_tier1" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5EBA53DFC525FE2C"]
+			icon: {
+				id: "justdirethings:raw_ferricore"
+			}
+			id: "459757DD4C28D398"
+			rewards: [{
+				id: "5F523F71850E718D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "55C5E75FFC3D8DE8"
+					item: { count: 1, id: "justdirethings:raw_ferricore" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "341D17F9DA87BD2B"
+					item: { count: 1, id: "justdirethings:ferricore_ingot" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5EBA53DFC525FE2C"]
+			icon: {
+				id: "justdirethings:coal_t1"
+			}
+			id: "1A980384DC32A698"
+			rewards: [{
+				id: "4918B327AEDFCAF5"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "7A7E96D630B235FF"
+				item: { count: 1, id: "justdirethings:coal_t1" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"459757DD4C28D398"
+				"1A980384DC32A698"
+			]
+			icon: {
+				id: "justdirethings:generatort1"
+			}
+			id: "581242B4E8A99E07"
+			rewards: [{
+				id: "6E7F434513057E00"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "1B4B9D63096EE0EF"
+				item: { count: 1, id: "justdirethings:generatort1" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["581242B4E8A99E07"]
+			icon: {
+				id: "justdirethings:energytransmitter"
+			}
+			id: "26F114E7DF06F9A1"
+			rewards: [{
+				id: "7B80770BC5C9C1D8"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "7562FD2B15FE8D9D"
+				item: { count: 1, id: "justdirethings:energytransmitter" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["459757DD4C28D398"]
+			icon: {
+				id: "justdirethings:ferricore_pickaxe"
+			}
+			id: "2147E076C2E391D5"
+			rewards: [{
+				id: "3F62D74C768B8266"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "19C3370EF229EDD4"
+					item: { count: 1, id: "justdirethings:ferricore_pickaxe" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "68A9D8E0E97D3DAF"
+					item: { count: 1, id: "justdirethings:ferricore_wrench" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"459757DD4C28D398"
+				"0BFCC79FACDADDB4"
+			]
+			icon: {
+				id: "justdirethings:blockbreakert1"
+			}
+			id: "1D135CF0912F09A0"
+			rewards: [{
+				id: "645CEABFDB0ADC6E"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "4E91DE6FA643DB7E"
+				item: { count: 1, id: "justdirethings:blockbreakert1" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1D135CF0912F09A0"]
+			icon: {
+				id: "justdirethings:blockplacert1"
+			}
+			id: "7F26C8FA0E6B800B"
+			rewards: [{
+				id: "518502F9BF5F6604"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "5E8896EEA7263FBB"
+				item: { count: 1, id: "justdirethings:blockplacert1" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1D135CF0912F09A0"]
+			icon: {
+				id: "justdirethings:itemcollector"
+			}
+			id: "5A5A0FA34BCBAFA0"
+			rewards: [{
+				id: "74D1D375D3AD26E2"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "534D112371290679"
+				item: { count: 1, id: "justdirethings:itemcollector" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7F26C8FA0E6B800B"]
+			icon: {
+				id: "justdirethings:clickert1"
+			}
+			id: "3F903DE2ACA7086E"
+			rewards: [{
+				id: "744C84ECC37E3B3D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "1743A6FAA661A0CB"
+				item: { count: 1, id: "justdirethings:clickert1" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7F26C8FA0E6B800B"]
+			icon: {
+				id: "justdirethings:sensort1"
+			}
+			id: "7F3B9CA1A8C6CB76"
+			rewards: [{
+				id: "21995440F3A0B8FB"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "0C0BDACECE902BB7"
+				item: { count: 1, id: "justdirethings:sensort1" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["459757DD4C28D398"]
+			icon: {
+				id: "justdirethings:fluidcollectort1"
+			}
+			id: "3FD9F17329212961"
+			rewards: [{
+				id: "30C31BDAA3AAC5C1"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "1A02C6286FF9B362"
+					item: { count: 1, id: "justdirethings:fluidcollectort1" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "362F71284929485A"
+					item: { count: 1, id: "justdirethings:fluidplacert1" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "05ADAEC938297828"
+					item: { count: 1, id: "justdirethings:fluid_canister" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"7F26C8FA0E6B800B"
+				"5A5A0FA34BCBAFA0"
+				"7F3B9CA1A8C6CB76"
+			]
+			icon: {
+				id: "justdirethings:generatort1"
+			}
+			id: "052A1462B33943E4"
+			rewards: [{
+				id: "788CB33F88BE0987"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "01BE9610D37D0820"
+				type: "checkmark"
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["459757DD4C28D398"]
+			icon: {
+				id: "justdirethings:gooblock_tier2"
+			}
+			id: "56A4393B78B4E78D"
+			optional: true
+			rewards: [{
+				id: "1CDD0FBCC994F190"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "332E2C1E75AAF31F"
+					item: { count: 1, id: "justdirethings:gooblock_tier2" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "7E2E96E7193AB1EE"
+					item: { count: 1, id: "justdirethings:blazegold_ingot" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"56A4393B78B4E78D"
+				"7F26C8FA0E6B800B"
+			]
+			icon: {
+				id: "justdirethings:blockbreakert2"
+			}
+			id: "00559FAB827B25E1"
+			optional: true
+			rewards: [{
+				id: "309EE5BDBD576D46"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "3F2509C30A0989AC"
+					item: { count: 1, id: "justdirethings:blockbreakert2" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "2BBAD9A90BD49CEE"
+					item: { count: 1, id: "justdirethings:blockplacert2" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"56A4393B78B4E78D"
+				"581242B4E8A99E07"
+			]
+			icon: {
+				id: "justdirethings:generatorfluidt1"
+			}
+			id: "5DD2B2DD912D29DF"
+			optional: true
+			rewards: [{
+				id: "0C17665227642E7D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "6D445DB8916CF5E4"
+				item: { count: 1, id: "justdirethings:generatorfluidt1" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["56A4393B78B4E78D"]
+			icon: {
+				id: "justdirethings:gooblock_tier3"
+			}
+			id: "19B70DE7FFB7C74A"
+			optional: true
+			rewards: [{
+				id: "0DD481E0E48B3484"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "765471D968C335CC"
+					item: { count: 1, id: "justdirethings:gooblock_tier3" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "2DC7DEF7332E5ED4"
+					item: { count: 1, id: "justdirethings:celestigem" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["19B70DE7FFB7C74A"]
+			icon: {
+				id: "justdirethings:gooblock_tier4"
+			}
+			id: "0F89FD265B3048E5"
+			optional: true
+			rewards: [{
+				id: "5F390BF47DC6F6C9"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "6162B47656B035C6"
+					item: { count: 1, id: "justdirethings:gooblock_tier4" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "514DEA1F337DDCE2"
+					item: { count: 1, id: "justdirethings:eclipsealloy_ingot" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["19B70DE7FFB7C74A"]
+			icon: {
+				id: "justdirethings:time_crystal"
+			}
+			id: "2C1DFEEAA8999FBB"
+			optional: true
+			rewards: [{
+				id: "0A2D270D27B06058"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "7473FC7E2C232A7A"
+				item: { count: 1, id: "justdirethings:time_crystal" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2C1DFEEAA8999FBB"]
+			icon: {
+				id: "justdirethings:time_wand"
+			}
+			id: "1891CC691C4AF225"
+			optional: true
+			rewards: [{
+				id: "46D45D04E0DD8F1C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "2D8869668E475529"
+				item: { count: 1, id: "justdirethings:time_wand" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["581242B4E8A99E07"]
+			icon: {
+				id: "justdirethings:pocket_generator"
+			}
+			id: "729FD65CA980E866"
+			optional: true
+			rewards: [{
+				id: "7C0C340AF0BAF435"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "68BC56B258374D92"
+				item: { count: 1, id: "justdirethings:pocket_generator" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["00559FAB827B25E1"]
+			icon: {
+				id: "justdirethings:machinesettingscopier"
+			}
+			id: "6898A08B278A18B9"
+			optional: true
+			rewards: [{
+				id: "5D5332000610D365"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "61B289F10E5F6646"
+				item: { count: 1, id: "justdirethings:machinesettingscopier" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: 4.0d
+		}
+	]
+}

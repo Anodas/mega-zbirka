@@ -1,0 +1,2138 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "mega_gear"
+	group: "15283A8731F6C89A"
+	icon: {
+		id: "minecraft:netherite_sword"
+	}
+	id: "2164B06C5C4E5367"
+	images: [{
+		height: 5.4d
+		id: "073D5E90E235651A"
+		image: "mega:textures/quest_logos/mega_gear.png"
+		order: 10
+		rotation: 0.0d
+		width: 11.834d
+		x: 6.5d
+		y: -3.925d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			hide_dependency_lines: false
+			icon: {
+				id: "minecraft:stone_sword"
+			}
+			id: "259C65D1E49B2B34"
+			optional: true
+			rewards: [{
+				id: "403581640C7792BE"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "2170D873EC37AC75"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["259C65D1E49B2B34"]
+			hide_dependency_lines: false
+			icon: {
+				id: "minecraft:stone_sword"
+			}
+			id: "33BBD6F5BC2745D2"
+			optional: true
+			rewards: [{
+				id: "5F528593356C8752"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "119E4FC43621AC3F"
+				item: { count: 1, id: "minecraft:stone_sword" }
+				type: "item"
+			}]
+			x: 1.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["259C65D1E49B2B34"]
+			hide_dependency_lines: false
+			icon: {
+				id: "epicfight:stone_dagger"
+			}
+			id: "7BC2A33D50E8D922"
+			optional: true
+			rewards: [{
+				id: "6D4EBFF6759190DE"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "6CA7CB3C6E427854"
+				item: { count: 1, id: "epicfight:stone_dagger" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["259C65D1E49B2B34"]
+			hide_dependency_lines: false
+			icon: {
+				id: "wom:stone_staff"
+			}
+			id: "0EA4BA4132A3F9B9"
+			optional: true
+			rewards: [{
+				id: "49295781B31BCF0F"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "04129406E67CC585"
+				item: { count: 1, id: "wom:stone_staff" }
+				type: "item"
+			}]
+			x: 4.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["259C65D1E49B2B34"]
+			hide_dependency_lines: false
+			icon: {
+				id: "irons_spellbooks:artificer_cane"
+			}
+			id: "442FB6157E87B62C"
+			optional: true
+			rewards: [{
+				id: "41F01D20D4C085C5"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "12B1CB7E967029F4"
+				item: { count: 1, id: "irons_spellbooks:artificer_cane" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["259C65D1E49B2B34"]
+			hide_dependency_lines: false
+			icon: {
+				id: "minecraft:iron_sword"
+			}
+			id: "32DAB0D04FA1273A"
+			optional: true
+			rewards: [{
+				id: "211A12D90774F1AE"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "3A77F5EB53CF384E"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["32DAB0D04FA1273A"]
+			hide_dependency_lines: false
+			icon: {
+				id: "minecraft:iron_sword"
+			}
+			id: "34EDC76C3697BC3C"
+			optional: true
+			rewards: [{
+				id: "2B20550544B1DE0B"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "5095EB9C4081F7D2"
+				item: { count: 1, id: "minecraft:iron_sword" }
+				type: "item"
+			}]
+			x: 1.75d
+			y: 2.0d
+		}
+		{
+			dependencies: ["32DAB0D04FA1273A"]
+			hide_dependency_lines: false
+			icon: {
+				id: "epicfight:iron_longsword"
+			}
+			id: "004F660361FCCF0F"
+			optional: true
+			rewards: [{
+				id: "66ED022CC22FE229"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "0466499BA521D60B"
+				item: { count: 1, id: "epicfight:iron_longsword" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["32DAB0D04FA1273A"]
+			hide_dependency_lines: false
+			icon: {
+				id: "epicfight:iron_greatsword"
+			}
+			id: "4059B5068B522DD8"
+			optional: true
+			rewards: [{
+				id: "0439014543DE60F6"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "154DF2A4954E7662"
+				item: { count: 1, id: "epicfight:iron_greatsword" }
+				type: "item"
+			}]
+			x: 4.25d
+			y: 2.0d
+		}
+		{
+			dependencies: ["32DAB0D04FA1273A"]
+			hide_dependency_lines: false
+			icon: {
+				id: "twilightforest:ironwood_sword"
+			}
+			id: "61670281AE291E0B"
+			optional: true
+			rewards: [{
+				id: "236B2E4C9F8E1EB0"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34180F5F67F25B62"
+				item: { count: 1, id: "twilightforest:ironwood_sword" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["32DAB0D04FA1273A"]
+			hide_dependency_lines: false
+			icon: {
+				id: "twilightforest:steeleaf_sword"
+			}
+			id: "36BFC147F99644D0"
+			optional: true
+			rewards: [{
+				id: "54733D5C21107E24"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "1F405EA22D665180"
+				item: { count: 1, id: "twilightforest:steeleaf_sword" }
+				type: "item"
+			}]
+			x: 6.75d
+			y: 2.0d
+		}
+		{
+			dependencies: ["32DAB0D04FA1273A"]
+			hide_dependency_lines: false
+			icon: {
+				id: "mekanismtools:bronze_sword"
+			}
+			id: "3CE7B4526C50FDEA"
+			optional: true
+			rewards: [{
+				id: "5B3ADE20B0E902C2"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "6A0170F451256F5A"
+				item: { count: 1, id: "mekanismtools:bronze_sword" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["32DAB0D04FA1273A"]
+			hide_dependency_lines: false
+			icon: {
+				id: "minecraft:diamond_sword"
+			}
+			id: "7B723C78FDA111C3"
+			optional: true
+			rewards: [{
+				id: "7756104BDC7C04EC"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "4D40C74930271FE3"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7B723C78FDA111C3"]
+			hide_dependency_lines: false
+			icon: {
+				id: "minecraft:diamond_sword"
+			}
+			id: "616F12A7550AD474"
+			optional: true
+			rewards: [{
+				id: "753A8A316836E74D"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "312D8CBFF83E8432"
+				item: { count: 1, id: "minecraft:diamond_sword" }
+				type: "item"
+			}]
+			x: 1.75d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7B723C78FDA111C3"]
+			hide_dependency_lines: false
+			icon: {
+				id: "epicfight:diamond_greatsword"
+			}
+			id: "31F860300F09FAE2"
+			optional: true
+			rewards: [{
+				id: "09EEC5BE88CD8327"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "7D10C132EC3A153E"
+				item: { count: 1, id: "epicfight:diamond_greatsword" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7B723C78FDA111C3"]
+			hide_dependency_lines: false
+			icon: {
+				id: "twilightforest:knightmetal_sword"
+			}
+			id: "453AF4DB259FBE12"
+			optional: true
+			rewards: [{
+				id: "43455F3A2185D954"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "2FC54AB0798627EC"
+				item: { count: 1, id: "twilightforest:knightmetal_sword" }
+				type: "item"
+			}]
+			x: 4.25d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7B723C78FDA111C3"]
+			hide_dependency_lines: false
+			icon: {
+				id: "twilightforest:fiery_sword"
+			}
+			id: "4B063006FC13BF32"
+			optional: true
+			rewards: [{
+				id: "451123F3ED8E51C2"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "03AF2FE6B9C41DF2"
+				item: { count: 1, id: "twilightforest:fiery_sword" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7B723C78FDA111C3"]
+			hide_dependency_lines: false
+			icon: {
+				id: "justdirethings:ferricore_sword"
+			}
+			id: "18668987ADB71731"
+			optional: true
+			rewards: [{
+				id: "444DD9F78113AA36"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "0A669E80721CC5F9"
+				item: { count: 1, id: "justdirethings:ferricore_sword" }
+				type: "item"
+			}]
+			x: 6.75d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7B723C78FDA111C3"]
+			hide_dependency_lines: false
+			icon: {
+				id: "cataclysm:black_steel_sword"
+			}
+			id: "2D3D2FF6E3B44D4C"
+			optional: true
+			rewards: [{
+				id: "11C0EB02FD72CFDF"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "1DE5C6E09AF23AF0"
+				item: { count: 1, id: "cataclysm:black_steel_sword" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7B723C78FDA111C3"]
+			hide_dependency_lines: false
+			icon: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [{
+							id: "irons_spellbooks:wither_skull"
+							index: 0
+							level: 8
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 1b
+					}
+				}
+				id: "irons_spellbooks:misery"
+			}
+			id: "01F55726F44AD5CD"
+			optional: true
+			rewards: [{
+				id: "374140F8CE204958"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "1378239D3506D610"
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:wither_skull", index: 0, level: 8, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:misery" }
+				type: "item"
+			}]
+			x: 9.25d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7B723C78FDA111C3"]
+			hide_dependency_lines: false
+			icon: {
+				id: "minecraft:netherite_sword"
+			}
+			id: "67E92E865EBAD123"
+			optional: true
+			rewards: [{
+				id: "0F1FE6F96F8EBC0D"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "343DF57F6DB65D78"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["67E92E865EBAD123"]
+			hide_dependency_lines: false
+			icon: {
+				id: "minecraft:netherite_sword"
+			}
+			id: "07EAF01B9AC78927"
+			optional: true
+			rewards: [{
+				id: "0DD93DCE337C2379"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "548C558B86D62A4F"
+				item: { count: 1, id: "minecraft:netherite_sword" }
+				type: "item"
+			}]
+			x: 1.75d
+			y: 6.0d
+		}
+		{
+			dependencies: ["67E92E865EBAD123"]
+			hide_dependency_lines: false
+			icon: {
+				id: "epicfight:netherite_greatsword"
+			}
+			id: "7B073E83C5E2E61E"
+			optional: true
+			rewards: [{
+				id: "7E3EE740540D00CC"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "32FD65B31E247B5F"
+				item: { count: 1, id: "epicfight:netherite_greatsword" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["67E92E865EBAD123"]
+			hide_dependency_lines: false
+			icon: {
+				id: "wom:netherite_greataxe"
+			}
+			id: "55B6EAA89789D380"
+			optional: true
+			rewards: [{
+				id: "4DBE67394AEF3FD2"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "1132EFE76B327BFE"
+				item: { count: 1, id: "wom:netherite_greataxe" }
+				type: "item"
+			}]
+			x: 4.25d
+			y: 6.0d
+		}
+		{
+			dependencies: ["67E92E865EBAD123"]
+			hide_dependency_lines: false
+			icon: {
+				id: "wom:satsujin"
+			}
+			id: "63A021366CEECC7A"
+			optional: true
+			rewards: [{
+				id: "604CE2A78093BC75"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "5DD1ECF1BDB18D6E"
+				item: { count: 1, id: "wom:satsujin" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["67E92E865EBAD123"]
+			hide_dependency_lines: false
+			icon: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [{
+							id: "irons_spellbooks:counterspell"
+							index: 0
+							level: 1
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 1b
+					}
+				}
+				id: "irons_spellbooks:spellbreaker"
+			}
+			id: "1098569139E46118"
+			optional: true
+			rewards: [{
+				id: "7BF184042C559D11"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "373F41D650F28239"
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:counterspell", index: 0, level: 1, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:spellbreaker" }
+				type: "item"
+			}]
+			x: 6.75d
+			y: 6.0d
+		}
+		{
+			dependencies: ["67E92E865EBAD123"]
+			hide_dependency_lines: false
+			icon: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [{
+							id: "irons_spellbooks:raise_hell"
+							index: 0
+							level: 3
+							locked: 1b
+						}]
+						maxSpells: 1
+						mustEquip: 0b
+						spellWheel: 1b
+					}
+				}
+				id: "irons_spellbooks:hellrazor"
+			}
+			id: "2F7FE0789EB96A4F"
+			optional: true
+			rewards: [{
+				id: "17E8908445FCD2D4"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "455236F45E200267"
+				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:raise_hell", index: 0, level: 3, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:hellrazor" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["67E92E865EBAD123"]
+			hide_dependency_lines: false
+			icon: {
+				id: "cataclysm:soul_render"
+			}
+			id: "2651213CEF1AC1BE"
+			optional: true
+			rewards: [{
+				id: "1D5B5557B6031CB5"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "7910C89FEB1EC873"
+				item: { count: 1, id: "cataclysm:soul_render" }
+				type: "item"
+			}]
+			x: 9.25d
+			y: 6.0d
+		}
+		{
+			dependencies: ["67E92E865EBAD123"]
+			hide_dependency_lines: false
+			icon: {
+				id: "cataclysm:astrape"
+			}
+			id: "068BA42625093166"
+			optional: true
+			rewards: [{
+				id: "3E979A4B93AB1AAF"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "3F14580D247DCACA"
+				item: { count: 1, id: "cataclysm:astrape" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["67E92E865EBAD123"]
+			hide_dependency_lines: false
+			icon: {
+				id: "efn:hf_blade"
+			}
+			id: "287DCECA7EBA9638"
+			optional: true
+			rewards: [{
+				id: "3FE05E713F54F8AC"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "279C71C7E90BD508"
+				item: { count: 1, id: "efn:hf_blade" }
+				type: "item"
+			}]
+			x: 11.75d
+			y: 6.0d
+		}
+		{
+			dependencies: ["67E92E865EBAD123"]
+			hide_dependency_lines: false
+			icon: {
+				id: "efn:ruinsgreatsword"
+			}
+			id: "05099FB8F6FC20B8"
+			optional: true
+			rewards: [{
+				id: "1D1F1E7BF814E497"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "5E8047AF5B053574"
+				item: { count: 1, id: "efn:ruinsgreatsword" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["67E92E865EBAD123"]
+			hide_dependency_lines: false
+			icon: {
+				id: "mekanismtools:refined_obsidian_sword"
+			}
+			id: "14F31F63E0174E9C"
+			optional: true
+			rewards: [{
+				id: "647C3AAD36BDB0E2"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "198FFC2249BC257F"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["14F31F63E0174E9C"]
+			hide_dependency_lines: false
+			icon: {
+				id: "mekanismtools:refined_obsidian_sword"
+			}
+			id: "1BF90E5EEF50CFDA"
+			optional: true
+			rewards: [{
+				id: "04DC41FFBA6751F8"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "334F3C663097F6F2"
+				item: { count: 1, id: "mekanismtools:refined_obsidian_sword" }
+				type: "item"
+			}]
+			x: 1.75d
+			y: 8.0d
+		}
+		{
+			dependencies: ["14F31F63E0174E9C"]
+			hide_dependency_lines: false
+			icon: {
+				id: "cataclysm:the_incinerator"
+			}
+			id: "2B97816776B30D36"
+			optional: true
+			rewards: [{
+				id: "6124F12E5C6EFAC9"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "484439A40D4829D8"
+				item: { count: 1, id: "cataclysm:the_incinerator" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["14F31F63E0174E9C"]
+			hide_dependency_lines: false
+			icon: {
+				id: "justdirethings:eclipsealloy_sword"
+			}
+			id: "2989467B3B4D8B6E"
+			optional: true
+			rewards: [{
+				id: "061A384E44A8097D"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "100650CF3E517267"
+				item: { count: 1, id: "justdirethings:eclipsealloy_sword" }
+				type: "item"
+			}]
+			x: 4.25d
+			y: 8.0d
+		}
+		{
+			dependencies: ["14F31F63E0174E9C"]
+			hide_dependency_lines: false
+			icon: {
+				id: "occultism:iesnium_butcher_knife"
+			}
+			id: "7025CE501C4DECDF"
+			optional: true
+			rewards: [{
+				id: "632DA06861636D7B"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "417479DAE24DEFE0"
+				item: { count: 1, id: "occultism:iesnium_butcher_knife" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["14F31F63E0174E9C"]
+			hide_dependency_lines: false
+			icon: {
+				id: "tainted_magic:shadowmetal_katana"
+			}
+			id: "778650085176559E"
+			optional: true
+			rewards: [{
+				id: "7BA152CFCCF43E3F"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "29278741197E3AC8"
+				item: { count: 1, id: "tainted_magic:shadowmetal_katana" }
+				type: "item"
+			}]
+			x: 6.75d
+			y: 8.0d
+		}
+		{
+			dependencies: ["14F31F63E0174E9C"]
+			hide_dependency_lines: false
+			icon: {
+				id: "thaumicbases:herobrine_scythe"
+			}
+			id: "2DC625E3BDBC4C09"
+			optional: true
+			rewards: [{
+				id: "23E31A011AAFEDEC"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "547CFC7C655993FB"
+				item: { count: 1, id: "thaumicbases:herobrine_scythe" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 8.0d
+		}
+		{
+			hide_dependency_lines: false
+			icon: {
+				id: "minecraft:bow"
+			}
+			id: "43535803DD9B1D85"
+			optional: true
+			rewards: [{
+				id: "53775C0DB39BDDEC"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "340033FFFF39C710"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["43535803DD9B1D85"]
+			hide_dependency_lines: false
+			icon: {
+				id: "minecraft:bow"
+			}
+			id: "2C44354EC079DE39"
+			optional: true
+			rewards: [{
+				id: "4AAF9E00E44D6348"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "5E2D38934963089D"
+				item: { count: 1, id: "minecraft:bow" }
+				type: "item"
+			}]
+			x: 1.75d
+			y: 10.0d
+		}
+		{
+			dependencies: ["43535803DD9B1D85"]
+			hide_dependency_lines: false
+			icon: {
+				id: "minecraft:crossbow"
+			}
+			id: "7045BE10B7B3F425"
+			optional: true
+			rewards: [{
+				id: "4E8F1FBDC2D898AF"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "7F149FD947FA43BD"
+				item: { count: 1, id: "minecraft:crossbow" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["43535803DD9B1D85"]
+			hide_dependency_lines: false
+			icon: {
+				id: "twilightforest:seeker_bow"
+			}
+			id: "7DAAAEAAB5FDAA06"
+			optional: true
+			rewards: [{
+				id: "6DF54750EE8C8B02"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "0BB6637DCECCE382"
+				item: { count: 1, id: "twilightforest:seeker_bow" }
+				type: "item"
+			}]
+			x: 4.25d
+			y: 10.0d
+		}
+		{
+			dependencies: ["43535803DD9B1D85"]
+			hide_dependency_lines: false
+			icon: {
+				id: "twilightforest:triple_bow"
+			}
+			id: "7B60B313BE3749AB"
+			optional: true
+			rewards: [{
+				id: "2028E4CFD78DBA11"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "1F8CC0001F413695"
+				item: { count: 1, id: "twilightforest:triple_bow" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["43535803DD9B1D85"]
+			hide_dependency_lines: false
+			icon: {
+				id: "twilightforest:ender_bow"
+			}
+			id: "0ABDF4AE7CBD171E"
+			optional: true
+			rewards: [{
+				id: "5D44E0DD97071529"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "1DD85A0E6B92F107"
+				item: { count: 1, id: "twilightforest:ender_bow" }
+				type: "item"
+			}]
+			x: 6.75d
+			y: 10.0d
+		}
+		{
+			dependencies: ["43535803DD9B1D85"]
+			hide_dependency_lines: false
+			icon: {
+				id: "wom:ender_blaster"
+			}
+			id: "65C9DF2B51684234"
+			optional: true
+			rewards: [{
+				id: "0F0440CE537ADA47"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "2C6DEA75C75054A3"
+				item: { count: 1, id: "wom:ender_blaster" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["43535803DD9B1D85"]
+			hide_dependency_lines: false
+			icon: {
+				id: "cataclysm:laser_gatling"
+			}
+			id: "549489B6631DB35F"
+			optional: true
+			rewards: [{
+				id: "5E0809EE25A75F72"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "1B49A690872899EB"
+				item: { count: 1, id: "cataclysm:laser_gatling" }
+				type: "item"
+			}]
+			x: 9.25d
+			y: 10.0d
+		}
+		{
+			dependencies: ["43535803DD9B1D85"]
+			hide_dependency_lines: false
+			icon: {
+				id: "cataclysm:wither_assault_shoulder_weapon"
+			}
+			id: "4691543F29689013"
+			optional: true
+			rewards: [{
+				id: "6F696FED71855B46"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "636D795C6834A231"
+				item: { count: 1, id: "cataclysm:wither_assault_shoulder_weapon" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 10.0d
+		}
+		{
+			hide_dependency_lines: false
+			icon: {
+				id: "minecraft:leather_chestplate"
+			}
+			id: "08710B50CFA6C8FF"
+			optional: true
+			rewards: [{
+				id: "58DA85D77EB5F0F0"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "640CA34AD53B6F03"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["08710B50CFA6C8FF"]
+			hide_dependency_lines: false
+			icon: {
+				id: "minecraft:leather_chestplate"
+			}
+			id: "547D3EF85AC0B1F2"
+			optional: true
+			rewards: [{
+				id: "05A5B7624B78B964"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "1C58DFC98D3B88F4"
+				item: { count: 1, id: "minecraft:leather_chestplate" }
+				type: "item"
+			}]
+			x: 1.75d
+			y: 13.5d
+		}
+		{
+			dependencies: ["08710B50CFA6C8FF"]
+			hide_dependency_lines: false
+			icon: {
+				id: "minecraft:chainmail_chestplate"
+			}
+			id: "605D5A4BE22A89DE"
+			optional: true
+			rewards: [{
+				id: "1CE060CDBC9041CF"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "1D473F06E20CB7BB"
+				item: { count: 1, id: "minecraft:chainmail_chestplate" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["08710B50CFA6C8FF"]
+			hide_dependency_lines: false
+			icon: {
+				id: "minecraft:golden_chestplate"
+			}
+			id: "69197F08A8A83D92"
+			optional: true
+			rewards: [{
+				id: "7A81B23727C64985"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "7F479043D6B0CD21"
+				item: { count: 1, id: "minecraft:golden_chestplate" }
+				type: "item"
+			}]
+			x: 4.25d
+			y: 13.5d
+		}
+		{
+			dependencies: ["08710B50CFA6C8FF"]
+			hide_dependency_lines: false
+			icon: {
+				id: "minecraft:iron_chestplate"
+			}
+			id: "78793C83EB63F3FE"
+			optional: true
+			rewards: [{
+				id: "58A06556612259DD"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "7921ED12F3EFDB69"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["78793C83EB63F3FE"]
+			hide_dependency_lines: false
+			icon: {
+				id: "minecraft:iron_chestplate"
+			}
+			id: "109DC58E3BE7FC7B"
+			optional: true
+			rewards: [{
+				id: "50E2867E04BBBD08"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "3724EBDC00F9D1AF"
+				item: { count: 1, id: "minecraft:iron_chestplate" }
+				type: "item"
+			}]
+			x: 1.75d
+			y: 15.5d
+		}
+		{
+			dependencies: ["78793C83EB63F3FE"]
+			hide_dependency_lines: false
+			icon: {
+				id: "mekanismtools:bronze_chestplate"
+			}
+			id: "767DCCCB4866BF27"
+			optional: true
+			rewards: [{
+				id: "2A4099265CAE78EF"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "028BEE8DBEB16654"
+				item: { count: 1, id: "mekanismtools:bronze_chestplate" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["78793C83EB63F3FE"]
+			hide_dependency_lines: false
+			icon: {
+				id: "pneumaticcraft:pneumatic_chestplate"
+			}
+			id: "30E78B336700B7E2"
+			optional: true
+			rewards: [{
+				id: "4F427E40CACF06B7"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "5C532448DAA85AE2"
+				item: { count: 1, id: "pneumaticcraft:pneumatic_chestplate" }
+				type: "item"
+			}]
+			x: 4.25d
+			y: 15.5d
+		}
+		{
+			dependencies: ["78793C83EB63F3FE"]
+			hide_dependency_lines: false
+			icon: {
+				id: "twilightforest:ironwood_chestplate"
+			}
+			id: "6B5CC73151A1DC3B"
+			optional: true
+			rewards: [{
+				id: "1EA43715B9EF4D62"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "186C7820E461FBE6"
+				item: { count: 1, id: "twilightforest:ironwood_chestplate" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["78793C83EB63F3FE"]
+			hide_dependency_lines: false
+			icon: {
+				id: "minecraft:diamond_chestplate"
+			}
+			id: "2CA7848A8F1AB8EE"
+			optional: true
+			rewards: [{
+				id: "1E09949AF351C475"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "5376C6E202075981"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["2CA7848A8F1AB8EE"]
+			hide_dependency_lines: false
+			icon: {
+				id: "minecraft:diamond_chestplate"
+			}
+			id: "1A4C8A4FC8701372"
+			optional: true
+			rewards: [{
+				id: "0FFCECE1ACE3F105"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34F2648EF0621C42"
+				item: { count: 1, id: "minecraft:diamond_chestplate" }
+				type: "item"
+			}]
+			x: 1.75d
+			y: 17.5d
+		}
+		{
+			dependencies: ["2CA7848A8F1AB8EE"]
+			hide_dependency_lines: false
+			icon: {
+				id: "mekanismtools:steel_chestplate"
+			}
+			id: "6228850CF8D9F1DC"
+			optional: true
+			rewards: [{
+				id: "6916515EF38DF619"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "033ADFB0EFA36930"
+				item: { count: 1, id: "mekanismtools:steel_chestplate" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["2CA7848A8F1AB8EE"]
+			hide_dependency_lines: false
+			icon: {
+				id: "twilightforest:knightmetal_chestplate"
+			}
+			id: "04AFD2630F4098D7"
+			optional: true
+			rewards: [{
+				id: "0DC7C0084D34B6E7"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "1A1FEDCCC0561D59"
+				item: { count: 1, id: "twilightforest:knightmetal_chestplate" }
+				type: "item"
+			}]
+			x: 4.25d
+			y: 17.5d
+		}
+		{
+			dependencies: ["2CA7848A8F1AB8EE"]
+			hide_dependency_lines: false
+			icon: {
+				id: "twilightforest:fiery_chestplate"
+			}
+			id: "19E5764373B5DC5F"
+			optional: true
+			rewards: [{
+				id: "3A4C9A41170E868C"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "5285641CC8DA90F3"
+				item: { count: 1, id: "twilightforest:fiery_chestplate" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 17.5d
+		}
+		{
+			dependencies: ["2CA7848A8F1AB8EE"]
+			hide_dependency_lines: false
+			icon: {
+				id: "twilightforest:arctic_chestplate"
+			}
+			id: "71209140AF38B6A7"
+			optional: true
+			rewards: [{
+				id: "2BE9354FC7C4FE7A"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "2E8AEF84D6839182"
+				item: { count: 1, id: "twilightforest:arctic_chestplate" }
+				type: "item"
+			}]
+			x: 6.75d
+			y: 17.5d
+		}
+		{
+			dependencies: ["2CA7848A8F1AB8EE"]
+			hide_dependency_lines: false
+			icon: {
+				id: "justdirethings:celestigem_chestplate"
+			}
+			id: "149E8288A3D8C9AD"
+			optional: true
+			rewards: [{
+				id: "3B7EFC548A7C765C"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "34A9180EF4CE4E57"
+				item: { count: 1, id: "justdirethings:celestigem_chestplate" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["2CA7848A8F1AB8EE"]
+			hide_dependency_lines: false
+			icon: {
+				id: "minecraft:netherite_chestplate"
+			}
+			id: "3C2C946B5DEF2806"
+			optional: true
+			rewards: [{
+				id: "5F8C54747FA2902F"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "41B775A4BB8D953F"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["3C2C946B5DEF2806"]
+			hide_dependency_lines: false
+			icon: {
+				id: "minecraft:netherite_chestplate"
+			}
+			id: "53D628BA06B736B8"
+			optional: true
+			rewards: [{
+				id: "4B12D9B4C4AE62E4"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "6B5096C3A0339BBE"
+				item: { count: 1, id: "minecraft:netherite_chestplate" }
+				type: "item"
+			}]
+			x: 1.75d
+			y: 19.5d
+		}
+		{
+			dependencies: ["3C2C946B5DEF2806"]
+			hide_dependency_lines: false
+			icon: {
+				id: "mekanismtools:osmium_chestplate"
+			}
+			id: "21CF9DBFE77209A9"
+			optional: true
+			rewards: [{
+				id: "24BEE10473279E23"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "72AF7E63C3D55257"
+				item: { count: 1, id: "mekanismtools:osmium_chestplate" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["3C2C946B5DEF2806"]
+			hide_dependency_lines: false
+			icon: {
+				id: "twilightforest:yeti_chestplate"
+			}
+			id: "0BC3BE5FDD52E1FD"
+			optional: true
+			rewards: [{
+				id: "59BD1CA461C80336"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "6AD077A3E156CFD2"
+				item: { count: 1, id: "twilightforest:yeti_chestplate" }
+				type: "item"
+			}]
+			x: 4.25d
+			y: 19.5d
+		}
+		{
+			dependencies: ["3C2C946B5DEF2806"]
+			hide_dependency_lines: false
+			icon: {
+				id: "justdirethings:eclipsealloy_chestplate"
+			}
+			id: "771F7640ADC80430"
+			optional: true
+			rewards: [{
+				id: "5AFE6DE7C161598B"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "0FA66472FEF4550B"
+				item: { count: 1, id: "justdirethings:eclipsealloy_chestplate" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 19.5d
+		}
+		{
+			dependencies: ["3C2C946B5DEF2806"]
+			hide_dependency_lines: false
+			icon: {
+				id: "cataclysm:cursium_chestplate"
+			}
+			id: "069DD7D640CC5019"
+			optional: true
+			rewards: [{
+				id: "0523E70291D21C57"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "570C672C88BC9442"
+				item: { count: 1, id: "cataclysm:cursium_chestplate" }
+				type: "item"
+			}]
+			x: 6.75d
+			y: 19.5d
+		}
+		{
+			dependencies: ["3C2C946B5DEF2806"]
+			hide_dependency_lines: false
+			icon: {
+				id: "cataclysm:ignitium_chestplate"
+			}
+			id: "4DB4161F48EA607A"
+			optional: true
+			rewards: [{
+				id: "41E0748D292040BF"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "4AD1938D600DD86B"
+				item: { count: 1, id: "cataclysm:ignitium_chestplate" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["3C2C946B5DEF2806"]
+			hide_dependency_lines: false
+			icon: {
+				id: "mekanismtools:refined_obsidian_chestplate"
+			}
+			id: "0B7B26F6E6ACE1BD"
+			optional: true
+			rewards: [{
+				id: "336D0D203DE513DB"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "4F1AD99CBA4D2F02"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["0B7B26F6E6ACE1BD"]
+			hide_dependency_lines: false
+			icon: {
+				id: "mekanismtools:refined_obsidian_chestplate"
+			}
+			id: "60957C7619B19CCC"
+			optional: true
+			rewards: [{
+				id: "1A23FAD3AD69804D"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "211ADAD92EFD8404"
+				item: { count: 1, id: "mekanismtools:refined_obsidian_chestplate" }
+				type: "item"
+			}]
+			x: 1.75d
+			y: 21.5d
+		}
+		{
+			dependencies: ["0B7B26F6E6ACE1BD"]
+			hide_dependency_lines: false
+			icon: {
+				id: "efn:ruinfighter_chestplate"
+			}
+			id: "0C5D01DA0E281869"
+			optional: true
+			rewards: [{
+				id: "3E5D6BEBF5D6221E"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "5FC28BD468AB75D1"
+				item: { count: 1, id: "efn:ruinfighter_chestplate" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 21.5d
+		}
+		{
+			dependencies: ["0B7B26F6E6ACE1BD"]
+			hide_dependency_lines: false
+			icon: {
+				id: "efn:duskfire_chestplate"
+			}
+			id: "440628E127C889D0"
+			optional: true
+			rewards: [{
+				id: "31FE63B6C3054E34"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "237FA0603FD0DEFC"
+				item: { count: 1, id: "efn:duskfire_chestplate" }
+				type: "item"
+			}]
+			x: 4.25d
+			y: 21.5d
+		}
+		{
+			hide_dependency_lines: false
+			icon: {
+				id: "pneumaticcraft:pneumatic_chestplate"
+			}
+			id: "4A535839CED88A60"
+			optional: true
+			rewards: [{
+				id: "5C8E0DDDAA39D2D8"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "3B077C6E3061EB4F"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 23.5d
+		}
+		{
+			dependencies: ["4A535839CED88A60"]
+			hide_dependency_lines: false
+			icon: {
+				id: "pneumaticcraft:pneumatic_chestplate"
+			}
+			id: "47AB08F502FABD95"
+			optional: true
+			rewards: [{
+				id: "459E93F9F8F673FF"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "1B3CD026F04BBC71"
+				item: { count: 1, id: "pneumaticcraft:pneumatic_chestplate" }
+				type: "item"
+			}]
+			x: 1.75d
+			y: 23.5d
+		}
+		{
+			dependencies: ["4A535839CED88A60"]
+			hide_dependency_lines: false
+			icon: {
+				id: "extended_industrialization:nano_chestplate"
+			}
+			id: "1CBFAC671F0E99FA"
+			optional: true
+			rewards: [{
+				id: "01924338265B97A1"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "65B05C9466D34559"
+				item: { count: 1, id: "extended_industrialization:nano_chestplate" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 23.5d
+		}
+		{
+			dependencies: ["4A535839CED88A60"]
+			hide_dependency_lines: false
+			icon: {
+				id: "advanced_ae:quantum_chestplate"
+			}
+			id: "3342844D398DFF53"
+			optional: true
+			rewards: [{
+				id: "523CF7EA58E19B8D"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "339BAB7641C7E239"
+				item: { count: 1, id: "advanced_ae:quantum_chestplate" }
+				type: "item"
+			}]
+			x: 4.25d
+			y: 23.5d
+		}
+		{
+			dependencies: ["4A535839CED88A60"]
+			hide_dependency_lines: false
+			icon: {
+				id: "mekanism:mekasuit_bodyarmor"
+			}
+			id: "401AF45912CC6941"
+			optional: true
+			rewards: [{
+				id: "6F2ADF2D10483B33"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "451355EEB1F37D95"
+				item: { count: 1, id: "mekanism:mekasuit_bodyarmor" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 23.5d
+		}
+		{
+			hide_dependency_lines: false
+			icon: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 1
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+				id: "irons_spellbooks:pyromancer_chestplate"
+			}
+			id: "19B2AAFF80D838F2"
+			optional: true
+			rewards: [{
+				id: "5963342313C76CFA"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "44D6A44B47A6C6A9"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 25.5d
+		}
+		{
+			dependencies: ["19B2AAFF80D838F2"]
+			hide_dependency_lines: false
+			icon: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 1
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+				id: "irons_spellbooks:pyromancer_chestplate"
+			}
+			id: "0069CB62C80051A3"
+			optional: true
+			rewards: [{
+				id: "24C232AA9CC68830"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "307F37A441A490D0"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:pyromancer_chestplate" }
+				type: "item"
+			}]
+			x: 1.75d
+			y: 25.5d
+		}
+		{
+			dependencies: ["19B2AAFF80D838F2"]
+			hide_dependency_lines: false
+			icon: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 1
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+				id: "irons_spellbooks:cryomancer_chestplate"
+			}
+			id: "3C1417D5BE36253D"
+			optional: true
+			rewards: [{
+				id: "1223CF8F6125AB7A"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "30A263AE76166662"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:cryomancer_chestplate" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 25.5d
+		}
+		{
+			dependencies: ["19B2AAFF80D838F2"]
+			hide_dependency_lines: false
+			icon: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 1
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+				id: "irons_spellbooks:electromancer_chestplate"
+			}
+			id: "0DA6EECE54FA0576"
+			optional: true
+			rewards: [{
+				id: "3F1C09846B6CD754"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "0BF6DAF0A031C89C"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:electromancer_chestplate" }
+				type: "item"
+			}]
+			x: 4.25d
+			y: 25.5d
+		}
+		{
+			dependencies: ["19B2AAFF80D838F2"]
+			hide_dependency_lines: false
+			icon: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 1
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+				id: "irons_spellbooks:shadowwalker_chestplate"
+			}
+			id: "6D468002F1443236"
+			optional: true
+			rewards: [{
+				id: "6BE07B52D70DB30E"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "40AF8AA636447848"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:shadowwalker_chestplate" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 25.5d
+		}
+		{
+			dependencies: ["19B2AAFF80D838F2"]
+			hide_dependency_lines: false
+			icon: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 1
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+				id: "irons_spellbooks:priest_chestplate"
+			}
+			id: "02331169629608A2"
+			optional: true
+			rewards: [{
+				id: "395B25823A848F76"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "787C2CAEAB1A026F"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:priest_chestplate" }
+				type: "item"
+			}]
+			x: 6.75d
+			y: 25.5d
+		}
+		{
+			dependencies: ["19B2AAFF80D838F2"]
+			hide_dependency_lines: false
+			icon: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 1
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+				id: "irons_spellbooks:netherite_mage_chestplate"
+			}
+			id: "5BBD7E202A8E33CB"
+			optional: true
+			rewards: [{
+				id: "2DA464159472BEE7"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "3725D783CE8BCD90"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:netherite_mage_chestplate" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 25.5d
+		}
+		{
+			hide_dependency_lines: false
+			icon: {
+				id: "ars_nouveau:battlemage_robes"
+			}
+			id: "65C43C2A34832064"
+			optional: true
+			rewards: [{
+				id: "7BB823B45DC61704"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "2ECE11095CD22967"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 27.5d
+		}
+		{
+			dependencies: ["65C43C2A34832064"]
+			hide_dependency_lines: false
+			icon: {
+				id: "ars_nouveau:battlemage_robes"
+			}
+			id: "18879BB5CD33C34E"
+			optional: true
+			rewards: [{
+				id: "3358A3C736C866C4"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "2CAF1D68C7398D34"
+				item: { count: 1, id: "ars_nouveau:battlemage_robes" }
+				type: "item"
+			}]
+			x: 1.75d
+			y: 27.5d
+		}
+		{
+			dependencies: ["65C43C2A34832064"]
+			hide_dependency_lines: false
+			icon: {
+				id: "ars_elemental:fire_robes"
+			}
+			id: "24A01CF969BF2894"
+			optional: true
+			rewards: [{
+				id: "4B30CDE55A693FA7"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "39D07454AB0165C8"
+				item: { count: 1, id: "ars_elemental:fire_robes" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 27.5d
+		}
+		{
+			dependencies: ["65C43C2A34832064"]
+			hide_dependency_lines: false
+			icon: {
+				id: "ars_elemental:aqua_tunic"
+			}
+			id: "621F223D978BF7D8"
+			optional: true
+			rewards: [{
+				id: "114DC69AC9CEFA33"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "774B19B122C598BF"
+				item: { count: 1, id: "ars_elemental:aqua_tunic" }
+				type: "item"
+			}]
+			x: 4.25d
+			y: 27.5d
+		}
+		{
+			dependencies: ["65C43C2A34832064"]
+			hide_dependency_lines: false
+			icon: {
+				id: "ars_elemental:earth_tunic"
+			}
+			id: "5802A28272DF4438"
+			optional: true
+			rewards: [{
+				id: "532916AB17149E6A"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "352C7B2D3A236BBF"
+				item: { count: 1, id: "ars_elemental:earth_tunic" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 27.5d
+		}
+		{
+			dependencies: ["65C43C2A34832064"]
+			hide_dependency_lines: false
+			icon: {
+				id: "ars_elemental:air_robes"
+			}
+			id: "1A2CE8CC59102D5A"
+			optional: true
+			rewards: [{
+				id: "1EDBBFC0521C86BB"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "2E385E94EFAA7ABA"
+				item: { count: 1, id: "ars_elemental:air_robes" }
+				type: "item"
+			}]
+			x: 6.75d
+			y: 27.5d
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+  "gui.jei.category.fuel": "Паливо",
+  "description.jei.wooden.door.1": "Дерев'яні двері дозволяють блокувати вхід монстрів у вашу будівлю.\\nТестування речень.",
+  "description.jei.wooden.door.2": "Натискання на двері змінює їхній стан з відчиненого на зачинений і навпаки.",
+  "description.jei.wooden.door.3": "Дерев'яні двері можна відчиняти/зачиняти за допомогою схем із червоного каменю.",
+  "description.jei.debug.formatting.1": "Тестування заміни форматування %s.",
+  "description.jei.debug.formatting.2": "Тестування заміни форматування %s %s.",
+  "description.jei.debug.formatting.3": "%s вкладений",
+  "jei.alias.panda.spawn.egg": "зникаючий",
+  "jei.alias.villager.spawn.egg": "ХМММ"
+}

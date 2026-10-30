@@ -1,0 +1,8 @@
+name = "irons_lib-1.21.1-2.3.0"
+filename = "irons_lib-1.21.1-2.3.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/9nfaJPtX/versions/dgH7P81J/irons_lib-1.21.1-2.3.0.jar"
+hash-format = "sha1"
+hash = "539b49b1a3988d4084a80470f0cfa404258bf0d0"

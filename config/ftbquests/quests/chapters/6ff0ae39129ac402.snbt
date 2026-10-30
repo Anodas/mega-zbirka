@@ -1,0 +1,179 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "6ff0ae39129ac402"
+	group: "378CFB2DB8C23918"
+	icon: {
+		id: "chunkloaders:basic_chunk_loader"
+	}
+	id: "6FF0AE39129AC402"
+	images: [{
+		height: 5.4d
+		id: "3518FDF4D8476B79"
+		image: "mega:textures/quest_logos/6ff0ae39129ac402.png"
+		order: 10
+		rotation: 0.0d
+		width: 14.017d
+		x: 5.0d
+		y: -3.8d
+	}]
+	order_index: 18
+	quest_links: [
+		{
+			id: "2646FF7E82575BE9"
+			linked_quest: "0BFCC79FACDADDB4"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			id: "0FD41FF5824BB436"
+			linked_quest: "52B5A7767A7711E2"
+			x: -2.5d
+			y: 2.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["0BFCC79FACDADDB4"]
+			icon: {
+				id: "chunkloaders:basic_chunk_loader"
+			}
+			id: "3FB085B74304C664"
+			rewards: [{
+				id: "025551D9626FE7BC"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "4C4E4579FF272A79"
+				item: { count: 1, id: "chunkloaders:basic_chunk_loader" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3FB085B74304C664"]
+			icon: {
+				id: "chunkloaders:single_chunk_loader"
+			}
+			id: "6BF02FA85E691A0C"
+			rewards: [{
+				id: "5DE88EA05B96E888"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "6F70CD342996D655"
+				item: { count: 1, id: "chunkloaders:single_chunk_loader" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3FB085B74304C664"]
+			icon: {
+				id: "chunkloaders:basic_chunk_loader"
+			}
+			id: "7D11503853ABB6D1"
+			rewards: [{
+				id: "2DF84DC862F53758"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "672ABA85133E5037"
+				type: "checkmark"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7D11503853ABB6D1"]
+			icon: {
+				id: "chunkloaders:basic_chunk_loader"
+			}
+			id: "784891C7940F3054"
+			rewards: [{
+				id: "38DC8131EDC7047F"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6E5F24AD77647FF4"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"784891C7940F3054"
+				"52B5A7767A7711E2"
+			]
+			icon: {
+				id: "fluxnetworks:flux_point"
+			}
+			id: "18E7382CDA55FF18"
+			rewards: [{
+				id: "46C0CDAD1FA926DC"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "1AC3DC7E7D672ADC"
+				item: { count: 1, id: "fluxnetworks:flux_point" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["784891C7940F3054"]
+			icon: {
+				id: "chunkloaders:advanced_chunk_loader"
+			}
+			id: "2B58E03CAA497768"
+			optional: true
+			rewards: [{
+				id: "2E3F851D59D7ECCB"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "36CF7F8F8DE3E45B"
+				item: { count: 1, id: "chunkloaders:advanced_chunk_loader" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2B58E03CAA497768"]
+			icon: {
+				id: "chunkloaders:ultimate_chunk_loader"
+			}
+			id: "39C3BC92EB8A4E78"
+			optional: true
+			rewards: [{
+				id: "46256AB473B3E9A6"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "7138C81490B2B4AC"
+				item: { count: 1, id: "chunkloaders:ultimate_chunk_loader" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+	]
+}

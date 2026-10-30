@@ -1,0 +1,8 @@
+name = "thaumcraft-client-tweaks-neoforge-1.1.5"
+filename = "thaumcraft-client-tweaks-neoforge-1.1.5.jar"
+side = "both"
+
+[download]
+url = "https://github.com/thaumcraft-port/thaumcraft-addons/releases/download/v2026.10.14/thaumcraft-client-tweaks-neoforge-1.1.5.jar"
+hash-format = "sha1"
+hash = "5777960081f75b769dfbe762143ebec0ac38ca4d"

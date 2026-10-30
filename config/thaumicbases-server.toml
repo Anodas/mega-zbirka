@@ -1,0 +1,23 @@
+[general]
+	#Enable tobacco content and research data.
+	allow_tobacco = true
+	#Require a Primordial Pearl for the node manipulator brightness focus recipe; when disabled, a Primal Charm is used instead.
+	bright_focus_requires_primordial_pearl = true
+
+[pyrofluid]
+	#Inclusive blaze-powder yield from crystallized Pyrofluid.
+	# Default: 5
+	# Range: 0 ~ 4096
+	minimum_blaze_powder = 5
+	#Exclusive blaze-powder yield bound. If it is not greater than the minimum, the minimum is used.
+	# Default: 37
+	# Range: 0 ~ 4097
+	maximum_blaze_powder_exclusive = 37
+
+[advanced_alchemical_furnace]
+	#Processing speed while accelerated; 1 is normal speed.
+	# Default: 2
+	# Range: 1 ~ 1024
+	speed_multiplier = 2
+	#Require Alumentum to receive the faster processing rate.
+	requires_alumentum = true

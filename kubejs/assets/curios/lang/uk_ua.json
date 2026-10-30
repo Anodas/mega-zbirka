@@ -1,0 +1,8 @@
+{
+  "curios.name": "Цікавинки",
+  "curios.tooltip.inactive": "Неактивно",
+  "key.curios.category": "Цікавинки",
+  "gui.curios.toggle.cosmetics": "Перемкнути косметику",
+  "gui.curios.page": "Сторінка %d / %d",
+  "curios.networking.failed": "Збій мережі Curios"
+}

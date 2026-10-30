@@ -1,0 +1,8 @@
+{
+  "alias.mekanismadditions.glow_panel.light_source": "Джерело світла",
+  "alias.mekanismadditions.plastic_road.path": "Пластиковий шляї",
+  "alias.mekanismadditions.walkie_talkie.radio": "Радіо",
+  "entity.mekanismadditions.baby_bogged": "Маленький болотяник",
+  "fml.menu.mods.info.description.mekanismadditions": "Модуль доповнень для Mekanism містить різні речі, які тематично не вписуються в інші модулі",
+  "item.mekanismadditions.baby_bogged_spawn_egg": "Яйце виклику маленького болотяника"
+}

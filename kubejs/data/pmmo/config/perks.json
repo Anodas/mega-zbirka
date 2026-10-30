@@ -1,0 +1,38 @@
+{
+  "type": "PERKS",
+  "perks": {
+    "BREAK_SPEED": [
+      {
+        "skill": "mining",
+        "perk": "pmmo:break_speed",
+        "pickaxe_dig": 0.0025
+      },
+      {
+        "skill": "woodcutting",
+        "perk": "pmmo:break_speed",
+        "axe_dig": 0.0025
+      },
+      {
+        "skill": "excavation",
+        "perk": "pmmo:break_speed",
+        "shovel_dig": 0.0025
+      }
+    ],
+    "SKILL_UP": [
+      {
+        "skill": "agility",
+        "perk": "pmmo:attribute",
+        "attribute": "minecraft:generic.movement_speed",
+        "per_level": 0.0001,
+        "max_boost": 0.01
+      },
+      {
+        "skill": "swimming",
+        "perk": "pmmo:attribute",
+        "attribute": "neoforge:swim_speed",
+        "per_level": 0.002,
+        "max_boost": 0.2
+      }
+    ]
+  }
+}

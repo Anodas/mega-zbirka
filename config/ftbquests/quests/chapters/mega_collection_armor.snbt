@@ -1,0 +1,5386 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: true
+	default_quest_shape: "hexagon"
+	filename: "mega_collection_armor"
+	group: "7DDC8392AB189F2B"
+	icon: {
+		id: "minecraft:netherite_chestplate"
+	}
+	id: "351274EEE767E950"
+	images: [{
+		height: 2.4d
+		id: "45605A3C461C194C"
+		image: "mega:textures/quest_logos/mega_collection_armor.png"
+		order: 10
+		rotation: 0.0d
+		width: 4.914d
+		x: 7.75d
+		y: -2.425d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "modern_industrialization:quantum_chestplate"
+			}
+			id: "7E49621292EC0289"
+			optional: true
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "705E7384BFF7E302"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E49621292EC0289"]
+			icon: {
+				id: "modern_industrialization:quantum_chestplate"
+			}
+			id: "7D47C7F39ED5A711"
+			optional: true
+			rewards: [{
+				id: "7EE29DF5F95C0721"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "4F88E77C68DB22ED"
+					item: { count: 1, id: "modern_industrialization:quantum_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "46313A23E985DEDA"
+					item: { count: 1, id: "modern_industrialization:quantum_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0FFF61E139C23AB6"
+					item: { count: 1, id: "modern_industrialization:quantum_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "6C1C2CB2067DA92C"
+					item: { count: 1, id: "modern_industrialization:quantum_boots" }
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E49621292EC0289"]
+			icon: {
+				id: "extended_industrialization:nano_chestplate"
+			}
+			id: "47216AE0E3066346"
+			optional: true
+			rewards: [{
+				id: "384FB2AD548F5547"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "1DC82B4786C0785D"
+					item: { count: 1, id: "extended_industrialization:nano_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "257D8372F0EE6950"
+					item: { count: 1, id: "extended_industrialization:nano_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "36A7A236D7DC70B3"
+					item: { count: 1, id: "extended_industrialization:nano_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "5ECB7A69F99AC8D3"
+					item: { count: 1, id: "extended_industrialization:nano_boots" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E49621292EC0289"]
+			icon: {
+				id: "modernfoundry:plate_chestplate"
+			}
+			id: "706AE5FB7427820E"
+			optional: true
+			rewards: [{
+				id: "35A443EC4E944F01"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "691639BB72EABA78"
+					item: { count: 1, id: "modernfoundry:plate_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "4C65D5DC294F2722"
+					item: { count: 1, id: "modernfoundry:plate_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "70F7B0F34322506F"
+					item: { count: 1, id: "modernfoundry:plate_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "7720E922084AA383"
+					item: { count: 1, id: "modernfoundry:plate_boots" }
+					type: "item"
+				}
+			]
+			x: 4.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E49621292EC0289"]
+			icon: {
+				id: "modernfoundry:slime_wings"
+			}
+			id: "6B9F6E2324854361"
+			optional: true
+			rewards: [{
+				id: "2C09A7D1273F9062"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "50EE2AAE8A5A50DB"
+					item: { count: 1, id: "modernfoundry:slime_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "3066C50B10873BB8"
+					item: { count: 1, id: "modernfoundry:slime_wings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "078F9C0086B3DE53"
+					item: { count: 1, id: "modernfoundry:slime_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "30D9D198A211A341"
+					item: { count: 1, id: "modernfoundry:slime_boots" }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E49621292EC0289"]
+			icon: {
+				id: "mekanism:scuba_tank"
+			}
+			id: "54EEBB1089EB7D72"
+			optional: true
+			rewards: [{
+				id: "353D0D455C1C070A"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "621F6D9419385EA9"
+				item: { count: 1, id: "mekanism:scuba_tank" }
+				type: "item"
+			}]
+			x: 6.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E49621292EC0289"]
+			icon: {
+				id: "twilightforest:travellers_gloves"
+			}
+			id: "1C86CB418E89F3E5"
+			optional: true
+			rewards: [{
+				id: "5A8A02EC6A0A2F9C"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "050A8FA902213B09"
+				item: { count: 1, id: "twilightforest:travellers_gloves" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E49621292EC0289"]
+			icon: {
+				id: "mekanism:hazmat_mask"
+			}
+			id: "60CCBFD9C4475BBC"
+			optional: true
+			rewards: [{
+				id: "6352DBA7C70DF3E3"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "40F87B2CEF2F37B4"
+					item: { count: 1, id: "mekanism:hazmat_mask" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "7E0430A3968E34DB"
+					item: { count: 1, id: "mekanism:hazmat_pants" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "64AC1B5FD649A41D"
+					item: { count: 1, id: "mekanism:hazmat_boots" }
+					type: "item"
+				}
+			]
+			x: 9.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E49621292EC0289"]
+			icon: {
+				id: "wom:unholy_cursed_mask"
+			}
+			id: "648F4761ECAE2C95"
+			optional: true
+			rewards: [{
+				id: "1192778918B83F70"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "115A8A30307BC992"
+				item: { count: 1, id: "wom:unholy_cursed_mask" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E49621292EC0289"]
+			icon: {
+				id: "justdirethings:celestigem_chestplate"
+			}
+			id: "7FA75C38423304BF"
+			optional: true
+			rewards: [{
+				id: "21EBBFB444F96DA7"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "5DAAFB91542EF189"
+					item: { count: 1, id: "justdirethings:celestigem_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "5D7FE1ED3B6AB933"
+					item: { count: 1, id: "justdirethings:celestigem_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "680690A345B668BA"
+					item: { count: 1, id: "justdirethings:celestigem_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "5137FD806E63E176"
+					item: { count: 1, id: "justdirethings:celestigem_boots" }
+					type: "item"
+				}
+			]
+			x: 11.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E49621292EC0289"]
+			icon: {
+				id: "mekanism:jetpack"
+			}
+			id: "6625E1E4B929C426"
+			optional: true
+			rewards: [{
+				id: "7074383514A5446F"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "285D76ED709A45BC"
+				item: { count: 1, id: "mekanism:jetpack" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E49621292EC0289"]
+			icon: {
+				id: "wom:cursed_mask"
+			}
+			id: "1C9412648F2AD967"
+			optional: true
+			rewards: [{
+				id: "46F43ECAB6987590"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "401AF053F4A4F77B"
+				item: { count: 1, id: "wom:cursed_mask" }
+				type: "item"
+			}]
+			x: 14.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E49621292EC0289"]
+			icon: {
+				id: "extended_industrialization:nano_quantum_chestplate"
+			}
+			id: "5A98BEA5DE1C3595"
+			optional: true
+			rewards: [{
+				id: "2566D236A4625079"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "248DC28DBDDADF37"
+					item: { count: 1, id: "extended_industrialization:nano_quantum_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "6F3D0371F5DDC569"
+					item: { count: 1, id: "extended_industrialization:nano_quantum_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0A065553E588CA68"
+					item: { count: 1, id: "extended_industrialization:nano_quantum_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "5D80AA09F11D4C48"
+					item: { count: 1, id: "extended_industrialization:nano_quantum_boots" }
+					type: "item"
+				}
+			]
+			x: 15.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7E49621292EC0289"]
+			icon: {
+				id: "modernfoundry:travelers_chestplate"
+			}
+			id: "6AFFE95755447A2B"
+			optional: true
+			rewards: [{
+				id: "1DB6C9833CB7EA91"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "38289FFC3C3276BE"
+					item: { count: 1, id: "modernfoundry:travelers_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "6064ED1811E212FF"
+					item: { count: 1, id: "modernfoundry:travelers_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "6A1E0E883810F134"
+					item: { count: 1, id: "modernfoundry:travelers_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "66577FBFA343185F"
+					item: { count: 1, id: "modernfoundry:travelers_boots" }
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 1.25d
+		}
+		{
+			dependencies: ["7E49621292EC0289"]
+			icon: {
+				id: "mekanism:hazmat_gown"
+			}
+			id: "61D9814138622E13"
+			optional: true
+			rewards: [{
+				id: "5F0646866F537BE6"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "561034F9B7EDA21A"
+				item: { count: 1, id: "mekanism:hazmat_gown" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.25d
+		}
+		{
+			dependencies: ["7E49621292EC0289"]
+			icon: {
+				id: "twilightforest:travellers_belt"
+			}
+			id: "0C15B7C083688199"
+			optional: true
+			rewards: [{
+				id: "5989C7862FD23369"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "14F608F84EC1BB76"
+				item: { count: 1, id: "twilightforest:travellers_belt" }
+				type: "item"
+			}]
+			x: 4.25d
+			y: 1.25d
+		}
+		{
+			dependencies: ["7E49621292EC0289"]
+			icon: {
+				id: "justdirethings:eclipsealloy_chestplate"
+			}
+			id: "7B7AB5098DB38C6F"
+			optional: true
+			rewards: [{
+				id: "6EF7438398FFEBD4"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "63364CCE79B659CE"
+					item: { count: 1, id: "justdirethings:eclipsealloy_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "57366AED42208C18"
+					item: { count: 1, id: "justdirethings:eclipsealloy_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "60AAF32E6116A902"
+					item: { count: 1, id: "justdirethings:eclipsealloy_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "3D0BDB192127E3BB"
+					item: { count: 1, id: "justdirethings:eclipsealloy_boots" }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 1.25d
+		}
+		{
+			dependencies: ["7E49621292EC0289"]
+			icon: {
+				id: "extended_industrialization:nano_gravichestplate"
+			}
+			id: "442CCCB6639B1ECB"
+			optional: true
+			rewards: [{
+				id: "4AB18B9D2188039F"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "4A4D40C28D9DC27C"
+				item: { count: 1, id: "extended_industrialization:nano_gravichestplate" }
+				type: "item"
+			}]
+			x: 6.75d
+			y: 1.25d
+		}
+		{
+			dependencies: ["7E49621292EC0289"]
+			icon: {
+				id: "modernfoundry:slimy_chestplate"
+			}
+			id: "436C2C6B448E588F"
+			optional: true
+			rewards: [{
+				id: "4CF2F16BF9597E47"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "2A0A2B9E719371B7"
+				item: { count: 1, id: "modernfoundry:slimy_chestplate" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.25d
+		}
+		{
+			dependencies: ["7E49621292EC0289"]
+			icon: {
+				id: "modern_industrialization:gravichestplate"
+			}
+			id: "1737128445472E29"
+			optional: true
+			rewards: [{
+				id: "1E801E246943FDFA"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "5ACDA6764E8F1B41"
+				item: { count: 1, id: "modern_industrialization:gravichestplate" }
+				type: "item"
+			}]
+			x: 9.25d
+			y: 1.25d
+		}
+		{
+			dependencies: ["7E49621292EC0289"]
+			icon: {
+				id: "modern_industrialization:diesel_jetpack"
+			}
+			id: "6F51E171D4CD713F"
+			optional: true
+			rewards: [{
+				id: "59499C79B78B5A26"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "71FFD740808D9578"
+				item: { count: 1, id: "modern_industrialization:diesel_jetpack" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.25d
+		}
+		{
+			dependencies: ["7E49621292EC0289"]
+			icon: {
+				id: "mekanism:free_runners"
+			}
+			id: "072C113039D72B0C"
+			optional: true
+			rewards: [{
+				id: "15858987D1E12179"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "64EE9844AC2550C7"
+				item: { count: 1, id: "mekanism:free_runners" }
+				type: "item"
+			}]
+			x: 11.75d
+			y: 1.25d
+		}
+		{
+			dependencies: ["7E49621292EC0289"]
+			icon: {
+				id: "mekanism:scuba_mask"
+			}
+			id: "5804BBD406DC2AA9"
+			optional: true
+			rewards: [{
+				id: "359720E072AD1226"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "1682BB7C5481B43D"
+				item: { count: 1, id: "mekanism:scuba_mask" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 1.25d
+		}
+		{
+			dependencies: ["7E49621292EC0289"]
+			icon: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 1
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+				id: "irons_spellbooks:tarnished_helmet"
+			}
+			id: "5E2F60D4644978F6"
+			optional: true
+			rewards: [{
+				id: "1EE2B803AC3306A3"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "7F6E5B56EDD9C40A"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:tarnished_helmet" }
+				type: "item"
+			}]
+			x: 14.25d
+			y: 1.25d
+		}
+		{
+			dependencies: ["7E49621292EC0289"]
+			icon: {
+				id: "create:cardboard_chestplate"
+			}
+			id: "1709BDE18A4C980E"
+			optional: true
+			rewards: [{
+				id: "7F9C44CCA78C3DE0"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "3CB2B03046F3AD29"
+					item: { count: 1, id: "create:cardboard_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "71565AF5545593F0"
+					item: { count: 1, id: "create:cardboard_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "2EE2F87123351BC3"
+					item: { count: 1, id: "create:cardboard_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "2C8E3C98EFD8CD82"
+					item: { count: 1, id: "create:cardboard_boots" }
+					type: "item"
+				}
+			]
+			x: 15.5d
+			y: 1.25d
+		}
+		{
+			dependencies: ["7E49621292EC0289"]
+			icon: {
+				id: "thaumcraft:goggles_of_revealing"
+			}
+			id: "6AFB80E06AE83E16"
+			optional: true
+			rewards: [{
+				id: "694069DE50B1B763"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "185FE6BAC5D72383"
+				item: { count: 1, id: "thaumcraft:goggles_of_revealing" }
+				type: "item"
+			}]
+			x: 1.75d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7E49621292EC0289"]
+			icon: {
+				id: "wom:golden_mokassin"
+			}
+			id: "615131999F43492B"
+			optional: true
+			rewards: [{
+				id: "72898DC1BA9EA210"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "4C73A21CE70DE790"
+				item: { count: 1, id: "wom:golden_mokassin" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7E49621292EC0289"]
+			icon: {
+				id: "mowziesmobs:umvuthana_mask_fear"
+			}
+			id: "3D210EF2991A5EB5"
+			optional: true
+			rewards: [{
+				id: "0CD0C63D2A97E6DC"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "504B0E6FDA9FD5FA"
+				item: { count: 1, id: "mowziesmobs:umvuthana_mask_fear" }
+				type: "item"
+			}]
+			x: 4.25d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7E49621292EC0289"]
+			icon: {
+				id: "wom:diamond_legbottomseal"
+			}
+			id: "25C8DD3E1BABDF22"
+			optional: true
+			rewards: [{
+				id: "1F32284D7C758B41"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "1CF831DABA551951"
+				item: { count: 1, id: "wom:diamond_legbottomseal" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7E49621292EC0289"]
+			icon: {
+				id: "mowziesmobs:umvuthana_mask_bliss"
+			}
+			id: "2072BF599F040DA7"
+			optional: true
+			rewards: [{
+				id: "2C6E94D5D72BA2B1"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "7285037D9556CAE1"
+				item: { count: 1, id: "mowziesmobs:umvuthana_mask_bliss" }
+				type: "item"
+			}]
+			x: 6.75d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7E49621292EC0289"]
+			icon: {
+				id: "modern_industrialization:rubber_helmet"
+			}
+			id: "4A5B956C5E67FE51"
+			optional: true
+			rewards: [{
+				id: "12CE01EB8431FC54"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "32280D1D1E4C1B90"
+					item: { count: 1, id: "modern_industrialization:rubber_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "7E7EA6A3FAA9D5A1"
+					item: { count: 1, id: "modern_industrialization:rubber_boots" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7E49621292EC0289"]
+			icon: {
+				id: "wom:golden_monocle"
+			}
+			id: "796EE8AC8572FB47"
+			optional: true
+			rewards: [{
+				id: "5DE483924E8FCDFA"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "4F5015555C7444B9"
+				item: { count: 1, id: "wom:golden_monocle" }
+				type: "item"
+			}]
+			x: 9.25d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7E49621292EC0289"]
+			icon: {
+				id: "mowziesmobs:umvuthana_mask_rage"
+			}
+			id: "0821094278A0B2A5"
+			optional: true
+			rewards: [{
+				id: "5D13638CD53B4470"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "7CB152CF4A7D6400"
+				item: { count: 1, id: "mowziesmobs:umvuthana_mask_rage" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7E49621292EC0289"]
+			icon: {
+				id: "aeronautics:aviators_goggles"
+			}
+			id: "3881155B53AF9D4D"
+			optional: true
+			rewards: [{
+				id: "3AE132A1B8A2953C"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "7C0498FDBC8E1790"
+				item: { count: 1, id: "aeronautics:aviators_goggles" }
+				type: "item"
+			}]
+			x: 11.75d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7E49621292EC0289"]
+			icon: {
+				id: "tainted_magic:voidmetal_goggles"
+			}
+			id: "4C86C3C4A13C5EF5"
+			optional: true
+			rewards: [{
+				id: "4720C081736308DB"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "21EDA2C3016FCB72"
+				item: { count: 1, id: "tainted_magic:voidmetal_goggles" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7E49621292EC0289"]
+			icon: {
+				id: "mowziesmobs:umvuthana_mask_misery"
+			}
+			id: "3AAE8C3E092D1BD6"
+			optional: true
+			rewards: [{
+				id: "0ABDD600B7708172"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "61EC2DBBF1B4DD62"
+				item: { count: 1, id: "mowziesmobs:umvuthana_mask_misery" }
+				type: "item"
+			}]
+			x: 14.25d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7E49621292EC0289"]
+			icon: {
+				id: "mowziesmobs:umvuthana_mask_fury"
+			}
+			id: "02EA5C62C839C9C9"
+			optional: true
+			rewards: [{
+				id: "29A76BC9401036E5"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "16FAF414FFD184E4"
+				item: { count: 1, id: "mowziesmobs:umvuthana_mask_fury" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7E49621292EC0289"]
+			icon: {
+				id: "wom:emerald_anklebracelet"
+			}
+			id: "69626A37184D0319"
+			optional: true
+			rewards: [{
+				id: "1CF128FFABE35022"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "449D7711F174DC05"
+				item: { count: 1, id: "wom:emerald_anklebracelet" }
+				type: "item"
+			}]
+			x: 1.75d
+			y: 3.75d
+		}
+		{
+			dependencies: ["7E49621292EC0289"]
+			icon: {
+				id: "wom:netherite_chains"
+			}
+			id: "1E3E89B025905FD5"
+			optional: true
+			rewards: [{
+				id: "65AEE5E46695C012"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "04E1172555BC6A7B"
+				item: { count: 1, id: "wom:netherite_chains" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["7E49621292EC0289"]
+			icon: {
+				id: "wom:golden_chrono"
+			}
+			id: "690E40F70E2B1F9E"
+			optional: true
+			rewards: [{
+				id: "097307362F2468C1"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "184D40936219FF45"
+				item: { count: 1, id: "wom:golden_chrono" }
+				type: "item"
+			}]
+			x: 4.25d
+			y: 3.75d
+		}
+		{
+			dependencies: ["7E49621292EC0289"]
+			icon: {
+				id: "thaumcraft:boots_of_the_traveller"
+			}
+			id: "72A3564B58A34915"
+			optional: true
+			rewards: [{
+				id: "18E08ED43348F14B"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "75C6C90F2C48776E"
+				item: { count: 1, id: "thaumcraft:boots_of_the_traveller" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["7E49621292EC0289"]
+			icon: {
+				id: "mowziesmobs:umvuthana_mask_faith"
+			}
+			id: "01F30E8E9F83AEA5"
+			optional: true
+			rewards: [{
+				id: "16B4F06A2D352C1A"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "1FCCD0E4B8D3C7C5"
+				item: { count: 1, id: "mowziesmobs:umvuthana_mask_faith" }
+				type: "item"
+			}]
+			x: 6.75d
+			y: 3.75d
+		}
+		{
+			dependencies: ["7E49621292EC0289"]
+			icon: {
+				id: "create:copper_diving_helmet"
+			}
+			id: "4972A6C5B4CCCB57"
+			optional: true
+			rewards: [{
+				id: "637A764FCF08AB14"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "6E4E6693BE29675C"
+					item: { count: 1, id: "create:copper_diving_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "2AF28A1E34961B74"
+					item: { count: 1, id: "create:copper_diving_boots" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["7E49621292EC0289"]
+			icon: {
+				id: "minecraft:leather_chestplate"
+			}
+			id: "1643CD99D2E10FF6"
+			optional: true
+			rewards: [{
+				id: "03E2AA710D6DF966"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "3A68C71E289DFC76"
+					item: { count: 1, id: "minecraft:leather_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0CD35C88154090E5"
+					item: { count: 1, id: "minecraft:leather_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "3577D4D4610FE095"
+					item: { count: 1, id: "minecraft:leather_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "010DA9C0A91FA946"
+					item: { count: 1, id: "minecraft:leather_boots" }
+					type: "item"
+				}
+			]
+			x: 9.25d
+			y: 3.75d
+		}
+		{
+			dependencies: ["7E49621292EC0289"]
+			icon: {
+				id: "epicfight:stray_robe"
+			}
+			id: "6323A9064574BC05"
+			optional: true
+			rewards: [{
+				id: "50E529CF98F2C935"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "403600704408677A"
+					item: { count: 1, id: "epicfight:stray_hat" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "3C82840F9C8B977F"
+					item: { count: 1, id: "epicfight:stray_robe" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "6E7E0DEC012DEBB9"
+					item: { count: 1, id: "epicfight:stray_pants" }
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["7E49621292EC0289"]
+			icon: {
+				id: "mowziesmobs:sol_visage"
+			}
+			id: "6B47FBCC08DCBFCF"
+			optional: true
+			rewards: [{
+				id: "72FD9B58EC46E99B"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "3A5959EBB40FF41A"
+				item: { count: 1, id: "mowziesmobs:sol_visage" }
+				type: "item"
+			}]
+			x: 11.75d
+			y: 3.75d
+		}
+		{
+			dependencies: ["7E49621292EC0289"]
+			icon: {
+				id: "thaumcraft:cultist_boots"
+			}
+			id: "3D35C99B60D25781"
+			optional: true
+			rewards: [{
+				id: "4BCA9A4A8D98A6D3"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "4897DA829818E3AD"
+				item: { count: 1, id: "thaumcraft:cultist_boots" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 3.75d
+		}
+		{
+			dependencies: ["7E49621292EC0289"]
+			icon: {
+				id: "wom:golden_kit"
+			}
+			id: "3CD9B4379D30B775"
+			optional: true
+			rewards: [{
+				id: "4E5B749BC02734E4"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "3E4035AB2705E341"
+				item: { count: 1, id: "wom:golden_kit" }
+				type: "item"
+			}]
+			x: 14.25d
+			y: 3.75d
+		}
+		{
+			dependencies: ["7E49621292EC0289"]
+			icon: {
+				id: "bloodmagic:livingboots"
+			}
+			id: "54E29B87D2A2D86E"
+			optional: true
+			rewards: [{
+				id: "4F6056A01438DDE8"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "40914D83B3514BAB"
+				item: { count: 1, id: "bloodmagic:livingboots" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["7E49621292EC0289"]
+			icon: {
+				id: "mowziesmobs:geomancer_beads"
+			}
+			id: "0DB479AE681882CB"
+			optional: true
+			rewards: [{
+				id: "55A31EB51E41044F"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "5609135287B090DD"
+				item: { count: 1, id: "mowziesmobs:geomancer_beads" }
+				type: "item"
+			}]
+			x: 1.75d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7E49621292EC0289"]
+			icon: {
+				id: "terra_curio:diving_helmet"
+			}
+			id: "1A3F58E806198CB1"
+			optional: true
+			rewards: [{
+				id: "713A6E05C08E4A8B"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "0A2A3338974DF8B8"
+				item: { count: 1, id: "terra_curio:diving_helmet" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7E49621292EC0289"]
+			icon: {
+				id: "mowziesmobs:wrought_helmet"
+			}
+			id: "602B41622FAE0CCD"
+			optional: true
+			rewards: [{
+				id: "3427AB07343C5C9A"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "10B67DCA0834CC01"
+				item: { count: 1, id: "mowziesmobs:wrought_helmet" }
+				type: "item"
+			}]
+			x: 4.25d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7E49621292EC0289"]
+			icon: {
+				id: "wom:netherite_mask"
+			}
+			id: "4E0E55E0B13BE19B"
+			optional: true
+			rewards: [{
+				id: "02F3639CE638705F"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "3E625922E3488DCD"
+				item: { count: 1, id: "wom:netherite_mask" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7E49621292EC0289"]
+			icon: {
+				id: "occultism:otherworld_goggles"
+			}
+			id: "5499A10724AA6C74"
+			optional: true
+			rewards: [{
+				id: "7731D971B4181827"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "7A998F9791FD53F4"
+				item: { count: 1, id: "occultism:otherworld_goggles" }
+				type: "item"
+			}]
+			x: 6.75d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7E49621292EC0289"]
+			icon: {
+				id: "thaumictinkerer:helmet_of_revealing"
+			}
+			id: "16AAF4316C562D44"
+			optional: true
+			rewards: [{
+				id: "69DFED60873A4F20"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "2DA836BF6404F938"
+				item: { count: 1, id: "thaumictinkerer:helmet_of_revealing" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7E49621292EC0289"]
+			icon: {
+				id: "minecraft:turtle_helmet"
+			}
+			id: "4915B16A10AED175"
+			optional: true
+			rewards: [{
+				id: "6F745F7D4BA3D065"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "399F5B3564519B01"
+				item: { count: 1, id: "minecraft:turtle_helmet" }
+				type: "item"
+			}]
+			x: 9.25d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7E49621292EC0289"]
+			icon: {
+				id: "wom:diamond_crown"
+			}
+			id: "30FA1230C94599F7"
+			optional: true
+			rewards: [{
+				id: "09F81031EEC5B978"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "7B93968E51740213"
+				item: { count: 1, id: "wom:diamond_crown" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7E49621292EC0289"]
+			icon: {
+				id: "bloodmagic:livinghelmet"
+			}
+			id: "7338CC1D1402F578"
+			optional: true
+			rewards: [{
+				id: "7FD90EDCF2E7C905"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "2F286C0EDB326178"
+				item: { count: 1, id: "bloodmagic:livinghelmet" }
+				type: "item"
+			}]
+			x: 11.75d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7E49621292EC0289"]
+			icon: {
+				id: "wom:emerald_earrings"
+			}
+			id: "0A25B18FE42F74FA"
+			optional: true
+			rewards: [{
+				id: "18C2221D7E60E4CA"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "1A1A1FC3953A6525"
+				item: { count: 1, id: "wom:emerald_earrings" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 5.0d
+		}
+		{
+			icon: {
+				id: "mekanismtools:lapis_lazuli_chestplate"
+			}
+			id: "14D75D31D45408AC"
+			optional: true
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "0C97F87308A56B46"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 7.75d
+		}
+		{
+			dependencies: ["14D75D31D45408AC"]
+			icon: {
+				id: "mekanismtools:lapis_lazuli_chestplate"
+			}
+			id: "540FDC9FDCC6332A"
+			optional: true
+			rewards: [{
+				id: "1ECCF2780CED007D"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "4DFE360728C8E547"
+					item: { count: 1, id: "mekanismtools:lapis_lazuli_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "3612778732BFA91D"
+					item: { count: 1, id: "mekanismtools:lapis_lazuli_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "56B0C44296408FD2"
+					item: { count: 1, id: "mekanismtools:lapis_lazuli_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "08B59A8B2D04DC5E"
+					item: { count: 1, id: "mekanismtools:lapis_lazuli_boots" }
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 7.75d
+		}
+		{
+			dependencies: ["14D75D31D45408AC"]
+			icon: {
+				id: "minecraft:golden_chestplate"
+			}
+			id: "2B0F8EB62CC24071"
+			optional: true
+			rewards: [{
+				id: "7B94C8972765BAE0"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "0A1AEFC4920276A4"
+					item: { count: 1, id: "minecraft:golden_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "321EE0475B83B479"
+					item: { count: 1, id: "minecraft:golden_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "000915E2D48089B0"
+					item: { count: 1, id: "minecraft:golden_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "186A46AF839AF6C0"
+					item: { count: 1, id: "minecraft:golden_boots" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 7.75d
+		}
+		{
+			dependencies: ["14D75D31D45408AC"]
+			icon: {
+				id: "twilightforest:travellers_vest"
+			}
+			id: "74407F918DA0BE80"
+			optional: true
+			rewards: [{
+				id: "67CB23C02C11E79F"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "48B9A476BEE4EE25"
+					item: { count: 1, id: "twilightforest:travellers_goggles" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "105B74A0C52625AF"
+					item: { count: 1, id: "twilightforest:travellers_vest" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "42ED96A900D419F9"
+					item: { count: 1, id: "twilightforest:travellers_wings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1EBDEEACF0DF824E"
+					item: { count: 1, id: "twilightforest:travellers_boots" }
+					type: "item"
+				}
+			]
+			x: 4.25d
+			y: 7.75d
+		}
+		{
+			dependencies: ["14D75D31D45408AC"]
+			icon: {
+				id: "ars_nouveau:sorcerer_robes"
+			}
+			id: "109F3D580D34D9AD"
+			optional: true
+			rewards: [{
+				id: "534578C8EE1A50E4"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "42CFBC00DB77AF38"
+					item: { count: 1, id: "ars_nouveau:sorcerer_hood" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1D728C2DA746CB75"
+					item: { count: 1, id: "ars_nouveau:sorcerer_robes" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "52D94ECBF42ECD35"
+					item: { count: 1, id: "ars_nouveau:sorcerer_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "3E7BBF6817788D03"
+					item: { count: 1, id: "ars_nouveau:sorcerer_boots" }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 7.75d
+		}
+		{
+			dependencies: ["14D75D31D45408AC"]
+			icon: {
+				id: "minecraft:chainmail_chestplate"
+			}
+			id: "28806204D2092DD5"
+			optional: true
+			rewards: [{
+				id: "06F427B1536F8FC4"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "4AEA97A63E2C4701"
+					item: { count: 1, id: "minecraft:chainmail_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "35B213997639024E"
+					item: { count: 1, id: "minecraft:chainmail_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "7ECD8E0EF0DAB906"
+					item: { count: 1, id: "minecraft:chainmail_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "630A88CB144D1771"
+					item: { count: 1, id: "minecraft:chainmail_boots" }
+					type: "item"
+				}
+			]
+			x: 6.75d
+			y: 7.75d
+		}
+		{
+			dependencies: ["14D75D31D45408AC"]
+			icon: {
+				id: "thaumcraft:robe_chestplate"
+			}
+			id: "68D3A015C9E95D9A"
+			optional: true
+			rewards: [{
+				id: "41C58BAD53ADE047"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "075A795F162F07FB"
+					item: { count: 1, id: "thaumcraft:robe_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "2FC3D0560F246EAA"
+					item: { count: 1, id: "thaumcraft:robe_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "2BAE34233717D7C0"
+					item: { count: 1, id: "thaumcraft:robe_boots" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 7.75d
+		}
+		{
+			dependencies: ["14D75D31D45408AC"]
+			icon: {
+				id: "create:netherite_diving_helmet"
+			}
+			id: "7DD94ABBEF77F5DA"
+			optional: true
+			rewards: [{
+				id: "555A3534500FB584"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "4CD2BF94DED18EA3"
+					item: { count: 1, id: "create:netherite_diving_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "30C29BCF9335E521"
+					item: { count: 1, id: "create:netherite_diving_boots" }
+					type: "item"
+				}
+			]
+			x: 9.25d
+			y: 7.75d
+		}
+		{
+			dependencies: ["14D75D31D45408AC"]
+			icon: {
+				id: "wom:emerald_tasset"
+			}
+			id: "5B2E09AF3EB873A5"
+			optional: true
+			rewards: [{
+				id: "12C0CDD728353568"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "6184691C0CA1F65C"
+				item: { count: 1, id: "wom:emerald_tasset" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 7.75d
+		}
+		{
+			dependencies: ["14D75D31D45408AC"]
+			icon: {
+				id: "irons_spellbooks:speed_boots"
+			}
+			id: "5BE4BC40CB820B71"
+			optional: true
+			rewards: [{
+				id: "332C921F5AE54A89"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "33B09D42C23F6D79"
+				item: { count: 1, id: "irons_spellbooks:speed_boots" }
+				type: "item"
+			}]
+			x: 11.75d
+			y: 7.75d
+		}
+		{
+			dependencies: ["14D75D31D45408AC"]
+			icon: {
+				id: "thaumictinkerer:awakened_ichorcloth_cowl"
+			}
+			id: "2121DF586F05BBD1"
+			optional: true
+			rewards: [{
+				id: "1DCA2126EFFA6CAF"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "1780D7A920052AAF"
+				item: { count: 1, id: "thaumictinkerer:awakened_ichorcloth_cowl" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 7.75d
+		}
+		{
+			dependencies: ["14D75D31D45408AC"]
+			icon: {
+				id: "mekanism:free_runners_armored"
+			}
+			id: "1D301FFC329025BA"
+			optional: true
+			rewards: [{
+				id: "49CBCC18D6F85E3D"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "634561535665EB88"
+				item: { count: 1, id: "mekanism:free_runners_armored" }
+				type: "item"
+			}]
+			x: 14.25d
+			y: 7.75d
+		}
+		{
+			dependencies: ["14D75D31D45408AC"]
+			icon: {
+				id: "thaumcraft:hover_harness"
+			}
+			id: "7AB9D8541F79509D"
+			optional: true
+			rewards: [{
+				id: "19A6D268BBC906ED"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "7615F7F1FA42F596"
+				item: { count: 1, id: "thaumcraft:hover_harness" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 7.75d
+		}
+		{
+			dependencies: ["14D75D31D45408AC"]
+			icon: {
+				id: "wom:diamond_legtopseal"
+			}
+			id: "40316AB9C79F4D2E"
+			optional: true
+			rewards: [{
+				id: "02B2C6D3AE349A45"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "357E89781BF4EF1F"
+				item: { count: 1, id: "wom:diamond_legtopseal" }
+				type: "item"
+			}]
+			x: 1.75d
+			y: 9.0d
+		}
+		{
+			dependencies: ["14D75D31D45408AC"]
+			icon: {
+				id: "wom:netherite_belt"
+			}
+			id: "6E9117E800D734BD"
+			optional: true
+			rewards: [{
+				id: "2F41573B1953809C"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "0FA5EA66DBE0EB92"
+				item: { count: 1, id: "wom:netherite_belt" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["14D75D31D45408AC"]
+			icon: {
+				id: "minecraft:leather_horse_armor"
+			}
+			id: "36A1B20E2D38787D"
+			optional: true
+			rewards: [{
+				id: "6F63657E1A8282C6"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "5503951B03114B66"
+				item: { count: 1, id: "minecraft:leather_horse_armor" }
+				type: "item"
+			}]
+			x: 4.25d
+			y: 9.0d
+		}
+		{
+			dependencies: ["14D75D31D45408AC"]
+			icon: {
+				id: "cataclysm:monstrous_helm"
+			}
+			id: "504C7AFFA8A179CD"
+			optional: true
+			rewards: [{
+				id: "276BA4A943AC3086"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "7A0B1DBBA696C056"
+				item: { count: 1, id: "cataclysm:monstrous_helm" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["14D75D31D45408AC"]
+			icon: {
+				id: "thaumictinkerer:ichorcloth_cowl"
+			}
+			id: "4F6711950A679D82"
+			optional: true
+			rewards: [{
+				id: "27989478AADF13FA"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "24B662321F919834"
+				item: { count: 1, id: "thaumictinkerer:ichorcloth_cowl" }
+				type: "item"
+			}]
+			x: 6.75d
+			y: 9.0d
+		}
+		{
+			dependencies: ["14D75D31D45408AC"]
+			icon: {
+				id: "irons_spellbooks:wizard_hat"
+			}
+			id: "6D58ED70B9FA4E6D"
+			optional: true
+			rewards: [{
+				id: "3EF99646E0B658AE"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "5F850BDD115DACF6"
+				item: { count: 1, id: "irons_spellbooks:wizard_hat" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 9.0d
+		}
+		{
+			icon: {
+				id: "ars_nouveau:arcanist_robes"
+			}
+			id: "188E19572E84E1A4"
+			optional: true
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "56B5E70769E49466"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 11.75d
+		}
+		{
+			dependencies: ["188E19572E84E1A4"]
+			icon: {
+				id: "ars_nouveau:arcanist_robes"
+			}
+			id: "58D87DCAAAB308C9"
+			optional: true
+			rewards: [{
+				id: "5E14C05D12D52952"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "526F088C64E1B73A"
+					item: { count: 1, id: "ars_nouveau:arcanist_hood" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "76CBFA0D59959C5D"
+					item: { count: 1, id: "ars_nouveau:arcanist_robes" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "4F579D0A55B289F8"
+					item: { count: 1, id: "ars_nouveau:arcanist_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "428E7193038ABE12"
+					item: { count: 1, id: "ars_nouveau:arcanist_boots" }
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 11.75d
+		}
+		{
+			dependencies: ["188E19572E84E1A4"]
+			icon: {
+				id: "irons_spellbooks:wandering_magician_chestplate"
+			}
+			id: "5DB405841A5E5B75"
+			optional: true
+			rewards: [{
+				id: "164F9338EA7FCB44"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "79A7A0896043A70E"
+					item: { count: 1, id: "irons_spellbooks:wandering_magician_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0978622066C175AE"
+					item: { count: 1, id: "irons_spellbooks:wandering_magician_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0135BC7BEB5A39E8"
+					item: { count: 1, id: "irons_spellbooks:wandering_magician_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "6A63494FB6BFE1E7"
+					item: { count: 1, id: "irons_spellbooks:wandering_magician_boots" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 11.75d
+		}
+		{
+			dependencies: ["188E19572E84E1A4"]
+			icon: {
+				id: "thaumcraft:thaumium_chestplate"
+			}
+			id: "70C6CC46436197BF"
+			optional: true
+			rewards: [{
+				id: "0CC3A430E5A5F851"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "300F77B5371A9F4A"
+					item: { count: 1, id: "thaumcraft:thaumium_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "74D2CCBBD8B33952"
+					item: { count: 1, id: "thaumcraft:thaumium_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "4FCD84EBC6D8B53C"
+					item: { count: 1, id: "thaumcraft:thaumium_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "5FD5628E6F08A537"
+					item: { count: 1, id: "thaumcraft:thaumium_boots" }
+					type: "item"
+				}
+			]
+			x: 4.25d
+			y: 11.75d
+		}
+		{
+			dependencies: ["188E19572E84E1A4"]
+			icon: {
+				id: "minecraft:iron_chestplate"
+			}
+			id: "1563C129D0E8EC72"
+			optional: true
+			rewards: [{
+				id: "3314532483B45B88"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "1E57606DEE018587"
+					item: { count: 1, id: "minecraft:iron_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1EAF12D20BB8A356"
+					item: { count: 1, id: "minecraft:iron_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "6D55D602BB82A414"
+					item: { count: 1, id: "minecraft:iron_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "706834E48446D5BF"
+					item: { count: 1, id: "minecraft:iron_boots" }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 11.75d
+		}
+		{
+			dependencies: ["188E19572E84E1A4"]
+			icon: {
+				id: "justdirethings:blazegold_chestplate"
+			}
+			id: "155A2938B827EADD"
+			optional: true
+			rewards: [{
+				id: "17CF05C72B581908"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "68B8848F2C6C44C7"
+					item: { count: 1, id: "justdirethings:blazegold_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "4A73E07FB6E99957"
+					item: { count: 1, id: "justdirethings:blazegold_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "374FDD8C20B1431F"
+					item: { count: 1, id: "justdirethings:blazegold_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "5FDEAF2F679A34E0"
+					item: { count: 1, id: "justdirethings:blazegold_boots" }
+					type: "item"
+				}
+			]
+			x: 6.75d
+			y: 11.75d
+		}
+		{
+			dependencies: ["188E19572E84E1A4"]
+			icon: {
+				id: "justdirethings:ferricore_chestplate"
+			}
+			id: "37C8190405136B13"
+			optional: true
+			rewards: [{
+				id: "2A2DA0E7DB00E0FE"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "0222B31FCB2D3842"
+					item: { count: 1, id: "justdirethings:ferricore_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "73AE3879CC89A153"
+					item: { count: 1, id: "justdirethings:ferricore_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "405149A8C46DAC30"
+					item: { count: 1, id: "justdirethings:ferricore_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1431324837934771"
+					item: { count: 1, id: "justdirethings:ferricore_boots" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 11.75d
+		}
+		{
+			dependencies: ["188E19572E84E1A4"]
+			icon: {
+				id: "pneumaticcraft:pneumatic_chestplate"
+			}
+			id: "0DC916436AA258AE"
+			optional: true
+			rewards: [{
+				id: "1F112112DF2DE461"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "4185C1BC54B98DD4"
+					item: { count: 1, id: "pneumaticcraft:pneumatic_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1BE4666815808543"
+					item: { count: 1, id: "pneumaticcraft:pneumatic_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "19BDC0EFD24A7E01"
+					item: { count: 1, id: "pneumaticcraft:pneumatic_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "5C509455777192ED"
+					item: { count: 1, id: "pneumaticcraft:pneumatic_boots" }
+					type: "item"
+				}
+			]
+			x: 9.25d
+			y: 11.75d
+		}
+		{
+			dependencies: ["188E19572E84E1A4"]
+			icon: {
+				id: "pneumaticcraft:compressed_iron_chestplate"
+			}
+			id: "2CDFE517DCF5F87C"
+			optional: true
+			rewards: [{
+				id: "534CAAFBB0AFC086"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "26CA703F4B29BE16"
+					item: { count: 1, id: "pneumaticcraft:compressed_iron_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "67F6491F969E5091"
+					item: { count: 1, id: "pneumaticcraft:compressed_iron_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1C5CE73030E99EE7"
+					item: { count: 1, id: "pneumaticcraft:compressed_iron_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "2EF1A65DEFCBF102"
+					item: { count: 1, id: "pneumaticcraft:compressed_iron_boots" }
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 11.75d
+		}
+		{
+			dependencies: ["188E19572E84E1A4"]
+			icon: {
+				id: "twilightforest:arctic_chestplate"
+			}
+			id: "6083DA847A9B3014"
+			optional: true
+			rewards: [{
+				id: "7BC3CDF128BEA51C"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "30F6CC07B40DF25E"
+					item: { count: 1, id: "twilightforest:arctic_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "26F790BFDAEA74FC"
+					item: { count: 1, id: "twilightforest:arctic_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "53C7B3F92CD84117"
+					item: { count: 1, id: "twilightforest:arctic_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "008C4115116F7BFE"
+					item: { count: 1, id: "twilightforest:arctic_boots" }
+					type: "item"
+				}
+			]
+			x: 11.75d
+			y: 11.75d
+		}
+		{
+			dependencies: ["188E19572E84E1A4"]
+			icon: {
+				id: "ars_elemental:aqua_boots_heavy"
+			}
+			id: "6EE0F7E2C07E2564"
+			optional: true
+			rewards: [{
+				id: "7C4EC756C29CB7F3"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "6B0BDE3ABE81E965"
+				item: { count: 1, id: "ars_elemental:aqua_boots_heavy" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 11.75d
+		}
+		{
+			dependencies: ["188E19572E84E1A4"]
+			icon: {
+				id: "tainted_magic:voidwalker_boots"
+			}
+			id: "67F8F9A86EB305F4"
+			optional: true
+			rewards: [{
+				id: "4D1279FF14D04ABE"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "7288C7A488955ED4"
+				item: { count: 1, id: "tainted_magic:voidwalker_boots" }
+				type: "item"
+			}]
+			x: 14.25d
+			y: 11.75d
+		}
+		{
+			dependencies: ["188E19572E84E1A4"]
+			icon: {
+				id: "wom:netherite_manicle"
+			}
+			id: "6B24B196CA154A87"
+			optional: true
+			rewards: [{
+				id: "3121DC6DCD7BA5FD"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "6F21CFE768E6F83C"
+				item: { count: 1, id: "wom:netherite_manicle" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 11.75d
+		}
+		{
+			dependencies: ["188E19572E84E1A4"]
+			icon: {
+				id: "twilightforest:ironwood_chestplate"
+			}
+			id: "69D3CE38D2CBB693"
+			optional: true
+			rewards: [{
+				id: "0ECBAC5695F1FB26"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "0C95F5365C55BC8D"
+					item: { count: 1, id: "twilightforest:ironwood_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "3C22DDCFB12AF8B2"
+					item: { count: 1, id: "twilightforest:ironwood_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "08067D6B3CBB0603"
+					item: { count: 1, id: "twilightforest:ironwood_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "59D9B70BE8ADC6C7"
+					item: { count: 1, id: "twilightforest:ironwood_boots" }
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 13.0d
+		}
+		{
+			dependencies: ["188E19572E84E1A4"]
+			icon: {
+				id: "create:copper_backtank"
+			}
+			id: "098F403D08D2D5A0"
+			optional: true
+			rewards: [{
+				id: "442E6AB42EB28FFE"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "2DE3B854D682C6F2"
+				item: { count: 1, id: "create:copper_backtank" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["188E19572E84E1A4"]
+			icon: {
+				id: "wom:emerald_chakra"
+			}
+			id: "1FDF7C644BDC5C26"
+			optional: true
+			rewards: [{
+				id: "70FD3E953844C062"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "7B90929B38AB22D5"
+				item: { count: 1, id: "wom:emerald_chakra" }
+				type: "item"
+			}]
+			x: 4.25d
+			y: 13.0d
+		}
+		{
+			dependencies: ["188E19572E84E1A4"]
+			icon: {
+				id: "ars_elemental:fire_boots_heavy"
+			}
+			id: "0EA94AF28E06EF43"
+			optional: true
+			rewards: [{
+				id: "0327E3D36F126DE2"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "4C87E34CA25E8110"
+				item: { count: 1, id: "ars_elemental:fire_boots_heavy" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["188E19572E84E1A4"]
+			icon: {
+				id: "ars_elemental:air_boots_heavy"
+			}
+			id: "18C10988DFB84BBD"
+			optional: true
+			rewards: [{
+				id: "0985A168E9C0BD5B"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "7E20EF4DEF035ADD"
+				item: { count: 1, id: "ars_elemental:air_boots_heavy" }
+				type: "item"
+			}]
+			x: 6.75d
+			y: 13.0d
+		}
+		{
+			dependencies: ["188E19572E84E1A4"]
+			icon: {
+				id: "tainted_magic:warped_goggles"
+			}
+			id: "488A76226B1E948D"
+			optional: true
+			rewards: [{
+				id: "1CB8881D82750C77"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "7FC310198BFB79ED"
+				item: { count: 1, id: "tainted_magic:warped_goggles" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["188E19572E84E1A4"]
+			icon: {
+				id: "wom:diamond_armbracelet"
+			}
+			id: "22799372FFE3B04E"
+			optional: true
+			rewards: [{
+				id: "50D8AF930B9954E6"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "616E4284388D3B39"
+				item: { count: 1, id: "wom:diamond_armbracelet" }
+				type: "item"
+			}]
+			x: 9.25d
+			y: 13.0d
+		}
+		{
+			dependencies: ["188E19572E84E1A4"]
+			icon: {
+				id: "ars_elemental:earth_boots_heavy"
+			}
+			id: "715AC599462F9CC5"
+			optional: true
+			rewards: [{
+				id: "0BC70A17AD1B0A2B"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "5E77C28A642B7BB7"
+				item: { count: 1, id: "ars_elemental:earth_boots_heavy" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["188E19572E84E1A4"]
+			icon: {
+				id: "ars_elemental:aqua_tunic"
+			}
+			id: "27C538797BE0494C"
+			optional: true
+			rewards: [{
+				id: "60D00B3AB613431B"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "425481B8A0E2C4B3"
+					item: { count: 1, id: "ars_elemental:aqua_hood" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0F7632B2F041A0E4"
+					item: { count: 1, id: "ars_elemental:aqua_tunic" }
+					type: "item"
+				}
+			]
+			x: 11.75d
+			y: 13.0d
+		}
+		{
+			dependencies: ["188E19572E84E1A4"]
+			icon: {
+				id: "ars_elemental:earth_tunic"
+			}
+			id: "6E22B39B12443DCB"
+			optional: true
+			rewards: [{
+				id: "3B48BF2093FC7753"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "4F160F8DC66B668B"
+					item: { count: 1, id: "ars_elemental:earth_hood" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "72D0FCE3C36B19B3"
+					item: { count: 1, id: "ars_elemental:earth_tunic" }
+					type: "item"
+				}
+			]
+			x: 13.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["188E19572E84E1A4"]
+			icon: {
+				id: "ars_elemental:fire_tunic"
+			}
+			id: "7481B639DB862451"
+			optional: true
+			rewards: [{
+				id: "491090CA1A8F1100"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "0389C29A2BA509B2"
+					item: { count: 1, id: "ars_elemental:fire_hood" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "4875A4C2D17E40CC"
+					item: { count: 1, id: "ars_elemental:fire_tunic" }
+					type: "item"
+				}
+			]
+			x: 14.25d
+			y: 13.0d
+		}
+		{
+			dependencies: ["188E19572E84E1A4"]
+			icon: {
+				id: "ars_elemental:air_tunic"
+			}
+			id: "7D90C8A5AC489BEF"
+			optional: true
+			rewards: [{
+				id: "7170340F1B150164"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "6FCF509E745A0434"
+					item: { count: 1, id: "ars_elemental:air_hood" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "4C0ACCB7ED592808"
+					item: { count: 1, id: "ars_elemental:air_tunic" }
+					type: "item"
+				}
+			]
+			x: 15.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["188E19572E84E1A4"]
+			icon: {
+				id: "thaumcraft:cultist_plate_chestplate"
+			}
+			id: "5D695311AC6844A1"
+			optional: true
+			rewards: [{
+				id: "1BC6776A28A03250"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "5DDB9C571B1F27AC"
+					item: { count: 1, id: "thaumcraft:cultist_plate_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "6391B2EC8626E31C"
+					item: { count: 1, id: "thaumcraft:cultist_plate_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "6554901BA6AA58DC"
+					item: { count: 1, id: "thaumcraft:cultist_plate_leggings" }
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 14.25d
+		}
+		{
+			dependencies: ["188E19572E84E1A4"]
+			icon: {
+				id: "thaumcraft:cultist_robe_chestplate"
+			}
+			id: "2F8D04E9FFE3C72B"
+			optional: true
+			rewards: [{
+				id: "3C0C542FB0587C86"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "6DA6836CD716DED5"
+					item: { count: 1, id: "thaumcraft:cultist_robe_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "51810633D8D0B5F8"
+					item: { count: 1, id: "thaumcraft:cultist_robe_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1D8070DDADFCC201"
+					item: { count: 1, id: "thaumcraft:cultist_robe_leggings" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 14.25d
+		}
+		{
+			dependencies: ["188E19572E84E1A4"]
+			icon: {
+				id: "thaumicbases:bloody_chestplate"
+			}
+			id: "7BA33D36603A54DD"
+			optional: true
+			rewards: [{
+				id: "68F4DF91E2B6AD17"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "1279E5F6D94A56C8"
+					item: { count: 1, id: "thaumicbases:bloody_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "2E36FF916BB2FF2D"
+					item: { count: 1, id: "thaumicbases:bloody_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "05D8F726702E727B"
+					item: { count: 1, id: "thaumicbases:bloody_boots" }
+					type: "item"
+				}
+			]
+			x: 4.25d
+			y: 14.25d
+		}
+		{
+			dependencies: ["188E19572E84E1A4"]
+			icon: {
+				id: "cognition:cognitive_chestplate"
+			}
+			id: "36F7F2E10FAACFDD"
+			optional: true
+			rewards: [{
+				id: "7F5FBBB0156FE0D0"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "18643E789ADD70EA"
+					item: { count: 1, id: "cognition:cognitive_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "006B5D8FD93BAD0D"
+					item: { count: 1, id: "cognition:cognitive_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "57B69C872CD84784"
+					item: { count: 1, id: "cognition:cognitive_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "3E35C0C4C985C006"
+					item: { count: 1, id: "cognition:cognitive_boots" }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 14.25d
+		}
+		{
+			dependencies: ["188E19572E84E1A4"]
+			icon: {
+				id: "mekanismtools:bronze_chestplate"
+			}
+			id: "38F336324BCFC301"
+			optional: true
+			rewards: [{
+				id: "635EA1BF71BCFBD6"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "24DF70A8C9F3609F"
+					item: { count: 1, id: "mekanismtools:bronze_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1154ACF40AD784F6"
+					item: { count: 1, id: "mekanismtools:bronze_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "621406BDA0C96CAB"
+					item: { count: 1, id: "mekanismtools:bronze_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "3B755EFC5173457A"
+					item: { count: 1, id: "mekanismtools:bronze_boots" }
+					type: "item"
+				}
+			]
+			x: 6.75d
+			y: 14.25d
+		}
+		{
+			dependencies: ["188E19572E84E1A4"]
+			icon: {
+				id: "mowziesmobs:geomancer_robe"
+			}
+			id: "7BCB90C42158F31A"
+			optional: true
+			rewards: [{
+				id: "3FD78FAAF772E5D0"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "1596225C089917CB"
+					item: { count: 1, id: "mowziesmobs:geomancer_robe" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "78D9BB189B83DCC1"
+					item: { count: 1, id: "mowziesmobs:geomancer_sandals" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 14.25d
+		}
+		{
+			dependencies: ["188E19572E84E1A4"]
+			icon: {
+				id: "ars_elemental:aqua_robes"
+			}
+			id: "7EBE878EF49A5104"
+			optional: true
+			rewards: [{
+				id: "2B58065A47FEF03E"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "57F1C8914C2B40F6"
+					item: { count: 1, id: "ars_elemental:aqua_hat" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "6E3A93598DB8E2F9"
+					item: { count: 1, id: "ars_elemental:aqua_robes" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "34343246235B8D20"
+					item: { count: 1, id: "ars_elemental:aqua_pants" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "6BF04E2B578DC4B8"
+					item: { count: 1, id: "ars_elemental:aqua_shoes" }
+					type: "item"
+				}
+			]
+			x: 9.25d
+			y: 14.25d
+		}
+		{
+			dependencies: ["188E19572E84E1A4"]
+			icon: {
+				id: "ars_elemental:earth_robes"
+			}
+			id: "51208E0705B4C4BD"
+			optional: true
+			rewards: [{
+				id: "3451DA5E1D904017"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "11DCFA85CB559147"
+					item: { count: 1, id: "ars_elemental:earth_hat" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "2563858F6AAF09E0"
+					item: { count: 1, id: "ars_elemental:earth_robes" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "4CBA76B9DA14497A"
+					item: { count: 1, id: "ars_elemental:earth_pants" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "18C91AFCBC5498D4"
+					item: { count: 1, id: "ars_elemental:earth_shoes" }
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 14.25d
+		}
+		{
+			dependencies: ["188E19572E84E1A4"]
+			icon: {
+				id: "ars_elemental:fire_robes"
+			}
+			id: "4B14D4CBA83D2559"
+			optional: true
+			rewards: [{
+				id: "2A2B1CF4D8BFD801"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "3FAA797A1756F95B"
+					item: { count: 1, id: "ars_elemental:fire_hat" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "77A8F19ECA6A459C"
+					item: { count: 1, id: "ars_elemental:fire_robes" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "31E6DAF7470235E6"
+					item: { count: 1, id: "ars_elemental:fire_pants" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "6F5B14F74CCC4857"
+					item: { count: 1, id: "ars_elemental:fire_shoes" }
+					type: "item"
+				}
+			]
+			x: 11.75d
+			y: 14.25d
+		}
+		{
+			dependencies: ["188E19572E84E1A4"]
+			icon: {
+				id: "ars_elemental:air_robes"
+			}
+			id: "003783CF17BD2D4B"
+			optional: true
+			rewards: [{
+				id: "23432C25C983A676"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "05D518F8A8483018"
+					item: { count: 1, id: "ars_elemental:air_hat" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "219A30BA17CDC95A"
+					item: { count: 1, id: "ars_elemental:air_robes" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "00CDAC1A1E46DC71"
+					item: { count: 1, id: "ars_elemental:air_pants" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1950CF4F52FE8F11"
+					item: { count: 1, id: "ars_elemental:air_shoes" }
+					type: "item"
+				}
+			]
+			x: 13.0d
+			y: 14.25d
+		}
+		{
+			icon: {
+				id: "thaumicbases:thauminite_chestplate"
+			}
+			id: "7493BBD042790A7A"
+			optional: true
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "7C28E9447014F054"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["7493BBD042790A7A"]
+			icon: {
+				id: "thaumicbases:thauminite_chestplate"
+			}
+			id: "6F9D62375A5A735F"
+			optional: true
+			rewards: [{
+				id: "7A1563C6E63D7EE2"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "0E21FC686EB9131D"
+					item: { count: 1, id: "thaumicbases:thauminite_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "243155D54E3CEA0A"
+					item: { count: 1, id: "thaumicbases:thauminite_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "19A2CE3A42C5FD94"
+					item: { count: 1, id: "thaumicbases:thauminite_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "492049BD53F5631E"
+					item: { count: 1, id: "thaumicbases:thauminite_boots" }
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 17.0d
+		}
+		{
+			dependencies: ["7493BBD042790A7A"]
+			icon: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 1
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+				id: "irons_spellbooks:archevoker_chestplate"
+			}
+			id: "4928CD265EC5EB27"
+			optional: true
+			rewards: [{
+				id: "7A70B2DB86B0B9FA"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "62CD0EE988BA42B0"
+					item: { count: 1, id: "irons_spellbooks:archevoker_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1F4B036EADFFA6BB"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:archevoker_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "27FE663BACA07D7E"
+					item: { count: 1, id: "irons_spellbooks:archevoker_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "5E46344E14E206D5"
+					item: { count: 1, id: "irons_spellbooks:archevoker_boots" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["7493BBD042790A7A"]
+			icon: {
+				id: "minecraft:netherite_chestplate"
+			}
+			id: "4C2521BC82082970"
+			optional: true
+			rewards: [{
+				id: "0D00C660A2491179"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "6676BDA93C4C3C7D"
+					item: { count: 1, id: "minecraft:netherite_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "2361022412DEF0F2"
+					item: { count: 1, id: "minecraft:netherite_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "62BF759274EC8CEC"
+					item: { count: 1, id: "minecraft:netherite_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "6884580F6D2BF1FE"
+					item: { count: 1, id: "minecraft:netherite_boots" }
+					type: "item"
+				}
+			]
+			x: 4.25d
+			y: 17.0d
+		}
+		{
+			dependencies: ["7493BBD042790A7A"]
+			icon: {
+				id: "ars_nouveau:battlemage_robes"
+			}
+			id: "44DA891B62F746FE"
+			optional: true
+			rewards: [{
+				id: "355ED8470DB732B4"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "711D36FBD315FD5E"
+					item: { count: 1, id: "ars_nouveau:battlemage_hood" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "5E979E75726CD94C"
+					item: { count: 1, id: "ars_nouveau:battlemage_robes" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "32966266AED5C18D"
+					item: { count: 1, id: "ars_nouveau:battlemage_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "4F6558AE06368065"
+					item: { count: 1, id: "ars_nouveau:battlemage_boots" }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["7493BBD042790A7A"]
+			icon: {
+				id: "irons_spellbooks:pumpkin_chestplate"
+			}
+			id: "7401BD9E006F16DE"
+			optional: true
+			rewards: [{
+				id: "36E951C0E3129335"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "5642B1CF405F53B5"
+					item: { count: 1, id: "irons_spellbooks:pumpkin_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "3ED7F92569CAF65C"
+					item: { count: 1, id: "irons_spellbooks:pumpkin_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "59F1D3A2F9C30F5B"
+					item: { count: 1, id: "irons_spellbooks:pumpkin_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "72EC1DDE3216A371"
+					item: { count: 1, id: "irons_spellbooks:pumpkin_boots" }
+					type: "item"
+				}
+			]
+			x: 6.75d
+			y: 17.0d
+		}
+		{
+			dependencies: ["7493BBD042790A7A"]
+			icon: {
+				id: "twilightforest:yeti_chestplate"
+			}
+			id: "29EE48D15CD51D8A"
+			optional: true
+			rewards: [{
+				id: "0AB6DDB9DEC6FAAB"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "7D3F830D5B34DEC3"
+					item: { count: 1, id: "twilightforest:yeti_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "15031BF5A42599C2"
+					item: { count: 1, id: "twilightforest:yeti_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0CBD8109B8E02CDD"
+					item: { count: 1, id: "twilightforest:yeti_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "21F4877404AE0586"
+					item: { count: 1, id: "twilightforest:yeti_boots" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["7493BBD042790A7A"]
+			icon: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 1
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+				id: "irons_spellbooks:netherite_mage_chestplate"
+			}
+			id: "08F75FBB324DC12E"
+			optional: true
+			rewards: [{
+				id: "2608C1ED730379D5"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "6EE7D7A2FA6E5671"
+					item: { count: 1, id: "irons_spellbooks:netherite_mage_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1B537D7C249C1DA7"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:netherite_mage_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "6D2264F610C1A219"
+					item: { count: 1, id: "irons_spellbooks:netherite_mage_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "099EC38872E79E8F"
+					item: { count: 1, id: "irons_spellbooks:netherite_mage_boots" }
+					type: "item"
+				}
+			]
+			x: 9.25d
+			y: 17.0d
+		}
+		{
+			dependencies: ["7493BBD042790A7A"]
+			icon: {
+				id: "thaumcraft:void_chestplate"
+			}
+			id: "1711DFAA45A101F9"
+			optional: true
+			rewards: [{
+				id: "783458994AAE34A3"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "28DB3A7D583F5FC7"
+					item: { count: 1, id: "thaumcraft:void_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "3D7A9C494FA34009"
+					item: { count: 1, id: "thaumcraft:void_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "09133F7354055F7D"
+					item: { count: 1, id: "thaumcraft:void_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "7F6B02D56A4D4AB2"
+					item: { count: 1, id: "thaumcraft:void_boots" }
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["7493BBD042790A7A"]
+			icon: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 1
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+				id: "irons_spellbooks:priest_chestplate"
+			}
+			id: "58A5312967B086A6"
+			optional: true
+			rewards: [{
+				id: "74E133EFA5AB0B1C"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "1E2D240C429C2597"
+					item: { count: 1, id: "irons_spellbooks:priest_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "5EA16440B5AC0915"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:priest_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "21BDBBE9FE54C51B"
+					item: { count: 1, id: "irons_spellbooks:priest_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "33F014ABB0A4F86A"
+					item: { count: 1, id: "irons_spellbooks:priest_boots" }
+					type: "item"
+				}
+			]
+			x: 11.75d
+			y: 17.0d
+		}
+		{
+			dependencies: ["7493BBD042790A7A"]
+			icon: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 1
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+				id: "irons_spellbooks:electromancer_chestplate"
+			}
+			id: "24FA4651A3CBCA6D"
+			optional: true
+			rewards: [{
+				id: "124EFD78D66FD572"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "786AA6F24D60E57F"
+					item: { count: 1, id: "irons_spellbooks:electromancer_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "517C92E0EDB01D41"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:electromancer_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "02970B9FC273B72E"
+					item: { count: 1, id: "irons_spellbooks:electromancer_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "3BAEA412A3E23F91"
+					item: { count: 1, id: "irons_spellbooks:electromancer_boots" }
+					type: "item"
+				}
+			]
+			x: 13.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["7493BBD042790A7A"]
+			icon: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 1
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+				id: "irons_spellbooks:cryomancer_chestplate"
+			}
+			id: "2008F1EA3FBFD8E0"
+			optional: true
+			rewards: [{
+				id: "6D086E6821DDFCD9"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "36419510D13D62F5"
+					item: { count: 1, id: "irons_spellbooks:cryomancer_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "697728BD45E68BDE"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:cryomancer_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "7511C015AC893413"
+					item: { count: 1, id: "irons_spellbooks:cryomancer_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "2D07F590DB762CD0"
+					item: { count: 1, id: "irons_spellbooks:cryomancer_boots" }
+					type: "item"
+				}
+			]
+			x: 14.25d
+			y: 17.0d
+		}
+		{
+			dependencies: ["7493BBD042790A7A"]
+			icon: {
+				id: "minecraft:diamond_chestplate"
+			}
+			id: "7D7CB6FE97EF1DCE"
+			optional: true
+			rewards: [{
+				id: "1C5EE3343457AC4F"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "09B023EE4C3D8767"
+					item: { count: 1, id: "minecraft:diamond_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0FA662369CBA8EA7"
+					item: { count: 1, id: "minecraft:diamond_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "7A5CB95D64930C40"
+					item: { count: 1, id: "minecraft:diamond_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "23F8F524A617C3A3"
+					item: { count: 1, id: "minecraft:diamond_boots" }
+					type: "item"
+				}
+			]
+			x: 15.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["7493BBD042790A7A"]
+			icon: {
+				id: "mekanismtools:refined_glowstone_chestplate"
+			}
+			id: "21E084BB5C1C8D13"
+			optional: true
+			rewards: [{
+				id: "0523709849AC5146"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "1B1BE4562AD3D23C"
+					item: { count: 1, id: "mekanismtools:refined_glowstone_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "2261C9AC524462CC"
+					item: { count: 1, id: "mekanismtools:refined_glowstone_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "4E5E0ED02C764847"
+					item: { count: 1, id: "mekanismtools:refined_glowstone_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "4186F7A9CE9D2D58"
+					item: { count: 1, id: "mekanismtools:refined_glowstone_boots" }
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 18.25d
+		}
+		{
+			dependencies: ["7493BBD042790A7A"]
+			icon: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 1
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+				id: "irons_spellbooks:plagued_chestplate"
+			}
+			id: "79A9F1590C4306C9"
+			optional: true
+			rewards: [{
+				id: "15C2B3A2773BA8DE"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "40E8B04DF0C0F9A5"
+					item: { count: 1, id: "irons_spellbooks:plagued_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "320227635020ECBB"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:plagued_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "720C85E9B11A137F"
+					item: { count: 1, id: "irons_spellbooks:plagued_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "173ACC6B3B1BA613"
+					item: { count: 1, id: "irons_spellbooks:plagued_boots" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 18.25d
+		}
+		{
+			dependencies: ["7493BBD042790A7A"]
+			icon: {
+				id: "twilightforest:steeleaf_chestplate"
+			}
+			id: "1C991C4A8327E010"
+			optional: true
+			rewards: [{
+				id: "0249596A637447C5"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "34EEC57E1581B5BF"
+					item: { count: 1, id: "twilightforest:steeleaf_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1DA22422C5DFE686"
+					item: { count: 1, id: "twilightforest:steeleaf_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "662F219D88A2E9BE"
+					item: { count: 1, id: "twilightforest:steeleaf_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "13332701AC0B57B0"
+					item: { count: 1, id: "twilightforest:steeleaf_boots" }
+					type: "item"
+				}
+			]
+			x: 4.25d
+			y: 18.25d
+		}
+		{
+			dependencies: ["7493BBD042790A7A"]
+			icon: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 1
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+				id: "irons_spellbooks:cultist_chestplate"
+			}
+			id: "5540301167DB13F7"
+			optional: true
+			rewards: [{
+				id: "0EEA9DBEB696A3C4"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "0ADAE36B9DE3769D"
+					item: { count: 1, id: "irons_spellbooks:cultist_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "3FA0D72435FA414D"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:cultist_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "70ED3A96FE19B461"
+					item: { count: 1, id: "irons_spellbooks:cultist_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "695C59D1B7DD91B1"
+					item: { count: 1, id: "irons_spellbooks:cultist_boots" }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 18.25d
+		}
+		{
+			dependencies: ["7493BBD042790A7A"]
+			icon: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 1
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+				id: "irons_spellbooks:pyromancer_chestplate"
+			}
+			id: "7D602ED84FECCD6C"
+			optional: true
+			rewards: [{
+				id: "2CB10E277A1D0C8A"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "4461769B530D3AE1"
+					item: { count: 1, id: "irons_spellbooks:pyromancer_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "162657AAA35EBB7B"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:pyromancer_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "34C949D84DD5246C"
+					item: { count: 1, id: "irons_spellbooks:pyromancer_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "736AE1B5DAA6F302"
+					item: { count: 1, id: "irons_spellbooks:pyromancer_boots" }
+					type: "item"
+				}
+			]
+			x: 6.75d
+			y: 18.25d
+		}
+		{
+			dependencies: ["7493BBD042790A7A"]
+			icon: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 1
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+				id: "irons_spellbooks:shadowwalker_chestplate"
+			}
+			id: "6ED75E3757394E6B"
+			optional: true
+			rewards: [{
+				id: "11E1FE23664C35D2"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "274259152654381E"
+					item: { count: 1, id: "irons_spellbooks:shadowwalker_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "4AF1FE6D60B241C4"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:shadowwalker_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "6EFE3A6120909773"
+					item: { count: 1, id: "irons_spellbooks:shadowwalker_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "581C47FEBE857962"
+					item: { count: 1, id: "irons_spellbooks:shadowwalker_boots" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 18.25d
+		}
+		{
+			dependencies: ["7493BBD042790A7A"]
+			icon: {
+				id: "mekanism:mekasuit_bodyarmor"
+			}
+			id: "0927422B795F7F3B"
+			optional: true
+			rewards: [{
+				id: "10D299AF59B0FF3A"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "15D1D887FDE20ED2"
+					item: { count: 1, id: "mekanism:mekasuit_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "11A4A8DBD716180D"
+					item: { count: 1, id: "mekanism:mekasuit_bodyarmor" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "19931B008E41D9CB"
+					item: { count: 1, id: "mekanism:mekasuit_pants" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1423F16F05F08490"
+					item: { count: 1, id: "mekanism:mekasuit_boots" }
+					type: "item"
+				}
+			]
+			x: 9.25d
+			y: 18.25d
+		}
+		{
+			dependencies: ["7493BBD042790A7A"]
+			icon: {
+				id: "mekanismtools:steel_chestplate"
+			}
+			id: "548FA90A38932295"
+			optional: true
+			rewards: [{
+				id: "11C5EB23E9914CCF"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "7F1E1CEC91F36895"
+					item: { count: 1, id: "mekanismtools:steel_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "5136C1AB3571FCA1"
+					item: { count: 1, id: "mekanismtools:steel_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "65C991085C7260E9"
+					item: { count: 1, id: "mekanismtools:steel_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "56114B36246C85DF"
+					item: { count: 1, id: "mekanismtools:steel_boots" }
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 18.25d
+		}
+		{
+			dependencies: ["7493BBD042790A7A"]
+			icon: {
+				id: "bloodmagic:livingleggings"
+			}
+			id: "7026E234E2116C7E"
+			optional: true
+			rewards: [{
+				id: "534226D4F5C8D3DF"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "30CF02555E3A6682"
+				item: { count: 1, id: "bloodmagic:livingleggings" }
+				type: "item"
+			}]
+			x: 11.75d
+			y: 18.25d
+		}
+		{
+			dependencies: ["7493BBD042790A7A"]
+			icon: {
+				id: "twilightforest:knightmetal_chestplate"
+			}
+			id: "5A2DE04788FDA849"
+			optional: true
+			rewards: [{
+				id: "2CBC45E785E29145"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "3A1BBDE5ABC32C77"
+					item: { count: 1, id: "twilightforest:knightmetal_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "4E2219FDCF99D179"
+					item: { count: 1, id: "twilightforest:knightmetal_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "5E60CDB977CE5EFD"
+					item: { count: 1, id: "twilightforest:knightmetal_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "69B72B1E7651FEF8"
+					item: { count: 1, id: "twilightforest:knightmetal_boots" }
+					type: "item"
+				}
+			]
+			x: 13.0d
+			y: 18.25d
+		}
+		{
+			dependencies: ["7493BBD042790A7A"]
+			icon: {
+				id: "minecraft:iron_horse_armor"
+			}
+			id: "2F09D3F8138944CB"
+			optional: true
+			rewards: [{
+				id: "23AFE5AC88943CAB"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "3F50B8D18BF10B2B"
+				item: { count: 1, id: "minecraft:iron_horse_armor" }
+				type: "item"
+			}]
+			x: 14.25d
+			y: 18.25d
+		}
+		{
+			dependencies: ["7493BBD042790A7A"]
+			icon: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 1
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+				id: "irons_spellbooks:wizard_chestplate"
+			}
+			id: "5B24639208C8CD53"
+			optional: true
+			rewards: [{
+				id: "7B28C05496E778F5"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "55AD1DFD9AF5C710"
+					item: { count: 1, id: "irons_spellbooks:wizard_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1ED2DBAF51551A72"
+					item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:wizard_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "3D46AB38D8E71E0A"
+					item: { count: 1, id: "irons_spellbooks:wizard_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "2F57D583189B2271"
+					item: { count: 1, id: "irons_spellbooks:wizard_boots" }
+					type: "item"
+				}
+			]
+			x: 15.5d
+			y: 18.25d
+		}
+		{
+			dependencies: ["7493BBD042790A7A"]
+			icon: {
+				id: "mekanismtools:osmium_chestplate"
+			}
+			id: "65E6DA3B01B17FED"
+			optional: true
+			rewards: [{
+				id: "4882159599AE9A9B"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "208F2B3C81528721"
+					item: { count: 1, id: "mekanismtools:osmium_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1D3F7C67B4C10608"
+					item: { count: 1, id: "mekanismtools:osmium_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "398CAA39F0E39923"
+					item: { count: 1, id: "mekanismtools:osmium_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "639397245CA2286F"
+					item: { count: 1, id: "mekanismtools:osmium_boots" }
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 19.5d
+		}
+		{
+			dependencies: ["7493BBD042790A7A"]
+			icon: {
+				id: "twilightforest:phantom_chestplate"
+			}
+			id: "34424302EEA17DFE"
+			optional: true
+			rewards: [{
+				id: "7689A8711F68CC19"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "2792606D8056B644"
+					item: { count: 1, id: "twilightforest:phantom_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "74A46ABA4CD387C1"
+					item: { count: 1, id: "twilightforest:phantom_chestplate" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["7493BBD042790A7A"]
+			icon: {
+				id: "thaumcraft:fortress_chestplate"
+			}
+			id: "6FDAA9F0C9EB9E7E"
+			optional: true
+			rewards: [{
+				id: "7A0A6F6B515D14B3"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "1710601B850C3D09"
+					item: { count: 1, id: "thaumcraft:fortress_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "7A2FB15C17798E6A"
+					item: { count: 1, id: "thaumcraft:fortress_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "6CCF4F4E091CACA9"
+					item: { count: 1, id: "thaumcraft:fortress_leggings" }
+					type: "item"
+				}
+			]
+			x: 4.25d
+			y: 19.5d
+		}
+		{
+			dependencies: ["7493BBD042790A7A"]
+			icon: {
+				id: "thaumcraft:cultist_leader_chestplate"
+			}
+			id: "2C2185678BF86C87"
+			optional: true
+			rewards: [{
+				id: "4E9FA2E0C2C89765"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "2BAF7B3977A5608E"
+					item: { count: 1, id: "thaumcraft:cultist_leader_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "54CEA89BF0FC4F09"
+					item: { count: 1, id: "thaumcraft:cultist_leader_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "3056C639148AD1F1"
+					item: { count: 1, id: "thaumcraft:cultist_leader_leggings" }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 19.5d
+		}
+		{
+			dependencies: ["7493BBD042790A7A"]
+			icon: {
+				id: "thaumcraft:void_fortress_chestplate"
+			}
+			id: "72D32EEE084D2D16"
+			optional: true
+			rewards: [{
+				id: "4B2168CA29A6A5D9"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "09EE0D6BBA2E3737"
+					item: { count: 1, id: "thaumcraft:void_fortress_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "21C5F3E514713C00"
+					item: { count: 1, id: "thaumcraft:void_fortress_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "46FE4A0C52B3B3E4"
+					item: { count: 1, id: "thaumcraft:void_fortress_leggings" }
+					type: "item"
+				}
+			]
+			x: 6.75d
+			y: 19.5d
+		}
+		{
+			dependencies: ["7493BBD042790A7A"]
+			icon: {
+				id: "thaumictinkerer:awakened_ichorcloth_robe"
+			}
+			id: "4EFEB03CCE505A14"
+			optional: true
+			rewards: [{
+				id: "5AE0E384E1D1605D"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "2A370D0E4A80BB5B"
+					item: { count: 1, id: "thaumictinkerer:awakened_ichorcloth_robe" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "73F7F9CD5A112122"
+					item: { count: 1, id: "thaumictinkerer:awakened_ichorcloth_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "75D2565CD1484724"
+					item: { count: 1, id: "thaumictinkerer:awakened_ichorcloth_boots" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["7493BBD042790A7A"]
+			icon: {
+				id: "thaumictinkerer:ichorcloth_robe"
+			}
+			id: "572086917D94200B"
+			optional: true
+			rewards: [{
+				id: "1010AFF5AE91B12A"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "5FA9BDCB691D381E"
+					item: { count: 1, id: "thaumictinkerer:ichorcloth_robe" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "718E56FA92B73432"
+					item: { count: 1, id: "thaumictinkerer:ichorcloth_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "6F91287F4DE45553"
+					item: { count: 1, id: "thaumictinkerer:ichorcloth_boots" }
+					type: "item"
+				}
+			]
+			x: 9.25d
+			y: 19.5d
+		}
+		{
+			dependencies: ["7493BBD042790A7A"]
+			icon: {
+				id: "advanced_ae:quantum_chestplate"
+			}
+			id: "73C7BF35CB5709BC"
+			optional: true
+			rewards: [{
+				id: "553C1CE42C28C9CF"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "2C82851A5AF22C5B"
+					item: { count: 1, id: "advanced_ae:quantum_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "46BA9D8E7B263861"
+					item: { count: 1, id: "advanced_ae:quantum_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "18CF2BEEEB142FAB"
+					item: { count: 1, id: "advanced_ae:quantum_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1F3D50C5F48E3E75"
+					item: { count: 1, id: "advanced_ae:quantum_boots" }
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 19.5d
+		}
+		{
+			dependencies: ["7493BBD042790A7A"]
+			icon: {
+				id: "ars_elemental:aqua_chestplate"
+			}
+			id: "59BB2A1178C74BC3"
+			optional: true
+			rewards: [{
+				id: "0C00D16D3927C1FC"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "32DAEABB9A0C2076"
+					item: { count: 1, id: "ars_elemental:aqua_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1001F0D4EC0F0FFF"
+					item: { count: 1, id: "ars_elemental:aqua_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "30ED4E6AC9FD3E64"
+					item: { count: 1, id: "ars_elemental:aqua_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "7DC0E19ED3375FDC"
+					item: { count: 1, id: "ars_elemental:aqua_boots" }
+					type: "item"
+				}
+			]
+			x: 11.75d
+			y: 19.5d
+		}
+		{
+			dependencies: ["7493BBD042790A7A"]
+			icon: {
+				id: "ars_elemental:earth_chestplate"
+			}
+			id: "13161558E595913E"
+			optional: true
+			rewards: [{
+				id: "13CE1479C9D6C5B8"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "7967FF226D59A2A4"
+					item: { count: 1, id: "ars_elemental:earth_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "59F2753B1CE782A3"
+					item: { count: 1, id: "ars_elemental:earth_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "02B5DEC0125FC5C4"
+					item: { count: 1, id: "ars_elemental:earth_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "11DED23D01288784"
+					item: { count: 1, id: "ars_elemental:earth_boots" }
+					type: "item"
+				}
+			]
+			x: 13.0d
+			y: 19.5d
+		}
+		{
+			dependencies: ["7493BBD042790A7A"]
+			icon: {
+				id: "ars_elemental:fire_chestplate"
+			}
+			id: "3A9BB4C8E5321EC5"
+			optional: true
+			rewards: [{
+				id: "5CC33DB5F0F850C7"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "18EC1F3B3299E5E7"
+					item: { count: 1, id: "ars_elemental:fire_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "54C1FC864414ED22"
+					item: { count: 1, id: "ars_elemental:fire_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "2C633AA84CE0DC93"
+					item: { count: 1, id: "ars_elemental:fire_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "4194797B61B8A5BB"
+					item: { count: 1, id: "ars_elemental:fire_boots" }
+					type: "item"
+				}
+			]
+			x: 14.25d
+			y: 19.5d
+		}
+		{
+			dependencies: ["7493BBD042790A7A"]
+			icon: {
+				id: "ars_elemental:air_chestplate"
+			}
+			id: "6B5E71AD116B0C4D"
+			optional: true
+			rewards: [{
+				id: "099F3F43A7386208"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "2EDA155B84383077"
+					item: { count: 1, id: "ars_elemental:air_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "6EF981E7C7C1DF0A"
+					item: { count: 1, id: "ars_elemental:air_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0F92946821B21291"
+					item: { count: 1, id: "ars_elemental:air_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "527D9B68F9EEE33D"
+					item: { count: 1, id: "ars_elemental:air_boots" }
+					type: "item"
+				}
+			]
+			x: 15.5d
+			y: 19.5d
+		}
+		{
+			dependencies: ["7493BBD042790A7A"]
+			icon: {
+				id: "twilightforest:fiery_chestplate"
+			}
+			id: "61B1258B2BC3446A"
+			optional: true
+			rewards: [{
+				id: "757E383FA79AA50F"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "2B036DE5654F4CB6"
+					item: { count: 1, id: "twilightforest:fiery_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "47EA10A54031C852"
+					item: { count: 1, id: "twilightforest:fiery_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "5358985D2C1FA281"
+					item: { count: 1, id: "twilightforest:fiery_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "6EF6D09EDDBBEF78"
+					item: { count: 1, id: "twilightforest:fiery_boots" }
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 20.75d
+		}
+		{
+			dependencies: ["7493BBD042790A7A"]
+			icon: {
+				id: "mowziesmobs:geomancer_belt"
+			}
+			id: "7823AAE483DBF5CF"
+			optional: true
+			rewards: [{
+				id: "446B3EA256F3CBF5"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "5EBDF455BA3B4007"
+				item: { count: 1, id: "mowziesmobs:geomancer_belt" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 20.75d
+		}
+		{
+			dependencies: ["7493BBD042790A7A"]
+			icon: {
+				id: "tainted_magic:void_fortress_chestplate"
+			}
+			id: "7E18608B427CF1A9"
+			optional: true
+			rewards: [{
+				id: "4D433A558EF9187F"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "5FFABF5BFFA4824B"
+					item: { count: 1, id: "tainted_magic:void_fortress_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "6544673DA41F7A93"
+					item: { count: 1, id: "tainted_magic:void_fortress_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "3E70F7CCCBDBABC4"
+					item: { count: 1, id: "tainted_magic:void_fortress_leggings" }
+					type: "item"
+				}
+			]
+			x: 4.25d
+			y: 20.75d
+		}
+		{
+			dependencies: ["7493BBD042790A7A"]
+			icon: {
+				id: "bloodmagic:livingplate"
+			}
+			id: "7BA7DCB5353FD2D0"
+			optional: true
+			rewards: [{
+				id: "2EDF494C2F0B3560"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "0F00814D63D56989"
+				item: { count: 1, id: "bloodmagic:livingplate" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 20.75d
+		}
+		{
+			icon: {
+				id: "twilightforest:naga_chestplate"
+			}
+			id: "68485BAA676D70F2"
+			optional: true
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "7D97BB613CAF4E64"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 23.5d
+		}
+		{
+			dependencies: ["68485BAA676D70F2"]
+			icon: {
+				id: "twilightforest:naga_chestplate"
+			}
+			id: "17D16E9358C2EF7C"
+			optional: true
+			rewards: [{
+				id: "37A44FD629E7D8A7"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "3CBA2825A6167FD3"
+					item: { count: 1, id: "twilightforest:naga_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "4EE532CD0029E2D9"
+					item: { count: 1, id: "twilightforest:naga_leggings" }
+					type: "item"
+				}
+			]
+			x: 1.75d
+			y: 23.5d
+		}
+		{
+			dependencies: ["68485BAA676D70F2"]
+			icon: {
+				id: "tainted_magic:shadow_fortress_chestplate"
+			}
+			id: "62730E016B97D996"
+			optional: true
+			rewards: [{
+				id: "3A56B1E95DDEE6C8"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "0B396A7BDB9A307B"
+					item: { count: 1, id: "tainted_magic:shadow_fortress_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "27044D3731EB2B4C"
+					item: { count: 1, id: "tainted_magic:shadow_fortress_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "7264E91C5659724F"
+					item: { count: 1, id: "tainted_magic:shadow_fortress_leggings" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 23.5d
+		}
+		{
+			dependencies: ["68485BAA676D70F2"]
+			icon: {
+				id: "cataclysm:cursium_chestplate"
+			}
+			id: "4B7840DC932B46C9"
+			optional: true
+			rewards: [{
+				id: "46BBA042528AC6FC"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "044CBDA83E35F0BF"
+					item: { count: 1, id: "cataclysm:cursium_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "5D83BE6E1F266A13"
+					item: { count: 1, id: "cataclysm:cursium_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "3E7261D496733C96"
+					item: { count: 1, id: "cataclysm:cursium_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "7CC7E982E28430A9"
+					item: { count: 1, id: "cataclysm:cursium_boots" }
+					type: "item"
+				}
+			]
+			x: 4.25d
+			y: 23.5d
+		}
+		{
+			dependencies: ["68485BAA676D70F2"]
+			icon: {
+				id: "ars_elemental:aqua_leggings_heavy"
+			}
+			id: "4A428587EDBD74F8"
+			optional: true
+			rewards: [{
+				id: "20442AFB75CF9F8F"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "54B7629BB7D10B4F"
+				item: { count: 1, id: "ars_elemental:aqua_leggings_heavy" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 23.5d
+		}
+		{
+			dependencies: ["68485BAA676D70F2"]
+			icon: {
+				id: "ars_elemental:earth_leggings_heavy"
+			}
+			id: "4A503A1EB17573A5"
+			optional: true
+			rewards: [{
+				id: "70AB7F9A0F909B63"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "67B14DF6B329A084"
+				item: { count: 1, id: "ars_elemental:earth_leggings_heavy" }
+				type: "item"
+			}]
+			x: 6.75d
+			y: 23.5d
+		}
+		{
+			dependencies: ["68485BAA676D70F2"]
+			icon: {
+				id: "ars_elemental:air_leggings_heavy"
+			}
+			id: "4912289D1D8116E3"
+			optional: true
+			rewards: [{
+				id: "3853DA0B331ABDBC"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "2C0C1417D1AED132"
+				item: { count: 1, id: "ars_elemental:air_leggings_heavy" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 23.5d
+		}
+		{
+			dependencies: ["68485BAA676D70F2"]
+			icon: {
+				id: "ars_elemental:fire_leggings_heavy"
+			}
+			id: "0942ACFCBD84D036"
+			optional: true
+			rewards: [{
+				id: "27C9D88E8E71D098"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "4E69C5D56C284A50"
+				item: { count: 1, id: "ars_elemental:fire_leggings_heavy" }
+				type: "item"
+			}]
+			x: 9.25d
+			y: 23.5d
+		}
+		{
+			dependencies: ["68485BAA676D70F2"]
+			icon: {
+				id: "minecraft:golden_horse_armor"
+			}
+			id: "42D5C39B717D436E"
+			optional: true
+			rewards: [{
+				id: "7223DFD334A8AB0D"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "021B179F08F8119D"
+				item: { count: 1, id: "minecraft:golden_horse_armor" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 23.5d
+		}
+		{
+			dependencies: ["68485BAA676D70F2"]
+			icon: {
+				id: "efn:ruinfighter_chestplate"
+			}
+			id: "222BC7D9A30AE779"
+			optional: true
+			rewards: [{
+				id: "36FD6087A4253BFA"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "6AD60379AB66381E"
+					item: { count: 1, id: "efn:ruinfighter_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "6B4B1A0F759286E5"
+					item: { count: 1, id: "efn:ruinfighter_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "5A2814C36E363CBB"
+					item: { count: 1, id: "efn:ruinfighter_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "4DA2EB21399ACF09"
+					item: { count: 1, id: "efn:ruinfighter_boots" }
+					type: "item"
+				}
+			]
+			x: 11.75d
+			y: 23.5d
+		}
+		{
+			dependencies: ["68485BAA676D70F2"]
+			icon: {
+				id: "mekanismtools:refined_obsidian_chestplate"
+			}
+			id: "168B76D98E50D8D6"
+			optional: true
+			rewards: [{
+				id: "5133A3EA42E15FE6"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "6E5D2CC0B4BC9C8A"
+					item: { count: 1, id: "mekanismtools:refined_obsidian_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "335F5C743898481A"
+					item: { count: 1, id: "mekanismtools:refined_obsidian_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "613ABBFFC5F50035"
+					item: { count: 1, id: "mekanismtools:refined_obsidian_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "18D81EF5F08433C5"
+					item: { count: 1, id: "mekanismtools:refined_obsidian_boots" }
+					type: "item"
+				}
+			]
+			x: 13.0d
+			y: 23.5d
+		}
+		{
+			dependencies: ["68485BAA676D70F2"]
+			icon: {
+				id: "cataclysm:ignitium_chestplate"
+			}
+			id: "2ED15497FB105EB6"
+			optional: true
+			rewards: [{
+				id: "18DAD86A9B6DD590"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "1A2E9186BE014C2F"
+					item: { count: 1, id: "cataclysm:ignitium_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "3E0FD0B19018F4AF"
+					item: { count: 1, id: "cataclysm:ignitium_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "021A804D366AA32F"
+					item: { count: 1, id: "cataclysm:ignitium_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "307B120549CC1DD9"
+					item: { count: 1, id: "cataclysm:ignitium_boots" }
+					type: "item"
+				}
+			]
+			x: 14.25d
+			y: 23.5d
+		}
+		{
+			dependencies: ["68485BAA676D70F2"]
+			icon: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 1
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+				id: "irons_spellbooks:paladin_chestplate"
+			}
+			id: "5F2ABE946470DE46"
+			optional: true
+			rewards: [{
+				id: "35791BA8853E265E"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "49E7D99879C5632F"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:paladin_chestplate" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 23.5d
+		}
+		{
+			dependencies: ["68485BAA676D70F2"]
+			icon: {
+				components: {
+					"irons_spellbooks:spell_container": {
+						data: [ ]
+						maxSpells: 1
+						mustEquip: 1b
+						spellWheel: 1b
+					}
+				}
+				id: "irons_spellbooks:infernal_sorcerer_chestplate"
+			}
+			id: "6D4AAB5045271CE1"
+			optional: true
+			rewards: [{
+				id: "1FC2646E4BDE480E"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "7628A8CB9364C3E4"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 1, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:infernal_sorcerer_chestplate" }
+				type: "item"
+			}]
+			x: 1.75d
+			y: 24.75d
+		}
+		{
+			dependencies: ["68485BAA676D70F2"]
+			icon: {
+				id: "mekanism:jetpack_armored"
+			}
+			id: "0E8EF2E4FDF77A2C"
+			optional: true
+			rewards: [{
+				id: "4BC649944BC15AE2"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "32750880B66A885E"
+				item: { count: 1, id: "mekanism:jetpack_armored" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 24.75d
+		}
+		{
+			dependencies: ["68485BAA676D70F2"]
+			icon: {
+				id: "create:netherite_backtank"
+			}
+			id: "147458B5789B2844"
+			optional: true
+			rewards: [{
+				id: "4D8CE45786DAEE4F"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "7C64293D01C6E9B6"
+				item: { count: 1, id: "create:netherite_backtank" }
+				type: "item"
+			}]
+			x: 4.25d
+			y: 24.75d
+		}
+		{
+			dependencies: ["68485BAA676D70F2"]
+			icon: {
+				id: "cataclysm:bone_reptile_chestplate"
+			}
+			id: "5CA9C769F89EA7DD"
+			optional: true
+			rewards: [{
+				id: "2C7CBCCDA7DE4987"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "50255BCF6ACCBBE1"
+					item: { count: 1, id: "cataclysm:bone_reptile_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "68C2D508C44C8165"
+					item: { count: 1, id: "cataclysm:bone_reptile_chestplate" }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 24.75d
+		}
+		{
+			dependencies: ["68485BAA676D70F2"]
+			icon: {
+				id: "cataclysm:bloom_stone_pauldrons"
+			}
+			id: "22BBDA3434F8C4B6"
+			optional: true
+			rewards: [{
+				id: "205E6C71ED9F4DD8"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "3E26FE60D7DD05FC"
+				item: { count: 1, id: "cataclysm:bloom_stone_pauldrons" }
+				type: "item"
+			}]
+			x: 6.75d
+			y: 24.75d
+		}
+		{
+			dependencies: ["68485BAA676D70F2"]
+			icon: {
+				id: "efn:duskfire_chestplate"
+			}
+			id: "48DEBB6EF6EC9CE3"
+			optional: true
+			rewards: [{
+				id: "54C516821A8D7592"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "5F190DE8FF5DC6C9"
+					item: { count: 1, id: "efn:duskfire_helmet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "367CCE5F0861C065"
+					item: { count: 1, id: "efn:duskfire_chestplate" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "4BC1333EFB653456"
+					item: { count: 1, id: "efn:duskfire_leggings" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "2614728D7FCDE2DF"
+					item: { count: 1, id: "efn:duskfire_boots" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 24.75d
+		}
+		{
+			dependencies: ["68485BAA676D70F2"]
+			icon: {
+				id: "minecraft:wolf_armor"
+			}
+			id: "7870568D14D607EE"
+			optional: true
+			rewards: [{
+				id: "36729A119270DBC3"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "7769DDB7BEA5A072"
+				item: { count: 1, id: "minecraft:wolf_armor" }
+				type: "item"
+			}]
+			x: 9.25d
+			y: 24.75d
+		}
+		{
+			dependencies: ["68485BAA676D70F2"]
+			icon: {
+				id: "cataclysm:ignitium_elytra_chestplate"
+			}
+			id: "1D42A94C07B04DE7"
+			optional: true
+			rewards: [{
+				id: "0946E6F2ADEA464E"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "29F277513787F764"
+				item: { count: 1, id: "cataclysm:ignitium_elytra_chestplate" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 24.75d
+		}
+		{
+			dependencies: ["68485BAA676D70F2"]
+			icon: {
+				id: "minecraft:diamond_horse_armor"
+			}
+			id: "77DF3189D578337B"
+			optional: true
+			rewards: [{
+				id: "6427F18FA301717E"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "5B161752717E768C"
+				item: { count: 1, id: "minecraft:diamond_horse_armor" }
+				type: "item"
+			}]
+			x: 11.75d
+			y: 24.75d
+		}
+		{
+			dependencies: ["68485BAA676D70F2"]
+			icon: {
+				id: "irons_spellbooks:gold_crown"
+			}
+			id: "49271788C1B3F940"
+			optional: true
+			rewards: [{
+				id: "6325F21E0677A9D6"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "13846C55CAD35F26"
+				item: { count: 1, id: "irons_spellbooks:gold_crown" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 24.75d
+		}
+	]
+}

@@ -1,0 +1,256 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "mega_worlds"
+	group: "15283A8731F6C89A"
+	icon: {
+		id: "biomesoplenty:lavender"
+	}
+	id: "30E5227074C584CB"
+	images: [{
+		height: 2.4d
+		id: "480D1840AD9EF9B0"
+		image: "mega:textures/quest_logos/mega_worlds.png"
+		order: 10
+		rotation: 0.0d
+		width: 8.114d
+		x: 4.0d
+		y: -2.05d
+	}]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			hide_dependency_lines: false
+			icon: {
+				id: "biomesoplenty:lavender"
+			}
+			id: "27F4131DBBB76930"
+			optional: true
+			rewards: [{
+				id: "729DDC4C06C5A767"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "5D9B4E31EECB0314"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["27F4131DBBB76930"]
+			hide_dependency_lines: false
+			icon: {
+				id: "biomesoplenty:lavender"
+			}
+			id: "275F5661DF7F5887"
+			optional: true
+			rewards: [{
+				id: "12B97D1E49318FAE"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				biome: "biomesoplenty:redwood_forest"
+				id: "4876C24067F97B00"
+				type: "biome"
+			}]
+			x: 2.0d
+			y: 0.25d
+		}
+		{
+			dependencies: ["27F4131DBBB76930"]
+			hide_dependency_lines: false
+			icon: {
+				id: "biomesoplenty:lavender"
+			}
+			id: "7B8EA496CB039CF9"
+			optional: true
+			rewards: [{
+				id: "5449030B092A408A"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				biome: "biomesoplenty:lavender_field"
+				id: "54D64F4E0B64C593"
+				type: "biome"
+			}]
+			x: 3.5d
+			y: 0.25d
+		}
+		{
+			dependencies: ["27F4131DBBB76930"]
+			hide_dependency_lines: false
+			icon: {
+				id: "biomesoplenty:lavender"
+			}
+			id: "20E3F2252EBBBA38"
+			optional: true
+			rewards: [{
+				id: "7FAA690964E9A383"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				biome: "biomesoplenty:mystic_grove"
+				id: "0EC16FB74211AAD5"
+				type: "biome"
+			}]
+			x: 5.0d
+			y: 0.25d
+		}
+		{
+			dependencies: ["27F4131DBBB76930"]
+			hide_dependency_lines: false
+			icon: {
+				id: "biomesoplenty:lavender"
+			}
+			id: "1534F8E297B49864"
+			optional: true
+			rewards: [{
+				id: "055117C753971437"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				biome: "biomesoplenty:volcano"
+				id: "629386F4E433350F"
+				type: "biome"
+			}]
+			x: 6.5d
+			y: 0.25d
+		}
+		{
+			dependencies: ["27F4131DBBB76930"]
+			hide_dependency_lines: false
+			icon: {
+				id: "biomesoplenty:lavender"
+			}
+			id: "4BFBFFC6999B4623"
+			optional: true
+			rewards: [{
+				id: "555DA0BC111F1FE8"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				biome: "biomesoplenty:crystalline_chasm"
+				id: "3ECB36DC46705E99"
+				type: "biome"
+			}]
+			x: 8.0d
+			y: 0.25d
+		}
+		{
+			dependencies: ["27F4131DBBB76930"]
+			hide_dependency_lines: false
+			icon: {
+				id: "regions_unexplored:wisteria_planks"
+			}
+			id: "09357869A02FDCB3"
+			optional: true
+			rewards: [{
+				id: "654F28AA4A73D9C9"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				biome: "regions_unexplored:wisteria_grove"
+				id: "7FB4269450DBA049"
+				type: "biome"
+			}]
+			x: 2.0d
+			y: 1.75d
+		}
+		{
+			dependencies: ["27F4131DBBB76930"]
+			hide_dependency_lines: false
+			icon: {
+				id: "regions_unexplored:wisteria_planks"
+			}
+			id: "1B19CEB38FBF1A91"
+			optional: true
+			rewards: [{
+				id: "38359EFAEF44603A"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				biome: "regions_unexplored:baobab_savanna"
+				id: "654B8C2283930F33"
+				type: "biome"
+			}]
+			x: 3.5d
+			y: 1.75d
+		}
+		{
+			dependencies: ["27F4131DBBB76930"]
+			hide_dependency_lines: false
+			icon: {
+				id: "regions_unexplored:wisteria_planks"
+			}
+			id: "623DA0BA9F7C8D8F"
+			optional: true
+			rewards: [{
+				id: "2CB8DD167BA444A7"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				biome: "regions_unexplored:bioshroom_caves"
+				id: "085178E5B8906A86"
+				type: "biome"
+			}]
+			x: 5.0d
+			y: 1.75d
+		}
+		{
+			dependencies: ["27F4131DBBB76930"]
+			hide_dependency_lines: false
+			icon: {
+				id: "regions_unexplored:wisteria_planks"
+			}
+			id: "6A8B8EDA04DAD0DA"
+			optional: true
+			rewards: [{
+				id: "201984BF5E04A77D"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				biome: "regions_unexplored:prismachasm"
+				id: "0468150A8EE84BBC"
+				type: "biome"
+			}]
+			x: 6.5d
+			y: 1.75d
+		}
+		{
+			dependencies: ["27F4131DBBB76930"]
+			hide_dependency_lines: false
+			icon: {
+				id: "regions_unexplored:wisteria_planks"
+			}
+			id: "3E4EFA4C907A20C5"
+			optional: true
+			rewards: [{
+				id: "1FC02B849757188C"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				biome: "regions_unexplored:spires"
+				id: "4D083FA90BFF3810"
+				type: "biome"
+			}]
+			x: 8.0d
+			y: 1.75d
+		}
+	]
+}

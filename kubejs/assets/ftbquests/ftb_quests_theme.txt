@@ -1,0 +1,42 @@
+[*]
+background:          mega:textures/quest_theme/background.png; tile_size=64
+chapter_panel_background:          hollow_rectangle:{{widget_border}}; round_edges + mega:textures/quest_theme/background.png; color=#F0D0D8E8; padding=1
+key_reference_background:          mega:textures/quest_theme/background.png; tile_size=64
+selected_chapter_highlight_1: #70C8AE86
+selected_chapter_highlight_2: #30C8AE86
+
+text_color:          #E8E4DA
+hover_text_color:    #F2D58A
+disabled_text_color: #7C7A74
+
+widget_border:     #5A4A30
+widget_background: #66000000
+symbol_in:         #F2C14E
+symbol_out:        #9A6A1C
+
+button:                hollow_rectangle:{{widget_border}}
+panel:                 {{container_slot}}
+disabled_button:       hollow_rectangle:{{widget_border}}
+hover_button:          {{button}} + {{widget_background}}; padding=1
+context_menu:          hollow_rectangle:{{widget_border}}; round_edges + mega:textures/quest_theme/background.png; color=#F0E0E0E0; padding=1
+scroll_bar_background: {{widget_background}}
+scroll_bar:            {{button}} + {{widget_background}}; padding=1
+container_slot:        {{button}}; padding=-1
+
+tasks_text_color:                   #6FB6FF
+rewards_text_color:                 #F2C14E
+quest_view_background:              {{context_menu}}
+quest_view_border:                  {{widget_border}}
+quest_view_title:                   #C8AE86
+quest_completed_color:              #E83DA5FF
+quest_started_color:                #E8F2C14E
+quest_not_started_color:            #F0D8E2F0
+quest_locked_color:                 #FF9A9CAE
+dependency_line_completed_color:    #3DA5FF
+dependency_line_uncompleted_color:  #DCB49A74
+dependency_line_unavailable_color:  #64806A5A
+dependency_line_requires_color:     #00C8FF
+dependency_line_required_for_color: #F2C14E
+dependency_line_selected_speed:     1.0
+dependency_line_unselected_speed:   0.25
+dependency_line_thickness:          0.22

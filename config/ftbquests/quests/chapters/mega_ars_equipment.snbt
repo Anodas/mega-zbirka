@@ -1,0 +1,709 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "mega_ars_equipment"
+	group: "12B8784D9CF4299B"
+	icon: {
+		id: "ars_nouveau:ritual_brazier"
+	}
+	id: "277A668A37EDAD9F"
+	images: [
+		{
+			alpha: 150
+			color: 1187884
+			height: 9.5d
+			id: "2FD99E2E1D21A67B"
+			image: "#FFFFFF"
+			order: -20
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_shadow: 1b
+			width: 10.5d
+			x: 3.75d
+			y: 2.0d
+		}
+		{
+			alpha: 215
+			color: 2376274
+			height: 1.2d
+			id: "5B7E8B6446026F99"
+			image: "#FFFFFF"
+			order: -20
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_on_image: 1b
+			text_shadow: 1b
+			width: 10.5d
+			x: 3.75d
+			y: -1.7000000000000002d
+		}
+		{
+			alpha: 150
+			color: 1187884
+			height: 9.5d
+			id: "5EE99523816F7F78"
+			image: "#FFFFFF"
+			order: -20
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_shadow: 1b
+			width: 10.5d
+			x: 15.75d
+			y: 2.0d
+		}
+		{
+			alpha: 215
+			color: 2376274
+			height: 1.2d
+			id: "239F2302674FB869"
+			image: "#FFFFFF"
+			order: -20
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_on_image: 1b
+			text_shadow: 1b
+			width: 10.5d
+			x: 15.75d
+			y: -1.7000000000000002d
+		}
+		{
+			height: 5.4d
+			id: "0BD863B97A5EFA88"
+			image: "mega:textures/quest_logos/mega_ars_equipment.png"
+			order: 10
+			rotation: 0.0d
+			width: 11.374d
+			x: 9.75d
+			y: -6.05d
+		}
+	]
+	order_index: 12
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"1B7F58A64B949BFC"
+				"4D279D1E5B9D955B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "ars_nouveau:ritual_sunrise"
+			}
+			id: "42049D0AACE15F54"
+			optional: true
+			rewards: [{
+				id: "779175B5C66F8608"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "114424B4AF00060B"
+				item: { count: 1, id: "ars_nouveau:ritual_sunrise" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1B7F58A64B949BFC"
+				"4D279D1E5B9D955B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "ars_nouveau:ritual_warping"
+			}
+			id: "5CF12CC94D29F90E"
+			optional: true
+			rewards: [{
+				id: "48D8EA4E2D411ABB"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "7DF261D28252CD67"
+				item: { count: 1, id: "ars_nouveau:ritual_warping" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1B7F58A64B949BFC"
+				"4D279D1E5B9D955B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "ars_nouveau:ritual_overgrowth"
+			}
+			id: "1D5ED6637C312748"
+			optional: true
+			rewards: [{
+				id: "6DE1AE0CD5B67066"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "356C35BE47D8DA4E"
+				item: { count: 1, id: "ars_nouveau:ritual_overgrowth" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1B7F58A64B949BFC"
+				"4D279D1E5B9D955B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "ars_nouveau:ritual_moonfall"
+			}
+			id: "780E8062C432F5CC"
+			optional: true
+			rewards: [{
+				id: "42F949D7B4EF3500"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "57EF58F1C29A0B02"
+				item: { count: 1, id: "ars_nouveau:ritual_moonfall" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"1B7F58A64B949BFC"
+				"4D279D1E5B9D955B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "ars_nouveau:ritual_fertility"
+			}
+			id: "25DE44E45D00D65E"
+			optional: true
+			rewards: [{
+				id: "25E3F73DB5BADC1F"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "6E27969E2EB2D86D"
+				item: { count: 1, id: "ars_nouveau:ritual_fertility" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"1B7F58A64B949BFC"
+				"4D279D1E5B9D955B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "ars_nouveau:ritual_burrowing"
+			}
+			id: "0EFAC90330B5780F"
+			optional: true
+			rewards: [{
+				id: "701E65D08AC92E05"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "1A9A154533B7B023"
+				item: { count: 1, id: "ars_nouveau:ritual_burrowing" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"1B7F58A64B949BFC"
+				"4D279D1E5B9D955B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "ars_nouveau:ritual_challenge"
+			}
+			id: "5DDF820F34CF906C"
+			optional: true
+			rewards: [{
+				id: "2A72309BDC3284B0"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "00FBA2BA8E4ECCE3"
+				item: { count: 1, id: "ars_nouveau:ritual_challenge" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"1B7F58A64B949BFC"
+				"4D279D1E5B9D955B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "ars_nouveau:ritual_cloudshaping"
+			}
+			id: "0A9C8B0E39EB471A"
+			optional: true
+			rewards: [{
+				id: "208B78810B32BF1A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "66478648A8E05A33"
+				item: { count: 1, id: "ars_nouveau:ritual_cloudshaping" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"1B7F58A64B949BFC"
+				"4D279D1E5B9D955B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "ars_nouveau:ritual_disintegration"
+			}
+			id: "3DAE1762091234CA"
+			optional: true
+			rewards: [{
+				id: "145E539FC41FDEF6"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "4B13E92A46406A72"
+				item: { count: 1, id: "ars_nouveau:ritual_disintegration" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"1B7F58A64B949BFC"
+				"4D279D1E5B9D955B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "ars_nouveau:ritual_restoration"
+			}
+			id: "3287DE72D8BCC46C"
+			optional: true
+			rewards: [{
+				id: "14F5C33559F8FAF6"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "2EFE2E9C0B69E626"
+				item: { count: 1, id: "ars_nouveau:ritual_restoration" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"317C54E1112219E1"
+				"4D279D1E5B9D955B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "ars_nouveau:ritual_brazier"
+			}
+			id: "1B7F58A64B949BFC"
+			optional: true
+			rewards: [{
+				id: "4096A6ABC0FFEED0"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "68E5A1752AD40A92"
+				item: { count: 1, id: "ars_nouveau:ritual_brazier" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1B7F58A64B949BFC"
+				"4D279D1E5B9D955B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "ars_nouveau:ritual_awakening"
+			}
+			id: "4ECB22498EED1AEB"
+			optional: true
+			rewards: [{
+				id: "189868A4BA8874B8"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "0C0935520FF96DD3"
+				item: { count: 1, id: "ars_nouveau:ritual_awakening" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"1B7F58A64B949BFC"
+				"4D279D1E5B9D955B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "ars_nouveau:ritual_flight"
+			}
+			id: "26287AC853FC46EF"
+			optional: true
+			rewards: [{
+				id: "416CE0BADBBB9E81"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "558B3E38A4BF7C11"
+				item: { count: 1, id: "ars_nouveau:ritual_flight" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1B7F58A64B949BFC"
+				"4D279D1E5B9D955B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "ars_nouveau:ritual_wilden_summon"
+			}
+			id: "27F0A396AB011279"
+			optional: true
+			rewards: [{
+				id: "00F56FA6701089BE"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "6C5CF66B50033350"
+				item: { count: 1, id: "ars_nouveau:ritual_wilden_summon" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1B7F58A64B949BFC"
+				"4D279D1E5B9D955B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "ars_nouveau:ritual_scrying"
+			}
+			id: "1723059FDA999D54"
+			optional: true
+			rewards: [{
+				id: "344B88AEB1C47614"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "067FEEC1108D47A4"
+				item: { count: 1, id: "ars_nouveau:ritual_scrying" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1B7F58A64B949BFC"
+				"4D279D1E5B9D955B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "ars_nouveau:ritual_binding"
+			}
+			id: "461F7EA7C3E31CD1"
+			optional: true
+			rewards: [{
+				id: "76FCDA569C622498"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "00C2E167B537D097"
+				item: { count: 1, id: "ars_nouveau:ritual_binding" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"14F4DBBDCEC0A2E8"
+				"4D279D1E5B9D955B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "ars_nouveau:enchanters_sword"
+			}
+			id: "78E38FDD6F34C6D0"
+			optional: true
+			rewards: [{
+				id: "5953D26BFD626FAF"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "793BFF5C40E4B6FF"
+				item: { count: 1, id: "ars_nouveau:enchanters_sword" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"14F4DBBDCEC0A2E8"
+				"4D279D1E5B9D955B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "ars_nouveau:enchanters_shield"
+			}
+			id: "06C352BDE8A2B9D7"
+			optional: true
+			rewards: [{
+				id: "1D6846E5BF006455"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "5CAF7D1F03191562"
+				item: { count: 1, id: "ars_nouveau:enchanters_shield" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"14F4DBBDCEC0A2E8"
+				"4D279D1E5B9D955B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "ars_nouveau:enchanters_mirror"
+			}
+			id: "2E2A469D2E5000DD"
+			optional: true
+			rewards: [{
+				id: "17607F92D8D689F9"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "546FFA354E4D1DF7"
+				item: { count: 1, id: "ars_nouveau:enchanters_mirror" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"14F4DBBDCEC0A2E8"
+				"4D279D1E5B9D955B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "ars_nouveau:spell_bow"
+			}
+			id: "77EAD9475184BB2C"
+			optional: true
+			rewards: [{
+				id: "6C3ED34FF2242727"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "2D110B536A44C460"
+				item: { count: 1, id: "ars_nouveau:spell_bow" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"14F4DBBDCEC0A2E8"
+				"4D279D1E5B9D955B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "ars_nouveau:ring_of_lesser_discount"
+			}
+			id: "13962CE648907479"
+			optional: true
+			rewards: [{
+				id: "3043B25BDB12D31D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "3CFB41E5E4F890C3"
+					item: { count: 1, id: "ars_nouveau:ring_of_lesser_discount" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "145DAEA63B4517CD"
+					item: { count: 1, id: "ars_nouveau:ring_of_greater_discount" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"14F4DBBDCEC0A2E8"
+				"4D279D1E5B9D955B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "ars_nouveau:belt_of_unstable_gifts"
+			}
+			id: "4EC8AADBC4508B48"
+			optional: true
+			rewards: [{
+				id: "72E329BC54468869"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "30ED2EA139E99139"
+				item: { count: 1, id: "ars_nouveau:belt_of_unstable_gifts" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"14F4DBBDCEC0A2E8"
+				"4D279D1E5B9D955B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "ars_nouveau:belt_of_levitation"
+			}
+			id: "4D9DC7CC8029ABFB"
+			optional: true
+			rewards: [{
+				id: "141EA57FBC227B72"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "1CE38C8A89DCFFF3"
+				item: { count: 1, id: "ars_nouveau:belt_of_levitation" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"14F4DBBDCEC0A2E8"
+				"4D279D1E5B9D955B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "ars_nouveau:amulet_of_mana_boost"
+			}
+			id: "7EDD1565FD0C7721"
+			optional: true
+			rewards: [{
+				id: "20268F52DEBD15E6"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "01422587315E5EA1"
+					item: { count: 1, id: "ars_nouveau:amulet_of_mana_boost" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "3C32C4A9AB3C2934"
+					item: { count: 1, id: "ars_nouveau:amulet_of_mana_regen" }
+					type: "item"
+				}
+			]
+			x: 19.5d
+			y: 5.0d
+		}
+	]
+}

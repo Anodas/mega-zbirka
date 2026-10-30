@@ -1,0 +1,130 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "52eaca982fff55a3"
+	group: "378CFB2DB8C23918"
+	icon: {
+		id: "sliceanddice:slicer"
+	}
+	id: "52EACA982FFF55A3"
+	images: [{
+		height: 3.9d
+		id: "230DD7246A56E327"
+		image: "mega:textures/quest_logos/52eaca982fff55a3.png"
+		order: 10
+		rotation: 0.0d
+		width: 12.847d
+		x: 2.5d
+		y: -4.55d
+	}]
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["29DAE33BF15EE67D"]
+			hide_details_until_startable: false
+			icon: {
+				id: "sliceanddice:slicer"
+			}
+			id: "1F3425964EF20307"
+			rewards: [{
+				id: "166C6BFA63243D2E"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "0F6C57636113F59C"
+				item: { count: 1, id: "sliceanddice:slicer" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F3425964EF20307"]
+			hide_details_until_startable: false
+			icon: {
+				id: "sliceanddice:sprinkler"
+			}
+			id: "66AA28853AF6513D"
+			rewards: [{
+				id: "64B0624BF1A904EB"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "58108CADBCD36B92"
+					item: { count: 1, id: "sliceanddice:sprinkler" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "2FAEEABE6BE72224"
+					item: { count: 1, id: "sliceanddice:floor_sprinkler" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["66AA28853AF6513D"]
+			hide_details_until_startable: false
+			icon: {
+				id: "sliceanddice:fertilizer_bucket"
+			}
+			id: "70A33CD3C2A080E7"
+			optional: true
+			rewards: [{
+				id: "67236DB7C9A67F69"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "0D93E5340172A2C7"
+				item: { count: 1, id: "sliceanddice:fertilizer_bucket" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"1F3425964EF20307"
+				"66AA28853AF6513D"
+			]
+			hide_details_until_startable: false
+			icon: {
+				id: "sliceanddice:slicer"
+			}
+			id: "2EAA89117EF0B5E6"
+			optional: true
+			rewards: [{
+				id: "15C17F4A04BB1743"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "3213DAA1D5D2CFD6"
+					item: { count: 1, id: "sliceanddice:slicer" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "25B4E19F2DB583FA"
+					item: { count: 1, id: "sliceanddice:sprinkler" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 1.5d
+		}
+	]
+}

@@ -1,0 +1,15 @@
+{
+  "create.gui.stock_keeper.click_to_cycle": "Клацніть, щоби перемкнути",
+  "create.gui.stock_keeper.jei_sync.none": "Синхронізація відсутня",
+  "create.gui.stock_keeper.jei_sync.none.description": "Пошукові запити в завідувачі складу та переглядачі рецептів лишаються незалежними",
+  "create.gui.stock_keeper.jei_sync.sync_both": "Синхронізувати з та до переглядача рецептів ",
+  "create.gui.stock_keeper.jei_sync.sync_both.description": "Пошукові запити в завідувачі складу та переглядачі рецептів буде синхронізовано",
+  "create.gui.stock_keeper.jei_sync.sync_from_jei": "Синхронізувати з переглядача рецептів",
+  "create.gui.stock_keeper.jei_sync.sync_from_jei.description": "Пошуковий запит в переглядачі рецептів буде віддзеркалено в завідувачі складу",
+  "create.gui.stock_keeper.jei_sync.sync_from_stock_keeper": "Синхронізувати із завідувача складу",
+  "create.gui.stock_keeper.jei_sync.sync_from_stock_keeper.description": "Пошуковий запит в завідувачі складу буде віддзеркалено в переглядачі рецептів",
+  "create.keyinfo.alt_modifier": "Модифікатор Alt",
+  "create.keyinfo.ctrl_modifier": "Модифікатор Ctrl",
+  "create.keyinfo.shift_modifier": "Модифікатор Shift",
+  "itemGroup.create.base": "Створити"
+}

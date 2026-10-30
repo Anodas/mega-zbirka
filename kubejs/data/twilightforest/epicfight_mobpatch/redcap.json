@@ -1,0 +1,340 @@
+{
+ "model": "epicfight:entity/biped",
+ "armature": "epicfight:entity/biped",
+ "renderer": "minecraft:zombie",
+ "isHumanoid": true,
+ "faction": "neutral",
+ "attributes": {
+  "impact": 0.6,
+  "armor_negation": 0.0,
+  "max_strikes": 1,
+  "chasing_speed": 1.0,
+  "scale": 1.0,
+  "stun_armor": 0.0
+ },
+ "default_livingmotions": {
+  "idle": "epicfight:biped/living/idle",
+  "walk": "epicfight:biped/living/walk",
+  "chase": "epicfight:biped/living/walk",
+  "mount": "epicfight:biped/living/mount",
+  "fall": "epicfight:biped/living/fall",
+  "death": "epicfight:biped/living/death"
+ },
+ "stun_animations": {
+  "short": "epicfight:biped/combat/hit_short",
+  "long": "epicfight:biped/combat/hit_long",
+  "knockdown": "epicfight:biped/combat/knockdown",
+  "fall": "epicfight:biped/living/landing"
+ },
+ "combat_behavior": [
+  {
+   "weapon_categories": [
+    "sword",
+    "axe",
+    "pickaxe",
+    "shovel",
+    "hoe"
+   ],
+   "style": "one_hand",
+   "behavior_series": [
+    {
+     "weight": 70.0,
+     "canBeInterrupted": true,
+     "looping": false,
+     "behaviors": [
+      {
+       "conditions": [
+        {
+         "predicate": "within_eye_height"
+        },
+        {
+         "predicate": "within_distance",
+         "min": 0.0,
+         "max": 2.3
+        }
+       ],
+       "animation": "epicfight:biped/combat/mob_onehand1"
+      },
+      {
+       "conditions": [
+        {
+         "predicate": "within_eye_height"
+        },
+        {
+         "predicate": "within_distance",
+         "min": 0.0,
+         "max": 2.3
+        }
+       ],
+       "animation": "epicfight:biped/combat/mob_onehand2"
+      }
+     ]
+    },
+    {
+     "weight": 30.0,
+     "canBeInterrupted": true,
+     "looping": false,
+     "behaviors": [
+      {
+       "conditions": [
+        {
+         "predicate": "within_eye_height"
+        },
+        {
+         "predicate": "within_distance",
+         "min": 0.0,
+         "max": 2.6
+        }
+       ],
+       "animation": "epicfight:biped/combat/mob_longsword1"
+      }
+     ],
+     "cooldown": 60
+    }
+   ]
+  },
+  {
+   "weapon_categories": [
+    "spear",
+    "trident"
+   ],
+   "style": "two_hand",
+   "behavior_series": [
+    {
+     "weight": 70.0,
+     "canBeInterrupted": true,
+     "looping": false,
+     "behaviors": [
+      {
+       "conditions": [
+        {
+         "predicate": "within_eye_height"
+        },
+        {
+         "predicate": "within_distance",
+         "min": 0.0,
+         "max": 3.0
+        }
+       ],
+       "animation": "epicfight:biped/combat/mob_spear_twohand1"
+      },
+      {
+       "conditions": [
+        {
+         "predicate": "within_eye_height"
+        },
+        {
+         "predicate": "within_distance",
+         "min": 0.0,
+         "max": 3.0
+        }
+       ],
+       "animation": "epicfight:biped/combat/mob_spear_twohand2"
+      }
+     ]
+    },
+    {
+     "weight": 30.0,
+     "canBeInterrupted": true,
+     "looping": false,
+     "behaviors": [
+      {
+       "conditions": [
+        {
+         "predicate": "within_eye_height"
+        },
+        {
+         "predicate": "within_distance",
+         "min": 0.0,
+         "max": 3.2
+        }
+       ],
+       "animation": "epicfight:biped/combat/mob_spear_twohand3"
+      }
+     ],
+     "cooldown": 60
+    }
+   ]
+  },
+  {
+   "weapon_categories": [
+    "greatsword",
+    "longsword",
+    "tachi"
+   ],
+   "style": "two_hand",
+   "behavior_series": [
+    {
+     "weight": 60.0,
+     "canBeInterrupted": true,
+     "looping": false,
+     "behaviors": [
+      {
+       "conditions": [
+        {
+         "predicate": "within_eye_height"
+        },
+        {
+         "predicate": "within_distance",
+         "min": 0.0,
+         "max": 2.8
+        }
+       ],
+       "animation": "epicfight:biped/combat/mob_greatsword1"
+      }
+     ]
+    },
+    {
+     "weight": 40.0,
+     "canBeInterrupted": true,
+     "looping": false,
+     "behaviors": [
+      {
+       "conditions": [
+        {
+         "predicate": "within_eye_height"
+        },
+        {
+         "predicate": "within_distance",
+         "min": 0.0,
+         "max": 2.6
+        }
+       ],
+       "animation": "epicfight:biped/combat/mob_longsword1"
+      },
+      {
+       "conditions": [
+        {
+         "predicate": "within_eye_height"
+        },
+        {
+         "predicate": "within_distance",
+         "min": 0.0,
+         "max": 2.6
+        }
+       ],
+       "animation": "epicfight:biped/combat/mob_longsword2"
+      }
+     ],
+     "cooldown": 40
+    }
+   ]
+  },
+  {
+   "weapon_categories": [
+    "dagger"
+   ],
+   "style": "one_hand",
+   "behavior_series": [
+    {
+     "weight": 100.0,
+     "canBeInterrupted": true,
+     "looping": false,
+     "behaviors": [
+      {
+       "conditions": [
+        {
+         "predicate": "within_eye_height"
+        },
+        {
+         "predicate": "within_distance",
+         "min": 0.0,
+         "max": 2.0
+        }
+       ],
+       "animation": "epicfight:biped/combat/mob_dagger_onehand1"
+      },
+      {
+       "conditions": [
+        {
+         "predicate": "within_eye_height"
+        },
+        {
+         "predicate": "within_distance",
+         "min": 0.0,
+         "max": 2.0
+        }
+       ],
+       "animation": "epicfight:biped/combat/mob_dagger_onehand2"
+      },
+      {
+       "conditions": [
+        {
+         "predicate": "within_eye_height"
+        },
+        {
+         "predicate": "within_distance",
+         "min": 0.0,
+         "max": 2.0
+        }
+       ],
+       "animation": "epicfight:biped/combat/mob_dagger_onehand3"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "weapon_categories": [
+    "fist"
+   ],
+   "style": "common",
+   "behavior_series": [
+    {
+     "weight": 70.0,
+     "canBeInterrupted": true,
+     "looping": false,
+     "behaviors": [
+      {
+       "conditions": [
+        {
+         "predicate": "within_eye_height"
+        },
+        {
+         "predicate": "within_distance",
+         "min": 0.0,
+         "max": 2.0
+        }
+       ],
+       "animation": "epicfight:zombie/attack1"
+      },
+      {
+       "conditions": [
+        {
+         "predicate": "within_eye_height"
+        },
+        {
+         "predicate": "within_distance",
+         "min": 0.0,
+         "max": 2.0
+        }
+       ],
+       "animation": "epicfight:zombie/attack2"
+      }
+     ]
+    },
+    {
+     "weight": 30.0,
+     "canBeInterrupted": true,
+     "looping": false,
+     "behaviors": [
+      {
+       "conditions": [
+        {
+         "predicate": "within_eye_height"
+        },
+        {
+         "predicate": "within_distance",
+         "min": 0.0,
+         "max": 2.2
+        }
+       ],
+       "animation": "epicfight:zombie/attack3"
+      }
+     ],
+     "cooldown": 40
+    }
+   ]
+  }
+ ]
+}

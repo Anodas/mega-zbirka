@@ -1,0 +1,660 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "0cc6573cd66a8678"
+	group: "378CFB2DB8C23918"
+	icon: {
+		id: "kubejs:electric_control_unit"
+	}
+	id: "0CC6573CD66A8678"
+	images: [
+		{
+			alpha: 210
+			color: 2376274
+			height: 1.5d
+			id: "3BB2E0149521B1A1"
+			image: "#FFFFFF"
+			order: -10
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_on_image: 1b
+			text_shadow: 1b
+			width: 15.0d
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			height: 5.4d
+			id: "6663E060B883834A"
+			image: "mega:textures/quest_logos/0cc6573cd66a8678.png"
+			order: 10
+			rotation: 0.0d
+			width: 13.672d
+			x: 6.0d
+			y: -6.05d
+		}
+	]
+	order_index: 12
+	quest_links: [{
+		id: "7FF829B627DA51B7"
+		linked_quest: "4F31880B58294AA4"
+		x: -3.0d
+		y: 0.0d
+	}]
+	quests: [
+		{
+			dependencies: ["4F31880B58294AA4"]
+			icon: {
+				id: "kubejs:steam_control_unit"
+			}
+			id: "14F34730E51294D8"
+			rewards: [{
+				id: "77E64335B8C88534"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "3CEB76C6D76F4881"
+				item: { count: 1, id: "kubejs:steam_control_unit" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["14F34730E51294D8"]
+			icon: {
+				id: "create:fluid_tank"
+			}
+			id: "2C8FEACD94E746F1"
+			rewards: [{
+				id: "7525A07EA03FFDC9"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					count: 4L
+					id: "6E8460E175B12224"
+					item: { count: 1, id: "create:fluid_tank" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "7B32FF6BE572AB99"
+					item: { count: 1, id: "create:steam_engine" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "04AD5BAC709896B0"
+					item: { count: 1, id: "create:shaft" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2C8FEACD94E746F1"]
+			icon: {
+				id: "create_new_age:magnetite_block"
+			}
+			id: "4222C9BC3D65F4BA"
+			rewards: [{
+				id: "1609E2E37F899EC0"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "6AE45E94939D142D"
+				item: { count: 1, id: "create_new_age:magnetite_block" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4222C9BC3D65F4BA"]
+			icon: {
+				id: "create_new_age:generator_coil"
+			}
+			id: "66944E18DE44F406"
+			rewards: [{
+				id: "06CBBA111B26BA4F"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "59015598A382D8F1"
+					item: { count: 1, id: "create_new_age:generator_coil" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "35B0EF6B1248211D"
+					item: { count: 1, id: "create_new_age:carbon_brushes" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["66944E18DE44F406"]
+			icon: {
+				id: "create_new_age:electrical_connector"
+			}
+			id: "69F0DB474648CB58"
+			rewards: [{
+				id: "0A6C8CA6E1D2544B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					count: 2L
+					id: "0646EE86896C21E0"
+					item: { count: 1, id: "create_new_age:electrical_connector" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "00EF811892FB5A08"
+					item: { count: 1, id: "create_new_age:copper_wire" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["69F0DB474648CB58"]
+			icon: {
+				id: "kubejs:electric_control_unit"
+			}
+			id: "0BFCC79FACDADDB4"
+			rewards: [{
+				id: "5C11AED60663E682"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "3C8BDB4A4FBAED34"
+				type: "checkmark"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0BFCC79FACDADDB4"]
+			icon: {
+				id: "create_new_age:basic_energiser"
+			}
+			id: "6DE64E0E0CFFE217"
+			rewards: [{
+				id: "4D76776716EF346A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "55EFA75AABB3BCE4"
+				item: { count: 1, id: "create_new_age:basic_energiser" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6DE64E0E0CFFE217"]
+			icon: {
+				id: "create_new_age:overcharged_iron"
+			}
+			id: "2CAB0C5476684358"
+			rewards: [{
+				id: "3CCEEAB303EDE850"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				count: 2L
+				id: "72811699A6E036AA"
+				item: { count: 1, id: "create_new_age:overcharged_iron" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2CAB0C5476684358"]
+			icon: {
+				id: "pneumaticcraft:ingot_iron_compressed"
+			}
+			id: "5B30DE344A004B5D"
+			rewards: [{
+				id: "4A5B76000BD751FA"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				count: 8L
+				id: "7EE491E1DB7276DB"
+				item: { count: 1, id: "pneumaticcraft:ingot_iron_compressed" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5B30DE344A004B5D"]
+			icon: {
+				id: "pneumaticcraft:air_compressor"
+			}
+			id: "380DE8EF06025ED7"
+			rewards: [{
+				id: "0569BC195C49CD16"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "1C2A267C7E30FBF9"
+					item: { count: 1, id: "pneumaticcraft:air_compressor" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 8L
+					id: "0708E6940B72A7E2"
+					item: { count: 1, id: "pneumaticcraft:pressure_tube" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["380DE8EF06025ED7"]
+			icon: {
+				id: "pneumaticcraft:pressure_gauge"
+			}
+			id: "1F58776ECCD81A4D"
+			rewards: [{
+				id: "6008CD9A2095EB78"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "451480682DD140E3"
+					item: { count: 1, id: "pneumaticcraft:pressure_gauge" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0DBA399EBB712847"
+					item: { count: 1, id: "pneumaticcraft:safety_tube_module" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1F58776ECCD81A4D"]
+			icon: {
+				id: "pneumaticcraft:pressure_chamber_wall"
+			}
+			id: "735535E79356478B"
+			rewards: [{
+				id: "2CCC2399E331F023"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "762B8686C9D4A16B"
+					item: { count: 1, id: "pneumaticcraft:pressure_chamber_wall" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "12208FDE50AA1C6E"
+					item: { count: 1, id: "pneumaticcraft:pressure_chamber_valve" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 2L
+					id: "62BC122B90987447"
+					item: { count: 1, id: "pneumaticcraft:pressure_chamber_interface" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["735535E79356478B"]
+			icon: {
+				id: "pneumaticcraft:oil_bucket"
+			}
+			id: "48B24CF5D3004906"
+			rewards: [{
+				id: "736D795B8EFCD9D0"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "78A2E5608F7A260A"
+				item: { count: 1, id: "pneumaticcraft:oil_bucket" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["48B24CF5D3004906"]
+			icon: {
+				id: "pneumaticcraft:refinery"
+			}
+			id: "29A84B98AFD5B32F"
+			rewards: [{
+				id: "2B41C8AD1514203C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "279B8EDBA005049C"
+					item: { count: 1, id: "pneumaticcraft:refinery" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "3A41C7F0CF022FE8"
+					item: { count: 1, id: "pneumaticcraft:refinery_output" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["29A84B98AFD5B32F"]
+			icon: {
+				id: "pneumaticcraft:thermopneumatic_processing_plant"
+			}
+			id: "6ACE21EF60224316"
+			rewards: [{
+				id: "2BFB79B62219CDCB"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "0BECC5270324AE7E"
+					item: { count: 1, id: "pneumaticcraft:thermopneumatic_processing_plant" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "73A872BFD1BC1AAA"
+					item: { count: 1, id: "pneumaticcraft:plastic_bucket" }
+					type: "item"
+				}
+			]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6ACE21EF60224316"]
+			icon: {
+				id: "pneumaticcraft:plastic"
+			}
+			id: "54A845435A11A331"
+			rewards: [{
+				id: "1F029E12698186CB"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				count: 3L
+				id: "709138A53BCB3297"
+				item: { count: 1, id: "pneumaticcraft:plastic" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["54A845435A11A331"]
+			icon: {
+				id: "pneumaticcraft:empty_pcb"
+			}
+			id: "29136AA1FDAE2E2B"
+			rewards: [{
+				id: "786414B9791C3EC8"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				count: 3L
+				id: "67D3AF7A9DF66CE4"
+				item: { count: 1, id: "pneumaticcraft:empty_pcb" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["29136AA1FDAE2E2B"]
+			icon: {
+				id: "pneumaticcraft:amadron_tablet"
+			}
+			id: "4AD6E4C34E5F8BB1"
+			rewards: [{
+				id: "0AD247D22FF3A0BE"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "0806184CEC020FE1"
+					item: { count: 1, id: "pneumaticcraft:amadron_tablet" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "291131DA2E34FC57"
+					item: { count: 1, id: "pneumaticcraft:pcb_blueprint" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4AD6E4C34E5F8BB1"]
+			icon: {
+				id: "pneumaticcraft:uv_light_box"
+			}
+			id: "2A065F1ADD0AAD86"
+			rewards: [{
+				id: "4CDBDD07578E2F73"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "0CAC4DBA039EE9BD"
+				item: { count: 1, id: "pneumaticcraft:uv_light_box" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2A065F1ADD0AAD86"]
+			icon: {
+				id: "pneumaticcraft:etching_acid_bucket"
+			}
+			id: "3D81C6685562BBD1"
+			rewards: [{
+				id: "0E3926FD9F45C13C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "111ADEF6D7F70437"
+				item: { count: 1, id: "pneumaticcraft:etching_acid_bucket" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3D81C6685562BBD1"]
+			icon: {
+				id: "pneumaticcraft:etching_tank"
+			}
+			id: "061A18C707752C44"
+			rewards: [{
+				id: "43C26A953F64BB7C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "23F0B3295BAA0FD0"
+					item: { count: 1, id: "pneumaticcraft:etching_tank" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "169F9B86570E24A0"
+					item: { count: 1, id: "pneumaticcraft:unassembled_pcb" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["061A18C707752C44"]
+			icon: {
+				id: "pneumaticcraft:capacitor"
+			}
+			id: "77E769CC70F94C83"
+			rewards: [{
+				id: "237C83E654D30D1A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					count: 2L
+					id: "510C2E71ED65E3DD"
+					item: { count: 1, id: "pneumaticcraft:capacitor" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 2L
+					id: "5537281D9433C4B4"
+					item: { count: 1, id: "pneumaticcraft:transistor" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["77E769CC70F94C83"]
+			icon: {
+				id: "pneumaticcraft:printed_circuit_board"
+			}
+			id: "37D8551020F8969C"
+			rewards: [{
+				id: "2DF85FF1F2BA0C0B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "7497DFA3510DCFC1"
+				item: { count: 1, id: "pneumaticcraft:printed_circuit_board" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["37D8551020F8969C"]
+			icon: {
+				id: "kubejs:pneumatic_mechanism"
+			}
+			id: "2C15CBBEC7BCA044"
+			rewards: [{
+				id: "10E4F6D60FD257D7"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "31453B43C21BA7D9"
+				item: { count: 1, id: "kubejs:pneumatic_mechanism" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2C15CBBEC7BCA044"]
+			icon: {
+				id: "kubejs:electric_control_unit"
+			}
+			id: "0EE4217029FF5189"
+			rewards: [{
+				id: "4B055108FE693E9F"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "3D7BE7F7E86C1BCE"
+				item: { count: 1, id: "kubejs:electric_control_unit" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 12.0d
+		}
+	]
+}

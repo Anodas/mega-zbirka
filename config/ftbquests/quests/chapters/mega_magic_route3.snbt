@@ -1,0 +1,264 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "mega_magic_route3"
+	group: "12B8784D9CF4299B"
+	icon: {
+		id: "ars_nouveau:archmage_spell_book"
+	}
+	id: "7C407823C8FAC8CF"
+	images: [
+		{
+			alpha: 215
+			color: 2376274
+			height: 1.2d
+			id: "683FFCA83D0287BD"
+			image: "#FFFFFF"
+			order: -10
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_on_image: 1b
+			text_shadow: 1b
+			width: 12.0d
+			x: 4.1d
+			y: -2.0d
+		}
+		{
+			height: 3.9d
+			id: "7D1BFBB605843F05"
+			image: "mega:textures/quest_logos/mega_magic_route3.png"
+			order: 10
+			rotation: 0.0d
+			width: 13.994d
+			x: 4.125d
+			y: -5.15d
+		}
+	]
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3B70CBC2D6101F57"]
+			icon: {
+				id: "ars_nouveau:archmage_spell_book"
+			}
+			id: "4D279D1E5B9D955B"
+			rewards: [{
+				id: "39726042C9B6544F"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "0C6C866460D4B768"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D279D1E5B9D955B"]
+			icon: {
+				id: "ars_nouveau:archmage_spell_book"
+			}
+			id: "07B4E16D0A1F38C5"
+			rewards: [{
+				id: "65276B9D0A192AEB"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "7BE5D5AF5DC2DA5E"
+				item: { count: 1, id: "ars_nouveau:archmage_spell_book" }
+				type: "item"
+			}]
+			x: 2.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["07B4E16D0A1F38C5"]
+			icon: {
+				id: "ars_nouveau:archmage_spell_book"
+			}
+			id: "59EEDF4DDE622788"
+			rewards: [{
+				id: "6EEB10A4D5FF169D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "28AD52E27AA3E925"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["59EEDF4DDE622788"]
+			icon: {
+				id: "irons_spellbooks:epic_ink"
+			}
+			id: "407087970E0283A8"
+			rewards: [{
+				id: "6135002DFE136DE8"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "7CA3F36169161328"
+				item: { count: 1, id: "irons_spellbooks:epic_ink" }
+				type: "item"
+			}]
+			x: 8.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["407087970E0283A8"]
+			icon: {
+				id: "ars_nouveau:archmage_spell_book"
+			}
+			id: "34EDB7539AFC417D"
+			rewards: [{
+				id: "3ACA7EA0E98BD7F5"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5150B733B64A6BB6"
+				type: "checkmark"
+			}]
+			x: 8.25d
+			y: 2.75d
+		}
+		{
+			dependencies: ["34EDB7539AFC417D"]
+			icon: {
+				id: "minecraft:enchanting_table"
+			}
+			id: "11AD203186839BC9"
+			rewards: [{
+				id: "4FB3E2D6CFC8F301"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "22FEA3835F0B0A1A"
+					item: { count: 1, id: "minecraft:enchanting_table" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "3399E15C8FB2FE25"
+					item: { count: 1, id: "apothic_enchanting:hellshelf" }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 2.75d
+		}
+		{
+			dependencies: ["11AD203186839BC9"]
+			icon: {
+				id: "apotheosis:salvaging_table"
+			}
+			id: "329A170DC13C988F"
+			rewards: [{
+				id: "62F87FE4EC4751FD"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "5B42B41EE277878E"
+				item: { count: 1, id: "apotheosis:salvaging_table" }
+				type: "item"
+			}]
+			x: 2.75d
+			y: 2.75d
+		}
+		{
+			dependencies: ["329A170DC13C988F"]
+			icon: {
+				id: "apotheosis:reforging_table"
+			}
+			id: "48AC82D86CD52C67"
+			rewards: [{
+				id: "631D477E5C4C9C46"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "60E4EE3F97643E28"
+				item: { count: 1, id: "apotheosis:reforging_table" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.75d
+		}
+		{
+			dependencies: ["48AC82D86CD52C67"]
+			icon: {
+				id: "apotheosis:gem_cutting_table"
+			}
+			id: "284507BF261F2129"
+			rewards: [{
+				id: "35763E11E19007A3"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "6ADD8F1C8845DA1C"
+				item: { count: 1, id: "apotheosis:gem_cutting_table" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["284507BF261F2129"]
+			icon: {
+				id: "ars_nouveau:archmage_spell_book"
+			}
+			id: "7B5C44F202E54805"
+			rewards: [{
+				id: "00BF290A90E66753"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "036CC128A0733546"
+				type: "checkmark"
+			}]
+			x: 2.75d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7B5C44F202E54805"]
+			icon: {
+				id: "ars_nouveau:archmage_spell_book"
+			}
+			id: "549A997F8F285DCD"
+			rewards: [{
+				id: "52059967CCA1583E"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "6F7E380D357C841F"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: 5.5d
+		}
+	]
+}

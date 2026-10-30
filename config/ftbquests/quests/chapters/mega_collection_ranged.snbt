@@ -1,0 +1,826 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: true
+	default_quest_shape: "hexagon"
+	filename: "mega_collection_ranged"
+	group: "7DDC8392AB189F2B"
+	icon: {
+		id: "minecraft:bow"
+	}
+	id: "4F417A667C9A424E"
+	images: [{
+		height: 3.9d
+		id: "3D642A6ABE7EFD12"
+		image: "mega:textures/quest_logos/mega_collection_ranged.png"
+		order: 10
+		rotation: 0.0d
+		width: 10.094d
+		x: 7.75d
+		y: -3.175d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "ars_nouveau:spell_bow"
+			}
+			id: "2A95C8BA7B6CA951"
+			optional: true
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "23D5391269CC362E"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2A95C8BA7B6CA951"]
+			icon: {
+				id: "ars_nouveau:spell_bow"
+			}
+			id: "7CD28893DB167988"
+			optional: true
+			rewards: [{
+				id: "21D2CC71C9D39EBD"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "7DD02045FA40C617"
+				item: { count: 1, id: "ars_nouveau:spell_bow" }
+				type: "item"
+			}]
+			x: 1.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2A95C8BA7B6CA951"]
+			icon: {
+				id: "ars_nouveau:spell_crossbow"
+			}
+			id: "01316DDBA428D703"
+			optional: true
+			rewards: [{
+				id: "5E0A03EE051263E9"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "58C1E3994371BC17"
+				item: { count: 1, id: "ars_nouveau:spell_crossbow" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2A95C8BA7B6CA951"]
+			icon: {
+				id: "cataclysm:cursed_bow"
+			}
+			id: "716913488E56D32C"
+			optional: true
+			rewards: [{
+				id: "53C77C38A8A5BEA6"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "6D0CC3FD99B6AED3"
+				item: { count: 1, id: "cataclysm:cursed_bow" }
+				type: "item"
+			}]
+			x: 4.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2A95C8BA7B6CA951"]
+			icon: {
+				id: "mekanism:electric_bow"
+			}
+			id: "0F4257A01CB20B5D"
+			optional: true
+			rewards: [{
+				id: "32A898CFB5E2D188"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "1952299ECF4162F2"
+				item: { count: 1, id: "mekanism:electric_bow" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2A95C8BA7B6CA951"]
+			icon: {
+				id: "modernfoundry:crossbow"
+			}
+			id: "56F4576853604A99"
+			optional: true
+			rewards: [{
+				id: "78708D8A652CE54A"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "10C245A23D40FDFD"
+				item: { count: 1, id: "modernfoundry:crossbow" }
+				type: "item"
+			}]
+			x: 6.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2A95C8BA7B6CA951"]
+			icon: {
+				id: "modernfoundry:longbow"
+			}
+			id: "41BFECC8429A2D6B"
+			optional: true
+			rewards: [{
+				id: "435377F877966A01"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "119EFBA2F144EB24"
+				item: { count: 1, id: "modernfoundry:longbow" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2A95C8BA7B6CA951"]
+			icon: {
+				id: "justdirethings:bow_ferricore"
+			}
+			id: "1CFD7AE983F9672B"
+			optional: true
+			rewards: [{
+				id: "38E038B5D4B0FBCB"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "224DB7D5A832B6A5"
+				item: { count: 1, id: "justdirethings:bow_ferricore" }
+				type: "item"
+			}]
+			x: 9.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2A95C8BA7B6CA951"]
+			icon: {
+				id: "mowziesmobs:blowgun"
+			}
+			id: "78198DC5DD1832BD"
+			optional: true
+			rewards: [{
+				id: "38A79E55B30603A9"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "52EB6D3691D252BD"
+				item: { count: 1, id: "mowziesmobs:blowgun" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2A95C8BA7B6CA951"]
+			icon: {
+				id: "minecraft:bow"
+			}
+			id: "7D3924A6C29BC565"
+			optional: true
+			rewards: [{
+				id: "077A2C3E0D7EA1FC"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "33C1E631AF7FDF61"
+				item: { count: 1, id: "minecraft:bow" }
+				type: "item"
+			}]
+			x: 11.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2A95C8BA7B6CA951"]
+			icon: {
+				id: "twilightforest:ender_bow"
+			}
+			id: "0FAB20F66EA72A13"
+			optional: true
+			rewards: [{
+				id: "4BC693C804AB32F4"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "3BC546094D2B9CC1"
+				item: { count: 1, id: "twilightforest:ender_bow" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2A95C8BA7B6CA951"]
+			icon: {
+				id: "twilightforest:ice_bow"
+			}
+			id: "2C9038576AECEB0A"
+			optional: true
+			rewards: [{
+				id: "280C6354FB01C5CA"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "536710492437782B"
+				item: { count: 1, id: "twilightforest:ice_bow" }
+				type: "item"
+			}]
+			x: 14.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2A95C8BA7B6CA951"]
+			icon: {
+				id: "twilightforest:seeker_bow"
+			}
+			id: "4CDC9145AF980B04"
+			optional: true
+			rewards: [{
+				id: "4E98E1EE4AB407C0"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "598E0A64485CAF22"
+				item: { count: 1, id: "twilightforest:seeker_bow" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2A95C8BA7B6CA951"]
+			icon: {
+				id: "twilightforest:triple_bow"
+			}
+			id: "6C0C68D586BEB86E"
+			optional: true
+			rewards: [{
+				id: "59D74635A9CEF226"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "1496C5A466075F22"
+				item: { count: 1, id: "twilightforest:triple_bow" }
+				type: "item"
+			}]
+			x: 1.75d
+			y: 1.25d
+		}
+		{
+			dependencies: ["2A95C8BA7B6CA951"]
+			icon: {
+				id: "justdirethings:bow_blazegold"
+			}
+			id: "2724592EC393B9B4"
+			optional: true
+			rewards: [{
+				id: "68E50E3C02BD7165"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "3D28040A82E452A4"
+				item: { count: 1, id: "justdirethings:bow_blazegold" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.25d
+		}
+		{
+			dependencies: ["2A95C8BA7B6CA951"]
+			icon: {
+				id: "justdirethings:bow_celestigem"
+			}
+			id: "504FF2F885A3F6E5"
+			optional: true
+			rewards: [{
+				id: "1158402F7F816D1A"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "301BC920F574D3CA"
+				item: { count: 1, id: "justdirethings:bow_celestigem" }
+				type: "item"
+			}]
+			x: 4.25d
+			y: 1.25d
+		}
+		{
+			dependencies: ["2A95C8BA7B6CA951"]
+			icon: {
+				id: "justdirethings:bow_eclipsealloy"
+			}
+			id: "06059564403E9D65"
+			optional: true
+			rewards: [{
+				id: "1D1F507FEDCDD5AA"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "068E8E0B91403C86"
+				item: { count: 1, id: "justdirethings:bow_eclipsealloy" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.25d
+		}
+		{
+			dependencies: ["2A95C8BA7B6CA951"]
+			icon: {
+				id: "irons_spellbooks:autoloader_crossbow"
+			}
+			id: "587C1210DFF3BABC"
+			optional: true
+			rewards: [{
+				id: "5D971B6C05CFE7F9"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "4195574A87760B71"
+				item: { count: 1, id: "irons_spellbooks:autoloader_crossbow" }
+				type: "item"
+			}]
+			x: 6.75d
+			y: 1.25d
+		}
+		{
+			dependencies: ["2A95C8BA7B6CA951"]
+			icon: {
+				id: "minecraft:crossbow"
+			}
+			id: "20593C7BD5F4BC72"
+			optional: true
+			rewards: [{
+				id: "6719322D722CAAAB"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "6294177624571DB3"
+				item: { count: 1, id: "minecraft:crossbow" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.25d
+		}
+		{
+			dependencies: ["2A95C8BA7B6CA951"]
+			icon: {
+				id: "thaumcraft:bone_bow"
+			}
+			id: "47739CBACD89C0D4"
+			optional: true
+			rewards: [{
+				id: "329B60E8DC0EC61A"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "14BB433D96F13069"
+				item: { count: 1, id: "thaumcraft:bone_bow" }
+				type: "item"
+			}]
+			x: 9.25d
+			y: 1.25d
+		}
+		{
+			dependencies: ["2A95C8BA7B6CA951"]
+			icon: {
+				id: "cognition:cognitive_bow"
+			}
+			id: "3DF9FA76EB25EF85"
+			optional: true
+			rewards: [{
+				id: "6280E7F3A71FBC65"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "22EFC52169DD385A"
+				item: { count: 1, id: "cognition:cognitive_bow" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.25d
+		}
+		{
+			icon: {
+				id: "modernfoundry:javelin"
+			}
+			id: "4D7B25E6B1D30C85"
+			optional: true
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "23E340BD98CC047F"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4D7B25E6B1D30C85"]
+			icon: {
+				id: "modernfoundry:javelin"
+			}
+			id: "2A6A9E973BEF1130"
+			optional: true
+			rewards: [{
+				id: "1881926AF2267EC6"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "2B79C2432E731EFE"
+				item: { count: 1, id: "modernfoundry:javelin" }
+				type: "item"
+			}]
+			x: 1.75d
+			y: 4.0d
+		}
+		{
+			dependencies: ["4D7B25E6B1D30C85"]
+			icon: {
+				id: "minecraft:trident"
+			}
+			id: "76AF1CF7ECEF8988"
+			optional: true
+			rewards: [{
+				id: "416DF7CD81C9D07D"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "2F31BFCB78E9E058"
+				item: { count: 1, id: "minecraft:trident" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			icon: {
+				id: "modernfoundry:plate_shield"
+			}
+			id: "4C7999D534D2F9FA"
+			optional: true
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				id: "0AAAFE788178226C"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 6.75d
+		}
+		{
+			dependencies: ["4C7999D534D2F9FA"]
+			icon: {
+				id: "modernfoundry:plate_shield"
+			}
+			id: "2A120F4AFC093213"
+			optional: true
+			rewards: [{
+				id: "43255E71F8F3019D"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "24981CB7B711DB1C"
+				item: { count: 1, id: "modernfoundry:plate_shield" }
+				type: "item"
+			}]
+			x: 1.75d
+			y: 6.75d
+		}
+		{
+			dependencies: ["4C7999D534D2F9FA"]
+			icon: {
+				id: "modernfoundry:travelers_shield"
+			}
+			id: "6DBDFC37315107A6"
+			optional: true
+			rewards: [{
+				id: "020FD95D3DE97EEF"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "0173CD612244E7F1"
+				item: { count: 1, id: "modernfoundry:travelers_shield" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.75d
+		}
+		{
+			dependencies: ["4C7999D534D2F9FA"]
+			icon: {
+				id: "mekanismtools:lapis_lazuli_shield"
+			}
+			id: "76042ACA84F924F5"
+			optional: true
+			rewards: [{
+				id: "237E45ADC87D4CA6"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "6133A146208385EC"
+				item: { count: 1, id: "mekanismtools:lapis_lazuli_shield" }
+				type: "item"
+			}]
+			x: 4.25d
+			y: 6.75d
+		}
+		{
+			dependencies: ["4C7999D534D2F9FA"]
+			icon: {
+				id: "minecraft:shield"
+			}
+			id: "06294362BC5AF1E4"
+			optional: true
+			rewards: [{
+				id: "357CF927DD66529E"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "4BF735C2E54B8379"
+				item: { count: 1, id: "minecraft:shield" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.75d
+		}
+		{
+			dependencies: ["4C7999D534D2F9FA"]
+			icon: {
+				id: "mekanismtools:refined_glowstone_shield"
+			}
+			id: "548EFB3E65C6DAAF"
+			optional: true
+			rewards: [{
+				id: "38F011A8D6495C38"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "46B941661ED2AA8D"
+				item: { count: 1, id: "mekanismtools:refined_glowstone_shield" }
+				type: "item"
+			}]
+			x: 6.75d
+			y: 6.75d
+		}
+		{
+			dependencies: ["4C7999D534D2F9FA"]
+			icon: {
+				id: "mekanismtools:bronze_shield"
+			}
+			id: "2DFFB708BA5A906B"
+			optional: true
+			rewards: [{
+				id: "7FA30F897CB05A30"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "46031B362F1BEECC"
+				item: { count: 1, id: "mekanismtools:bronze_shield" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.75d
+		}
+		{
+			dependencies: ["4C7999D534D2F9FA"]
+			icon: {
+				id: "mekanismtools:steel_shield"
+			}
+			id: "0E44DE4B7ECFF60B"
+			optional: true
+			rewards: [{
+				id: "2483F8E5CC059BD6"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "3325BF28AC6C4246"
+				item: { count: 1, id: "mekanismtools:steel_shield" }
+				type: "item"
+			}]
+			x: 9.25d
+			y: 6.75d
+		}
+		{
+			dependencies: ["4C7999D534D2F9FA"]
+			icon: {
+				id: "ars_nouveau:enchanters_shield"
+			}
+			id: "4CBD534F97A3AD0F"
+			optional: true
+			rewards: [{
+				id: "44C8ACDC77F8C8B3"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "4EDB831972930B8C"
+				item: { count: 1, id: "ars_nouveau:enchanters_shield" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 6.75d
+		}
+		{
+			dependencies: ["4C7999D534D2F9FA"]
+			icon: {
+				id: "cataclysm:azure_sea_shield"
+			}
+			id: "2D1D6599C1B99F4B"
+			optional: true
+			rewards: [{
+				id: "11141418A6B5A4C2"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "2323D0F164552DDA"
+				item: { count: 1, id: "cataclysm:azure_sea_shield" }
+				type: "item"
+			}]
+			x: 11.75d
+			y: 6.75d
+		}
+		{
+			dependencies: ["4C7999D534D2F9FA"]
+			icon: {
+				id: "mekanismtools:osmium_shield"
+			}
+			id: "1D90953865589544"
+			optional: true
+			rewards: [{
+				id: "47CAAE68908CE575"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "13416FE6B83C0B49"
+				item: { count: 1, id: "mekanismtools:osmium_shield" }
+				type: "item"
+			}]
+			x: 13.0d
+			y: 6.75d
+		}
+		{
+			dependencies: ["4C7999D534D2F9FA"]
+			icon: {
+				id: "cataclysm:black_steel_targe"
+			}
+			id: "782B85444EEB147C"
+			optional: true
+			rewards: [{
+				id: "4ACE5D6D153DF01C"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "0DA20DEC40E04FD9"
+				item: { count: 1, id: "cataclysm:black_steel_targe" }
+				type: "item"
+			}]
+			x: 14.25d
+			y: 6.75d
+		}
+		{
+			dependencies: ["4C7999D534D2F9FA"]
+			icon: {
+				id: "twilightforest:knightmetal_shield"
+			}
+			id: "234205DE49E4E6D0"
+			optional: true
+			rewards: [{
+				id: "318B44C56EAF74FC"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "2E8AC099933A1226"
+				item: { count: 1, id: "twilightforest:knightmetal_shield" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 6.75d
+		}
+		{
+			dependencies: ["4C7999D534D2F9FA"]
+			icon: {
+				id: "mekanismtools:refined_obsidian_shield"
+			}
+			id: "3C7E205920C7531E"
+			optional: true
+			rewards: [{
+				id: "5F932B13AF40AD1F"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "7F6CF04E41D9E1FB"
+				item: { count: 1, id: "mekanismtools:refined_obsidian_shield" }
+				type: "item"
+			}]
+			x: 1.75d
+			y: 8.0d
+		}
+		{
+			dependencies: ["4C7999D534D2F9FA"]
+			icon: {
+				id: "wom:gesetz"
+			}
+			id: "112F0CC89FF5CAC0"
+			optional: true
+			rewards: [{
+				id: "5D5FDEBECFDCDEB9"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "57A9DD8EE156AFC6"
+				item: { count: 1, id: "wom:gesetz" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.0d
+		}
+	]
+}

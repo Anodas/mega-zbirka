@@ -1,0 +1,8 @@
+name = "terra_curio-1.1.1"
+filename = "terra_curio-1.1.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/cylFY5iL/versions/mCth2g0T/terra_curio-1.1.1.jar"
+hash-format = "sha1"
+hash = "15b0fd7aea359280681918a8bdd4ed1d7b0534c8"

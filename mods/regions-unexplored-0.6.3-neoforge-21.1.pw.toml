@@ -1,0 +1,8 @@
+name = "regions-unexplored-0.6.3-neoforge-21.1"
+filename = "regions-unexplored-0.6.3-neoforge-21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Tkikq67H/versions/M9SMxdTX/regions-unexplored-0.6.3-neoforge-21.1.jar"
+hash-format = "sha1"
+hash = "adf717dbb032ccaf7d100c0ba71bdea0fb21755a"

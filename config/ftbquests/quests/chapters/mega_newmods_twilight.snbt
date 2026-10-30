@@ -1,0 +1,407 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "mega_newmods_twilight"
+	group: "15283A8731F6C89A"
+	icon: {
+		id: "twilightforest:naga_scale"
+	}
+	id: "7FE4ABF373C2AF1F"
+	images: [
+		{
+			alpha: 150
+			color: 1187884
+			height: 9.4d
+			id: "59828C2AF86EC8F7"
+			image: "#FFFFFF"
+			order: -20
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_shadow: 1b
+			width: 10.7d
+			x: 3.75d
+			y: 2.5d
+		}
+		{
+			alpha: 215
+			color: 2376274
+			height: 1.15d
+			id: "42E5A36004C03684"
+			image: "#FFFFFF"
+			order: -10
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_on_image: 1b
+			text_shadow: 1b
+			width: 10.7d
+			x: 3.75d
+			y: -1.7d
+		}
+		{
+			alpha: 150
+			color: 1187884
+			height: 9.4d
+			id: "3463F69FCBDC3C69"
+			image: "#FFFFFF"
+			order: -20
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_shadow: 1b
+			width: 10.7d
+			x: 15.75d
+			y: 2.5d
+		}
+		{
+			alpha: 215
+			color: 2376274
+			height: 1.15d
+			id: "3B390FF1B63E2648"
+			image: "#FFFFFF"
+			order: -10
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_on_image: 1b
+			text_shadow: 1b
+			width: 10.7d
+			x: 15.75d
+			y: -1.7d
+		}
+		{
+			height: 2.4d
+			id: "3FC0F115928F6FD5"
+			image: "mega:textures/quest_logos/mega_newmods_twilight.png"
+			order: 10
+			rotation: 0.0d
+			width: 11.314d
+			x: 7.875d
+			y: -4.075d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			hide_dependency_lines: false
+			icon: {
+				id: "minecraft:diamond"
+			}
+			id: "3FDFAF52D7098E12"
+			optional: true
+			rewards: [{
+				id: "2E08BAB1D01D8570"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				id: "3840E3F63939BEFE"
+				type: "dimension"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3FDFAF52D7098E12"]
+			hide_dependency_lines: false
+			icon: {
+				id: "twilightforest:naga_spawn_egg"
+			}
+			id: "15499EC3FFADEC42"
+			optional: true
+			rewards: [{
+				id: "43BA6C3756D2872A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				entity: "twilightforest:naga"
+				id: "5339B5B412EE9042"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["15499EC3FFADEC42"]
+			hide_dependency_lines: false
+			icon: {
+				id: "twilightforest:lich_spawn_egg"
+			}
+			id: "155BC7AD0BF15EE5"
+			optional: true
+			rewards: [{
+				id: "07F6EAE7714DDD9F"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				entity: "twilightforest:lich"
+				id: "7B5AD606BF711D1E"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3FDFAF52D7098E12"]
+			hide_dependency_lines: false
+			icon: {
+				id: "twilightforest:ironwood_ingot"
+			}
+			id: "452E299D8CB245CC"
+			optional: true
+			rewards: [{
+				id: "51CC05A1E5986383"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "68A25C395A536F28"
+					item: { count: 1, id: "twilightforest:ironwood_ingot" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "128884BAB55FEA9E"
+					item: { count: 1, id: "twilightforest:steeleaf_ingot" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["155BC7AD0BF15EE5"]
+			hide_dependency_lines: false
+			icon: {
+				id: "twilightforest:minoshroom_spawn_egg"
+			}
+			id: "48F58F3172FFA67C"
+			optional: true
+			rewards: [{
+				id: "17721851CDD18042"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				entity: "twilightforest:minoshroom"
+				id: "06343A3C8D8BB73D"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["48F58F3172FFA67C"]
+			hide_dependency_lines: false
+			icon: {
+				id: "twilightforest:hydra_spawn_egg"
+			}
+			id: "5E894C5A39190136"
+			optional: true
+			rewards: [{
+				id: "051AFBD98E680A72"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				entity: "twilightforest:hydra"
+				id: "6CA7EA4376559DD8"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5E894C5A39190136"]
+			hide_dependency_lines: false
+			icon: {
+				id: "twilightforest:fiery_ingot"
+			}
+			id: "5C0703707566481E"
+			optional: true
+			rewards: [{
+				id: "1C2B9C56B6C51281"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "263D55A43C09E86D"
+				item: { count: 1, id: "twilightforest:fiery_ingot" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["155BC7AD0BF15EE5"]
+			hide_dependency_lines: false
+			icon: {
+				id: "twilightforest:knight_phantom_spawn_egg"
+			}
+			id: "79A8789BE43163E3"
+			optional: true
+			rewards: [{
+				id: "5D82931E2BADAE4B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				entity: "twilightforest:knight_phantom"
+				id: "4106A4AFADC5EF8C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["79A8789BE43163E3"]
+			hide_dependency_lines: false
+			icon: {
+				id: "twilightforest:knightmetal_ingot"
+			}
+			id: "000A40D0404B31B0"
+			optional: true
+			rewards: [{
+				id: "089D1EDF88926F23"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "550B4289124E549C"
+				item: { count: 1, id: "twilightforest:knightmetal_ingot" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["79A8789BE43163E3"]
+			hide_dependency_lines: false
+			icon: {
+				id: "twilightforest:ur_ghast_spawn_egg"
+			}
+			id: "516AB9BE3E43B546"
+			optional: true
+			rewards: [{
+				id: "3BD6D65C623EC842"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				entity: "twilightforest:ur_ghast"
+				id: "6F84B885F0BFA602"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["155BC7AD0BF15EE5"]
+			hide_dependency_lines: false
+			icon: {
+				id: "twilightforest:alpha_yeti_spawn_egg"
+			}
+			id: "2359F96200838DDF"
+			optional: true
+			rewards: [{
+				id: "573E61200AADBA20"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				entity: "twilightforest:alpha_yeti"
+				id: "5BD999B352E5EB99"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2359F96200838DDF"]
+			hide_dependency_lines: false
+			icon: {
+				id: "twilightforest:snow_queen_spawn_egg"
+			}
+			id: "55F979DE5224556D"
+			optional: true
+			rewards: [{
+				id: "482EA38B9D79B28E"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				entity: "twilightforest:snow_queen"
+				id: "6820EF4EF4B4B945"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3FDFAF52D7098E12"]
+			hide_dependency_lines: true
+			icon: {
+				id: "twilightforest:uncrafting_table"
+			}
+			id: "6D4D43AF3E804576"
+			optional: true
+			rewards: [{
+				id: "253AA3E11A3C8361"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "642A93D7CCEAD4E4"
+				item: { count: 1, id: "twilightforest:uncrafting_table" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["15499EC3FFADEC42"]
+			hide_dependency_lines: true
+			icon: {
+				id: "twilightforest:charm_of_life_1"
+			}
+			id: "35C37A5C52B7B6F2"
+			optional: true
+			rewards: [{
+				id: "2497EB055AA59907"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "6810D8D8EFDEB393"
+				item: { count: 1, id: "twilightforest:charm_of_life_1" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 0.0d
+		}
+	]
+}

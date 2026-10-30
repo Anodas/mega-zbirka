@@ -1,0 +1,1212 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "160d0bfb66f1846f"
+	group: "378CFB2DB8C23918"
+	icon: {
+		id: "simulated:physics_assembler"
+	}
+	id: "160D0BFB66F1846F"
+	images: [
+		{
+			alpha: 145
+			color: 1187884
+			height: 9.0d
+			id: "685E008365013A19"
+			image: "#FFFFFF"
+			order: -20
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_shadow: 1b
+			width: 10.5d
+			x: 3.75d
+			y: 2.0d
+		}
+		{
+			alpha: 210
+			color: 2376274
+			height: 1.2d
+			id: "332378DD20422F08"
+			image: "#FFFFFF"
+			order: -10
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_on_image: 1b
+			text_shadow: 1b
+			width: 10.5d
+			x: 3.75d
+			y: -1.6d
+		}
+		{
+			alpha: 145
+			color: 1187884
+			height: 9.0d
+			id: "6BA66E45F79CDA39"
+			image: "#FFFFFF"
+			order: -20
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_shadow: 1b
+			width: 10.5d
+			x: 15.75d
+			y: 2.0d
+		}
+		{
+			alpha: 210
+			color: 2376274
+			height: 1.2d
+			id: "0FBB239078D81317"
+			image: "#FFFFFF"
+			order: -10
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_on_image: 1b
+			text_shadow: 1b
+			width: 10.5d
+			x: 15.75d
+			y: -1.6d
+		}
+		{
+			alpha: 145
+			color: 1187884
+			height: 9.0d
+			id: "43BE97320C33267E"
+			image: "#FFFFFF"
+			order: -20
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_shadow: 1b
+			width: 10.5d
+			x: 27.75d
+			y: 2.0d
+		}
+		{
+			alpha: 210
+			color: 2376274
+			height: 1.2d
+			id: "68351EA23C5BF570"
+			image: "#FFFFFF"
+			order: -10
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_on_image: 1b
+			text_shadow: 1b
+			width: 10.5d
+			x: 27.75d
+			y: -1.6d
+		}
+		{
+			alpha: 145
+			color: 1187884
+			height: 9.0d
+			id: "2D8E25C821C87EFC"
+			image: "#FFFFFF"
+			order: -20
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_shadow: 1b
+			width: 10.5d
+			x: 3.75d
+			y: 12.5d
+		}
+		{
+			alpha: 210
+			color: 2376274
+			height: 1.2d
+			id: "552BCBB4B916CF22"
+			image: "#FFFFFF"
+			order: -10
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_on_image: 1b
+			text_shadow: 1b
+			width: 10.5d
+			x: 3.75d
+			y: 8.9d
+		}
+		{
+			alpha: 145
+			color: 1187884
+			height: 9.0d
+			id: "303251D7F5E5EA0C"
+			image: "#FFFFFF"
+			order: -20
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_shadow: 1b
+			width: 10.5d
+			x: 15.75d
+			y: 12.5d
+		}
+		{
+			alpha: 210
+			color: 2376274
+			height: 1.2d
+			id: "6C6CDA67D1F18C45"
+			image: "#FFFFFF"
+			order: -10
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_on_image: 1b
+			text_shadow: 1b
+			width: 10.5d
+			x: 15.75d
+			y: 8.9d
+		}
+		{
+			height: 3.9d
+			id: "07E88BDB920E9C70"
+			image: "mega:textures/quest_logos/160d0bfb66f1846f.png"
+			order: 10
+			rotation: 0.0d
+			width: 11.585d
+			x: 15.75d
+			y: -5.05d
+		}
+	]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["27010EF06B5CD3E2"]
+			hide_dependency_lines: true
+			hide_details_until_startable: false
+			icon: {
+				id: "create:andesite_casing"
+			}
+			id: "340BB533188663AC"
+			optional: true
+			rewards: [{
+				id: "65CA4E96FE3C97BC"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "1F1068695004300B"
+					item: { count: 1, id: "create:andesite_casing" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "6F2AC55C738C1188"
+					item: { count: 1, id: "create:andesite_alloy" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "7EC0DE4E129362EE"
+					item: { count: 1, id: "create:brass_ingot" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "32DA7356477B0FCF"
+					item: { count: 1, id: "minecraft:iron_ingot" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34F4B5D96AACBC2C"]
+			hide_dependency_lines: false
+			hide_details_until_startable: false
+			icon: {
+				id: "simulated:honey_glue"
+			}
+			id: "17DF4EE3EB7612D7"
+			optional: true
+			rewards: [{
+				id: "14FE11A27D8BF578"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "307FA0351EAEBAF9"
+				item: { count: 1, id: "simulated:honey_glue" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["27010EF06B5CD3E2"]
+			hide_dependency_lines: true
+			hide_details_until_startable: false
+			icon: {
+				id: "minecraft:honey_bottle"
+			}
+			id: "34F4B5D96AACBC2C"
+			optional: true
+			rewards: [{
+				id: "1ED7E8A03985236C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "3E47FE9D8119EB9C"
+				item: { count: 1, id: "minecraft:honey_bottle" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["340BB533188663AC"]
+			hide_dependency_lines: true
+			hide_details_until_startable: false
+			icon: {
+				id: "simulated:engine_assembly"
+			}
+			id: "47F85DA12F2C3AF6"
+			optional: true
+			rewards: [{
+				id: "6D9341B5A6A567AF"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "02DA8016134C4613"
+				item: { count: 1, id: "simulated:engine_assembly" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["47F85DA12F2C3AF6"]
+			hide_dependency_lines: false
+			hide_details_until_startable: false
+			icon: {
+				id: "simulated:white_portable_engine"
+			}
+			id: "1E83FF330B6CA620"
+			optional: true
+			rewards: [{
+				id: "5151B53C327467CC"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "36F75C21F921CD98"
+				item: { count: 1, id: "simulated:white_portable_engine" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["340BB533188663AC"]
+			hide_dependency_lines: false
+			hide_details_until_startable: false
+			icon: {
+				id: "simulated:physics_assembler"
+			}
+			id: "0E97147184C995B1"
+			optional: true
+			rewards: [{
+				id: "44C279DA839C8322"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "1860F8016803ABEF"
+				item: { count: 1, id: "simulated:physics_assembler" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E97147184C995B1"]
+			hide_dependency_lines: false
+			hide_details_until_startable: false
+			icon: {
+				id: "simulated:rope_coupling"
+			}
+			id: "34F1B081273D181F"
+			optional: true
+			rewards: [{
+				id: "00C549EBD108F2EB"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "27096927B1880283"
+					item: { count: 1, id: "simulated:rope_coupling" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "288B2FEB02650FBC"
+					item: { count: 1, id: "simulated:rope_connector" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0E97147184C995B1"]
+			hide_dependency_lines: true
+			hide_details_until_startable: false
+			icon: {
+				id: "simulated:iron_handle"
+			}
+			id: "1EA2D98A60FBB9C9"
+			optional: true
+			rewards: [{
+				id: "10BB5EBBF63CBEE4"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "6CEE4EC4808400B1"
+				item: { count: 1, id: "simulated:iron_handle" }
+				type: "item"
+			}]
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E97147184C995B1"]
+			hide_dependency_lines: false
+			hide_details_until_startable: false
+			icon: {
+				id: "simulated:contraption_diagram"
+			}
+			id: "3DA5AEC9D53435CD"
+			optional: true
+			rewards: [{
+				id: "36C05B0951C25AF9"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "5C22425D42E4C011"
+				item: { count: 1, id: "simulated:contraption_diagram" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["340BB533188663AC"]
+			hide_dependency_lines: true
+			hide_details_until_startable: false
+			icon: {
+				id: "simulated:auger_shaft"
+			}
+			id: "618A5F1F97B43EEE"
+			optional: true
+			rewards: [{
+				id: "094A5E6E69200933"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "5AE87C46621935FD"
+					item: { count: 1, id: "simulated:auger_shaft" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "446545CEA2E51856"
+					item: { count: 1, id: "simulated:auger_cog" }
+					type: "item"
+				}
+			]
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["340BB533188663AC"]
+			hide_dependency_lines: false
+			hide_details_until_startable: false
+			icon: {
+				id: "simulated:docking_connector"
+			}
+			id: "64976CC3D755B6A0"
+			optional: true
+			rewards: [{
+				id: "454B2135AB140B4C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				count: 2L
+				id: "25D4D837D0DDE2D3"
+				item: { count: 1, id: "simulated:docking_connector" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["340BB533188663AC"]
+			hide_dependency_lines: true
+			hide_details_until_startable: false
+			icon: {
+				id: "simulated:optical_sensor"
+			}
+			id: "12182087891641AE"
+			optional: true
+			rewards: [{
+				id: "76B8ADD155AEFB78"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "26089410C205A858"
+				item: { count: 1, id: "simulated:optical_sensor" }
+				type: "item"
+			}]
+			x: 26.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["188A34A9984B70DF"]
+			hide_dependency_lines: false
+			hide_details_until_startable: false
+			icon: {
+				id: "simulated:gimbal_sensor"
+			}
+			id: "59ACC9542FB521B6"
+			optional: true
+			rewards: [{
+				id: "4168867071CE8608"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "78686CD3CFBD1477"
+					item: { count: 1, id: "simulated:gimbal_sensor" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "58E69F06930B41BD"
+					item: { count: 1, id: "simulated:altitude_sensor" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "6263170169211C94"
+					item: { count: 1, id: "simulated:velocity_sensor" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "4792925F22EF559F"
+					item: { count: 1, id: "simulated:steering_wheel" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "7FC43D59CA59D00D"
+					item: { count: 1, id: "simulated:white_symmetric_sail" }
+					type: "item"
+				}
+			]
+			x: 29.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["340BB533188663AC"]
+			hide_dependency_lines: false
+			hide_details_until_startable: false
+			icon: {
+				id: "simulated:swivel_bearing"
+			}
+			id: "59239B38F0A336B7"
+			optional: true
+			rewards: [{
+				id: "2A859431360626B8"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "7DA92F559F5794CE"
+				item: { count: 1, id: "simulated:swivel_bearing" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0E97147184C995B1"]
+			hide_dependency_lines: false
+			hide_details_until_startable: false
+			icon: {
+				id: "simulated:rope_winch"
+			}
+			id: "25B6CF8DF07B75F1"
+			optional: true
+			rewards: [{
+				id: "5AAA52EF8899419B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "071FED3D082E71D7"
+				item: { count: 1, id: "simulated:rope_winch" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["340BB533188663AC"]
+			hide_dependency_lines: true
+			hide_details_until_startable: false
+			icon: {
+				id: "simulated:analog_transmission"
+			}
+			id: "7EE4728F4E22D86F"
+			optional: true
+			rewards: [{
+				id: "45169CB1976E5F44"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "16E7CC51A25799FB"
+				item: { count: 1, id: "simulated:analog_transmission" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["27010EF06B5CD3E2"]
+			hide_dependency_lines: true
+			hide_details_until_startable: false
+			icon: {
+				id: "simulated:redstone_magnet"
+			}
+			id: "219B30EBFD50954A"
+			optional: true
+			rewards: [{
+				id: "4AA24C9D40DF4390"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "262E43688DA4A4FD"
+				item: { count: 1, id: "simulated:redstone_magnet" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["340BB533188663AC"]
+			hide_dependency_lines: true
+			hide_details_until_startable: false
+			icon: {
+				id: "simulated:throttle_lever"
+			}
+			id: "10FE409FCE05E272"
+			optional: true
+			rewards: [{
+				id: "467A079E90FD4022"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "5BD88AEC0341C0CB"
+				item: { count: 1, id: "simulated:throttle_lever" }
+				type: "item"
+			}]
+			x: 31.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["340BB533188663AC"]
+			hide_dependency_lines: true
+			hide_details_until_startable: false
+			icon: {
+				id: "simulated:directional_linked_receiver"
+			}
+			id: "32B03E2F31EF9592"
+			optional: true
+			rewards: [{
+				id: "1D4B54863B346D4B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "7F6FE4719BFC8F26"
+					item: { count: 1, id: "simulated:directional_linked_receiver" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "68B3089E7D6A2E7E"
+					item: { count: 1, id: "simulated:modulating_linked_receiver" }
+					type: "item"
+				}
+			]
+			x: 31.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["340BB533188663AC"]
+			hide_dependency_lines: true
+			hide_details_until_startable: false
+			icon: {
+				id: "simulated:laser_pointer"
+			}
+			id: "440955425D931992"
+			optional: true
+			rewards: [{
+				id: "708E366DB4618361"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "0538C18F05A9F02E"
+					item: { count: 1, id: "simulated:laser_pointer" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "361FF87644C4D527"
+					item: { count: 1, id: "simulated:laser_sensor" }
+					type: "item"
+				}
+			]
+			x: 29.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["340BB533188663AC"]
+			hide_dependency_lines: true
+			hide_details_until_startable: false
+			icon: {
+				id: "simulated:gyroscopic_mechanism"
+			}
+			id: "188A34A9984B70DF"
+			optional: true
+			rewards: [{
+				id: "415C5D1E202F266F"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "3F23255CA2C19322"
+				item: { count: 1, id: "simulated:gyroscopic_mechanism" }
+				type: "item"
+			}]
+			x: 26.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["27010EF06B5CD3E2"]
+			hide_dependency_lines: true
+			hide_details_until_startable: false
+			icon: {
+				id: "simulated:redstone_inductor"
+			}
+			id: "07C3A3E4F82545AE"
+			optional: true
+			rewards: [{
+				id: "1B4E512DC9BBBA1C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "78CF5CAA78AD3C54"
+					item: { count: 1, id: "simulated:redstone_inductor" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "52B2D7868B031BB5"
+					item: { count: 1, id: "simulated:redstone_accumulator" }
+					type: "item"
+				}
+			]
+			x: 17.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["340BB533188663AC"]
+			hide_dependency_lines: true
+			hide_details_until_startable: false
+			icon: {
+				id: "simulated:torsion_spring"
+			}
+			id: "3424AAC35D70C7D9"
+			optional: true
+			rewards: [{
+				id: "5C16BA3E3A3A31A1"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "7F5D5CC0D451B5BC"
+				item: { count: 1, id: "simulated:torsion_spring" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["340BB533188663AC"]
+			hide_dependency_lines: true
+			hide_details_until_startable: false
+			icon: {
+				id: "simulated:linked_typewriter"
+			}
+			id: "3EEB16B4C1B7688A"
+			optional: true
+			rewards: [{
+				id: "48F0988D01FDBE89"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "2C2F2EC425340949"
+				item: { count: 1, id: "simulated:linked_typewriter" }
+				type: "item"
+			}]
+			x: 24.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["27010EF06B5CD3E2"]
+			hide_dependency_lines: true
+			hide_details_until_startable: false
+			icon: {
+				id: "simulated:white_nameplate"
+			}
+			id: "284ECB887F2F9572"
+			optional: true
+			rewards: [{
+				id: "695A27E360AE1EBF"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "255D61EAF41E63DC"
+				item: { count: 1, id: "simulated:white_nameplate" }
+				type: "item"
+			}]
+			x: 24.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["27010EF06B5CD3E2"]
+			hide_dependency_lines: true
+			hide_details_until_startable: false
+			icon: {
+				id: "simulated:white_portable_engine"
+			}
+			id: "4303B3E2067069C1"
+			optional: true
+			rewards: [{
+				id: "79F3DD25F74C91D4"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "77046809D7CB1015"
+				item: { count: 1, id: "simulated:white_portable_engine" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["4303B3E2067069C1"]
+			hide_dependency_lines: false
+			hide_details_until_startable: false
+			icon: {
+				id: "aeronautics:aviators_goggles"
+			}
+			id: "25807E4BBAF3CA29"
+			optional: true
+			rewards: [{
+				id: "313EB6ED757CF35D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "0AF7903599351B28"
+				item: { count: 1, id: "aeronautics:aviators_goggles" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["25807E4BBAF3CA29"]
+			hide_dependency_lines: false
+			hide_details_until_startable: false
+			icon: {
+				id: "aeronautics:steam_vent"
+			}
+			id: "4BDE4CE34C4FC15F"
+			optional: true
+			rewards: [{
+				id: "0648B34A07E83DF5"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "167716845BD8748F"
+				item: { count: 1, id: "aeronautics:steam_vent" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["25807E4BBAF3CA29"]
+			hide_dependency_lines: false
+			hide_details_until_startable: false
+			icon: {
+				id: "aeronautics:propeller_bearing"
+			}
+			id: "6919C815C1D2A30D"
+			optional: true
+			rewards: [{
+				id: "783423E2324986F3"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "0210DBD5AF71B7DA"
+				item: { count: 1, id: "aeronautics:propeller_bearing" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["25807E4BBAF3CA29"]
+			hide_dependency_lines: false
+			hide_details_until_startable: false
+			icon: {
+				id: "aeronautics:adjustable_burner"
+			}
+			id: "773767CAF463E3AF"
+			optional: true
+			rewards: [{
+				id: "7876CDE92D9D20D4"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "641F2F67ABF642B0"
+				item: { count: 1, id: "aeronautics:adjustable_burner" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["25807E4BBAF3CA29"]
+			hide_dependency_lines: false
+			hide_details_until_startable: false
+			icon: {
+				id: "aeronautics:gyroscopic_propeller_bearing"
+			}
+			id: "2931398C209C8E6F"
+			optional: true
+			rewards: [{
+				id: "708EC2B4D7414B11"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "4466CD22276639CC"
+				item: { count: 1, id: "aeronautics:gyroscopic_propeller_bearing" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["25807E4BBAF3CA29"]
+			hide_dependency_lines: false
+			hide_details_until_startable: false
+			icon: {
+				id: "aeronautics:smart_propeller"
+			}
+			id: "7CA19EC0DA07D194"
+			optional: true
+			rewards: [{
+				id: "3C5090162F5E6686"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "461B41B2FFBD750C"
+				item: { count: 1, id: "aeronautics:smart_propeller" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 13.0d
+		}
+		{
+			dependencies: ["25807E4BBAF3CA29"]
+			hide_dependency_lines: false
+			hide_details_until_startable: false
+			icon: {
+				id: "aeronautics:andesite_propeller"
+			}
+			id: "6273EF2472768C8D"
+			optional: true
+			rewards: [{
+				id: "26097062B083FCF2"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "22BEAA331BF2A4FF"
+					item: { count: 1, id: "aeronautics:andesite_propeller" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0DEA983311B1863C"
+					item: { count: 1, id: "aeronautics:wooden_propeller" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 13.0d
+		}
+		{
+			dependencies: ["25807E4BBAF3CA29"]
+			hide_dependency_lines: false
+			hide_details_until_startable: false
+			icon: {
+				id: "aeronautics:mounted_potato_cannon"
+			}
+			id: "29A914AFAFE68DA8"
+			optional: true
+			rewards: [{
+				id: "5E1FE5A6F6A48861"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "5EE867B4427E06D0"
+				item: { count: 1, id: "aeronautics:mounted_potato_cannon" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["773767CAF463E3AF"]
+			hide_dependency_lines: false
+			hide_details_until_startable: false
+			icon: {
+				id: "aeronautics:white_envelope"
+			}
+			id: "30E68023426B7F91"
+			optional: true
+			rewards: [{
+				id: "5ECDF9E5A4ED6FDF"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "32B6B46DA7041020"
+				item: { count: 1, id: "aeronautics:white_envelope" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["4303B3E2067069C1"]
+			hide_dependency_lines: true
+			hide_details_until_startable: false
+			icon: {
+				id: "aeronautics:end_stone_powder"
+			}
+			id: "2EF9B30B16B2D6FE"
+			optional: true
+			rewards: [{
+				id: "22522F82FA5D69E4"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "16E791D8CE69B9BD"
+				item: { count: 1, id: "aeronautics:end_stone_powder" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["2EF9B30B16B2D6FE"]
+			hide_dependency_lines: false
+			hide_details_until_startable: false
+			icon: {
+				id: "aeronautics:levitite_blend_bucket"
+			}
+			id: "65746034EC53A95B"
+			optional: true
+			rewards: [{
+				id: "21ADEA8136B8DD8C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "23F09E50A8F91E69"
+				item: { count: 1, id: "aeronautics:levitite_blend_bucket" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["4303B3E2067069C1"]
+			hide_dependency_lines: true
+			hide_details_until_startable: false
+			icon: {
+				id: "aeronautics:music_disc_cloud_skipper"
+			}
+			id: "5C469F2C60F211CA"
+			optional: true
+			rewards: [{
+				id: "59CAE6C3BCDA0F86"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "691CA4B485033557"
+				item: { count: 1, id: "aeronautics:music_disc_cloud_skipper" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["27010EF06B5CD3E2"]
+			hide_dependency_lines: true
+			hide_details_until_startable: false
+			icon: {
+				id: "simulated:physics_assembler"
+			}
+			id: "5EC7F7A95A84753C"
+			optional: true
+			rewards: [{
+				id: "72FDACDF955E650B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "0351FE8F238E67B6"
+					item: { count: 1, id: "simulated:physics_assembler" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "5A69CCAEDE981A3D"
+					item: { count: 1, id: "simulated:white_portable_engine" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "03F1C90CD6C963EA"
+					item: { count: 1, id: "aeronautics:wooden_propeller" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 2L
+					id: "43B636FB01CD3BC7"
+					item: { count: 1, id: "offroad:wheel_mount" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 2L
+					id: "2ADF7FB1E58A8C9A"
+					item: { count: 1, id: "offroad:small_tire" }
+					type: "item"
+				}
+			]
+			x: 19.5d
+			y: 10.5d
+		}
+	]
+}

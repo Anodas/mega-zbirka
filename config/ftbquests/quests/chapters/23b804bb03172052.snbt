@@ -1,0 +1,291 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "23b804bb03172052"
+	group: "378CFB2DB8C23918"
+	icon: {
+		id: "create_enchantment_industry:mechanical_grindstone"
+	}
+	id: "23B804BB03172052"
+	images: [{
+		height: 5.4d
+		id: "48E03630FDCD83E2"
+		image: "mega:textures/quest_logos/23b804bb03172052.png"
+		order: 10
+		rotation: 0.0d
+		width: 9.766d
+		x: 3.75d
+		y: -8.3d
+	}]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["27010EF06B5CD3E2"]
+			hide_details_until_startable: false
+			icon: {
+				id: "create:experience_nugget"
+			}
+			id: "6D9C074B419B0D39"
+			optional: true
+			rewards: [{
+				id: "243EEBC38E7EC7BB"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "77540B713987E69D"
+				item: { count: 1, id: "create:experience_nugget" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6D9C074B419B0D39"]
+			hide_details_until_startable: false
+			icon: {
+				id: "create_enchantment_industry:mechanical_grindstone"
+			}
+			id: "776C6F7D1A810DB1"
+			optional: true
+			rewards: [{
+				id: "0F19D551272FD421"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "268421A72ECB8ADA"
+					item: { count: 1, id: "create_enchantment_industry:mechanical_grindstone" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "140C4C6DA3E1B0B3"
+					item: { count: 1, id: "create:item_drain" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6D9C074B419B0D39"]
+			hide_details_until_startable: false
+			icon: {
+				id: "create:experience_block"
+			}
+			id: "0D25F0D38FE6572A"
+			optional: true
+			rewards: [{
+				id: "60613272FBDCDE91"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "75A466A2979AD37D"
+				item: { count: 1, id: "create:experience_block" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0D25F0D38FE6572A"]
+			hide_details_until_startable: false
+			icon: {
+				id: "create_enchantment_industry:experience_hatch"
+			}
+			id: "67D408EF9244F549"
+			optional: true
+			rewards: [{
+				id: "5884CF0AC7D5758B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "0213BFB3542D1412"
+				item: { count: 1, id: "create_enchantment_industry:experience_hatch" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0D25F0D38FE6572A"]
+			hide_details_until_startable: false
+			icon: {
+				id: "create_enchantment_industry:experience_lantern"
+			}
+			id: "354635C98B7AB854"
+			optional: true
+			rewards: [{
+				id: "02DA2720F939F5C9"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "0147DEAF1779A1C8"
+				item: { count: 1, id: "create_enchantment_industry:experience_lantern" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0D25F0D38FE6572A"]
+			hide_details_until_startable: false
+			icon: {
+				id: "minecraft:lightning_rod"
+			}
+			id: "627009467A3FB616"
+			optional: true
+			rewards: [{
+				id: "72F9DFA2F0D0DCB4"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "462D76BD4804D227"
+				item: { count: 1, id: "minecraft:lightning_rod" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["627009467A3FB616"]
+			hide_details_until_startable: false
+			icon: {
+				id: "create_enchantment_industry:super_experience_block"
+			}
+			id: "035A5B1C85A75222"
+			optional: true
+			rewards: [{
+				id: "1A149F647808A0DD"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "08A5CAAD21D03249"
+				item: { count: 1, id: "create_enchantment_industry:super_experience_block" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["744599E7C08A46C3"]
+			hide_details_until_startable: false
+			icon: {
+				id: "create_enchantment_industry:experience_cake"
+			}
+			id: "04B05A72F0276D94"
+			optional: true
+			rewards: [{
+				id: "042DA5413F7A4B1D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "25267C0C8216B9F4"
+				item: { count: 1, id: "create_enchantment_industry:experience_cake" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0D25F0D38FE6572A"]
+			hide_details_until_startable: false
+			icon: {
+				id: "create_enchantment_industry:blaze_forger"
+			}
+			id: "744599E7C08A46C3"
+			optional: true
+			rewards: [{
+				id: "48257C75A6131C1F"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "4DCDE387CDBA9D47"
+					item: { count: 1, id: "create_enchantment_industry:blaze_forger" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1EA15A2E0175AEA1"
+					item: { count: 1, id: "create_enchantment_industry:blaze_enchanter" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6D9C074B419B0D39"]
+			hide_details_until_startable: false
+			icon: {
+				id: "create_enchantment_industry:printer"
+			}
+			id: "78AC40226F08E069"
+			optional: true
+			rewards: [{
+				id: "1787ED06FE64A50F"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "798CAED7B77279B5"
+				item: { count: 1, id: "create_enchantment_industry:printer" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["27010EF06B5CD3E2"]
+			hide_details_until_startable: false
+			icon: {
+				id: "create_enchantment_industry:mechanical_grindstone"
+			}
+			id: "79CEA1AB905A472A"
+			optional: true
+			rewards: [{
+				id: "2DE5666A01498B12"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "15C8F7D34CD30C36"
+					item: { count: 1, id: "create_enchantment_industry:mechanical_grindstone" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "66029E18D12F3B80"
+					item: { count: 1, id: "create_enchantment_industry:experience_hatch" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+	]
+}

@@ -1,0 +1,8 @@
+name = "enigmaticlegacyplus-1.21.1-1.1.2"
+filename = "enigmaticlegacyplus-1.21.1-1.1.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/oIjj1Fan/versions/ELK5gx91/enigmaticlegacyplus-1.21.1-1.1.2.jar"
+hash-format = "sha1"
+hash = "01cc8991fac3eb2adccc96c8493172b698adab82"

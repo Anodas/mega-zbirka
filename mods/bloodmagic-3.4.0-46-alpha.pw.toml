@@ -1,0 +1,8 @@
+name = "bloodmagic-3.4.0-46-alpha"
+filename = "bloodmagic-3.4.0-46-alpha.jar"
+side = "both"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/8855/778/bloodmagic-3.4.0-46-alpha.jar"
+hash-format = "sha1"
+hash = "038dea379f5ffa5b3aa109103d292ea9580edc7d"

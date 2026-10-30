@@ -1,0 +1,8 @@
+name = "epicfightcompat-1.1.0-mc1.21.1-neoforge"
+filename = "epicfightcompat-1.1.0-mc1.21.1-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/hjgBurqe/versions/tI0fnvPU/epicfightcompat-1.1.0-mc1.21.1-neoforge.jar"
+hash-format = "sha1"
+hash = "73322bae5887cad40835bee6f7cbf425ffbb8ffb"

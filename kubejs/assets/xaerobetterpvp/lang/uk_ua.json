@@ -1,0 +1,14 @@
+{
+  "gui.xaero_item_tooltip": "Підказка предмета",
+  "gui.xaero_entity_tooltip_settings": "Налаштування підказки предмета",
+  "gui.xaero_item_tooltip_min_lines": "Мінімум рядків",
+  "gui.xaero_item_tooltip_time": "Відображати для",
+  "gui.xaero_potion_effects_blink": "Блимати по закінченню дії",
+  "gui.xaero_armour_main_hand": "Предмет в основній руці",
+  "gui.xaero_armour_off_hand": "Предмет в іншій руці",
+  "gui.xaero_no_durability": "Немає",
+  "gui.xaero_held_centered_position": "Утримувані предмети, коли центровано",
+  "gui.xaero_held_centered_position_screen_edges": "Межі",
+  "gui.xaero_held_centered_position_hotbar": "Панель швидкого доступу",
+  "gui.xaero_better_pvp_server_profiles": "Налаштування сервера Better PVP"
+}

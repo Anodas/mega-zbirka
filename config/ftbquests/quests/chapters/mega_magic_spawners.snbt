@@ -1,0 +1,648 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "mega_magic_spawners"
+	group: "12B8784D9CF4299B"
+	icon: {
+		id: "minecraft:spawner"
+	}
+	id: "2C25112106CF7FD6"
+	images: [
+		{
+			alpha: 135
+			color: 1187884
+			height: 9.4d
+			id: "1D59130376665B52"
+			image: "#FFFFFF"
+			order: -20
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_shadow: 1b
+			width: 10.7d
+			x: 3.75d
+			y: 2.5d
+		}
+		{
+			alpha: 215
+			color: 2376274
+			height: 1.15d
+			id: "49C95641444594B6"
+			image: "#FFFFFF"
+			order: -10
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_on_image: 1b
+			text_shadow: 1b
+			width: 10.7d
+			x: 3.75d
+			y: -1.7d
+		}
+		{
+			alpha: 135
+			color: 1187884
+			height: 9.4d
+			id: "2DB66D0EF252FB59"
+			image: "#FFFFFF"
+			order: -20
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_shadow: 1b
+			width: 10.7d
+			x: 15.75d
+			y: 2.5d
+		}
+		{
+			alpha: 215
+			color: 2376274
+			height: 1.15d
+			id: "62D9D7B795BD77C0"
+			image: "#FFFFFF"
+			order: -10
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_on_image: 1b
+			text_shadow: 1b
+			width: 10.7d
+			x: 15.75d
+			y: -1.7d
+		}
+		{
+			height: 5.4d
+			id: "54D7C44E2E00BE0A"
+			image: "mega:textures/quest_logos/mega_magic_spawners.png"
+			order: 10
+			rotation: 0.0d
+			width: 9.077d
+			x: 9.75d
+			y: -5.575d
+		}
+	]
+	order_index: 17
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4D279D1E5B9D955B"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:spawner"
+			}
+			id: "2E7B634E5C45A65D"
+			optional: true
+			rewards: [{
+				id: "0E4032956E0CE326"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "2ABFE67C358F59A0"
+				item: { count: 1, id: "minecraft:spawner" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"16FAEABB3827A209"
+				"4D279D1E5B9D955B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "apotheosis:ignore_light_spawner_rune"
+			}
+			id: "624243DC929A2EF1"
+			optional: true
+			rewards: [{
+				id: "27F2DB17A2C3BA43"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "3ADA039C3D723B7F"
+				item: { count: 1, id: "apotheosis:ignore_light_spawner_rune" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"69863391AE1D9F1A"
+				"4D279D1E5B9D955B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "apotheosis:no_ai_spawner_rune"
+			}
+			id: "56885F1339417034"
+			optional: true
+			rewards: [{
+				id: "756A6403F4545571"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "4928F91D4D23A621"
+				item: { count: 1, id: "apotheosis:no_ai_spawner_rune" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"16FAEABB3827A209"
+				"4D279D1E5B9D955B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "apotheosis:youthful_spawner_rune"
+			}
+			id: "7E18E53241A29FBA"
+			optional: true
+			rewards: [{
+				id: "4C6F81014E2B5537"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "70D7D85A342C580C"
+				item: { count: 1, id: "apotheosis:youthful_spawner_rune" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"16FAEABB3827A209"
+				"4D279D1E5B9D955B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "apotheosis:spawn_range_spawner_rune"
+			}
+			id: "565DD89814F35959"
+			optional: true
+			rewards: [{
+				id: "3E52F31685F250E1"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "742552D934793499"
+				item: { count: 1, id: "apotheosis:spawn_range_spawner_rune" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"16FAEABB3827A209"
+				"4D279D1E5B9D955B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "apotheosis:redstone_control_spawner_rune"
+			}
+			id: "08F505D3D2B9DAC0"
+			optional: true
+			rewards: [{
+				id: "1DC5C04850B490E1"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "1AAE830D7070FC8D"
+				item: { count: 1, id: "apotheosis:redstone_control_spawner_rune" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"69863391AE1D9F1A"
+				"4D279D1E5B9D955B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "apotheosis:ignore_players_spawner_rune"
+			}
+			id: "6B67FE7476D1E4B4"
+			optional: true
+			rewards: [{
+				id: "1E7BE4FF08FDF5E4"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "6A3DC238DB3F59FB"
+				item: { count: 1, id: "apotheosis:ignore_players_spawner_rune" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"69863391AE1D9F1A"
+				"4D279D1E5B9D955B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "apotheosis:ignore_conditions_spawner_rune"
+			}
+			id: "79F137E9FFBA2FDD"
+			optional: true
+			rewards: [{
+				id: "50314AE2F2CF7390"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "504EDC3468480CBA"
+				item: { count: 1, id: "apotheosis:ignore_conditions_spawner_rune" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"16FAEABB3827A209"
+				"4D279D1E5B9D955B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:quartz"
+			}
+			id: "6E7E2781ACD5B8BE"
+			optional: true
+			rewards: [{
+				id: "5AF5CB6EA68EBD1F"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "4BB41692A94F0C88"
+				item: { count: 1, id: "minecraft:quartz" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"69863391AE1D9F1A"
+				"4D279D1E5B9D955B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "apotheosis:echoing_spawner_rune"
+			}
+			id: "2B31335D1BFB0818"
+			optional: true
+			rewards: [{
+				id: "31EF31CD4AE5FA05"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "072EDEA29DEDD521"
+				item: { count: 1, id: "apotheosis:echoing_spawner_rune" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"16FAEABB3827A209"
+				"4D279D1E5B9D955B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "apotheosis:initial_health_spawner_rune"
+			}
+			id: "65E54945C8A3DEE2"
+			optional: true
+			rewards: [{
+				id: "761B851AA67BF46E"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "225C80F8389C3319"
+				item: { count: 1, id: "apotheosis:initial_health_spawner_rune" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"16FAEABB3827A209"
+				"4D279D1E5B9D955B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "apotheosis:burning_spawner_rune"
+			}
+			id: "19FD1999FF7AE6A3"
+			optional: true
+			rewards: [{
+				id: "40F5C4CE7F4B7A19"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "7ECFDA176A6789A7"
+				item: { count: 1, id: "apotheosis:burning_spawner_rune" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"2E7B634E5C45A65D"
+				"4D279D1E5B9D955B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:enchanted_book"
+			}
+			id: "1C8CFAD7D68623DE"
+			optional: true
+			rewards: [{
+				id: "5A25BD3D23018E31"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "3AE8F59F0264314F"
+				item: { count: 1, id: "minecraft:enchanted_book" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2E7B634E5C45A65D"
+				"4D279D1E5B9D955B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "apothic_enchanting:occult_ender_lead"
+			}
+			id: "1F67722ABAD063CA"
+			optional: true
+			rewards: [{
+				id: "08376A5092F33C8F"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "1342F70148033F24"
+				item: { count: 1, id: "apothic_enchanting:occult_ender_lead" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2E7B634E5C45A65D"
+				"4D279D1E5B9D955B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "apotheosis:spawner_chain"
+			}
+			id: "5BAF4D4448C0A200"
+			optional: true
+			rewards: [{
+				id: "3A51717EAB416F86"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "0A687BBF4E01DC9E"
+					item: { count: 1, id: "apotheosis:spawner_chain" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "5616B290151A514F"
+					item: { count: 1, id: "minecraft:tnt" }
+					type: "item"
+				}
+			]
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5BAF4D4448C0A200"
+				"4D279D1E5B9D955B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "apotheosis:spawner_rune"
+			}
+			id: "16FAEABB3827A209"
+			optional: true
+			rewards: [{
+				id: "3BA95417B9CEC7A7"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "2C3AF867A6B726F0"
+				item: { count: 1, id: "apotheosis:spawner_rune" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"16FAEABB3827A209"
+				"4D279D1E5B9D955B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "apotheosis:silent_spawner_rune"
+			}
+			id: "3BB86ADC3FBCFD7A"
+			optional: true
+			rewards: [{
+				id: "75BE3FFC0B445DCC"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "62D4612663D9DB35"
+				item: { count: 1, id: "apotheosis:silent_spawner_rune" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"16FAEABB3827A209"
+				"4D279D1E5B9D955B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "apotheosis:frontier_spawner_upgrade_rune"
+			}
+			id: "75EA555860BB7FA9"
+			optional: true
+			rewards: [{
+				id: "26E47C5DACF31EC7"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "71CDBEB2DC3A4AD8"
+				item: { count: 1, id: "apotheosis:frontier_spawner_upgrade_rune" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"16FAEABB3827A209"
+				"4D279D1E5B9D955B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "apotheosis:ascent_spawner_upgrade_rune"
+			}
+			id: "5C6F45E9E5067F50"
+			optional: true
+			rewards: [{
+				id: "77D15E83796BB976"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "5FB8BCE85C3F97E3"
+				item: { count: 1, id: "apotheosis:ascent_spawner_upgrade_rune" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"16FAEABB3827A209"
+				"4D279D1E5B9D955B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "apotheosis:infused_spawner_rune"
+			}
+			id: "69863391AE1D9F1A"
+			optional: true
+			rewards: [{
+				id: "62BF8092340464CA"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "4DC167511A503D7E"
+				item: { count: 1, id: "apotheosis:infused_spawner_rune" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"69863391AE1D9F1A"
+				"4D279D1E5B9D955B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "apotheosis:summit_spawner_upgrade_rune"
+			}
+			id: "0CE3CA7ADA38892C"
+			optional: true
+			rewards: [{
+				id: "49D8C2A573267658"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "20BF53660B690F02"
+				item: { count: 1, id: "apotheosis:summit_spawner_upgrade_rune" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"69863391AE1D9F1A"
+				"4D279D1E5B9D955B"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "apotheosis:pinnacle_spawner_upgrade_rune"
+			}
+			id: "1588D8F4C3EC70CE"
+			optional: true
+			rewards: [{
+				id: "44848E9E1D89434A"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "74DEEE8F7B1495B9"
+				item: { count: 1, id: "apotheosis:pinnacle_spawner_upgrade_rune" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 5.0d
+		}
+	]
+}

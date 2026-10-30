@@ -1,0 +1,8 @@
+name = "Hilt-1.21.1-1.13"
+filename = "Hilt-1.21.1-1.13.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/N9hghN3F/versions/IiE1PFla/Hilt-1.21.1-1.13.jar"
+hash-format = "sha1"
+hash = "30bb87a03f5755f4130a034611a8c442d996ed6b"

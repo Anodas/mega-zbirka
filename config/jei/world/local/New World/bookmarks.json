@@ -1,0 +1,6 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"minecraft:leather_boots"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"relics:magic_mirror","components":"{\"relics:data\":{abilities:{abilities:{teleport:{extender:{cooldown:0,cooldownCap:0,ticking:0b},lock:{breaks:5},points:0,research:{links:{},researched:0b},stats:{cooldown:{initialValue:70.47733d},distance:{initialValue:728.07174d}}}}},leveling:{experience:0,level:0,luck:0,points:0}}}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"minecraft:spruce_slab"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

@@ -1,0 +1,8 @@
+name = "epicfight-extra-neoforge1.21.1-1.2.2"
+filename = "epicfight-extra-neoforge1.21.1-1.2.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ttzcrj0w/versions/TU1ON2si/epicfight-extra-neoforge1.21.1-1.2.2.jar"
+hash-format = "sha1"
+hash = "3e4ecfed2c61bfbcbdbe8858b2bd36e2d70b70b7"

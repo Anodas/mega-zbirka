@@ -1,0 +1,250 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "33f01523537dc808"
+	group: "378CFB2DB8C23918"
+	icon: {
+		id: "copycats:copycat_block"
+	}
+	id: "33F01523537DC808"
+	images: [{
+		height: 3.9d
+		id: "09AC5F281F090376"
+		image: "mega:textures/quest_logos/33f01523537dc808.png"
+		order: 10
+		rotation: 0.0d
+		width: 10.209d
+		x: 7.5d
+		y: -4.55d
+	}]
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["076FA6C74127A609"]
+			hide_details_until_startable: false
+			icon: {
+				id: "copycats:copycat_block"
+			}
+			id: "4B1C56CE6EB40935"
+			rewards: [{
+				id: "1A08C79A79662A8C"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "0523388F210E5B8B"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B1C56CE6EB40935"]
+			hide_details_until_startable: false
+			icon: {
+				id: "copycats:copycat_block"
+			}
+			id: "52B0888F526327E5"
+			optional: true
+			rewards: [{
+				id: "44509AC4A1DAC8F5"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				count: 8L
+				id: "20D73DBF7901417C"
+				item: { count: 1, id: "copycats:copycat_block" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["52B0888F526327E5"]
+			hide_details_until_startable: false
+			icon: {
+				id: "copycats:copycat_stairs"
+			}
+			id: "66915998266FF37F"
+			optional: true
+			rewards: [{
+				id: "47DEE596AE2F96CF"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					count: 4L
+					id: "698C8289ADEB9349"
+					item: { count: 1, id: "copycats:copycat_stairs" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 8L
+					id: "5299D4A48A7523EA"
+					item: { count: 1, id: "copycats:copycat_slab" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["66915998266FF37F"]
+			hide_details_until_startable: false
+			icon: {
+				id: "copycats:copycat_shaft"
+			}
+			id: "25E6909DF86BCBFC"
+			optional: true
+			rewards: [{
+				id: "1FECE8B4C541DC8D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					count: 4L
+					id: "7166184EEA09E1AD"
+					item: { count: 1, id: "copycats:copycat_shaft" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "0762DD1838EB0EFA"
+					item: { count: 1, id: "copycats:copycat_cogwheel" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["25E6909DF86BCBFC"]
+			hide_details_until_startable: false
+			icon: {
+				id: "createdeco:iron_catwalk"
+			}
+			id: "74BE3550A03BB2D6"
+			optional: true
+			rewards: [{
+				id: "23786607EA142A6D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					count: 8L
+					id: "48011CF93FB0E760"
+					item: { count: 1, id: "createdeco:iron_catwalk" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "2A9F573B1DBAF437"
+					item: { count: 1, id: "createdeco:iron_catwalk_railing" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["74BE3550A03BB2D6"]
+			hide_details_until_startable: false
+			icon: {
+				id: "createdeco:iron_support"
+			}
+			id: "14910B3F52EAEC08"
+			optional: true
+			rewards: [{
+				id: "18CA0DB0C3B09F66"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					count: 4L
+					id: "5837A742ED14ABD3"
+					item: { count: 1, id: "createdeco:iron_support" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 8L
+					id: "5B99A60744800644"
+					item: { count: 1, id: "createdeco:iron_mesh_fence" }
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["14910B3F52EAEC08"]
+			hide_details_until_startable: false
+			icon: {
+				id: "createdeco:yellow_iron_lamp"
+			}
+			id: "32DD943ECA627BFC"
+			optional: true
+			rewards: [{
+				id: "19281299AE63175B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				count: 4L
+				id: "0EF9D578A1051E0B"
+				item: { count: 1, id: "createdeco:yellow_iron_lamp" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B1C56CE6EB40935"]
+			hide_details_until_startable: false
+			icon: {
+				id: "copycats:copycat_block"
+			}
+			id: "66D70090426B0626"
+			optional: true
+			rewards: [{
+				id: "0A5D586C73492A0B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					count: 8L
+					id: "52F3129A00533719"
+					item: { count: 1, id: "copycats:copycat_block" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 8L
+					id: "467C4E381D7ECF20"
+					item: { count: 1, id: "createdeco:iron_catwalk" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 1.5d
+		}
+	]
+}

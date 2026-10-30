@@ -1,0 +1,73 @@
+[content]
+	#Enable Luxuria gameplay, its shard, collar and related mappings. The aspect id remains registered so existing saves stay valid.
+	enable_lust = true
+	enable_capitalist = true
+	enable_emerald_transmutation = true
+	enable_wrath_cage = true
+	enable_enchantments = true
+	#Ring of Nutrition and Thaumic Cake: NORMAL, DISABLED (removes their research and recipes) or HARDCORE (recipes use Nether Star Blocks).
+	gluttony_mode = "NORMAL"
+
+[gameplay]
+	silverfish_emerald_fragments = true
+	#Item ids or #item tags consumed by the Consuming enchantment. The data tag remains primary.
+	consuming_targets = ["minecraft:dirt", "minecraft:sand", "minecraft:gravel", "minecraft:cobblestone", "minecraft:netherrack", "minecraft:cobbled_deepslate", "minecraft:red_sand", "minecraft:end_stone"]
+
+[wrath_cage]
+	#Essentia per payment; zero disables fuel.
+	# Default: 5
+	# Range: 0 ~ 64
+	essentia_cost = 5
+	#Successful spawns granted by one fuel payment.
+	# Default: 4
+	# Range: 1 ~ 1024
+	spawns_per_fuel = 4
+	#Also allow entity types in the expanded imprint tag. Players and bosses in the deny tag remain blocked.
+	expanded_imprint_allowlist = false
+
+[silly]
+	spork_of_doom = false
+
+[compat]
+	enabled = true
+	conversion_wands = true
+	botania = true
+	blood_magic = true
+	mana_and_artifice = true
+	# Default: 5
+	# Range: 0 ~ 1000000
+	blood_vis_cost = 5
+	thaumic_tinkerer = true
+	twilight_forest = true
+
+[wands]
+	# Default: 150
+	# Range: 1 ~ 100000
+	infernal_capacity = 150
+	# Default: 150
+	# Range: 1 ~ 100000
+	tainted_capacity = 150
+	# Default: 50
+	# Range: 1 ~ 100000
+	profane_capacity = 50
+	# Default: 100
+	# Range: 1 ~ 100000
+	livingwood_capacity = 100
+	# Default: 100
+	# Range: 1 ~ 100000
+	dreamwood_capacity = 100
+	# Default: 250
+	# Range: 1 ~ 100000
+	dreamwood_staff_capacity = 250
+	# Default: 0.9
+	# Range: 0.1 ~ 100.0
+	alchemical_cap_multiplier = 0.9
+	# Default: 0.9
+	# Range: 0.0 ~ 100.0
+	manasteel_multiplier = 0.9
+	# Default: 0.8
+	# Range: 0.0 ~ 100.0
+	elementium_multiplier = 0.8
+	# Default: 1.8
+	# Range: 0.0 ~ 100.0
+	terrasteel_multiplier = 1.8

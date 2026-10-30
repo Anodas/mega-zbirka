@@ -1,0 +1,14 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"enigmaticlegacyplus:redemption_ring"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"industrialforegoing:enchantment_applicator"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"efn:yamato_dmc4"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"efn:yamato_dmc"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"epicfight:bokken"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"efn:duskfire_chestplate"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"thaumcraft:thaumonomicon"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"thaumcraft:thaumometer"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"modern_industrialization:quantum_upgrade"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"modern_industrialization:quantum_sword"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"justdirethings:celestigem_sword"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

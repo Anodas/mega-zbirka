@@ -1,0 +1,6 @@
+{
+  "item.mi_sound_addon.mallet": "Сталевий молоток",
+  "message.mi_sound_addon.tooltip": "Натисніть ПКМ по машині, щоб приглушити її",
+  "message.mi_sound_addon.machine_silenced": "Машину не видає звуки",
+  "message.mi_sound_addon.machine_unsilenced": "Машину видає звуки"
+}

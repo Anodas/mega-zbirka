@@ -1,0 +1,29 @@
+{
+ "replace": false,
+ "values": [
+  {
+   "id": "ars_nouveau:novice_spell_book",
+   "required": false
+  },
+  {
+   "id": "irons_spellbooks:copper_spell_book",
+   "required": false
+  },
+  {
+   "id": "irons_spellbooks:gold_spell_book",
+   "required": false
+  },
+  {
+   "id": "irons_spellbooks:iron_spell_book",
+   "required": false
+  },
+  {
+   "id": "irons_spellbooks:rotten_spell_book",
+   "required": false
+  },
+  {
+   "id": "irons_spellbooks:wimpy_spell_book",
+   "required": false
+  }
+ ]
+}

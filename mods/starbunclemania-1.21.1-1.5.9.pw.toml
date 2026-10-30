@@ -1,0 +1,8 @@
+name = "starbunclemania-1.21.1-1.5.9"
+filename = "starbunclemania-1.21.1-1.5.9.jar"
+side = "both"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/8964/554/starbunclemania-1.21.1-1.5.9.jar"
+hash-format = "sha1"
+hash = "20c56011923ca409da8ad11e2fd9b284f28d8009"

@@ -1,0 +1,121 @@
+{
+ "replace": false,
+ "values": [
+  {
+   "id": "efn:duskfire_boots",
+   "required": false
+  },
+  {
+   "id": "efn:duskfire_chestplate",
+   "required": false
+  },
+  {
+   "id": "efn:duskfire_helmet",
+   "required": false
+  },
+  {
+   "id": "efn:duskfire_leggings",
+   "required": false
+  },
+  {
+   "id": "efn:ruinfighter_boots",
+   "required": false
+  },
+  {
+   "id": "efn:ruinfighter_chestplate",
+   "required": false
+  },
+  {
+   "id": "efn:ruinfighter_helmet",
+   "required": false
+  },
+  {
+   "id": "efn:ruinfighter_leggings",
+   "required": false
+  },
+  {
+   "id": "justdirethings:eclipsealloy_axe",
+   "required": false
+  },
+  {
+   "id": "justdirethings:eclipsealloy_boots",
+   "required": false
+  },
+  {
+   "id": "justdirethings:eclipsealloy_chestplate",
+   "required": false
+  },
+  {
+   "id": "justdirethings:eclipsealloy_helmet",
+   "required": false
+  },
+  {
+   "id": "justdirethings:eclipsealloy_hoe",
+   "required": false
+  },
+  {
+   "id": "justdirethings:eclipsealloy_leggings",
+   "required": false
+  },
+  {
+   "id": "justdirethings:eclipsealloy_paxel",
+   "required": false
+  },
+  {
+   "id": "justdirethings:eclipsealloy_pickaxe",
+   "required": false
+  },
+  {
+   "id": "justdirethings:eclipsealloy_shovel",
+   "required": false
+  },
+  {
+   "id": "justdirethings:eclipsealloy_sword",
+   "required": false
+  },
+  {
+   "id": "mekanismtools:refined_obsidian_axe",
+   "required": false
+  },
+  {
+   "id": "mekanismtools:refined_obsidian_boots",
+   "required": false
+  },
+  {
+   "id": "mekanismtools:refined_obsidian_chestplate",
+   "required": false
+  },
+  {
+   "id": "mekanismtools:refined_obsidian_helmet",
+   "required": false
+  },
+  {
+   "id": "mekanismtools:refined_obsidian_hoe",
+   "required": false
+  },
+  {
+   "id": "mekanismtools:refined_obsidian_leggings",
+   "required": false
+  },
+  {
+   "id": "mekanismtools:refined_obsidian_paxel",
+   "required": false
+  },
+  {
+   "id": "mekanismtools:refined_obsidian_pickaxe",
+   "required": false
+  },
+  {
+   "id": "mekanismtools:refined_obsidian_shield",
+   "required": false
+  },
+  {
+   "id": "mekanismtools:refined_obsidian_shovel",
+   "required": false
+  },
+  {
+   "id": "mekanismtools:refined_obsidian_sword",
+   "required": false
+  }
+ ]
+}

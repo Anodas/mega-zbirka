@@ -1,0 +1,8 @@
+name = "VIX-1.21-1.3.2"
+filename = "VIX-1.21-1.3.2.jar"
+side = "both"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/8660/54/VIX-1.21-1.3.2.jar"
+hash-format = "sha1"
+hash = "33519ac2f58380eb08a52f27b90310d765bdc7a2"

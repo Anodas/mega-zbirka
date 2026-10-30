@@ -1,0 +1,366 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "mega_newmods_building"
+	group: "431F6B3590930EA6"
+	icon: {
+		id: "chipped:mason_table"
+	}
+	id: "11DD0D8E3AA6A1C1"
+	images: [
+		{
+			alpha: 150
+			color: 1187884
+			height: 9.4d
+			id: "0899E7EC89D33EE5"
+			image: "#FFFFFF"
+			order: -20
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_shadow: 1b
+			width: 10.7d
+			x: 3.75d
+			y: 2.5d
+		}
+		{
+			alpha: 215
+			color: 2376274
+			height: 1.15d
+			id: "0A7E71A30D3AAE61"
+			image: "#FFFFFF"
+			order: -10
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_on_image: 1b
+			text_shadow: 1b
+			width: 10.7d
+			x: 3.75d
+			y: -1.7d
+		}
+		{
+			height: 3.9d
+			id: "4168EE8C7A7C2F14"
+			image: "mega:textures/quest_logos/mega_newmods_building.png"
+			order: 10
+			rotation: 0.0d
+			width: 11.815d
+			x: 5.0d
+			y: -4.825d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			hide_dependency_lines: false
+			icon: {
+				id: "chipped:mason_table"
+			}
+			id: "04236396EDF15232"
+			optional: true
+			rewards: [{
+				id: "240594098F3C0461"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "2844A3FDD0323199"
+				item: { count: 1, id: "chipped:mason_table" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["04236396EDF15232"]
+			hide_dependency_lines: false
+			icon: {
+				id: "chipped:carpenters_table"
+			}
+			id: "2C66CBD0C49A30DF"
+			optional: true
+			rewards: [{
+				id: "3B3DE894C569982A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "5F5402F3017E2E92"
+				item: { count: 1, id: "chipped:carpenters_table" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["04236396EDF15232"]
+			hide_dependency_lines: false
+			icon: {
+				id: "chipped:glassblower"
+			}
+			id: "6B29121B959E84FC"
+			optional: true
+			rewards: [{
+				id: "4E22184925D5BBF2"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "711F9E9B4C7A8AD0"
+				item: { count: 1, id: "chipped:glassblower" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2C66CBD0C49A30DF"
+				"6B29121B959E84FC"
+			]
+			hide_dependency_lines: false
+			icon: {
+				id: "chipped:botanist_workbench"
+			}
+			id: "239B375608AAAEEA"
+			optional: true
+			rewards: [{
+				id: "5F47ED5644047468"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "2196DFAE92F392B8"
+					item: { count: 1, id: "chipped:botanist_workbench" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "578F404FC599DB5E"
+					item: { count: 1, id: "chipped:loom_table" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "4323C7A0F3286877"
+					item: { count: 1, id: "chipped:alchemy_bench" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "0582E54C76F8E376"
+					item: { count: 1, id: "chipped:tinkering_table" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			hide_dependency_lines: false
+			icon: {
+				id: "rechiseled:chisel"
+			}
+			id: "7EC70CBF4AEF974A"
+			optional: true
+			rewards: [{
+				id: "04680425271176C3"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "73D76E994B8941C1"
+				item: { count: 1, id: "rechiseled:chisel" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			hide_dependency_lines: false
+			icon: {
+				id: "constructionwand:stone_wand"
+			}
+			id: "174A5E1705F138AF"
+			optional: true
+			rewards: [{
+				id: "7DC42D860167B6FB"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "1CCD72D716620498"
+				item: { count: 1, id: "constructionwand:stone_wand" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["174A5E1705F138AF"]
+			hide_dependency_lines: false
+			icon: {
+				id: "constructionwand:iron_wand"
+			}
+			id: "331A0C3B966E3712"
+			optional: true
+			rewards: [{
+				id: "756C015312F9C524"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "41B63BD6DF805BC0"
+				item: { count: 1, id: "constructionwand:iron_wand" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["331A0C3B966E3712"]
+			hide_dependency_lines: false
+			icon: {
+				id: "constructionwand:diamond_wand"
+			}
+			id: "2E74702966EC479B"
+			optional: true
+			rewards: [{
+				id: "5256B394B05BFA71"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "7145CD68EAB79DE6"
+				item: { count: 1, id: "constructionwand:diamond_wand" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2E74702966EC479B"]
+			hide_dependency_lines: false
+			icon: {
+				id: "constructionwand:core_angel"
+			}
+			id: "36E343289DF938D5"
+			optional: true
+			rewards: [{
+				id: "3701F0EFB314021E"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "270CBCFFA7D562E0"
+					item: { count: 1, id: "constructionwand:core_angel" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "2B706852C9804331"
+					item: { count: 1, id: "constructionwand:core_destruction" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			hide_dependency_lines: false
+			icon: {
+				id: "dummmmmmy:target_dummy"
+			}
+			id: "7C2713F07B66FC58"
+			optional: true
+			rewards: [{
+				id: "6CE032CB50A9242A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "727F3F41F8E606E4"
+				item: { count: 1, id: "dummmmmmy:target_dummy" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			hide_dependency_lines: false
+			icon: {
+				id: "chipped:mason_table"
+			}
+			id: "0351E6F0F4EF96C7"
+			optional: true
+			rewards: [{
+				id: "751AF51E387F813C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5AFA6B105B48B863"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			hide_dependency_lines: false
+			icon: {
+				id: "chipped:mason_table"
+			}
+			id: "2DDBFC74F595BA94"
+			optional: true
+			rewards: [{
+				id: "761D502B9806A324"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "043B121881479011"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			icon: {
+				id: "kubejs:builder_blueprint"
+			}
+			id: "4E5F8D9C3C2621D3"
+			rewards: [{
+				id: "14E782C0753573EC"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				consume_items: false
+				id: "51A8F3EA8D690073"
+				item: { count: 1, id: "kubejs:builder_blueprint" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+	]
+}

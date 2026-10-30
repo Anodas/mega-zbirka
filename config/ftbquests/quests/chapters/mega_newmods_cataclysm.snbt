@@ -1,0 +1,384 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "mega_newmods_cataclysm"
+	group: "15283A8731F6C89A"
+	icon: {
+		id: "cataclysm:ignitium_ingot"
+	}
+	id: "089F6A384EB25134"
+	images: [
+		{
+			alpha: 150
+			color: 1187884
+			height: 9.4d
+			id: "30871A471302C697"
+			image: "#FFFFFF"
+			order: -20
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_shadow: 1b
+			width: 10.7d
+			x: 3.75d
+			y: 2.5d
+		}
+		{
+			alpha: 215
+			color: 2376274
+			height: 1.15d
+			id: "627E1FB4596FB47F"
+			image: "#FFFFFF"
+			order: -10
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_on_image: 1b
+			text_shadow: 1b
+			width: 10.7d
+			x: 3.75d
+			y: -1.7d
+		}
+		{
+			alpha: 150
+			color: 1187884
+			height: 9.4d
+			id: "7718598A5C67322F"
+			image: "#FFFFFF"
+			order: -20
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_shadow: 1b
+			width: 10.7d
+			x: 15.75d
+			y: 2.5d
+		}
+		{
+			alpha: 215
+			color: 2376274
+			height: 1.15d
+			id: "29C05B0183564638"
+			image: "#FFFFFF"
+			order: -10
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_on_image: 1b
+			text_shadow: 1b
+			width: 10.7d
+			x: 15.75d
+			y: -1.7d
+		}
+		{
+			height: 3.9d
+			id: "1C5FA8D0401FEAA8"
+			image: "mega:textures/quest_logos/mega_newmods_cataclysm.png"
+			order: 10
+			rotation: 0.0d
+			width: 12.159d
+			x: 7.875d
+			y: -4.825d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			hide_dependency_lines: false
+			icon: {
+				id: "cataclysm:ignitium_ingot"
+			}
+			id: "4B25C39DB254FEB7"
+			optional: true
+			rewards: [{
+				id: "1E1618EB20F29F6B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5789663D9C6E1CA0"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B25C39DB254FEB7"]
+			hide_dependency_lines: false
+			icon: {
+				id: "cataclysm:ancient_remnant_spawn_egg"
+			}
+			id: "32BBD68FA990CC7B"
+			optional: true
+			rewards: [{
+				id: "77704114A68A7D63"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				id: "0912DEB1D0D0F36E"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B25C39DB254FEB7"]
+			hide_dependency_lines: false
+			icon: {
+				id: "cataclysm:the_harbinger_spawn_egg"
+			}
+			id: "3D8F0C820E42CA92"
+			optional: true
+			rewards: [{
+				id: "528870685BA11818"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				id: "02D825496EFEEF4A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B25C39DB254FEB7"]
+			hide_dependency_lines: false
+			icon: {
+				id: "cataclysm:maledictus_spawn_egg"
+			}
+			id: "04A064F9FAAEEE2E"
+			optional: true
+			rewards: [{
+				id: "33F8E99BFA85C5A7"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				id: "5281230F07DD87EA"
+				type: "kill"
+				value: 1L
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["04A064F9FAAEEE2E"]
+			hide_dependency_lines: false
+			icon: {
+				id: "cataclysm:cursium_ingot"
+			}
+			id: "4258807F464761AE"
+			optional: true
+			rewards: [{
+				id: "34B8F10F7F4977D8"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "1C2AE4D93204503D"
+				item: { count: 1, id: "cataclysm:cursium_ingot" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4B25C39DB254FEB7"]
+			hide_dependency_lines: false
+			icon: {
+				id: "cataclysm:the_leviathan_spawn_egg"
+			}
+			id: "6C186FCE6F6ECE2F"
+			optional: true
+			rewards: [{
+				id: "096AC44B7F4EFACE"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				id: "0928488E15E34028"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4B25C39DB254FEB7"]
+			hide_dependency_lines: false
+			icon: {
+				id: "cataclysm:scylla_spawn_egg"
+			}
+			id: "7D294E22892B9049"
+			optional: true
+			rewards: [{
+				id: "585BEC84C6D75B6B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				entity: "cataclysm:scylla"
+				id: "7B298693CD2494EF"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4B25C39DB254FEB7"]
+			hide_dependency_lines: false
+			icon: {
+				id: "cataclysm:netherite_monstrosity_spawn_egg"
+			}
+			id: "34ED726ECCF96C06"
+			optional: true
+			rewards: [{
+				id: "029335CF35D660E2"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				id: "2078EBF32594FAAA"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["34ED726ECCF96C06"]
+			hide_dependency_lines: false
+			icon: {
+				id: "cataclysm:ignis_spawn_egg"
+			}
+			id: "2DF0057EBE11096A"
+			optional: true
+			rewards: [{
+				id: "540B2B788E90C6A0"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				entity: "cataclysm:ignis"
+				id: "6D50DF9E3B3343C6"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2DF0057EBE11096A"]
+			hide_dependency_lines: false
+			icon: {
+				id: "cataclysm:ignitium_ingot"
+			}
+			id: "22A820FBF60A5BC8"
+			optional: true
+			rewards: [{
+				id: "163C5AEB21049EF3"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "10E9D25484E5C248"
+				item: { count: 1, id: "cataclysm:ignitium_ingot" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4B25C39DB254FEB7"]
+			hide_dependency_lines: false
+			icon: {
+				id: "cataclysm:ender_guardian_spawn_egg"
+			}
+			id: "02013EA7D5D5090F"
+			optional: true
+			rewards: [{
+				id: "000C9E98D9237486"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				id: "1C8E014B4437EBA9"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["02013EA7D5D5090F"]
+			hide_dependency_lines: false
+			icon: {
+				id: "cataclysm:void_forge"
+			}
+			id: "19CA3F70B427DB9B"
+			optional: true
+			rewards: [{
+				id: "3CE0B29E15C0CD1C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "7529A5F1EFC35EA8"
+				item: { count: 1, id: "cataclysm:void_forge" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4B25C39DB254FEB7"]
+			hide_dependency_lines: true
+			icon: {
+				id: "cataclysm:deepling_spawn_egg"
+			}
+			id: "6C6403B7519BD008"
+			optional: true
+			rewards: [{
+				id: "1B1C264E1ECAFE67"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					entity: "cataclysm:deepling"
+					id: "10064CC010A9365B"
+					type: "kill"
+					value: 5L
+				}
+				{
+					entity: "cataclysm:koboleton"
+					id: "7D4674E5D9A020A7"
+					type: "kill"
+					value: 5L
+				}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+	]
+}

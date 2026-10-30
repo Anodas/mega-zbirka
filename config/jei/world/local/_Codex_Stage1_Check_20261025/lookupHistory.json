@@ -1,0 +1,6 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"chunkloaders:basic_chunk_loader"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"justdirethings:gooblock_tier1"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"kubejs:electric_control_unit"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

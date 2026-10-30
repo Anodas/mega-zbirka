@@ -1,0 +1,8 @@
+name = "modopedia-neoforge-1.21.1-1.1.11"
+filename = "modopedia-neoforge-1.21.1-1.1.11.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/SYrakyVL/versions/VlvXeRGz/modopedia-neoforge-1.21.1-1.1.11.jar"
+hash-format = "sha1"
+hash = "086e80d3d763c491576012ff230b45ba6f477e83"

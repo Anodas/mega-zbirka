@@ -1,0 +1,16 @@
+{
+  "block.create_new_age.copper_wire_block": "Блок мідного дроту",
+  "block.create_new_age.lamp_post": "Ліхтарний стовп",
+  "block.create_new_age.overcharged_diamond_wire_block": "Блок надзарядженого діамантового дроту",
+  "block.create_new_age.overcharged_golden_wire_block": "Блок надзарядженого золотого дроту",
+  "block.create_new_age.overcharged_iron_wire_block": "Блок надзарядженого залізного дроту",
+  "block.create_new_age.street_light": "Вуличне освітлення",
+  "category.create_new_age.energising": "Надзарядження",
+  "create.create_new_age.street_light.light_level": "Рівень освітлення",
+  "create.tooltip.create_new_age.connector_info": "Інформація про з'єднувач: ",
+  "create.tooltip.create_new_age.per_light_level": "на рівень освітлення",
+  "create_new_age.monkey_edition": "Create: New Age [Видання бібізяни]",
+  "effect.create_new_age.radiation_poisoning": "Радіаційне отруєння",
+  "item.create_new_age.incomplete_enchanted_golden_apple": "Незавершене зачароване золоте яблуко",
+  "recipe.assembly.energising": "Заряджання"
+}

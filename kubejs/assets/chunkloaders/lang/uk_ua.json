@@ -1,0 +1,6 @@
+{
+  "chunkloaders.inactivity.notification": "%s ваші завантажувачі чанків було вимкнено після того, як ви були поза мережею більше ніж %s. Тепер вони знову активні.",
+  "chunkloaders.inactivity.days": "%s днів",
+  "chunkloaders.inactivity.hours": "%s годин",
+  "chunkloaders.inactivity.minutes": "%s хвилин"
+}

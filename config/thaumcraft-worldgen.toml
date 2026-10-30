@@ -1,0 +1,37 @@
+[world_generation]
+	#Generate wild aura nodes in new chunks and during retro-generation when enabled.
+	generate_aura_nodes = true
+	#Generate TC4 mounds, rings, hilltop stones and node totems, including retro-generation when enabled.
+	generate_structures = true
+	#Generate cinnabar ore in new chunks and during retro-generation when enabled.
+	generate_cinnabar_ore = true
+	#Generate amber-bearing stone in new chunks and during retro-generation when enabled.
+	generate_amber_ore = true
+	#Generate primal infused stone in new chunks and during retro-generation when enabled.
+	generate_infused_stone = true
+	#Generate TC4 vegetation in ordinary overworld biomes, including retro-generation when enabled.
+	generate_trees = true
+	#Allow Tainted Land to enter new overworld biome layouts. Requires a game restart.
+	generate_taint = true
+	#Average chunks per wild aura node; TC4 default is 36.
+	# Default: 36
+	# Range: 1 ~ 214748364
+	node_rarity = 36
+	#Rarity of special node types, modifiers and extra compound aspects; higher is rarer, minimum 3.
+	# Default: 18
+	# Range: > 3
+	special_node_rarity = 18
+
+[biomes]
+	#Additional Vanilla-equivalent TerraBlender Overworld region weight. TerraBlender's own default Vanilla weight is 10; the default value 10 here raises the effective Vanilla weight to 20. Set to 0 to disable the additional region. Requires a game restart.
+	# Default: 10
+	# Range: > 0
+	additional_overworld_region_weight = 10
+	#Relative TerraBlender region weight for Magical Forest. With default settings, 2 is equivalent to user-facing weight 1 against Vanilla 10. Requires a game restart.
+	# Default: 2
+	# Range: > 1
+	magical_forest_biome_weight = 2
+	#Relative TerraBlender region weight for Tainted Land. With default settings, 1 is equivalent to user-facing weight 0.5 against Vanilla 10. Requires a game restart.
+	# Default: 1
+	# Range: > 1
+	taint_biome_weight = 1

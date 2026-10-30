@@ -1,0 +1,8 @@
+name = "industrialization_overdrive-1.14.0+1.21.1"
+filename = "industrialization_overdrive-1.14.0+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/FjBGB4sU/versions/6cbTrnqZ/industrialization_overdrive-1.14.0%2B1.21.1.jar"
+hash-format = "sha1"
+hash = "bad56e7585fb8b993ba3935e6e64c4bb3d501c0a"

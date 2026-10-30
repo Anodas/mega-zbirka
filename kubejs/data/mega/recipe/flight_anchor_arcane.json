@@ -1,0 +1,14 @@
+{
+  "type": "thaumcraft:arcane_shaped",
+  "research": "ARCANESTONE",
+  "pattern": ["MSM", "OCO", " W "],
+  "key": {
+    "M": {"item": "minecraft:phantom_membrane"},
+    "S": {"item": "thaumcraft:air_shard"},
+    "O": {"item": "create_new_age:overcharged_iron"},
+    "C": {"item": "kubejs:electric_control_unit"},
+    "W": {"item": "create_new_age:copper_wire"}
+  },
+  "vis": {"aer": 25, "ordo": 15, "ignis": 10},
+  "result": {"id": "kubejs:flight_anchor"}
+}

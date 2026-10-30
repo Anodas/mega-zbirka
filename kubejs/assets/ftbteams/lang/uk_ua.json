@@ -1,0 +1,20 @@
+{
+  "ftbteams.team_already_exists": "Команда %s вже існує!",
+  "ftbteams.out_of_lives": "У вашої групи закінчилися життя! Неможливо запросити нових учасників!",
+  "ftbteams.lost_a_life": "Ваша група втратила життя! Залишилося життів: %s / %s!",
+  "ftbteams.kicked_no_lives": "Гравця %s було виключено, оскільки він помер, а у вашої групи не залишилося життів!",
+  "ftbteams.disbanded_no_lives": "Вашу групу було розформовано, оскільки у вас закінчилися життя та гравці!",
+  "ftbteams.gui.toggle_chat": "Клацніть, щоб перемкнути",
+  "ftbteams.message.limited_lives": "У вашої групи залишилося життів: %s / %s!",
+  "ftbteams.message.limited_lives.warn": "Якщо ви помрете, вас буде виключено з групи!",
+  "ftbteams.message.chat_redirected.on": "Повідомлення у чаті перенаправлятимуться у командний чат",
+  "ftbteams.message.chat_redirected.off": "Повідомлення у чаті відправлятимуться у звичайний чат",
+  "ftbteams.message.added_stage": "Додано етап команди: %s",
+  "ftbteams.message.no_team_stages": "Для цієї команди немає етапів",
+  "ftbteams.message.removed_stage": "Видалено етап команди: %s",
+  "ftbteams.message.team_stages_header": "%s етап(ів) для цієї команди:",
+  "ftbteams.message.set_property": "Встановлено властивість %s на %s",
+  "ftbteams.message.parse_failed": "Не вдалося розібрати значення: %s",
+  "ftbteams.message.property_not_editable": "Властивість %s не можна редагувати!",
+  "ftbteams.click_show_info": "Клацніть, щоб передивитися опис команди"
+}

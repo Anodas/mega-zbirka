@@ -1,0 +1,8 @@
+name = "WeaponsOfMiracles-2.0.178"
+filename = "WeaponsOfMiracles-2.0.178.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/oWx9p4ug/versions/9A6sb3T8/WeaponsOfMiracles-2.0.178.jar"
+hash-format = "sha1"
+hash = "b507eb376778cfd1cbecec2841c38891b26a7349"

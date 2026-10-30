@@ -1,0 +1,8 @@
+name = "titanium-1.21-4.0.51"
+filename = "titanium-1.21-4.0.51.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/1Ro7m06l/versions/vbCgpf68/titanium-1.21-4.0.51.jar"
+hash-format = "sha1"
+hash = "aeb581ba5bdaac3bf3d48bee78488151e9c3dfd1"

@@ -1,0 +1,8 @@
+{
+  "config.bridgingmod.option.minBridgeDistance": "Мінімальна вдстань мостового розміщення",
+  "config.bridgingmod.option.minBridgeDistance.description.0": "На якій відстані повинен знаходитися блок від вас, щоб його можна було з’єднати.",
+  "config.bridgingmod.option.minBridgeDistanceHorizontal": "Мінімальна горизонтальна відстань",
+  "config.bridgingmod.option.minBridgeDistanceHorizontal.description.0": "На якій відстані повинен знаходитися блок від вас по горизонталі, щоб його можна було з’єднати.",
+  "config.bridgingmod.option.minBridgeDistanceVertical": "Мінімальна вертикальна відстань",
+  "config.bridgingmod.option.minBridgeDistanceVertical.description.0": "На якій відстані повинен знаходитися блок від вас по вертикалі, щоб його можна було з’єднати."
+}

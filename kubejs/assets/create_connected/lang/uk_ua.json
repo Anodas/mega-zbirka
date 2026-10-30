@@ -1,0 +1,9 @@
+{
+  "block.create_connected.brass_gearbox.tooltip.summary": "Коробка передач, де напрямок обертання всіх 4 сторін _налаштовується незалежно_.",
+  "create_connected.ponder.kinetic_battery.text_3": "При живленні редстоуном вона розряджається, генеруючи фіксовану кількість одиниць навантаження з фіксованою швидкістю",
+  "create_connected.ponder.kinetic_battery.text_4": "Компаратор можна використовувати для зчитування поточного рівня батареї",
+  "create_connected.ponder.kinetic_battery.text_5": "Використовуйте пороговий перемикач для більш точного зчитування",
+  "create_connected.ponder.kinetic_battery_automation.text_1": "Коли батарея повністю заряджена...",
+  "create_connected.ponder.kinetic_battery_automation.text_3": "Коли батарея розряджається, натисніть правою кнопкою миші з зарядженою батареєю, щоб перезарядити",
+  "create_connected.ponder.kinetic_battery_chaining.text_5": "Щоб збільшити загальну ємність навантаження, підключайте батареї паралельно"
+}

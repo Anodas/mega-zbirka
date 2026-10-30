@@ -1,0 +1,19 @@
+{
+  "Small Nether Dungeons are currently disabled by default. You can enable them in the mod's config.": "Малі незерські підземелля наразі усталено вимкнені. Ви можете увімкнути їх у конфігурації мода.",
+  "Banner of Decay": "Стяг гниття",
+  "Banner of Pork": "Стяг свинини",
+  "Banner of Rage": "Стяг люті",
+  "A Special Addition": "Спеціальне видання",
+  "Find a Small Nether Dungeon": "Знайдіть мале незерське підземелля",
+  "text.autoconfig.betterdungeons-fabric-1_21.option.betterDungeons.smallNetherDungeon": "Мале підземелля Незеру",
+  "text.autoconfig.betterdungeons-fabric-1_21.option.betterDungeons.smallNetherDungeon.@Tooltip": "Мале підземелля Незеру.",
+  "text.autoconfig.betterdungeons-fabric-1_21.option.betterDungeons.smallNetherDungeon.bannerMaxCount": "Максимальна кількість стягів малих підземель Незеру",
+  "text.autoconfig.betterdungeons-fabric-1_21.option.betterDungeons.smallNetherDungeon.bannerMaxCount.@Tooltip[0]": "Максимальна кількість стягів, які можуть з’явитися в одному маленькому підземеллі Незеру.",
+  "text.autoconfig.betterdungeons-fabric-1_21.option.betterDungeons.smallNetherDungeon.bannerMaxCount.@Tooltip[1]": "Усталено: 2",
+  "text.autoconfig.betterdungeons-fabric-1_21.option.betterDungeons.smallNetherDungeon.enabled": "Увімкнути малі підземелля Незеру",
+  "text.autoconfig.betterdungeons-fabric-1_21.option.betterDungeons.smallNetherDungeon.enabled.@Tooltip": "Чи мають з'євлятися малі підземелля Незеру чи ні.",
+  "text.autoconfig.betterdungeons-fabric-1_21.option.betterDungeons.smallNetherDungeon.witherSkeletonsDropWitherSkulls": "Породжені візер-скелети скидають черепа",
+  "text.autoconfig.betterdungeons-fabric-1_21.option.betterDungeons.smallNetherDungeon.witherSkeletonsDropWitherSkulls.@Tooltip": "Чи візер-скелети, породжені в малих підземель Незеру, можуть скидати черепа візерів-скелетів.",
+  "text.autoconfig.betterdungeons-fabric-1_21.option.betterDungeons.smallNetherDungeon.blazesDropBlazeRods": "Породжені пломені скидають стрижні",
+  "text.autoconfig.betterdungeons-fabric-1_21.option.betterDungeons.smallNetherDungeon.blazesDropBlazeRods.@Tooltip": "Чи пломені, породжені в малих підземель Незеру, можуть скидати стрижні пломеня."
+}

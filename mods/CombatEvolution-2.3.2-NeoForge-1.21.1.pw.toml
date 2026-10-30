@@ -1,0 +1,8 @@
+name = "CombatEvolution-2.3.2-NeoForge-1.21.1"
+filename = "CombatEvolution-2.3.2-NeoForge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/9171/333/CombatEvolution-2.3.2-NeoForge-1.21.1.jar"
+hash-format = "sha1"
+hash = "7d9becac1a80cbf70473562cafdc295ca3b2d931"

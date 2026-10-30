@@ -1,0 +1,162 @@
+{
+  "credit": "Made with Blockbench",
+  "parent": "block/block",
+  "textures": {
+    "1": "create:block/zinc_block",
+    "3": "create:block/fluid_tank_window",
+    "particle": "create:block/zinc_block",
+    "steam": "modern_industrialization:fluid/steam_still"
+  },
+  "elements": [
+    {
+      "name": "SideRight",
+      "from": [
+        15,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        4
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            12,
+            0,
+            16,
+            16
+          ],
+          "texture": "#1",
+          "cullface": "east"
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            1,
+            16
+          ],
+          "texture": "#1",
+          "cullface": "east"
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            4,
+            16
+          ],
+          "texture": "#1",
+          "cullface": "east"
+        }
+      }
+    },
+    {
+      "name": "Window",
+      "from": [
+        15.05,
+        0,
+        4
+      ],
+      "to": [
+        15.05,
+        16,
+        12
+      ],
+      "faces": {
+        "east": {
+          "uv": [
+            8,
+            0,
+            16,
+            16
+          ],
+          "texture": "#3",
+          "cullface": "east"
+        },
+        "west": {
+          "uv": [
+            8,
+            0,
+            16,
+            16
+          ],
+          "texture": "#3",
+          "cullface": "east"
+        }
+      }
+    },
+    {
+      "name": "SideLeft",
+      "from": [
+        15,
+        0,
+        12
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            15,
+            0,
+            16,
+            16
+          ],
+          "texture": "#1",
+          "cullface": "east"
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            4,
+            16
+          ],
+          "texture": "#1",
+          "cullface": "east"
+        },
+        "west": {
+          "uv": [
+            12,
+            0,
+            16,
+            16
+          ],
+          "texture": "#1",
+          "cullface": "east"
+        }
+      }
+    }
+  ],
+  "groups": [
+    {
+      "name": "tank",
+      "origin": [
+        8,
+        8,
+        -23
+      ],
+      "color": 0,
+      "children": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    }
+  ]
+}

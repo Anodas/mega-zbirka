@@ -1,0 +1,289 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "10b2aef4b0b869fa"
+	group: "378CFB2DB8C23918"
+	icon: {
+		id: "fluxnetworks:flux_controller"
+	}
+	id: "10B2AEF4B0B869FA"
+	images: [{
+		height: 3.9d
+		id: "6E9638E799332032"
+		image: "mega:textures/quest_logos/10b2aef4b0b869fa.png"
+		order: 10
+		rotation: 0.0d
+		width: 13.076d
+		x: 3.75d
+		y: -3.05d
+	}]
+	order_index: 16
+	quest_links: [
+		{
+			id: "3CDBA7CD926BB6CA"
+			linked_quest: "0BFCC79FACDADDB4"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			id: "392666A775D2D4FB"
+			linked_quest: "4F31880B58294AA4"
+			x: -2.5d
+			y: 2.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["0BFCC79FACDADDB4"]
+			hide_details_until_startable: false
+			icon: {
+				id: "fluxnetworks:flux_dust"
+			}
+			id: "257B01344BB3E808"
+			optional: true
+			rewards: [{
+				id: "051B429AD48CC46B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				count: 4L
+				id: "40C320F6E7D873F3"
+				item: { count: 1, id: "fluxnetworks:flux_dust" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["257B01344BB3E808"]
+			hide_details_until_startable: false
+			icon: {
+				id: "fluxnetworks:flux_core"
+			}
+			id: "2280A4544381A856"
+			optional: true
+			rewards: [{
+				id: "2E20CDD517C83EAB"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					count: 4L
+					id: "08FC2D7D34810D4E"
+					item: { count: 1, id: "fluxnetworks:flux_core" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "5FCF205D12CD2783"
+					item: { count: 1, id: "fluxnetworks:flux_block" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2280A4544381A856"]
+			hide_details_until_startable: false
+			icon: {
+				id: "fluxnetworks:flux_plug"
+			}
+			id: "519D16E4D12FFA7B"
+			optional: true
+			rewards: [{
+				id: "787CEBEAD2EFB914"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "7AB921D52A658FD9"
+				item: { count: 1, id: "fluxnetworks:flux_plug" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["519D16E4D12FFA7B"]
+			hide_details_until_startable: false
+			icon: {
+				id: "fluxnetworks:flux_point"
+			}
+			id: "52B5A7767A7711E2"
+			optional: true
+			rewards: [{
+				id: "426A34F3C5F7A3D5"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "46CB982A41A1FF44"
+				item: { count: 1, id: "fluxnetworks:flux_point" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["519D16E4D12FFA7B"]
+			hide_details_until_startable: false
+			icon: {
+				id: "fluxnetworks:basic_flux_storage"
+			}
+			id: "2CDE94A29C14CB6D"
+			optional: true
+			rewards: [{
+				id: "4DCA08AD55D68D54"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "6572705EDDC3FA4D"
+				item: { count: 1, id: "fluxnetworks:basic_flux_storage" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["519D16E4D12FFA7B"]
+			hide_details_until_startable: false
+			icon: {
+				id: "fluxnetworks:flux_controller"
+			}
+			id: "6D41E890FFE132EF"
+			optional: true
+			rewards: [{
+				id: "4014F76E40A34E9E"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "248D7AB31BA6A7FD"
+				item: { count: 1, id: "fluxnetworks:flux_controller" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0BFCC79FACDADDB4"]
+			hide_details_until_startable: false
+			icon: {
+				id: "fluxnetworks:flux_core"
+			}
+			id: "31A02A3593821C05"
+			rewards: [{
+				id: "56AE9D987F29EEC0"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				consume_items: false
+				count: 4L
+				id: "4267149E094D0FA1"
+				item: { count: 1, id: "fluxnetworks:flux_core" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["31A02A3593821C05"]
+			hide_details_until_startable: false
+			icon: {
+				id: "fluxnetworks:flux_controller"
+			}
+			id: "6F90D8D380F7AAAF"
+			rewards: [{
+				id: "7F8B73ED9A93B612"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "7DA898BEFF50D8B4"
+					item: { count: 1, id: "fluxnetworks:flux_controller" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "62FCE20D9AD7F430"
+					item: { count: 1, id: "fluxnetworks:flux_plug" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1B5431C895AAA6C7"
+					item: { count: 1, id: "fluxnetworks:flux_point" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"6F90D8D380F7AAAF"
+				"4F31880B58294AA4"
+			]
+			hide_details_until_startable: false
+			icon: {
+				id: "bigreactors:cyanite_ingot"
+			}
+			id: "2A8884CC89B7F965"
+			optional: true
+			rewards: [{
+				id: "2B0A5DE024D2B3D9"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					count: 8L
+					id: "1ABEDA6D0301194B"
+					item: { count: 1, id: "bigreactors:cyanite_ingot" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "1800011B387A0613"
+					item: { count: 1, id: "fluxnetworks:flux_controller" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "7CD9539F10F4DEF9"
+					item: { count: 1, id: "fluxnetworks:flux_plug" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "4C009226221DE59C"
+					item: { count: 1, id: "fluxnetworks:flux_point" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "43A38CF95DB43CCC"
+					item: { count: 1, id: "fluxnetworks:basic_flux_storage" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 2.0d
+		}
+	]
+}

@@ -1,0 +1,100 @@
+{
+  "parent": "block/block",
+  "ambientocclusion": false,
+  "textures": {
+    "steam": "modern_industrialization:fluid/steam_still"
+  },
+  "elements": [
+    {
+      "name": "Continuous steam sides",
+      "from": [
+        1.25,
+        10.125,
+        1.25
+      ],
+      "to": [
+        14.75,
+        12.25,
+        14.75
+      ],
+      "shade": false,
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#steam",
+          "neoforge_data": {
+            "color": "B0FFFFFF",
+            "block_light": 15,
+            "sky_light": 15,
+            "ambient_occlusion": false
+          }
+        },
+        "south": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#steam",
+          "neoforge_data": {
+            "color": "B0FFFFFF",
+            "block_light": 15,
+            "sky_light": 15,
+            "ambient_occlusion": false
+          }
+        },
+        "east": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#steam",
+          "neoforge_data": {
+            "color": "B0FFFFFF",
+            "block_light": 15,
+            "sky_light": 15,
+            "ambient_occlusion": false
+          }
+        },
+        "west": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#steam",
+          "neoforge_data": {
+            "color": "B0FFFFFF",
+            "block_light": 15,
+            "sky_light": 15,
+            "ambient_occlusion": false
+          }
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#steam",
+          "neoforge_data": {
+            "color": "B0FFFFFF",
+            "block_light": 15,
+            "sky_light": 15,
+            "ambient_occlusion": false
+          }
+        }
+      }
+    }
+  ]
+}

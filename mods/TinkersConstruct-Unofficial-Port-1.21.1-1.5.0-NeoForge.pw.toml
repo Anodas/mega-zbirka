@@ -1,0 +1,8 @@
+name = "TinkersConstruct-Unofficial-Port-1.21.1-1.5.0-NeoForge"
+filename = "TinkersConstruct-Unofficial-Port-1.21.1-1.5.0-NeoForge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/3xgZFdrY/versions/74WNtrx7/TinkersConstruct-Unofficial-Port-1.21.1-1.5.0-NeoForge.jar"
+hash-format = "sha1"
+hash = "f13f00e8caf377307aba564598e5bdea5603b81d"

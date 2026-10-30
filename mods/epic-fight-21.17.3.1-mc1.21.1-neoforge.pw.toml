@@ -1,0 +1,8 @@
+name = "epic-fight-21.17.3.1-mc1.21.1-neoforge"
+filename = "epic-fight-21.17.3.1-mc1.21.1-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/vu3NZ5Ma/versions/8HHhJt6i/epic-fight-21.17.3.1-mc1.21.1-neoforge.jar"
+hash-format = "sha1"
+hash = "fb199b7bbea2fc402da28ab586e73f47e32f8fc0"

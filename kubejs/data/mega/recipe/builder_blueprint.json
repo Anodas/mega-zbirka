@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {"item": "minecraft:book"},
+    {"item": "minecraft:compass"},
+    {"item": "minecraft:lapis_lazuli"},
+    {"item": "minecraft:feather"}
+  ],
+  "result": {"id": "kubejs:builder_blueprint", "count": 1}
+}

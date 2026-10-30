@@ -1,0 +1,97 @@
+{
+  "type": "SKILLS",
+  "skills": {
+    "swords": {
+      "maxLevel": 100,
+      "showInList": true,
+      "color": 15386218
+    },
+    "axes": {
+      "maxLevel": 100,
+      "showInList": true,
+      "color": 15386218
+    },
+    "polearms": {
+      "maxLevel": 100,
+      "showInList": true,
+      "color": 15386218
+    },
+    "archery": {
+      "maxLevel": 100,
+      "showInList": true,
+      "color": 15386218
+    },
+    "unarmed": {
+      "maxLevel": 100,
+      "showInList": true,
+      "color": 15386218
+    },
+    "blocking": {
+      "maxLevel": 100,
+      "showInList": true,
+      "color": 15386218
+    },
+    "agility": {
+      "maxLevel": 100,
+      "showInList": true,
+      "color": 7981473
+    },
+    "swimming": {
+      "maxLevel": 100,
+      "showInList": true,
+      "color": 7981473
+    },
+    "mining": {
+      "maxLevel": 100,
+      "showInList": true,
+      "color": 7981473
+    },
+    "woodcutting": {
+      "maxLevel": 100,
+      "showInList": true,
+      "color": 7981473
+    },
+    "excavation": {
+      "maxLevel": 100,
+      "showInList": true,
+      "color": 7981473
+    },
+    "farming": {
+      "maxLevel": 100,
+      "showInList": true,
+      "color": 7981473
+    },
+    "fishing": {
+      "maxLevel": 100,
+      "showInList": true,
+      "color": 7981473
+    }
+  },
+  "types": {
+    "combat": {
+      "order": 0,
+      "skills": [
+        "swords",
+        "axes",
+        "polearms",
+        "archery",
+        "unarmed",
+        "blocking"
+      ],
+      "color": 15386218
+    },
+    "survival": {
+      "order": 1,
+      "skills": [
+        "agility",
+        "swimming",
+        "mining",
+        "woodcutting",
+        "excavation",
+        "farming",
+        "fishing"
+      ],
+      "color": 7981473
+    }
+  }
+}

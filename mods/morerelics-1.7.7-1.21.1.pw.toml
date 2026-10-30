@@ -1,0 +1,8 @@
+name = "morerelics-1.7.7-1.21.1"
+filename = "morerelics-1.7.7-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/NmYBBHLU/versions/xmL9iQXg/morerelics-1.7.7-1.21.1.jar"
+hash-format = "sha1"
+hash = "ba0c920bc7712d1ff85012327b26e1a808c648f6"

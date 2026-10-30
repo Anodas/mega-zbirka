@@ -1,0 +1,401 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "mega_magic_starbuncle"
+	group: "12B8784D9CF4299B"
+	icon: {
+		id: "starbunclemania:star_bucket"
+	}
+	id: "2D98FD2B8ED5C147"
+	images: [
+		{
+			alpha: 135
+			color: 1187884
+			height: 9.4d
+			id: "0A2BAF558C75E778"
+			image: "#FFFFFF"
+			order: -20
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_shadow: 1b
+			width: 10.7d
+			x: 3.75d
+			y: 2.5d
+		}
+		{
+			alpha: 215
+			color: 2376274
+			height: 1.15d
+			id: "79A2524A6E28A4FE"
+			image: "#FFFFFF"
+			order: -10
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_on_image: 1b
+			text_shadow: 1b
+			width: 10.7d
+			x: 3.75d
+			y: -1.7d
+		}
+		{
+			alpha: 135
+			color: 1187884
+			height: 9.4d
+			id: "2C9355EC34ECA7EE"
+			image: "#FFFFFF"
+			order: -20
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_shadow: 1b
+			width: 10.7d
+			x: 15.75d
+			y: 2.5d
+		}
+		{
+			alpha: 215
+			color: 2376274
+			height: 1.15d
+			id: "5ECC373426EA4F9C"
+			image: "#FFFFFF"
+			order: -10
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_on_image: 1b
+			text_shadow: 1b
+			width: 10.7d
+			x: 15.75d
+			y: -1.7d
+		}
+		{
+			height: 3.9d
+			id: "0A8233DDF3878EDF"
+			image: "mega:textures/quest_logos/mega_magic_starbuncle.png"
+			order: 10
+			rotation: 0.0d
+			width: 13.765d
+			x: 7.875d
+			y: -4.825d
+		}
+	]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["109626E8E982C119"]
+			hide_dependency_lines: true
+			icon: {
+				id: "starbunclemania:star_bucket"
+			}
+			id: "7DA1B1CAAD95976F"
+			optional: true
+			rewards: [{
+				id: "1C1B77DF10EF993D"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "483D7E7BDD2B4011"
+				item: { count: 1, id: "starbunclemania:star_bucket" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["109626E8E982C119"]
+			hide_dependency_lines: true
+			icon: {
+				id: "starbunclemania:fluid_jar"
+			}
+			id: "644B220CFAA2716C"
+			optional: true
+			rewards: [{
+				id: "5E2A49E91D9CA72C"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "4A92F16C6E958849"
+				item: { count: 1, id: "starbunclemania:fluid_jar" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["109626E8E982C119"]
+			hide_dependency_lines: true
+			icon: {
+				id: "starbunclemania:fluid_scroll_allow"
+			}
+			id: "4D0D73950F3CDEB2"
+			optional: true
+			rewards: [{
+				id: "490DE1CF51C97FEF"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "12E06097B573346F"
+				item: { count: 1, id: "starbunclemania:fluid_scroll_allow" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["109626E8E982C119"]
+			hide_dependency_lines: true
+			icon: {
+				id: "starbunclemania:fluid_scroll_deny"
+			}
+			id: "6F7A09EAC9918AE4"
+			optional: true
+			rewards: [{
+				id: "5AEE121BE1A33BED"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "122AE856D64C922D"
+				item: { count: 1, id: "starbunclemania:fluid_scroll_deny" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["109626E8E982C119"]
+			hide_dependency_lines: true
+			icon: {
+				id: "starbunclemania:star_battery"
+			}
+			id: "41A8213F0704043F"
+			optional: true
+			rewards: [{
+				id: "1E9A9AAA68C5D4BF"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "031A9A227BB1C609"
+				item: { count: 1, id: "starbunclemania:star_battery" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["109626E8E982C119"]
+			hide_dependency_lines: true
+			icon: {
+				id: "starbunclemania:star_miner"
+			}
+			id: "7AB27F66DB636186"
+			optional: true
+			rewards: [{
+				id: "3AB18101D0D847B5"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "59BFC582686EC3D2"
+				item: { count: 1, id: "starbunclemania:star_miner" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["109626E8E982C119"]
+			hide_dependency_lines: true
+			icon: {
+				id: "starbunclemania:star_build"
+			}
+			id: "79E9370DA57812BF"
+			optional: true
+			rewards: [{
+				id: "167142511C3DCB68"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "7219664D48562ED9"
+				item: { count: 1, id: "starbunclemania:star_build" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["109626E8E982C119"]
+			hide_dependency_lines: true
+			icon: {
+				id: "starbunclemania:star_sword"
+			}
+			id: "322D429DEBD1004D"
+			optional: true
+			rewards: [{
+				id: "0E0EE8B3DB0F3B7F"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "3097A2BD785B41B2"
+				item: { count: 1, id: "starbunclemania:star_sword" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["109626E8E982C119"]
+			hide_dependency_lines: true
+			icon: {
+				id: "starbunclemania:star_bin"
+			}
+			id: "4C50CF1A9B31ED24"
+			optional: true
+			rewards: [{
+				id: "23462C18495433F2"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "391827C57C6F06F4"
+				item: { count: 1, id: "starbunclemania:star_bin" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["109626E8E982C119"]
+			hide_dependency_lines: true
+			icon: {
+				id: "starbunclemania:source_condenser"
+			}
+			id: "512871418D2EA9DD"
+			optional: true
+			rewards: [{
+				id: "5987A5C52EDDE74F"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "041E272A9388E83E"
+				item: { count: 1, id: "starbunclemania:source_condenser" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["109626E8E982C119"]
+			hide_dependency_lines: true
+			icon: {
+				id: "starbunclemania:fluid_sourcelink"
+			}
+			id: "420B27ED0B34B005"
+			optional: true
+			rewards: [{
+				id: "19446D394EEAB95C"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "3430E755E3BD5C2B"
+				item: { count: 1, id: "starbunclemania:fluid_sourcelink" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["109626E8E982C119"]
+			hide_dependency_lines: true
+			icon: {
+				id: "starbunclemania:chef_hat"
+			}
+			id: "3E6A90FE9433B478"
+			optional: true
+			rewards: [{
+				id: "7E79F64A01B29473"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "09CA76A902B577CB"
+				item: { count: 1, id: "starbunclemania:chef_hat" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["109626E8E982C119"]
+			hide_dependency_lines: true
+			icon: {
+				id: "starbunclemania:drygmy_horns"
+			}
+			id: "52D189DB50E1BF9A"
+			optional: true
+			rewards: [{
+				id: "6D599087F4B6E74F"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "37A5F93387EFF852"
+				item: { count: 1, id: "starbunclemania:drygmy_horns" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["109626E8E982C119"]
+			hide_dependency_lines: true
+			icon: {
+				id: "starbunclemania:star_saddle"
+			}
+			id: "540E861872BF89A3"
+			optional: true
+			rewards: [{
+				id: "139E8851ACB39AEC"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "3F5CE04350106910"
+				item: { count: 1, id: "starbunclemania:star_saddle" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 0.0d
+		}
+	]
+}

@@ -1,0 +1,817 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "mega_magic_blood_altar"
+	group: "12B8784D9CF4299B"
+	icon: {
+		id: "bloodmagic:altar"
+	}
+	id: "207D975C7DDF53D0"
+	images: [
+		{
+			alpha: 135
+			color: 1187884
+			height: 9.4d
+			id: "312D5645B45CEEEC"
+			image: "#FFFFFF"
+			order: -20
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_shadow: 1b
+			width: 10.7d
+			x: 3.75d
+			y: 2.5d
+		}
+		{
+			alpha: 215
+			color: 2376274
+			height: 1.15d
+			id: "7BC2C3F91C8ECB18"
+			image: "#FFFFFF"
+			order: -10
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_on_image: 1b
+			text_shadow: 1b
+			width: 10.7d
+			x: 3.75d
+			y: -1.7d
+		}
+		{
+			alpha: 135
+			color: 1187884
+			height: 9.4d
+			id: "67C30D49C7929DED"
+			image: "#FFFFFF"
+			order: -20
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_shadow: 1b
+			width: 10.7d
+			x: 15.75d
+			y: 2.5d
+		}
+		{
+			alpha: 215
+			color: 2376274
+			height: 1.15d
+			id: "4C569CDE4F98A6B6"
+			image: "#FFFFFF"
+			order: -10
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_on_image: 1b
+			text_shadow: 1b
+			width: 10.7d
+			x: 15.75d
+			y: -1.7d
+		}
+		{
+			alpha: 135
+			color: 1187884
+			height: 9.4d
+			id: "49BDA5C71F76FB68"
+			image: "#FFFFFF"
+			order: -20
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_shadow: 1b
+			width: 10.7d
+			x: 27.75d
+			y: 2.5d
+		}
+		{
+			alpha: 215
+			color: 2376274
+			height: 1.15d
+			id: "327735E8ADB79926"
+			image: "#FFFFFF"
+			order: -10
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_on_image: 1b
+			text_shadow: 1b
+			width: 10.7d
+			x: 27.75d
+			y: -1.7d
+		}
+		{
+			height: 5.4d
+			id: "5603CD1C16D239F8"
+			image: "mega:textures/quest_logos/mega_magic_blood_altar.png"
+			order: 10
+			rotation: 0.0d
+			width: 11.26d
+			x: 13.875d
+			y: -5.575d
+		}
+	]
+	order_index: 19
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["32D14A19DE2CEF8F"]
+			hide_dependency_lines: true
+			icon: {
+				id: "modopedia:book"
+			}
+			id: "214FAAF759AA4914"
+			optional: true
+			rewards: [{
+				id: "667E07690EC0AC52"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "384D8B212A4D5B7F"
+				item: { components: { "modopedia:book": "bloodmagic:guide" }, count: 1, id: "modopedia:book" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"214FAAF759AA4914"
+				"32D14A19DE2CEF8F"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "bloodmagic:sacrificialdagger"
+			}
+			id: "4E1B4F11A68604CD"
+			optional: true
+			rewards: [{
+				id: "0542085EB28A4CF3"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "0EDEE0DDDD2AC6A1"
+					item: { count: 1, id: "bloodmagic:sacrificialdagger" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "5EFEAAFDC2B7CF48"
+					item: { count: 1, id: "bloodmagic:altar" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4E1B4F11A68604CD"
+				"32D14A19DE2CEF8F"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "bloodmagic:blankslate"
+			}
+			id: "29DADD6AD4E468F9"
+			optional: true
+			rewards: [{
+				id: "56ADA17A2CB57735"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				count: 2L
+				id: "52E21DABCDF9AFDF"
+				item: { count: 1, id: "bloodmagic:blankslate" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"29DADD6AD4E468F9"
+				"32D14A19DE2CEF8F"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "bloodmagic:altar"
+			}
+			id: "22BAE0501457303A"
+			optional: true
+			rewards: [{
+				id: "1F397DFF01E0F03D"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "3FD1E01C4CA162EE"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"22BAE0501457303A"
+				"32D14A19DE2CEF8F"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "bloodmagic:reinforcedslate"
+			}
+			id: "0242D3E4CFBF04F8"
+			optional: true
+			rewards: [{
+				id: "581CAAC009F5948A"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "7F7C2C7154D87DB2"
+				item: { count: 1, id: "bloodmagic:reinforcedslate" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"4E1B4F11A68604CD"
+				"32D14A19DE2CEF8F"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "bloodmagic:weakbloodorb"
+			}
+			id: "43FFE3631B6C966B"
+			optional: true
+			rewards: [{
+				id: "55AEFE654682286F"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "1642D58AB7299147"
+				item: { count: 1, id: "bloodmagic:weakbloodorb" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"0242D3E4CFBF04F8"
+				"32D14A19DE2CEF8F"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "bloodmagic:sacrificerune"
+			}
+			id: "6A15712E1C277F78"
+			optional: true
+			rewards: [{
+				id: "4786986C4535DEBE"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "48B74A04A628D129"
+				item: { count: 1, id: "bloodmagic:sacrificerune" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"22BAE0501457303A"
+				"32D14A19DE2CEF8F"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "bloodmagic:daggerofsacrifice"
+			}
+			id: "614AE1C3AD37F7E2"
+			optional: true
+			rewards: [{
+				id: "5D276E7C33344488"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "46258A2FECEAF697"
+				item: { count: 1, id: "bloodmagic:daggerofsacrifice" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"320797B977FE4B37"
+				"32D14A19DE2CEF8F"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "bloodmagic:infusedslate"
+			}
+			id: "3ECFA3A5C5CE60F3"
+			optional: true
+			rewards: [{
+				id: "0837D8B74C8B9C93"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "5908A93360140381"
+				item: { count: 1, id: "bloodmagic:infusedslate" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"3ECFA3A5C5CE60F3"
+				"32D14A19DE2CEF8F"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "bloodmagic:altarcapacityrune"
+			}
+			id: "3BC39DE44148D44F"
+			optional: true
+			rewards: [{
+				id: "16A50A4D2E8AF613"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "44ED6FE6534CFD74"
+				item: { count: 1, id: "bloodmagic:altarcapacityrune" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"3ECFA3A5C5CE60F3"
+				"32D14A19DE2CEF8F"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "bloodmagic:dislocationrune"
+			}
+			id: "0C703335869F3EDB"
+			optional: true
+			rewards: [{
+				id: "580F48F89BA00560"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "5FCA53AD96633D5B"
+				item: { count: 1, id: "bloodmagic:dislocationrune" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"2333CFA1286CE0BC"
+				"32D14A19DE2CEF8F"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "bloodmagic:demonslate"
+			}
+			id: "5600333F0734B06A"
+			optional: true
+			rewards: [{
+				id: "762DCBEBA2E1BBFB"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "436B216B339D0E48"
+				item: { count: 1, id: "bloodmagic:demonslate" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"5600333F0734B06A"
+				"32D14A19DE2CEF8F"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "bloodmagic:bettercapacityrune"
+			}
+			id: "62F5C6747A071CF6"
+			optional: true
+			rewards: [{
+				id: "7ABC319E1E754214"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "034B418CD419E891"
+				item: { count: 1, id: "bloodmagic:bettercapacityrune" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5600333F0734B06A"
+				"32D14A19DE2CEF8F"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "bloodmagic:chargingrune"
+			}
+			id: "34AB56EE128BFED2"
+			optional: true
+			rewards: [{
+				id: "67BEB0B5A55F416F"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "28EC9C6CA2E8DB69"
+				item: { count: 1, id: "bloodmagic:chargingrune" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"040F397211548A4A"
+				"32D14A19DE2CEF8F"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "bloodmagic:etherealslate"
+			}
+			id: "01E632787F03F932"
+			optional: true
+			rewards: [{
+				id: "43A6F4DFFA5E0537"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "53911C95A53BB27D"
+				item: { count: 1, id: "bloodmagic:etherealslate" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"5600333F0734B06A"
+				"32D14A19DE2CEF8F"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "bloodmagic:accelerationrune"
+			}
+			id: "7F92EB378A4B9C42"
+			optional: true
+			rewards: [{
+				id: "761B7C0AB8816710"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "5FAFFD516FFA0BDA"
+				item: { count: 1, id: "bloodmagic:accelerationrune" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3ECFA3A5C5CE60F3"
+				"32D14A19DE2CEF8F"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "bloodmagic:magicianbloodorb"
+			}
+			id: "170AD946038B32A1"
+			optional: true
+			rewards: [{
+				id: "508940B38CDE6F2C"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "4D37266A29098061"
+				item: { count: 1, id: "bloodmagic:magicianbloodorb" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"5600333F0734B06A"
+				"32D14A19DE2CEF8F"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "bloodmagic:masterbloodorb"
+			}
+			id: "3EF585EA120163D0"
+			optional: true
+			rewards: [{
+				id: "08EB8810B95A5324"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "74F168A16FFDA1DC"
+				item: { count: 1, id: "bloodmagic:masterbloodorb" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"659AA95BAF3C789C"
+				"25933EBAB01EB547"
+				"32D14A19DE2CEF8F"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "bloodmagic:weakbloodshard"
+			}
+			id: "65071A7751E49FB5"
+			optional: true
+			rewards: [{
+				id: "724C47235A19820B"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "7E4A20AD01CC2DCC"
+					item: { count: 1, id: "bloodmagic:weakbloodshard" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "17119D07DEC28A32"
+					item: { count: 1, id: "bloodmagic:largebloodstonebrick" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "5B0A46764D0FDE55"
+					item: { count: 1, id: "bloodmagic:sanguinereverter" }
+					type: "item"
+				}
+			]
+			x: 14.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"22BAE0501457303A"
+				"32D14A19DE2CEF8F"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "bloodmagic:speedrune"
+			}
+			id: "437035A74CDC0E2B"
+			optional: true
+			rewards: [{
+				id: "58CA6E0C2E1276BB"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "45C9345188532C2A"
+				item: { count: 1, id: "bloodmagic:speedrune" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"0242D3E4CFBF04F8"
+				"32D14A19DE2CEF8F"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "bloodmagic:selfsacrificerune"
+			}
+			id: "47A6925C068ED97C"
+			optional: true
+			rewards: [{
+				id: "0DE51AAC13C4C02B"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "5D9C86DEA3734B20"
+				item: { count: 1, id: "bloodmagic:selfsacrificerune" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"0242D3E4CFBF04F8"
+				"32D14A19DE2CEF8F"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "bloodmagic:altar"
+			}
+			id: "320797B977FE4B37"
+			optional: true
+			rewards: [{
+				id: "7DB0DF5458E6083E"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "4F6DB046EE3ABA29"
+				type: "checkmark"
+			}]
+			x: 14.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"3ECFA3A5C5CE60F3"
+				"65071A7751E49FB5"
+				"32D14A19DE2CEF8F"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "bloodmagic:altar"
+			}
+			id: "2333CFA1286CE0BC"
+			optional: true
+			rewards: [{
+				id: "0095F015A17C348C"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "6179564802151C4C"
+				type: "checkmark"
+			}]
+			x: 17.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"0242D3E4CFBF04F8"
+				"32D14A19DE2CEF8F"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "bloodmagic:apprenticebloodorb"
+			}
+			id: "577174318ED3618B"
+			optional: true
+			rewards: [{
+				id: "109F36B0993CFF62"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "7A95C6BE7B1FB92C"
+				item: { count: 1, id: "bloodmagic:apprenticebloodorb" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"2333CFA1286CE0BC"
+				"3DDBB8363EEB6A14"
+				"32D14A19DE2CEF8F"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "bloodmagic:altar"
+			}
+			id: "040F397211548A4A"
+			optional: true
+			rewards: [{
+				id: "70CDB23A5974296F"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "08DBCCA5D9FE0DEB"
+				type: "checkmark"
+			}]
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3DDBB8363EEB6A14"
+				"32D14A19DE2CEF8F"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "bloodmagic:sacrificerune2"
+			}
+			id: "1529EA2486614068"
+			optional: true
+			rewards: [{
+				id: "180C078F2A9F0D9E"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "23ABF336DC7FF496"
+					item: { count: 1, id: "bloodmagic:sacrificerune2" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "265482DF8BCB3F2C"
+					item: { count: 1, id: "bloodmagic:selfsacrificerune2" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "5061CC77739C4A47"
+					item: { count: 1, id: "bloodmagic:altarcapacityrune2" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "333BAD3C484D7162"
+					item: { count: 1, id: "bloodmagic:bettercapacityrune2" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "49981D055E3DA3C9"
+					item: { count: 1, id: "bloodmagic:orbcapacityrune2" }
+					type: "item"
+				}
+			]
+			x: 26.5d
+			y: 0.0d
+		}
+	]
+}

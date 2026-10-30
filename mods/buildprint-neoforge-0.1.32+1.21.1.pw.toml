@@ -1,0 +1,8 @@
+name = "buildprint-neoforge-0.1.32+1.21.1"
+filename = "buildprint-neoforge-0.1.32+1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/pa8th8fX/versions/uVhU0SdO/buildprint-neoforge-0.1.32%2B1.21.1.jar"
+hash-format = "sha1"
+hash = "d19c37a806e69b500de25f181e82977ad19c5803"

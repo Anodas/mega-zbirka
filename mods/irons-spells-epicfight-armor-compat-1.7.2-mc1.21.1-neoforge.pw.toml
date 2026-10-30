@@ -1,0 +1,8 @@
+name = "irons-spells-epicfight-armor-compat-1.7.2-mc1.21.1-neoforge"
+filename = "irons-spells-epicfight-armor-compat-1.7.2-mc1.21.1-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/9127/582/irons-spells-epicfight-armor-compat-1.7.2-mc1.21.1-neoforge.jar"
+hash-format = "sha1"
+hash = "216b22089c786791a1278988a310820e9bda944c"

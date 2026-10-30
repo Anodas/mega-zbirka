@@ -1,0 +1,8 @@
+name = "relics-1.21.1-0.10.7.8"
+filename = "relics-1.21.1-0.10.7.8.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/OCJRPujW/versions/nvZZMhJS/relics-1.21.1-0.10.7.8.jar"
+hash-format = "sha1"
+hash = "7f7fd59273ac5ef6511a811518bc9af01705a528"

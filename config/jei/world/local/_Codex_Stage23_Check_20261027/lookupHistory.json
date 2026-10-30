@@ -1,0 +1,7 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"mekanism:alloy_atomic"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"industrialforegoing:ore_laser_base"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"ae2:engineering_processor"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"kubejs:nuclear_control_unit"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

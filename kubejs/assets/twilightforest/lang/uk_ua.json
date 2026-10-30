@@ -1,0 +1,14 @@
+{
+  "block.twilightforest.dark_tower_miniature_structure": "Мініатюрна темна вежа",
+  "block.twilightforest.minotaur_labyrinth_miniature_structure": "Мініатюрний лабіринт мінотавра",
+  "config.twilightforest.first_person_glove_overlay": "Накладка рукавись для першої особини",
+  "config.twilightforest.first_person_glove_overlay.tooltip": "Умикає відображення рукавиць мандрівника на ваших руках під час перегляду від першої особини.",
+  "entity.twilightforest.blockchain_goblin": "Гоблін з блоком на ланцюзі",
+  "entity.twilightforest.slime_blob": "Згусток слизу",
+  "entity.twilightforest.thrown_wep": "Кинута зброя",
+  "item.twilightforest.shika_senbei": "Шика Сенбей",
+  "subtitles.twilightforest.block.drying_rack.add_item": "Сушарку наповнено",
+  "subtitles.twilightforest.block.drying_rack.remove_item": "Сушарку очищено",
+  "subtitles.twilightforest.entity.deer.eat": "Дикий олень їсть",
+  "twilightforest.tips.giant_block": "Видобуток області 4x4x4 з того самого блоку гігантською киркою дасть 1 гігантський блок замість цього."
+}

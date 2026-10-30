@@ -1,0 +1,89 @@
+{
+ "replace": false,
+ "values": [
+  {
+   "id": "ars_nouveau:archmage_spell_book",
+   "required": false
+  },
+  {
+   "id": "epicfight:netherite_dagger",
+   "required": false
+  },
+  {
+   "id": "epicfight:netherite_greatsword",
+   "required": false
+  },
+  {
+   "id": "epicfight:netherite_longsword",
+   "required": false
+  },
+  {
+   "id": "epicfight:netherite_spear",
+   "required": false
+  },
+  {
+   "id": "epicfight:netherite_tachi",
+   "required": false
+  },
+  {
+   "id": "irons_spellbooks:amethyst_rapier",
+   "required": false
+  },
+  {
+   "id": "irons_spellbooks:dragonskin_spell_book",
+   "required": false
+  },
+  {
+   "id": "irons_spellbooks:hellrazor",
+   "required": false
+  },
+  {
+   "id": "irons_spellbooks:ice_spell_book",
+   "required": false
+  },
+  {
+   "id": "irons_spellbooks:legendary_spell_book",
+   "required": false
+  },
+  {
+   "id": "irons_spellbooks:legionnaire_flamberge",
+   "required": false
+  },
+  {
+   "id": "irons_spellbooks:netherite_mage_boots",
+   "required": false
+  },
+  {
+   "id": "irons_spellbooks:netherite_mage_chestplate",
+   "required": false
+  },
+  {
+   "id": "irons_spellbooks:netherite_mage_helmet",
+   "required": false
+  },
+  {
+   "id": "irons_spellbooks:netherite_mage_leggings",
+   "required": false
+  },
+  {
+   "id": "irons_spellbooks:netherite_spell_book",
+   "required": false
+  },
+  {
+   "id": "irons_spellbooks:spellbreaker",
+   "required": false
+  },
+  {
+   "id": "irons_spellbooks:twilight_gale",
+   "required": false
+  },
+  {
+   "id": "wom:netherite_greataxe",
+   "required": false
+  },
+  {
+   "id": "wom:netherite_staff",
+   "required": false
+  }
+ ]
+}

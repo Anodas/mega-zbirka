@@ -1,0 +1,214 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "mega_magic_elemental"
+	group: "12B8784D9CF4299B"
+	icon: {
+		id: "ars_elemental:lesser_fire_focus"
+	}
+	id: "3AAD5BE06377216F"
+	images: [
+		{
+			alpha: 135
+			color: 1187884
+			height: 9.4d
+			id: "3723FECC6A9138E3"
+			image: "#FFFFFF"
+			order: -20
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_shadow: 1b
+			width: 10.7d
+			x: 3.75d
+			y: 2.5d
+		}
+		{
+			alpha: 215
+			color: 2376274
+			height: 1.15d
+			id: "025A2F7E232A26F7"
+			image: "#FFFFFF"
+			order: -10
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_on_image: 1b
+			text_shadow: 1b
+			width: 10.7d
+			x: 3.75d
+			y: -1.7d
+		}
+		{
+			height: 3.9d
+			id: "7A66DF18D2DF5B56"
+			image: "mega:textures/quest_logos/mega_magic_elemental.png"
+			order: 10
+			rotation: 0.0d
+			width: 11.356d
+			x: 3.75d
+			y: -4.825d
+		}
+	]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["109626E8E982C119"]
+			hide_dependency_lines: true
+			icon: {
+				id: "ars_elemental:lesser_air_focus"
+			}
+			id: "7C45501B1248978E"
+			optional: true
+			rewards: [{
+				id: "2A8536BFBB8F0E88"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "3924DB61B537DA30"
+				item: { count: 1, id: "ars_elemental:lesser_air_focus" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["109626E8E982C119"]
+			hide_dependency_lines: true
+			icon: {
+				id: "ars_elemental:lesser_water_focus"
+			}
+			id: "2D9E560108D16244"
+			optional: true
+			rewards: [{
+				id: "3AC1E012E977652E"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "66DA89437B127320"
+				item: { count: 1, id: "ars_elemental:lesser_water_focus" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["109626E8E982C119"]
+			hide_dependency_lines: true
+			icon: {
+				id: "ars_elemental:lesser_earth_focus"
+			}
+			id: "233BBFEF5A82650C"
+			optional: true
+			rewards: [{
+				id: "5840093B9B82475A"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "0D3F93BB1719A1BF"
+				item: { count: 1, id: "ars_elemental:lesser_earth_focus" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["109626E8E982C119"]
+			hide_dependency_lines: true
+			icon: {
+				id: "ars_elemental:lesser_fire_focus"
+			}
+			id: "716899A273A0B867"
+			optional: true
+			rewards: [{
+				id: "43E9F5A39095C3BF"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "66463C6FA141CDA8"
+				item: { count: 1, id: "ars_elemental:lesser_fire_focus" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["109626E8E982C119"]
+			hide_dependency_lines: true
+			icon: {
+				id: "ars_elemental:curio_bag"
+			}
+			id: "247C3E514FA4F982"
+			optional: true
+			rewards: [{
+				id: "2829DAB05EA4FD2C"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "17F3C6ED54B188A9"
+				item: { count: 1, id: "ars_elemental:curio_bag" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["109626E8E982C119"]
+			hide_dependency_lines: true
+			icon: {
+				id: "ars_elemental:caster_bag"
+			}
+			id: "6ACF9C80C7C29489"
+			optional: true
+			rewards: [{
+				id: "55047B39C60EB762"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "618E809F46F3411E"
+				item: { count: 1, id: "ars_elemental:caster_bag" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["109626E8E982C119"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:enchanting_table"
+			}
+			id: "57DAF8A25B2F9652"
+			optional: true
+			rewards: [{
+				id: "0D28A4149BDA649A"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				consume_items: false
+				id: "569D23C7583BD1D8"
+				item: { count: 1, id: "minecraft:enchanting_table" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+	]
+}

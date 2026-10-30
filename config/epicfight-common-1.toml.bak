@@ -1,0 +1,15 @@
+[loot]
+skill_book_mob_drop_chance_modifier=0
+skill_book_chest_drop_chance_modifier=0
+[default_gamerule]
+globalStun = true
+keepSkills = true
+hasFallAnimation = true
+canSwitchPlayerMode = true
+stiffComboAttacks = true
+noMobsInBossfight = true
+initialMode = 1
+weightPenalty = 0
+epicDrop = false
+skillReplaceCooldown = 6000
+allow_vanilla_melee = true

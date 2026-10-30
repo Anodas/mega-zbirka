@@ -1,0 +1,8 @@
+name = "tesseract-api-neoforge-1.12.18-1.21.1"
+filename = "tesseract-api-neoforge-1.12.18-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/pHNT1iyc/versions/luummThA/tesseract-api-neoforge-1.12.18-1.21.1.jar"
+hash-format = "sha1"
+hash = "f7b2f73ac337fda2197174c77aafa79671366e31"

@@ -1,0 +1,344 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "mega_renewable_resources"
+	group: "378CFB2DB8C23918"
+	icon: {
+		id: "industrialforegoing:material_stonework_factory"
+	}
+	id: "5528D77DA8D2A0EB"
+	images: [
+		{
+			alpha: 150
+			color: 1187884
+			height: 9.5d
+			id: "6BE433DA1E7D608B"
+			image: "#FFFFFF"
+			order: -20
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_shadow: 1b
+			width: 10.5d
+			x: 3.75d
+			y: 2.0d
+		}
+		{
+			alpha: 215
+			color: 2376274
+			height: 1.2d
+			id: "19DA25267DBA8B5B"
+			image: "#FFFFFF"
+			order: -20
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_on_image: 1b
+			text_shadow: 1b
+			width: 10.5d
+			x: 3.75d
+			y: -1.7000000000000002d
+		}
+		{
+			height: 5.4d
+			id: "3622E795C1B0251B"
+			image: "mega:textures/quest_logos/mega_renewable_resources.png"
+			order: 10
+			rotation: 0.0d
+			width: 13.213d
+			x: 3.75d
+			y: -6.05d
+		}
+	]
+	order_index: 26
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0EE4217029FF5189"]
+			hide_dependency_lines: true
+			icon: {
+				id: "industrialforegoing:material_stonework_factory"
+			}
+			id: "40658012EE8B0309"
+			rewards: [{
+				id: "7C14833073103EA5"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "260F8DB6F7CCCC9A"
+				item: { count: 1, id: "industrialforegoing:material_stonework_factory" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["40658012EE8B0309"]
+			hide_dependency_lines: false
+			icon: {
+				id: "industrialforegoing:plant_sower"
+			}
+			id: "6ABF646907823436"
+			rewards: [{
+				id: "5CB5C7C4E60D4F2C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "619E8890B07DFC2D"
+					item: { count: 1, id: "industrialforegoing:plant_sower" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "29FD65D4ED190493"
+					item: { count: 1, id: "industrialforegoing:plant_gatherer" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6ABF646907823436"]
+			hide_dependency_lines: false
+			icon: {
+				id: "industrialforegoing:fluid_extractor"
+			}
+			id: "46D741C302332F13"
+			rewards: [{
+				id: "42FD7A5795C14092"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "552654FD5C80F95E"
+					item: { count: 1, id: "industrialforegoing:fluid_extractor" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "5EE763E5F8839D98"
+					item: { count: 1, id: "industrialforegoing:block_placer" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["46D741C302332F13"]
+			hide_dependency_lines: false
+			icon: {
+				id: "industrialforegoing:ore_laser_base"
+			}
+			id: "03B0CFC1EB635F73"
+			rewards: [{
+				id: "64C1A05F8064A2DC"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "5EA011C41B5057D8"
+					item: { count: 1, id: "industrialforegoing:ore_laser_base" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					count: 4L
+					id: "62FD313E715B45E6"
+					item: { count: 1, id: "industrialforegoing:laser_drill" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["03B0CFC1EB635F73"]
+			hide_dependency_lines: false
+			icon: {
+				id: "industrialforegoing:white_laser_lens"
+			}
+			id: "1F7C1793B02B65CC"
+			rewards: [{
+				id: "2F745E9DD94FE913"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "6A5339889903979D"
+					item: { count: 1, id: "industrialforegoing:white_laser_lens" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "64F52C5F8819C90D"
+					item: { count: 1, id: "industrialforegoing:blue_laser_lens" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1F7C1793B02B65CC"]
+			hide_dependency_lines: false
+			icon: {
+				id: "mekanism:digital_miner"
+			}
+			id: "426A848F4A5E4027"
+			rewards: [{
+				id: "663DBDD142F7AE92"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "3C2A5A577D6DFB7F"
+				item: { count: 1, id: "mekanism:digital_miner" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["426A848F4A5E4027"]
+			hide_dependency_lines: false
+			icon: {
+				id: "ae2:level_emitter"
+			}
+			id: "5AD516DF0A1510FD"
+			rewards: [{
+				id: "156BC0AB0126CE2F"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				count: 2L
+				id: "5D08753783A855BE"
+				item: { count: 1, id: "ae2:level_emitter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5AD516DF0A1510FD"]
+			hide_dependency_lines: false
+			icon: {
+				id: "industrialforegoing:material_stonework_factory"
+			}
+			id: "3CA15EF71EBDE167"
+			rewards: [{
+				id: "231C3FE744784554"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "47729D1A5752FDE3"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3CA15EF71EBDE167"]
+			hide_dependency_lines: false
+			icon: {
+				id: "extendedae:infinity_water_cell"
+			}
+			id: "7B161B722A273D89"
+			optional: true
+			rewards: [{
+				id: "1D8DD5E53A32AC00"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "46A77BF0A4025733"
+				item: { count: 1, id: "extendedae:infinity_water_cell" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3CA15EF71EBDE167"]
+			hide_dependency_lines: false
+			icon: {
+				id: "extendedae:infinity_cobblestone_cell"
+			}
+			id: "46894F6AF764890A"
+			optional: true
+			rewards: [{
+				id: "6E785818F8AC356D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "4124993C73FCEF3D"
+				item: { count: 1, id: "extendedae:infinity_cobblestone_cell" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3CA15EF71EBDE167"]
+			hide_dependency_lines: false
+			icon: {
+				id: "extendedae:infinity_water_cell"
+			}
+			id: "73D85FEFE2C9C7B2"
+			optional: true
+			rewards: [{
+				id: "0AA88C342B70B3A9"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "3C55E22284CA78C8"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3CA15EF71EBDE167"]
+			hide_dependency_lines: false
+			icon: {
+				id: "extendedae:infinity_cobblestone_cell"
+			}
+			id: "3DD85CCDAA4A3BC1"
+			optional: true
+			rewards: [{
+				id: "17A1FA2700A82A0F"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6A13BF771045F607"
+				type: "checkmark"
+			}]
+			x: 7.5d
+			y: 5.0d
+		}
+	]
+}

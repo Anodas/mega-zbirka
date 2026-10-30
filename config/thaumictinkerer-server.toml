@@ -1,0 +1,27 @@
+[general]
+	#Enable the KAMI content bundled with Thaumic Tinkerer.
+	enable_kami = true
+	#Allow Thaumic Tinkerer flight abilities.
+	enable_flight = true
+	#Enable the survival recipe for the Tome of Knowledge Sharing.
+	enable_survival_share_tome = true
+	#Allow operators to use /maxresearch and /setCropTendency.
+	enable_debug_commands = false
+	#Use the common copper ingot tag instead of gold in the Corporeal Attractor recipe. Requires a world restart because it changes server data.
+	use_common_metal_tags = true
+	#Allow bonemeal on infused crops; disabled in the original release configuration.
+	crops_allow_bonemeal = false
+
+[focuses]
+	#Block ids the Dislocation focus may not carry. The thaumictinkerer:dislocation_blacklist block tag is also honored.
+	dislocation_block_blacklist = []
+
+[imbued_fire]
+	#Enable all six Imbued Fire blocks and recipes.
+	enabled = true
+	#Let Aer Imbued Fire turn water into cake, as in the original.
+	cake_interaction = true
+
+[bedrock_dimension]
+	#Enable the KAMI Bedrock dimension. A stable ResourceKey replaces the old numeric dimension id.
+	enabled = true

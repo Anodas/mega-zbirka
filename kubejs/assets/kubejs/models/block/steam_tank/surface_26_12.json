@@ -1,0 +1,40 @@
+{
+  "parent": "block/block",
+  "ambientocclusion": false,
+  "textures": {
+    "steam": "modern_industrialization:fluid/steam_still"
+  },
+  "elements": [
+    {
+      "name": "One shared lower steam surface",
+      "from": [
+        1.25,
+        6.8125,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "shade": false,
+      "faces": {
+        "down": {
+          "uv": [
+            0,
+            0,
+            16,
+            16
+          ],
+          "texture": "#steam",
+          "neoforge_data": {
+            "color": "B0FFFFFF",
+            "block_light": 15,
+            "sky_light": 15,
+            "ambient_occlusion": false
+          }
+        }
+      }
+    }
+  ]
+}

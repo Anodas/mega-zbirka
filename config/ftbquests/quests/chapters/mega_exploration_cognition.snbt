@@ -1,0 +1,257 @@
+{
+	consume_items: false
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "mega_exploration_cognition"
+	group: "431F6B3590930EA6"
+	icon: {
+		id: "cognition:experience_obelisk"
+	}
+	id: "554B6BBD2F8E5B73"
+	images: [
+		{
+			alpha: 150
+			color: 1187884
+			height: 9.5d
+			id: "7B834AC8B5BDB8A6"
+			image: "#FFFFFF"
+			order: -20
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_shadow: 1b
+			width: 10.5d
+			x: 3.75d
+			y: 2.0d
+		}
+		{
+			alpha: 215
+			color: 2376274
+			height: 1.2d
+			id: "1A68FEC47A7DD29E"
+			image: "#FFFFFF"
+			order: -20
+			position_locked: 1b
+			rotation: 0.0d
+			text_h_align: "start"
+			text_inset: 6
+			text_on_image: 1b
+			text_shadow: 1b
+			width: 10.5d
+			x: 3.75d
+			y: -1.7000000000000002d
+		}
+		{
+			height: 3.9d
+			id: "1BBBB0BBAE81B3B3"
+			image: "mega:textures/quest_logos/mega_exploration_cognition.png"
+			order: 10
+			rotation: 0.0d
+			width: 9.979d
+			x: 3.75d
+			y: -5.3d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			hide_dependency_lines: false
+			icon: {
+				id: "naturescompass:naturescompass"
+			}
+			id: "7745B580F5917CAD"
+			optional: true
+			rewards: [{
+				id: "4FE8D31A5990F539"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "564ECA5E9FF6C0F5"
+				item: { count: 1, id: "naturescompass:naturescompass" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			hide_dependency_lines: false
+			icon: {
+				id: "cognition:experience_obelisk"
+			}
+			id: "0C387803F8BF9847"
+			optional: true
+			rewards: [{
+				id: "3996FFB8086A3465"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "59EE54467CF6559D"
+				item: { count: 1, id: "cognition:experience_obelisk" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			hide_dependency_lines: false
+			icon: {
+				id: "cognition:attunement_staff"
+			}
+			id: "2E163280C7FFBAC4"
+			optional: true
+			rewards: [{
+				id: "5D5B94B3A762260D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "48ED84B2A28846E2"
+				item: { count: 1, id: "cognition:attunement_staff" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			hide_dependency_lines: false
+			icon: {
+				id: "cognition:bibliophage"
+			}
+			id: "53557F1ABC674183"
+			optional: true
+			rewards: [{
+				id: "2BBC82466E53DA55"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "14734EB9E80537B4"
+				item: { count: 1, id: "cognition:bibliophage" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			hide_dependency_lines: false
+			icon: {
+				id: "cognition:molecular_metamorpher"
+			}
+			id: "771992BDDC36C8F5"
+			optional: true
+			rewards: [{
+				id: "35C83CF841B6E029"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "482BF7A64CB984EA"
+				item: { count: 1, id: "cognition:molecular_metamorpher" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			hide_dependency_lines: false
+			icon: {
+				id: "cognition:memory_tablet"
+			}
+			id: "20F33356CA263021"
+			optional: true
+			rewards: [{
+				id: "416C47C5300F8FB9"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "1E5E570BF8BB09A6"
+				item: { count: 1, id: "cognition:memory_tablet" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			hide_dependency_lines: false
+			icon: {
+				id: "cognition:experience_fountain"
+			}
+			id: "57ADCF93AE97D29D"
+			optional: true
+			rewards: [{
+				id: "346133F3D758FEA2"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "22452FB6CE88DBEB"
+				item: { count: 1, id: "cognition:experience_fountain" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			hide_dependency_lines: false
+			icon: {
+				id: "cognition:precision_dispeller"
+			}
+			id: "2932041A152BBFAA"
+			optional: true
+			rewards: [{
+				id: "18D20253563A1AEB"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				consume_items: false
+				id: "01ADFD8D0A1A6598"
+				item: { count: 1, id: "cognition:precision_dispeller" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			hide_dependency_lines: false
+			icon: {
+				id: "cognition:cognitive_alloy"
+			}
+			id: "772C1058FA6B6F27"
+			optional: true
+			rewards: [{
+				id: "76E650B212D8FFC5"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					consume_items: false
+					id: "152ABAF1867EF678"
+					item: { count: 1, id: "cognition:cognitive_alloy" }
+					type: "item"
+				}
+				{
+					consume_items: false
+					id: "12043EB108D62306"
+					item: { count: 1, id: "cognition:cognitive_crystal" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 5.0d
+		}
+	]
+}
