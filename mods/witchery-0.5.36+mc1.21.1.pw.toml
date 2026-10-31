@@ -1,0 +1,8 @@
+name = "witchery-0.5.36+mc1.21.1"
+filename = "witchery-0.5.36+mc1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/LCO8KZvC/versions/i97lXpgu/witchery-0.5.36%2Bmc1.21.1.jar"
+hash-format = "sha1"
+hash = "508968dab081b44b3d2163a6c8988c4b58894280"

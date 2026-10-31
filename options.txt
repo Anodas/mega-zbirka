@@ -325,10 +325,10 @@ key_simulated.keyinfo.scroll_up:key.keyboard.unknown
 key_simulated.keyinfo.scroll_down:key.keyboard.unknown
 key_key.relics.active_abilities_list:key.keyboard.left.alt
 key_key.relics.research_relic:key.keyboard.left.shift
+key_key.twilightforest.red_thread_vision:key.keyboard.unknown
+key_key.twilightforest.item_display_map_cycle:key.keyboard.unknown
 key_key.twilightforest.zoom:key.keyboard.i:ALT
 key_key.twilightforest.swap_hotbar:key.keyboard.keypad.subtract
-key_key.twilightforest.item_display_map_cycle:key.keyboard.unknown
-key_key.twilightforest.red_thread_vision:key.keyboard.unknown
 key_key.hostilenetworks.open_deep_learner:key.keyboard.u
 key_key.mekanismadditions.voice:key.keyboard.unknown
 key_key.cataclysm.ability:key.keyboard.a:ALT
@@ -427,11 +427,11 @@ key_key.extendedae.viewpattern:key.keyboard.p
 key_key.extendedae.set_amount:key.mouse.middle
 key_key.modern_industrialization.toggle_3x3:key.keyboard.3:ALT
 key_key.modern_industrialization.toggle_flight:key.keyboard.t:ALT
-key_key.extended_industrialization.toggle_chestplate_ability:key.keyboard.unknown
 key_key.extended_industrialization.toggle_helmet_ability:key.keyboard.unknown
+key_key.extended_industrialization.toggle_chestplate_ability:key.keyboard.unknown
 key_key.extended_industrialization.toggle_leggings_ability:key.keyboard.unknown
-key_key.extended_industrialization.toggle_main_hand_ability:key.keyboard.unknown
 key_key.extended_industrialization.toggle_boots_ability:key.keyboard.unknown
+key_key.extended_industrialization.toggle_main_hand_ability:key.keyboard.unknown
 key_key.industrialization_overdrive.terminal_mode_switch:key.keyboard.p:ALT
 key_key.advanced_ae.pattern_encoder_action:key.keyboard.unknown
 key_key.advanced_ae.pick_craft:key.keyboard.unknown

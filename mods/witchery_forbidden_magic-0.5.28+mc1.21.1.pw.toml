@@ -1,0 +1,8 @@
+name = "witchery_forbidden_magic-0.5.28+mc1.21.1"
+filename = "witchery_forbidden_magic-0.5.28+mc1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/pitZv4pV/versions/YMxqhK7j/witchery_forbidden_magic-0.5.28%2Bmc1.21.1.jar"
+hash-format = "sha1"
+hash = "77ebcc5db9848ceeb1724203995d1aab479fba37"

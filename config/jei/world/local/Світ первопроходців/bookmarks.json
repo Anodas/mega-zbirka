@@ -1,0 +1,5 @@
+[
+  {"version":2},
+  {"ingredient":{"id":"modernfoundry:part_builder"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"modernfoundry:tinker_station"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]
