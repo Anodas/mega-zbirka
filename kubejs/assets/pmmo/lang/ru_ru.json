@@ -1,0 +1,5 @@
+{
+  "pmmo.type.combat": "Боевые навыки",
+  "pmmo.type.survival": "Выживание",
+  "pmmo.gui.skill_panel.next_level_xp": "До следующего уровня: %s опыта"
+}

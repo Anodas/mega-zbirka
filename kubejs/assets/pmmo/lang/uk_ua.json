@@ -48,5 +48,8 @@
   "pmmo.fishing": "Рибальство",
   "pmmo.skill.fishing": "Рибальство",
   "pmmo.skilltype.combat": "Бойові навички",
-  "pmmo.skilltype.survival": "Ремесла та витривалість"
+  "pmmo.skilltype.survival": "Виживання",
+  "pmmo.type.combat": "Бойові навички",
+  "pmmo.type.survival": "Виживання",
+  "pmmo.gui.skill_panel.next_level_xp": "До наступного рівня: %s досвіду"
 }

@@ -13,7 +13,7 @@ baseItemPipeTransfer = 16
 #Grant guidebook the first time a player joins the server.
 spawnWithGuideBook = true
 #Grant guidebook when a player respawns after death.
-respawnWithGuideBook = true
+respawnWithGuideBook = false
 
 [compat]
 	#Enable the FTB Quests integration (if present) for machine outputs counting towards quests.

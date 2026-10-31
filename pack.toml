@@ -1,12 +1,12 @@
 name = "Mega zbirka"
 author = "Anodas"
-version = "2026.10.31-1459"
+version = "2026.11.01-0021"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "2975f3e7e43c02d3b406af75734a04779ab902450543cb07967b3a09d925a260"
+hash = "b8fbc88c5ec76213b63157f3c74d20ff8f61ad284841c2b37ec26bba3c29413f"
 
 [versions]
 minecraft = "1.21.1"
