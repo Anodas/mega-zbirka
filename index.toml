@@ -697,20 +697,20 @@ file = "config/ars_nouveau/rewind.toml"
 hash = "927983e00266b0b3af2d78c1d5c10e791ed052e3cd8e525cc1bdb773845e921e"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_5g.cfe"
-hash = "a9387321879cf59adaa55747b94485b9a0ccd465d176cbc8286c552daa0b0d85"
+file = "config/ars_nouveau/search_index/_5i.cfe"
+hash = "d6d07dcb92f7a23d34e03c56a9e8954810ad7cf950f1f6d593a06613968d3596"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_5g.cfs"
-hash = "40f468730e829faeef3e716a8231b384dfeaff4237f0e038fbdc22f3e79fbb4e"
+file = "config/ars_nouveau/search_index/_5i.cfs"
+hash = "080d5a53b8d5360ed067768b45d7ccc37e52c234a8e12517a85a4b82c6de5703"
 
 [[files]]
-file = "config/ars_nouveau/search_index/_5g.si"
-hash = "d431ac39effb91b223c7e023bcb26eaa133215116104153eaa19acbef23570fc"
+file = "config/ars_nouveau/search_index/_5i.si"
+hash = "cfe98dcd1062c8b44b48b9b1235153f14e6359ad418a1850949863261b96a3f5"
 
 [[files]]
-file = "config/ars_nouveau/search_index/segments_5h"
-hash = "070d16d30f6a36d9ace9c6404ecbb05b3c8972839afad9bac13f2bfe3e2156a3"
+file = "config/ars_nouveau/search_index/segments_5j"
+hash = "c66d5fec61c7041a95b962e324410ae6e367d8570ab22a068232c87658495296"
 
 [[files]]
 file = "config/ars_nouveau/search_index/write.lock"
@@ -749,8 +749,72 @@ file = "config/better-advanced-tooltips-client.toml"
 hash = "5b0da765c45397402cffe340f632544a8e740a767937f353a3a8206b6cdde0fa"
 
 [[files]]
+file = "config/betterdeserttemples-neoforge-1_21.toml"
+hash = "c7355a13f2f7c4eeb3332ab67a2315e0662c7e5b434dc33d4624fccb9e815240"
+
+[[files]]
+file = "config/betterdeserttemples/README.txt"
+hash = "a8248503b691a780ba45cf033a8d74f1f878d27f119f1d8b4b80b2b8745f62db"
+
+[[files]]
+file = "config/betterdeserttemples/neoforge-1_21/README.txt"
+hash = "80ba474fdd1912739a1dc3326de6539ccfceb9d5c97f540131b567e295a7b112"
+
+[[files]]
+file = "config/betterdeserttemples/neoforge-1_21/armorstands.json"
+hash = "374b08c599c0671006badb53aee78da123116340dafb59e1e6a694a451921735"
+
+[[files]]
+file = "config/betterdeserttemples/neoforge-1_21/itemframes.json"
+hash = "1160e830eb74e121e9cd236148ec69089fc6d71a80d6c843c7e9eff84b36fb84"
+
+[[files]]
 file = "config/betterdungeons-neoforge-1_21.toml"
 hash = "b03069c030f940550b4436d2f7c3dab582efa2fcc32b221ac30dbcb0617eab7f"
+
+[[files]]
+file = "config/betterjungletemples-neoforge-1_21.toml"
+hash = "77ef014bd34c9f66bf40b3e6ae7a67bf7ec2a618b76eafff9f0921577d3ab1b9"
+
+[[files]]
+file = "config/bettermineshafts-neoforge-1_21.toml"
+hash = "37ee9275b9680c2d07d395cf41769c456c9b93adbf85ddf6514ee601977fa099"
+
+[[files]]
+file = "config/betteroceanmonuments-neoforge-1_21.toml"
+hash = "6c09d2a75810e76c719b355c3480d1dc14b135f944f4a85d2118a395efc916c5"
+
+[[files]]
+file = "config/betterstrongholds-neoforge-1_21.toml"
+hash = "3f2ae4edfb2c45137f14dc6a1a4f02958735b9831c0762d19d9e57fe4ff72346"
+
+[[files]]
+file = "config/betterstrongholds/README.txt"
+hash = "cd97289ac49b09b032d9c69a2f893b8fa9f73849b4adb9f63f8486a83bf2fd5a"
+
+[[files]]
+file = "config/betterstrongholds/neoforge-1_21/README.txt"
+hash = "5aad271e60a03218eb5207dd78df8d1d36c676f212bf823701e33646010d2f19"
+
+[[files]]
+file = "config/betterstrongholds/neoforge-1_21/armorstands.json"
+hash = "38f2b1cc25310e587554d76ec510cc5d64aa48b82150fbbe0659d87f8cf788c6"
+
+[[files]]
+file = "config/betterstrongholds/neoforge-1_21/itemframes.json"
+hash = "bfc03beec99a605c415c33e1f4090aa70188b0604594644a964fda9c3b7a6152"
+
+[[files]]
+file = "config/betterstrongholds/neoforge-1_21/ores.json"
+hash = "5495bc9a0de7c94e7132cdf7cab55de0eea08cd482dc37cb5a1a9e7367b2a187"
+
+[[files]]
+file = "config/betterstrongholds/neoforge-1_21/rareblocks.json"
+hash = "d6a7ad89b872184a4f72d1dd58557f4855758f9f08be4f257960c80ab8dae376"
+
+[[files]]
+file = "config/betterwitchhuts-neoforge-1_21.toml"
+hash = "0fa4f192f54dc1fc4f7ac7ab8be7cba88e324fe21571777cb8a6d404f6ce49a9"
 
 [[files]]
 file = "config/biomesoplenty/biome_toggles.json"
@@ -1462,7 +1526,7 @@ hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
 
 [[files]]
 file = "config/iris.properties"
-hash = "e52ae2d2d7f20d37f8d7df22b6df4541300b5d239eb6ed9edaaacb68540a3b67"
+hash = "fe787b984e7fd8a68a515544ab25ef3b3690149ee87b4e2808d6516d53c25335"
 preserve = true
 
 [[files]]
@@ -1768,6 +1832,10 @@ file = "config/offroad-server.toml"
 hash = "d5f0ed8390618c769d9cb40a77df04779b7bbe636343b753c1ed6f92d325ae2b"
 
 [[files]]
+file = "config/particlerain/config.json"
+hash = "10f75ef386c1ecb715cb6e1bf98c4804f834b5d266af95ee112b9a4866ad4631"
+
+[[files]]
 file = "config/particlestorm-common.toml"
 hash = "46ddf5b70d0346bcdbd63bd299d12d5b4731af47f71174187b7d612dc070762f"
 
@@ -1928,6 +1996,10 @@ file = "config/tc4tweaks-client.toml"
 hash = "91b1a0bb4c3c9f4d944c21d0222300fdad5444072abe73eb108fb363858b0b3a"
 
 [[files]]
+file = "config/tectonic.json"
+hash = "f8159cd49fec4f6faefa98cff420db36861d71bba7aaa0a55c898b860da75f09"
+
+[[files]]
 file = "config/terra_curio-client.toml"
 hash = "92f5f0eb23d4a7cb6b4c0277e8264426ca50b8cad2c32f7c4ac9509f764817b8"
 
@@ -2013,7 +2085,7 @@ hash = "a643aa402c9f6185d3cb5bc5de6c69dd1456a60d87f7f138146dbdfc507b79b6"
 
 [[files]]
 file = "config/voxelsprout/report.json"
-hash = "087a352aeb881c55dd17428a26b2c922c2df1d429725868c88c245bb4f45d1f2"
+hash = "ced1bdc973acc8fb7d344372b9ffbede9ada5901fec3c299bbb88b0ebc0eef6e"
 
 [[files]]
 file = "config/warptheory-common.toml"
@@ -10796,6 +10868,11 @@ hash = "dfb1e8fe079c381fb5366e83caf5638224578b2ffeb401e854652dd47f10a21e"
 metafile = true
 
 [[files]]
+file = "mods/Geophilic-v3.7.mod.pw.toml"
+hash = "0b03f1aec3b794bbc4dcaee711cfaeca957f134b9ccf6e98d9c56758f63e6372"
+metafile = true
+
+[[files]]
 file = "mods/GlitchCore-neoforge-1.21.1-2.1.0.2.pw.toml"
 hash = "f3f158e73047a615e589fe5de30ae4ef5c0ef77ab4f599a52054d684559d23e0"
 metafile = true
@@ -10931,8 +11008,43 @@ hash = "d48ae0558e4d21b6ca8a3494e4036263dd79a71c8442b9ceb958fba868146eaa"
 metafile = true
 
 [[files]]
+file = "mods/YungsBetterDesertTemples-1.21.1-NeoForge-4.1.5.pw.toml"
+hash = "2a45681f820d65d3db88dda517b6e48565f4ff99651e8ecf4a9aaaf0c640b308"
+metafile = true
+
+[[files]]
 file = "mods/YungsBetterDungeons-1.21.1-NeoForge-5.1.4.pw.toml"
 hash = "6b6980b2abf5b7713dd902451c686835438ccc55dccfb8a0aa945938e6d3f9ae"
+metafile = true
+
+[[files]]
+file = "mods/YungsBetterJungleTemples-1.21.1-NeoForge-3.1.2.pw.toml"
+hash = "dd4e9b907d834451f2a53d7a296238c3093819df9d67a53ec55538b30a3a0e87"
+metafile = true
+
+[[files]]
+file = "mods/YungsBetterMineshafts-1.21.1-NeoForge-5.1.1.pw.toml"
+hash = "b6120325a99c1669e4db3bf0040ced7ad15c827d33abee93b971010c2afca708"
+metafile = true
+
+[[files]]
+file = "mods/YungsBetterOceanMonuments-1.21.1-NeoForge-4.1.2.pw.toml"
+hash = "dbc41ee3d5ccdb46fa71c713b1f7eba4d498f19f5b2f0d4d6934028d0f5ec055"
+metafile = true
+
+[[files]]
+file = "mods/YungsBetterStrongholds-1.21.1-NeoForge-5.1.3.pw.toml"
+hash = "9d6a63c3290bb31beb6e5a911e5da92af5a82849c803a2836255696e3f2bd914"
+metafile = true
+
+[[files]]
+file = "mods/YungsBetterWitchHuts-1.21.1-NeoForge-4.1.1.pw.toml"
+hash = "815018bc6faaff62c5d9107b8dd78b3544e6ee8be577deae23ce932b0039face"
+metafile = true
+
+[[files]]
+file = "mods/YungsExtras-1.21.1-NeoForge-5.1.1.pw.toml"
+hash = "d8189f9a0920bc7dc94610f2fd85b62919b8ef1db9e80cd9f38262bdb4ea4067"
 metafile = true
 
 [[files]]
@@ -11170,8 +11282,9 @@ hash = "c29688c1984c0b0e8800d80d223275e5065c31552c5d67a900baf870117f9503"
 metafile = true
 
 [[files]]
-file = "mods/ftb-teams-neoforge-2101.1.11.jar"
-hash = "e6bcd670493624e6906df872a9c6af4a33fe6405cac57a32c59cd4cd5838c655"
+file = "mods/ftb-teams-neoforge-2101.1.11.pw.toml"
+hash = "f3b06e374beb20ff4d75f49f76dfa28d5b1dff9cf85e05b78bef7e4b2776ef61"
+metafile = true
 
 [[files]]
 file = "mods/ftb-xmod-compat-neoforge-21.1.12.pw.toml"
@@ -11416,6 +11529,11 @@ hash = "b67bf3c0490e40c291589969c08354628882f06dbdf7ceaa9272fb417f42c55f"
 metafile = true
 
 [[files]]
+file = "mods/particlerain-4.0.2+1.21.1-neoforge.pw.toml"
+hash = "786c2e2aad5ba8e973662bf85b454662816c6ba9567fc8d5033c1b20a9b00034"
+metafile = true
+
+[[files]]
 file = "mods/player-animation-lib-forge-2.0.4+1.21.1.pw.toml"
 hash = "ac6faccf5bc52408517fb501080325b13e8b6f9b727246162d6a740406440748"
 metafile = true
@@ -11508,6 +11626,11 @@ metafile = true
 [[files]]
 file = "mods/tainted-magic-neoforge-8.1.1-1.21.1-port.0.1.0-20753.jar"
 hash = "22ab08150eb843eb1c3cee43ca1b1c7856dd4d6f712927b02e1504f83cb5aabf"
+
+[[files]]
+file = "mods/tectonic-3.0.28-neoforge-21.1.pw.toml"
+hash = "d2f77d7c01f3deb1f4ab418a8b237bd5120c821afea05a33391aec8147bf71c5"
+metafile = true
 
 [[files]]
 file = "mods/terra_curio-1.1.1.pw.toml"
